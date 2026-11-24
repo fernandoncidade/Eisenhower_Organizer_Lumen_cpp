@@ -1,0 +1,32 @@
+AVISO DE COPYRIGHT E MARCA REGISTRADA — EISENHOWER ORGANIZER
+Versão 2026.11.22.0, 22 de novembro de 2026
+======================================
+
+Copyright (C) 2025–2026 Fernando Nillsson Cidade. Todos os direitos reservados. 
+
+O software EISENHOWER ORGANIZER e toda a documentação associada, incluindo todo o conteúdo do Software e Dependências, são propriedade intelectual de Fernando Nillsson Cidade. A proteção de copyright abrange, mas não se limita a, o código-fonte do programa, a interface gráfica, os textos, os manuais e a descrição do projeto.
+
+O nome "EISENHOWER ORGANIZER" é uma marca comercial pertencente a Fernando Nillsson Cidade. O uso não autorizado do nome, logotipo ou qualquer material distintivo associado ao projeto é estritamente proibido.
+
+Quando o módulo integrado Pomodoro estiver oficialmente embarcado com o Software e for detectado pela aplicação, esse módulo, seus fluxos de integração, seus textos de interface e sua documentação complementar também passam a integrar o material protegido do projeto para fins deste aviso, salvo disposição diversa expressa em aviso separado.
+Qualquer marca, identidade visual, layout ou sinal distintivo associado ao módulo Pomodoro integrado na distribuição oficial permanece sujeito à mesma vedação de uso não autorizado, cópia indevida ou falsa representação.
+
+Quando o módulo integrado Feynman estiver oficialmente embarcado com o Software e for detectado pela aplicação, esse módulo, seus recursos de revisão de conceitos, textos de interface, documentação e materiais complementares também passam a integrar o material protegido do projeto para fins deste aviso, salvo disposição diversa expressa em aviso separado.
+Qualquer marca, identidade visual, layout, sinal distintivo ou apresentação associada ao módulo Feynman integrado na distribuição oficial permanece sujeito à mesma vedação de uso não autorizado, cópia indevida ou falsa representação.
+
+Quando o módulo integrado Mapa Mental estiver oficialmente embarcado com o Software e for detectado pela aplicação, esse módulo, seus fluxos de criação/importação/exportação de mapas, recursos de interface, textos, traduções, documentação, estruturas de integração e materiais complementares também passam a integrar o material protegido do projeto para fins deste aviso, salvo disposição diversa expressa em aviso separado.
+Qualquer marca, identidade visual, layout, sinal distintivo ou apresentação associada ao módulo Mapa Mental integrado na distribuição oficial permanece sujeito à mesma vedação de uso não autorizado, cópia indevida ou falsa representação. Mapas, textos, documentos, notas e demais conteúdos criados ou fornecidos pelo usuário permanecem sujeitos aos direitos de seus respectivos titulares.
+
+Quando o módulo integrado Audiolivro estiver oficialmente embarcado com o Software e for detectado pela aplicação, esse módulo, seus recursos de leitura acessível, interface, textos, traduções, documentação, configurações de integração e materiais complementares também passam a integrar o material protegido do projeto para fins deste aviso, salvo disposição diversa expressa em aviso separado.
+Qualquer marca, identidade visual, layout, sinal distintivo ou apresentação associada ao módulo Audiolivro integrado na distribuição oficial permanece sujeito à mesma vedação de uso não autorizado, cópia indevida ou falsa representação. Textos, PDFs, áudio gerado a partir de material do usuário e demais conteúdos lidos pelo módulo permanecem sujeitos aos direitos de seus respectivos titulares e aos termos dos serviços de voz utilizados.
+Quando o módulo integrado Gantt & BIM 4D estiver integrado ao Software, esse módulo, seus algoritmos de cálculo de caminho crítico (CPM), recursos de interface, textos, documentação e estruturas de cronograma também integram o material protegido do projeto para fins deste aviso. Cronogramas e dados criados pelo usuário pertencem exclusivamente ao usuário.
+
+Quando o módulo integrado Agenda de Avaliações estiver integrado ao Software, seus esquemas de banco de dados, fluxos de registro de atividades, interface, textos e documentação associada integram o material protegido do projeto. Atividades, notas e dados de avaliações pertencem ao usuário.
+
+Quando o módulo integrado Modelo Qwen estiver integrado ao Software, o código de integração, arquitetura de inferência local e rotinas de estruturação de mapas mentais integram o material protegido do projeto. As marcas Qwen e llama.cpp pertencem aos seus respectivos titulares.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) E LIBERDADE SOBRE source/assets/
+- Código-Fonte Aberto: O código-fonte C++23 / Qt 6.12.0 deste repositório é licenciado sob a GNU Affero General Public License v3 (GNU AGPLv3 — LICENSE e LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt).
+- Proteção de Marca Exclusiva (Seção 7(e) da GNU AGPLv3): As marcas "EISENHOWER ORGANIZER", "EISENHOWER ORGANIZER" e "LÚMEN", seus ícones oficiais e os binários assinados publicados na Microsoft Store permanecem propriedade exclusiva de Fernando Nillsson Cidade.
+- Liberdade Total em source/assets/ para Forks: Desenvolvedores que distribuírem forks sob a GNU AGPLv3 estão expressamente autorizados a editar, excluir ou substituir os arquivos regulatórios de source/assets/ para adequação às suas distribuições, desde que removam as marcas exclusivas e sinais distintivos do autor.

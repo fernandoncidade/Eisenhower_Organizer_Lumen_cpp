@@ -1,0 +1,63 @@
+# Default: normalize text files in Git
+* text=auto
+
+# Source code and build configuration
+*.c text eol=lf
+*.cc text eol=lf
+*.cpp text eol=lf
+*.cxx text eol=lf
+*.h text eol=lf
+*.hh text eol=lf
+*.hpp text eol=lf
+*.hxx text eol=lf
+*.inl text eol=lf
+*.cmake text eol=lf
+*.rc text eol=lf
+*.rc.in text eol=lf
+CMakeLists.txt text eol=lf
+CMakePresets.json text eol=lf
+
+# Qt and project metadata
+*.json text eol=lf
+*.ts text eol=lf
+*.ui text eol=lf
+*.qrc text eol=lf
+*.pro text eol=lf
+*.pri text eol=lf
+
+# Documentation and plain text
+*.md text eol=lf
+*.txt text eol=lf
+repo/LICENSE text eol=lf
+
+# Scripts
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Windows installer/config files
+*.iss text eol=lf
+
+# Binary assets and generated artifacts that may be versioned
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.icns binary
+*.pdf binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.qm binary
+*.dll binary
+*.exe binary
+*.lib binary
+*.a binary
+*.so binary
+*.dylib binary
+*.zip binary
+*.7z binary
+*.gguf filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,34 @@
+Política de Privacidade - Módulo Modelo Qwen (IA Local)
+Produto: EISENHOWER ORGANIZER
+ID do Módulo: modulo_modelo
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve as práticas de privacidade do módulo integrado Modelo Qwen de Inteligência Artificial Local no EISENHOWER ORGANIZER. O módulo foi desenvolvido segundo o conceito de privacidade por padrão (Privacy by Design), executando 100% no hardware do usuário.
+
+1. Princípio Fundamental: Soberania e Privacidade Local
+- Todo o processamento de inteligência artificial é executado localmente na CPU e GPU do computador do usuário.
+- O aplicativo NÃO envia seus textos, prompts, notas ou documentos para nenhum servidor ou serviço de inteligência artificial em nuvem.
+- Não é necessária conexão com a internet para utilizar o módulo.
+
+2. Dados Processados
+- Textos e notas selecionados voluntariamente pelo usuário para resumo ou geração de mapa mental.
+- Estruturas de tópicos e hierarquias geradas temporariamente durante o processamento.
+- Arquivos de configuração de modelo e parâmetros de contexto locais.
+
+3. Retenção e Segurança
+- O texto fornecido ao modelo reside exclusivamente na memória RAM durante a inferência e é descartado ao término da sessão, salvo se o usuário salvar o mapa mental ou nota gerada.
+- Não há gravação de logs com o conteúdo confidencial dos prompts enviados à IA local.
+
+4. Ausência de Rastreamento
+- O módulo não inclui identificadores de rastreamento, perfil de usuário ou telemetria analítica.
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para EISENHOWER ORGANIZER, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

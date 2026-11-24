@@ -1,0 +1,20 @@
+AVISO DE COPYRIGHT E MARCA REGISTRADA - MÓDULO AGENDA DE AVALIAÇÕES
+Produto: módulo para EISENHOWER ORGANIZER
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Copyright (C) 2025-2026 Fernando Nillsson Cidade. Todos os direitos reservados.
+
+O módulo Agenda de Avaliações e Registro de Atividades, incluindo código-fonte, interface gráfica, esquemas de banco de dados, fluxos de cronograma, textos, traduções, documentação e integrações com o EISENHOWER ORGANIZER, é protegido por direitos autorais e demais leis de propriedade intelectual.
+
+"Agenda de Avaliações" e "Registro de Atividades" são designações funcionais do módulo. Qualquer sinal distintivo, layout ou elemento visual associado ao módulo não pode ser copiado, distribuído, reproduzido ou reivindicado como produto próprio sem autorização expressa por escrito.
+
+Atividades, notas, pesos, avaliações, datas e observações registradas pelo usuário permanecem de propriedade exclusiva do usuário.
+
+Componentes de terceiros incluídos (como Qt e drivers SQLite) permanecem sujeitos às suas respectivas licenças e atribuições.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) E LIBERDADE SOBRE source/assets/
+- Código-Fonte Aberto: O código-fonte C++23 / Qt 6.12.0 deste repositório é licenciado sob a GNU Affero General Public License v3 (GNU AGPLv3 — LICENSE e LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt).
+- Proteção de Marca Exclusiva (Seção 7(e) da GNU AGPLv3): As marcas "EISENHOWER ORGANIZER", "EISENHOWER ORGANIZER" e "LÚMEN", seus ícones oficiais e os binários assinados publicados na Microsoft Store permanecem propriedade exclusiva de Fernando Nillsson Cidade.
+- Liberdade Total em source/assets/ para Forks: Desenvolvedores que distribuírem forks sob a GNU AGPLv3 estão expressamente autorizados a editar, excluir ou substituir os arquivos regulatórios de source/assets/ para adequação às suas distribuições, desde que removam as marcas exclusivas e sinais distintivos do autor.

@@ -1,0 +1,28 @@
+CONTRATO DE LICENCIAMENTO COMERCIAL - MÓDULO MODELO QWEN (IA LOCAL)
+Produto: módulo integrado para LÚMEN
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Este Contrato complementa a EULA e o Contrato de Licenciamento Comercial do LÚMEN e regula o uso comercial do módulo integrado Modelo Qwen de Inteligência Artificial Local.
+
+1. Natureza do módulo
+O módulo Modelo Qwen é um componente integrado nativamente ao LÚMEN, concebido para prestar serviços de inferência de linguagem e estruturação conceitual local para módulos como Mapa Mental e Organizador de Tarefas.
+
+2. Concessão de licença
+O Licenciador concede licença limitada, não exclusiva, intransferível e revogável para utilizar a integração e o código do módulo juntamente com o LÚMEN. Os pesos dos modelos de linguagem abertos permanecem licenciados sob os termos de suas licenças originais (Qwen License / Apache 2.0).
+
+3. Execução e dados
+Toda a execução do modelo ocorre na máquina local do usuário. Não há cobrança de tokens ou envio de conteúdo a provedores remotos como parte deste software.
+
+4. Restrições e responsabilidade
+O usuário é responsável pelo conteúdo processado e pelas conclusões ou decisões tomadas com base nas respostas geradas por modelos de inteligência artificial. O software é fornecido sem garantias de precisão absoluta dos resultados analíticos gerados por IA.
+Reserva de licenças open source: Aplicam-se integralmente as licenças do motor llama.cpp (MIT) e da comunidade Qwen.
+
+5. Observação jurídica
+Este documento complementa os termos gerais do LÚMEN.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) & ESCOPO COMERCIAL OFICIAL
+1. Dualidade Jurídica: O código-fonte público de LÚMEN encontra-se aberto sob a licença copyleft GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp), garantindo estudo, auditoria e compilação própria livre de taxas. O presente Contrato de Licenciamento Comercial (CLC) aplica-se exclusivamente à aquisição de pacotes binários oficiais assinados pelo autor (Microsoft Store ID 9N70CLLMVRPN — com período de avaliação de 7 dias via TrialManager — e modalidades Individual, Empresarial/Small Business ou Corporativa/Enterprise com contrato de suporte dedicado).
+2. Liberdade sobre source/assets/ em Forks: Forks e distribuições independentes geradas a partir do código-fonte público sob GNU AGPLv3 possuem ampla autorização do autor para alterar, excluir ou adaptar todos os textos de source/assets/, vedado apenas o uso das marcas exclusivas "EISENHOWER ORGANIZER" e "LÚMEN" ou revenda do pacote binário oficial assinado pelo autor.
+3. Suporte e Isenção "AS IS": Suporte contratado limita-se ao pacote oficial emitido pelo Licenciador (contato: linceu_lighthouse@outlook.com); a Microsoft não presta suporte técnico ao cliente. Todos os resultados (incluindo inferência local Qwen/Ollama e cronogramas CPM/4D BIM no Gantt — que não substituem ART/RRT perante CREA/CAU) têm natureza auxiliar e são fornecidos "NO ESTADO EM QUE SE ENCONTRAM" ("AS IS"), respeitados os direitos LGPLv3/LGPLv2.1+ sobre Qt 6.12.0 e FFmpeg n9.0.1.

@@ -1,0 +1,8 @@
+{
+  "name": "Mapa Mental",
+  "version": "2026.11.22.0",
+  "optionalDependencies": [
+    "modelo"
+  ],
+  "fallback": "heuristico_aprimorado"
+}

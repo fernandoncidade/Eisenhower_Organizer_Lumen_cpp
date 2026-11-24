@@ -1,0 +1,96 @@
+Política de Privacidade - Módulo Audiolivro
+Produto: LÚMEN
+ID do Módulo: modulo_audiolivro
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve como o módulo Audiolivro trata informações quando é usado junto ao LÚMEN. O módulo foi projetado para leitura assistida de textos e PDFs, busca, navegação, ajuste de fonte, voz e reprodução em áudio. Esta Política é específica do módulo e deve ser lida em conjunto com a Política de Privacidade do aplicativo principal.
+
+1. Escopo e princípios
+- Operação local por padrão: textos, PDFs e preferências permanecem no dispositivo, salvo quando você usa uma voz baseada em serviço externo ou quando a Microsoft Store processa aquisição, licença ou pagamento do módulo.
+- Minimização: o módulo trata apenas conteúdo necessário para abrir, exibir, buscar, ler em voz alta, destacar e salvar textos.
+- Controle do usuário: você escolhe quais textos digitar, colar, abrir, arrastar, ler em voz alta ou salvar.
+
+2. Dados tratados pelo módulo
+2.1 Textos e PDFs
+- Textos digitados, colados, abertos, arrastados para o leitor ou extraídos de PDFs escolhidos por você.
+- Informações de navegação e seleção necessárias para busca, destaque de leitura e reprodução.
+- Arquivos TXT salvos por você no local escolhido.
+
+2.2 Preferências de leitura
+- Voz selecionada, velocidade, volume, fonte, tamanho de fonte e preferências visuais.
+- Configurações associadas à régua de foco e leitura assistida.
+
+2.3 Síntese de voz e arquivos temporários
+- Durante a leitura em voz alta, o módulo pode criar arquivos temporários de áudio e texto, como audiolivro_*.mp3, audiolivro_*.wav, audiolivro_*.txt ou audiolivro_*.part.
+- O módulo tenta remover arquivos temporários após o uso quando tecnicamente possível.
+- Dados de marcação temporal de palavras podem existir em memória durante a sessão para destacar o trecho lido.
+
+2.4 Dados técnicos locais
+- O módulo pode manter audiolivro_config.json e registros locais de erro no diretório persistente do aplicativo.
+
+3. Vozes online e serviços externos
+- Algumas vozes são baseadas em serviço externo, como Edge TTS.
+- Ao escolher uma voz online e iniciar a leitura, o texto selecionado para reprodução pode ser enviado ao provedor de voz para gerar áudio.
+- Essa transmissão ocorre por ação do usuário ao iniciar a leitura com voz online e não é telemetria automática do aplicativo.
+- O provedor de voz pode tratar dados segundo seus próprios termos e política de privacidade.
+
+4. Finalidades do tratamento
+- Exibir, buscar, navegar e ler textos e PDFs.
+- Converter texto selecionado em áudio quando solicitado.
+- Aplicar destaque de fala, régua de foco e ajustes de acessibilidade.
+- Salvar preferências locais de voz e fonte para usos futuros.
+
+5. O que o módulo não faz
+- Não cria conta própria, cadastro ou login.
+- Não coleta telemetria automática.
+- Não envia textos, PDFs, preferências ou arquivos ao desenvolvedor.
+- Não examina pastas do usuário além dos arquivos que você escolhe abrir ou arrastar para o módulo.
+- Não acessa dados de pagamento; pagamentos e licenças são processados pela Microsoft Store.
+
+6. Microsoft Store, compra e licença
+- A aquisição do módulo, a confirmação de licença e eventuais pagamentos são processados pela Microsoft Store, pela conta Microsoft do usuário e pelos sistemas da Microsoft.
+- O aplicativo consulta a Microsoft Store para verificar se a licença do módulo plugin_audiolivro está ativa.
+- O desenvolvedor não recebe nem armazena dados completos de pagamento, credenciais da conta Microsoft ou informações bancárias.
+- Dados tratados pela Microsoft nesses fluxos ficam sujeitos à política de privacidade e aos termos da Microsoft.
+
+7. Armazenamento e retenção
+- Textos salvos em TXT permanecem no local escolhido por você.
+- Preferências locais podem permanecer em audiolivro_config.json até você alterar, restaurar, apagar manualmente ou limpar/desinstalar dados do aplicativo.
+- Arquivos temporários são destinados à geração e reprodução de áudio; falhas do sistema ou arquivos em uso podem exigir limpeza manual.
+
+8. Compartilhamento
+- O módulo não compartilha dados com terceiros por iniciativa própria.
+- Textos e PDFs só são transmitidos externamente quando você usa uma voz online que exige envio do texto ao provedor de voz.
+- Qualquer outro compartilhamento externo ocorre somente por ação do usuário, por exemplo ao salvar, copiar ou enviar arquivos a terceiros.
+
+9. Segurança
+- Como os dados ficam principalmente no dispositivo, a proteção depende das salvaguardas do sistema operacional, permissões de usuário, antivírus, criptografia local quando configurada e backups.
+- PDFs e textos podem conter informações sensíveis; recomenda-se usar o módulo apenas com materiais que você está autorizado a abrir, ler ou converter em áudio.
+- Recomenda-se manter Windows, Microsoft Store e o aplicativo atualizados.
+
+10. Direitos e controles do usuário
+- Você pode limpar o painel, alterar preferências, salvar textos em TXT e remover arquivos temporários remanescentes.
+- Você pode apagar audiolivro_config.json para remover preferências locais.
+- Você pode desinstalar o módulo ou o aplicativo para remover os arquivos instalados; dados locais persistentes podem exigir limpeza manual conforme o comportamento do sistema.
+
+11. Crianças e adolescentes
+- O módulo não é direcionado a crianças menores de 13 anos e não realiza coleta intencional de dados pessoais.
+
+12. Alterações nesta Política
+- Esta Política pode ser atualizada quando o módulo receber novas funcionalidades, integrações, vozes ou mudanças relevantes no tratamento de dados.
+
+13. Contato
+- Dúvidas sobre esta Política:
+  Fernando Nillsson Cidade
+  E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para LÚMEN, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\Lumen (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

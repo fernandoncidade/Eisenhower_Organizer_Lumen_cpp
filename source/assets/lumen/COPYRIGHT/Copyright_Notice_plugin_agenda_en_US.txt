@@ -1,0 +1,20 @@
+COPYRIGHT AND TRADEMARK NOTICE - ASSESSMENT AGENDA MODULE
+Product: module for LÚMEN
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+Copyright (C) 2025-2026 Fernando Nillsson Cidade. All rights reserved.
+
+The Assessment Agenda & Activity Tracker module, including its source code, user interface, database schemas, schedule workflows, texts, translations, documentation, and integrations with LÚMEN, is protected by copyright and intellectual property laws.
+
+"Assessment Agenda" and "Activity Tracker" are functional designations of the module. Any distinctive signs, layouts, or visual elements associated with the module may not be copied, distributed, reproduced, or claimed as one's own without prior express written authorization.
+
+Activities, grades, weights, assessments, dates, and notes recorded by the user remain the exclusive property of the user.
+
+Third-party components included (such as Qt and SQLite drivers) remain subject to their respective licenses and attributions.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) AND DEVELOPER FREEDOM ON source/assets/
+- Open-Source Repository: All C++23 / Qt 6.12.0 source code in this repository is licensed under the GNU Affero General Public License v3 (GNU AGPLv3 — LICENSE and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt).
+- Exclusive Trademark Protection (GNU AGPLv3 Section 7(e)): The trademarks "LÚMEN", "EISENHOWER ORGANIZER", and "LÚMEN", official icons, and digitally signed Microsoft Store binary packages remain the exclusive property of Fernando Nillsson Cidade.
+- Developer Freedom on source/assets/: Developers distributing open-source forks under GNU AGPLv3 are expressly authorized to edit, delete, or replace the institutional texts inside source/assets/ for their own releases, provided they remove the author's exclusive trademarks and distinctive icons.

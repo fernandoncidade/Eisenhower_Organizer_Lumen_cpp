@@ -1,0 +1,138 @@
+COMMERCIAL LICENSING AGREEMENT - EISENHOWER ORGANIZER
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+This Commercial Licensing Agreement ("Agreement") is entered into by and between:
+
+LICENSOR: Fernando Nillsson Cidade, hereinafter referred to as "LICENSOR".
+and
+LICENSEE: The individual or legal entity acquiring a commercial license for the EISENHOWER ORGANIZER software, hereinafter referred to as "LICENSEE".
+
+This Agreement supplements the terms of the End User License Agreement (EULA) for EISENHOWER ORGANIZER and establishes specific terms for commercial use of the software.
+
+1. PURPOSE OF THE AGREEMENT
+1.1 The purpose of this Agreement is to grant, from the LICENSOR to the LICENSEE, a license to use the software named "EISENHOWER ORGANIZER" ("Software"), according to the licensing modality purchased.
+1.2 The Software is an application for organizing and managing tasks based on the Eisenhower Matrix (Important × Urgent), featuring creation, prioritization, marking as completed, local persistence (tasks.json), export/import to XLSX and PDF, multilingual interface, offline operation of the main application on Windows, and support for optional modules detected at runtime. Commercial installation is provided via installer/executable; the end LICENSEE does not need to install development dependencies.
+
+1.3 When the commercial distribution includes the integrated Pomodoro module and the main executable detects and enables that module, the module shall be treated only as an accessory local module integrated into EISENHOWER ORGANIZER, and not as an independent software product unless expressly stated in a separate written addendum.
+1.4 In that scenario, the integrated module offers local focus/break cycle management, alarm settings, and local task exchange with the main organizer, subject to the same general licensing, restriction, liability, and support framework applicable to the Software, except where a specific commercial addendum provides otherwise.
+
+1.5 When the commercial distribution includes the integrated Feynman module and the main executable detects and enables that module, the module shall be treated as an accessory local module integrated into EISENHOWER ORGANIZER, and not as an independent software product unless expressly stated in a separate written addendum.
+1.6 In that scenario, the integrated module offers study-concept organization, simplified explanations, knowledge-gap tracking, and reviews, with the ability to link support files and integrate tasks with the main organizer, subject to the same general licensing, restriction, liability, and support framework applicable to the Software, except where a specific commercial addendum provides otherwise.
+
+1.7 When the commercial distribution includes the integrated Mind Map module and the main executable detects and enables that module, the module shall be treated as an accessory local module integrated into EISENHOWER ORGANIZER, and not as an independent software product unless expressly stated in a separate written addendum.
+1.8 In that scenario, the integrated module offers creation and editing of visual concept maps, linked files, notes, JSON save/load, local autosave, PNG export, layout modes, and document import for assisted map generation when local processing/AI resources are available.
+
+1.9 When the commercial distribution includes the integrated Audiobook module and the main executable detects and enables that module, the integrated module operates as a native component of integrated into EISENHOWER ORGANIZER, and not as an independent software product unless expressly stated in a separate written addendum.
+1.10 In that scenario, the integrated module offers accessible text and PDF reading, playback controls, voice/font adjustments, text and PDF search, assisted reading, focus ruler, local preferences, and temporary audio generation. Voice features depending on Edge TTS or an equivalent service may require a user-initiated network connection and third-party service availability.
+
+2. LICENSE TYPES
+2.1 Individual License
+   a) Permits installation of the Software on up to 2 (two) devices owned by the same LICENSEE (e.g., desktop and laptop).
+   b) Includes updates and fixes for 1 (one) year from the date of purchase.
+   c) Includes basic email technical support for 1 (one) year.
+2.2 Business License (Small Business)
+   a) Permits installation of the Software on up to 10 (ten) workstations within the same organization.
+   b) Includes updates for 1 (one) year from the date of purchase.
+   c) Includes prioritized technical support by email and phone for 1 (one) year.
+   d) Allows basic interface customization (texts and icons) according to the client's needs, when technically feasible.
+2.3 Enterprise License (Corporate)
+   a) Permits installation of the Software on an unlimited number of workstations within the same organization, subject to a commercial agreement.
+   b) Includes updates for 2 (two) years from the date of purchase.
+   c) Includes premium technical support (SLA) by email, phone and, if necessary, remote session.
+   d) Includes options for advanced customization, integration and training as agreed in a commercial addendum.
+
+3. PAYMENT
+3.1 The LICENSEE shall pay the LICENSOR the amount corresponding to the selected licensing modality, according to the proposal or the applicable price list.
+3.2 Payments may be made by bank slip (boleto), credit card, bank transfer or PIX, unless otherwise agreed in writing.
+3.3 In case of late payment, interest of 1% per month and a penalty of 2% on the overdue amount will apply, in addition to any collection costs.
+
+4. TERM AND RENEWAL
+4.1 This Agreement shall remain in force for the period specified in the chosen licensing modality, counting from the date of payment.
+4.2 Renewal of updates and support may be made upon payment of the prevailing fee; continued use of the software by the LICENSEE is not conditioned on renewal (unless expressly stated otherwise in the acquired modality).
+
+5. SUPPORT AND UPDATES
+5.1 The LICENSOR will provide support and updates according to the contracted modality, limited in all cases to the executable distribution.
+5.2 Support covers installation of the executable, guidance on the functioning of documented features, and correction of defects that prevent the expected use of the Software.
+
+5.3 If the integrated Pomodoro module is bundled in the licensed distribution and properly detected by the Software, support for that module is limited to the documented local integration features made available in the official package.
+
+5.4 If the integrated Feynman module is bundled in the licensed distribution and properly detected by the Software, support for that module is limited to the documented concept organization, review, and local integration features made available in the official package.
+
+5.5 If the integrated Mind Map module is bundled in the licensed distribution and properly detected by the Software, support for that module is limited to the documented integration, map editing, import/export, and local processing features made available in the official package.
+
+5.6 If the integrated Audiobook module is bundled in the licensed distribution and properly detected by the Software, support for that module is limited to the documented reading, PDF, text, local preference, and voice-service integration features supported by the official package. The LICENSOR does not guarantee continuous availability, quality, policy, or compatibility of external voice services controlled by third parties.
+
+6. LIMITATIONS AND LIABILITY
+6.1 The LICENSOR shall not be liable for indirect losses, loss of profits, consequential damages or any damages resulting from the use or inability to use the Software.
+6.2 The LICENSEE is responsible for backing up its data (for example, the tasks.json file) and for complying with internal IT policies when installing the Software.
+6.3 The Software is provided "as is," except as required by law; the LICENSOR undertakes to use reasonable efforts to correct reported defects.
+6.4 Notes, explanations, knowledge gaps, and reviews recorded in the Feynman module are auxiliary study resources; the LICENSEE remains responsible for validating the content and holding rights or authorization for linked files used in the module.
+6.5 Maps, summaries, hierarchies, or relationships suggested by processing/AI resources in the Mind Map module are auxiliary outputs subject to LICENSEE review; the LICENSEE remains responsible for validating generated content and for holding rights or authorization over imported documents.
+6.6 Voice synthesis, synchronized highlighting, and text/PDF extraction or reading in the Audiobook module are auxiliary accessibility and productivity resources; the LICENSEE remains responsible for respecting copyrights in the materials read and for observing the terms of external voice services when used.
+
+7. CONFIDENTIALITY AND DATA PROTECTION
+7.1 The parties undertake to keep confidential any information exchanged under this Agreement for a period of 5 (five) years after its termination.
+7.2 The LICENSOR will process any personal data of the LICENSEE in accordance with the Brazilian General Data Protection Law (Law No. 13.709/2018). Data collected by the Software are stored locally; there is no automatic transmission to external servers.
+7.3 If the integrated Feynman module is active, concepts, explanations, knowledge gaps, reviews, and linked-file paths are processed locally within the installation context, except for any external action performed by the LICENSEE outside the Software.
+7.4 If the integrated Mind Map module is active, concepts, notes, linked-file paths, layout preferences, autosaves, and documents chosen for import are processed locally within the installation context, except for any external action performed by the LICENSEE outside the Software.
+7.5 If the integrated Audiobook module is active, texts, PDFs, voice/font preferences, and temporary audio files are handled locally, except when the LICENSEE voluntarily activates a voice based on an external service, such as Edge TTS; in that case, the text selected for reading may be transmitted to the voice service to synthesize audio.
+
+8. TERMINATION
+8.1 This Agreement may be terminated for breach of any contractual clause, by mutual agreement, or in the events provided in the EULA.
+8.2 In case of termination due to breach by the LICENSEE, paid amounts will not be refunded unless otherwise agreed.
+
+9. TRANSFER AND RESTRICTIONS
+9.1 The LICENSEE may not sublicense, redistribute or resell the executable without the LICENSOR's express authorization, except as provided by the licensing modalities in this Agreement.
+9.2 Installation is permitted on the stations specified in the purchased modality; installations beyond the permitted scope constitute contractual breach.
+
+9.3 No separate right is granted to isolate, redistribute, commercialize, or market the integrated Pomodoro module independently from the licensed EISENHOWER ORGANIZER distribution, unless expressly authorized in writing by the LICENSOR.
+
+9.4 No separate right is granted to isolate, redistribute, commercialize, or market the integrated Feynman module independently from the licensed EISENHOWER ORGANIZER distribution, unless expressly authorized in writing by the LICENSOR.
+
+9.5 No separate right is granted to isolate, redistribute, commercialize, or market the integrated Mind Map module, its AI runtimes, models, translations, import flows, or associated materials independently from the licensed EISENHOWER ORGANIZER distribution, unless expressly authorized in writing by the LICENSOR and subject to applicable third-party licenses.
+
+9.6 No separate right is granted to isolate, redistribute, commercialize, or market the integrated Audiobook module, its reading resources, voice integration, translations, preferences, or associated materials independently from the licensed EISENHOWER ORGANIZER distribution, unless expressly authorized in writing by the LICENSOR and subject to applicable third-party licenses/terms.
+
+10. GOVERNING LAW AND JURISDICTION
+10.1 This Agreement shall be governed by Brazilian law.
+10.2 To resolve any disputes arising from this Commercial Agreement, the parties elect the court of the District of São José dos Pinhais, State of Paraná, Brazil, waiving any other jurisdiction.
+
+11. ACCESSIBILITY AND STORE REQUIREMENTS (Microsoft Store / ADA)
+11.1 The LICENSOR declares that, for distribution in digital stores (e.g., Microsoft Store), an Accessibility and Conformance Statement has been prepared accompanying the installer/distribution (internally referenced as "MS-Store-ADA-v8.9-FINAL-EN.pdf"). That document describes practices adopted by the LICENSOR regarding accessibility requirements compatible with platform policies.
+11.2 Inclusion of the application in stores or adherence to third-party accessibility requirements does not change the responsibilities and limitations of this Agreement, except where specific distributor rules require additional written terms.
+11.3 The LICENSEE agrees to notify the LICENSOR of any accessibility barriers or non-conformities identified in the use of the Software so they can be evaluated and, when feasible, corrected in subsequent updates. Accessibility reports may be submitted through the support channels indicated in the installer.
+11.4 The LICENSOR will use reasonable efforts to maintain the declared conformance but does not guarantee absolute compatibility with all accessibility standards across all platforms and operating system versions.
+
+12. THIRD-PARTY COMPONENTS AND LICENSES
+12.1 The Software includes third-party components subject to licenses included with the installer. The LICENSEE acknowledges that such components and their licenses are independent from this Agreement and must be observed as indicated in the distribution package.
+12.2 The LICENSOR provides the list of websites and license texts for consultation (as documented in the installer package).
+Open-source license reservation: Nothing in this Agreement restricts rights granted by third-party open-source licenses included with the Software. For LGPL-covered components, including Qt and FFmpeg where shipped, the recipient may replace or relink compatible shared libraries and may reverse engineer only to the extent necessary to debug modifications to those LGPL components, as permitted by the applicable LGPL. The license texts, third-party notices, source offer, and FFmpeg build configuration are included in LICENSES and NOTICES.
+12.3 If the Feynman module is delivered with specific resources, auxiliary files, or its own translations, those items remain subject to the respective third-party licenses and notices included in the official package.
+12.4 If the Mind Map module is delivered with local AI components, llama.cpp/GGML runtimes, CPU/Vulkan support, SQLite/SQL drivers, or other auxiliary files, those components remain subject to their respective third-party licenses and notices included in the official package.
+12.5 If the Audiobook module is delivered with PDF, multimedia, network, WebSocket, codec, voice-service, or auxiliary components, those components and services remain subject to their respective third-party licenses, terms, and notices included in the official package or made available by the service provider.
+
+FINAL PROVISIONS
+- The LICENSOR supplies the installer/executable and the necessary resources; the LICENSEE acknowledges that distribution is provided in compiled form and that use does not require installation of development libraries.
+- Acquisition of additional services (customization, integration, training) must be subject to a contractual amendment.
+- It is declared that, where applicable, the Accessibility Statement and documentation related to compliance with Microsoft Store requirements are included in the installation package and available for the LICENSEE's consultation.
+
+IN WITNESS WHEREOF, the parties execute this Agreement.
+
+Fernando Nillsson Cidade
+______________________________
+LICENSOR
+
+______________________________
+LICENSEE
+
+
+1.11 The integrated Gantt & BIM 4D module provides schedule planning, dependencies, critical path calculations, baselines, 4D simulation, and CSV export/import, operating with data stored exclusively on the LICENSEE's local machine.
+1.12 The integrated Assessment Agenda & Activity Tracker module provides chronological scheduling, assessment tracking, appointment logging, grade/weight calculations, and structured persistence in a local SQLite database.
+1.13 The integrated Local Qwen AI Model module provides natural language processing and mind map structuring executed 100% locally on the LICENSEE's hardware, with no transmission of prompts or documents to third-party servers.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) & OFFICIAL COMMERCIAL SCOPE
+1. Dual-Licensing Boundary: Public source code of EISENHOWER ORGANIZER is open source under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp), granting full freedom to inspect, compile, modify, and fork. This Commercial Licensing Agreement (CLC) applies exclusively to the author's official digitally signed binary editions (Microsoft Store ID 9P289X0185C3 — with a 7-day trial via TrialManager — and Individual, Small Business, or Enterprise commercial tiers).
+2. Freedom on source/assets/ for Open-Source Forks: Developers maintaining independent GNU AGPLv3 forks are expressly authorized to modify, remove, or adapt all compliance texts in source/assets/, provided they remove the author's exclusive trademarks ("EISENHOWER ORGANIZER" and "LÚMEN") and never resell the author's official signed binaries.
+3. Support & "AS IS" Disclaimer: Commercial support covers solely the official package published by the Licensor (contact: linceu_lighthouse@outlook.com); Microsoft provides no customer support. All outputs (including Qwen/Ollama local AI and 4D BIM Gantt CPM calculations — never replacing licensed ART/RRT engineering sign-off) are auxiliary tools supplied "AS IS", preserving all LGPLv3/LGPLv2.1+ rights over Qt 6.12.0 and FFmpeg n9.0.1.

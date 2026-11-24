@@ -1,0 +1,89 @@
+Política de Privacidade - Módulo Gantt & BIM 4D
+Produto: Eisenhower Organizer
+ID do Módulo: modulo_gantt
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve como o módulo Gantt & BIM 4D trata informações quando é usado junto ao Eisenhower Organizer. O módulo foi projetado para operar estritamente de forma local no dispositivo do usuário. Esta Política é específica do módulo e deve ser lida em conjunto com a Política de Privacidade do aplicativo principal.
+
+1. Escopo e princípios
+- Operação local: todos os dados de cronogramas, tarefas, vínculos, linhas de base, simulações e configurações permanecem armazenados localmente no dispositivo, salvo quando a Microsoft Store processa aquisição, licença ou pagamento do módulo.
+- Minimização: o módulo trata apenas dados estritamente necessários para gerenciamento de projetos, gráficos de Gantt, rede de predecessoras, cálculo de caminho crítico, tabela WBS e simulação 4D.
+- Controle do usuário: você detém total controle sobre a criação, edição, importação, exportação e exclusão de cronogramas e atividades.
+
+2. Dados tratados pelo módulo
+2.1 Cronogramas, WBS e atividades de projeto
+- Títulos de tarefas, descrições, datas de início e término, durações em dias/horas, percentual de progresso, status de execução, custos orçados e custos reais.
+- Estrutura analítica de projeto (WBS/EAP) e ordenação hierárquica das fases e pacotes de trabalho.
+- Metadados de sincronização local entre o planejador de cronograma e o organizador de tarefas do Eisenhower Organizer.
+
+2.2 Vínculos de dependência, CPM e Baselines
+- Relações lógicas de predecessão e sucessão entre tarefas (Término-Início, Início-Início, Término-Término, Início-Término) e defasagens (lags).
+- Parâmetros calculados de datas mais cedo, datas mais tarde, folgas livres e totais e identificação do Caminho Crítico (CPM).
+- Registros de Linhas de Base (Baselines) e dados de linha fantasma para comparação do planejado versus realizado.
+
+2.3 Simulação 4D e arquivos locais
+- Parâmetros temporais de simulação 4D vinculados às datas e estados das tarefas.
+- Arquivos de cronograma importados ou exportados em formato CSV sob comando expresso do usuário.
+
+2.4 Dados técnicos locais
+- Arquivos locais de configuração e persistência do módulo de cronograma armazenados no diretório persistente do usuário.
+- Registros técnicos locais de diagnóstico em caso de erro, gerados apenas no próprio dispositivo.
+
+3. Finalidades do tratamento
+- Construir e exibir visualmente o gráfico de Gantt e a tabela de atividades.
+- Realizar o cálculo analítico do Método do Caminho Crítico e folgas operacionais.
+- Gerenciar linhas de base para medição de desvios de prazo e desempenho do cronograma.
+- Executar a simulação 4D sincronizada com a linha do tempo construtiva.
+- Possibilitar a importação e exportação de dados via arquivos CSV e sincronização local com o Eisenhower Organizer.
+- Guardar preferências de exibição, larguras de colunas e zoom selecionados pelo usuário.
+
+4. O que o módulo não faz
+- Não cria conta de usuário, cadastro ou login próprio.
+- Não realiza telemetria automática ou rastreamento de comportamento.
+- Não envia cronogramas, custos, nomes de projetos ou tarefas para servidores externos.
+- Não examina pastas do sistema fora dos arquivos explicitamente abertos ou salvos pelo usuário.
+- Não manipula nem retém dados bancários ou cartões de crédito; pagamentos e validação de licença são gerenciados pela Microsoft Store.
+
+5. Microsoft Store, compra e licença
+- A compra do módulo, confirmação de licença e eventuais transações financeiras são conduzidas pelos canais oficiais da Microsoft Store.
+- O aplicativo apenas consulta a API da plataforma para verificar se a licença do módulo plugin_gantt está válida e ativa.
+- O desenvolvedor não possui acesso a senhas, dados de faturamento ou informações pessoais associadas à conta Microsoft do usuário.
+
+6. Armazenamento e retenção
+- As atividades, vínculos e baselines ficam armazenados localmente enquanto o usuário mantiver os dados da aplicação.
+- Arquivos CSV exportados e cópias de segurança permanecem sob exclusiva posse e gestão do usuário.
+- A remoção completa de dados pode ser efetuada limpando os arquivos do aplicativo ou excluindo os projetos correspondentes.
+
+7. Compartilhamento
+- O módulo não comercializa, não cede e não transfere dados a terceiros.
+- A comunicação com o Eisenhower Organizer ocorre estritamente dentro da mesma instalação no computador local.
+- Qualquer envio de arquivos a outras pessoas requer intervenção voluntária e explícita do próprio usuário.
+
+8. Segurança
+- Como os dados residem localmente, a integridade dos cronogramas depende das políticas de segurança do sistema operacional Windows, credenciais de acesso, sistemas de antivírus e rotinas de backup adotadas pelo usuário.
+- Recomenda-se manter o sistema operacional e a aplicação devidamente atualizados.
+
+9. Direitos do usuário
+- O usuário pode visualizar, alterar, recalcular, exportar e excluir qualquer dado de cronograma e projeto a qualquer tempo.
+- É facultado limpar configurações salvas e redefinir baselines conforme a conveniência do planejamento.
+
+10. Privacidade de crianças
+- O módulo é voltado para organização profissional, acadêmica e planejamento geral de projetos, não coletando dados de crianças ou menores de idade.
+
+11. Alterações nesta Política
+- Esta Política poderá ser revisada para refletir novas ferramentas no módulo de Gantt/BIM 4D ou atualizações normativas. Quaisquer alterações entrarão em vigor com o lançamento das novas versões do software.
+
+12. Contato e suporte
+- Autor: Fernando Nillsson Cidade
+- E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para EISENHOWER ORGANIZER, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

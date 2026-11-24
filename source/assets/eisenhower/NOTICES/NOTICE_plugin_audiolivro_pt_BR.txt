@@ -1,0 +1,32 @@
+AVISO DE LICENÇAS E ATRIBUIÇÕES DE TERCEIROS - MÓDULO AUDIOLIVRO
+Produto: módulo para Eisenhower Organizer
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Este aviso se aplica ao módulo Audiolivro e complementa os avisos do aplicativo pai.
+
+1. Qt 6
+Uso: interface, texto, PDF, multimídia, áudio, rede/WebSocket quando aplicável, internacionalização e integração com o aplicativo pai.
+Licença: conforme a edição e os módulos Qt usados na compilação, incluindo obrigações da LGPL quando aplicáveis.
+
+2. PDF, áudio, codecs e multimídia
+O módulo Audiolivro usa arquivos de runtime relacionados a Qt PDF/PdfWidgets e Qt Multimedia quando entregues. O Qt Multimedia pode implantar bibliotecas FFmpeg sob LGPL versão 2.1 ou posterior. Consulte LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt, OPEN_SOURCE_SOURCE_OFFER_pt_BR.txt e THIRD_PARTY_COMPONENT_NOTICES.txt. Bibliotecas, codecs, módulos ou arquivos auxiliares usados para leitura de PDF, reprodução de áudio ou geração temporária de áudio devem permanecer acompanhados de suas licenças e avisos correspondentes.
+
+3. Microsoft Edge TTS ou serviço equivalente
+Quando o usuário acionar uma voz baseada em serviço externo, o texto selecionado pode ser enviado ao provedor para síntese. Microsoft Edge e outros nomes Microsoft são marcas da Microsoft. O uso desses nomes é descritivo e não implica patrocínio ou endosso. O serviço externo pode estar sujeito a termos, políticas, disponibilidade e limitações próprias.
+
+4. Windows e Microsoft Store
+Uso: execução no Windows, validação de licença e compra no aplicativo quando o módulo for adquirido pela Microsoft Store.
+
+5. Conteúdo do usuário
+Textos, PDFs, documentos e áudios gerados pelo usuário não são componentes do software e permanecem sob responsabilidade do usuário e dos respectivos titulares.
+
+6. Licenças completas
+Consulte a pasta LICENSES incluída no pacote final. Este aviso deve ser atualizado se novas bibliotecas, codecs, módulos, fontes, ícones, serviços ou dependências forem adicionados.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) E ATUALIZAÇÃO DE TOOLCHAIN (C++23 / Qt 6.12.0)
+- Código-Fonte do Projeto EISENHOWER ORGANIZER: Licenciado sob GNU Affero General Public License v3 (GNU AGPLv3). O texto integral acompanha este pacote em LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt e https://www.gnu.org/licenses/agpl-3.0.html.
+- Edições Oficiais Microsoft Store: Regidas por EULA Oficial e CLC do autor sem restringir direitos LGPLv3/LGPLv2.1+ (Qt 6.12.0 e FFmpeg-n9.0.1: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll).
+- Runtime MSVC & MinGW: Compilações Pure MSVC (MSVC 14.52) utilizam apenas DLLs app-local do VC++ Runtime (sem vc_redist.x64.exe); compilações MinGW-w64 15.1.0 incluem libgcc, libstdc++ e libwinpthread sob GPLv3 + GCC Runtime Library Exception 3.1.
+- IA Local Sob Demanda: Motor llama.cpp b8987 (CPU/Vulkan) sob Licença MIT e pesos opcionais Qwen2.5-3B-Instruct sob Licença Apache 2.0 (baixados apenas sob demanda pelo usuário), além de integração local com servidor Ollama (localhost:11434).

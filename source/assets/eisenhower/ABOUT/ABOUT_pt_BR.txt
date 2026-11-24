@@ -1,0 +1,129 @@
+Projeto: EISENHOWER ORGANIZER
+Versão: 2026.11.22.0
+Autores: Fernando Nillsson Cidade
+
+Descrição resumida:
+EISENHOWER ORGANIZER é um aplicativo leve para organizar tarefas usando a Matriz de Eisenhower (Importante/Urgente). Permite criar, classificar, marcar como concluídas e exportar/importar tarefas de forma simples e rápida. A versão atual é distribuída como aplicação nativa em C++23 com Qt 6.12.0, com os componentes necessários já incluídos para uso imediato.
+
+Descrição detalhada:
+O aplicativo organiza tarefas em quatro quadrantes:
+- 1º Quadrante: Importante e Urgente
+- 2º Quadrante: Importante, mas Não Urgente
+- 3º Quadrante: Não Importante, mas Urgente
+- 4º Quadrante: Não Importante e Não Urgente
+
+Para cada quadrante há uma lista de tarefas pendentes e outra de tarefas concluídas. Uma tarefa marcada como concluída é automaticamente movida para a lista de concluídas correspondente; ao desmarcar, retorna à lista original. Itens de espaço reservado (placeholders) indicam listas vazias e são atualizados quando necessário.
+
+Principais funcionalidades:
+- Adicionar tarefas rapidamente com seletor de quadrante.
+- Marcar tarefa como concluída (movimentação automática entre listas).
+- Remover tarefas por menu de contexto com confirmação.
+- Persistência local: tarefas são salvas automaticamente em tasks.json no diretório persistente do usuário (instalação/executável).
+- Exportar para XLSX (planilha Excel) e PDF via diálogo "Salvar Como".
+- Importar tarefas de XLSX e PDF através de "Abrir" — suporta planilhas com abas nomeadas por quadrantes e PDFs com seções identificáveis.
+- Interface multilíngue: seleção de idioma via menu de configuração; textos e placeholders atualizam imediatamente.
+- Janela "Sobre" com histórico, detalhes, avisos, licenças e política de privacidade carregados a partir dos arquivos de recursos incluídos no executável.
+- Operação offline da aplicação principal: os dados do fluxo Eisenhower ficam no dispositivo do usuário, sem telemetria; módulos opcionais podem ter condições próprias descritas neste documento e na Política de Privacidade.
+- Implementação de calendário para vincular tarefas.
+- Visualização das tarefas por data (dia, semana, mês).
+- Controle das abas principais da interface, permitindo mostrar, ocultar, reorganizar, bloquear ou restaurar a ordem das abas disponíveis sem ocultar todos os módulos ao mesmo tempo.
+
+Instalação e distribuição:
+- Fornecido como instalador/executável nativo para Windows, compilado em C++23 com Qt 6.12.0.
+- O pacote distribuído já inclui os componentes de runtime e os recursos necessários para uso imediato.
+- Local padrão para salvar/abrir arquivos é a pasta do usuário; ao exportar/importar, o diálogo do sistema permite escolher local desejado.
+
+Armazenamento de dados e privacidade:
+- As tarefas são mantidas localmente em um arquivo tasks.json no caminho persistente do sistema (por exemplo, AppData do usuário). Nenhum dado é enviado automaticamente a servidores externos.
+- Arquivos exportados (XLSX, PDF, JSON) ficam no local escolhido pelo usuário ao salvar.
+- A política de privacidade e avisos legais estão incluídos no instalador e acessíveis na janela "Sobre".
+- Módulos opcionais, quando presentes, podem criar arquivos locais próprios de configuração, autosalvamento, cache ou trabalho temporário no mesmo contexto de instalação/perfil do usuário.
+
+Requisitos do sistema:
+- Windows 10 ou superior.
+- Espaço em disco mínimo padrão para usuários de produtividade.
+- Recursos opcionais de leitura por voz, processamento de documentos ou IA local podem exigir componentes adicionais incluídos no pacote, serviços de voz disponíveis no computador ou conexão de rede iniciada pelo usuário.
+
+Como usar (rápido):
+1. Inicie o aplicativo.
+2. Digite a tarefa no campo "Adicionar tarefa..." e selecione o quadrante.
+3. Clique em "Adicionar Tarefa" ou pressione Enter.
+4. Marque a caixa ao lado da tarefa para movê-la à lista de concluídas; desmarque para restaurá-la.
+5. Clique com o botão direito sobre uma tarefa para removê-la.
+6. Use "Arquivo → Salvar Como" para exportar; "Arquivo → Abrir" para importar XLSX/PDF.
+7. Configure idioma em "Configurações → Idioma" e veja "Sobre" para licenças e informações adicionais.
+
+Soluções de problemas comuns:
+- Monitorar localização de tasks.json: o arquivo é criado no diretório persistente do aplicativo. Se não encontrar dados, verifique permissões de gravação em sua pasta de usuário.
+- PDF/XLSX não importam: use o formato esperado (abas nomeadas para XLSX ou seções reconhecíveis no PDF). Mensagens informam quando o formato é incompatível.
+- Alto consumo de recursos: aplicação é leve; problemas provavelmente decorrentes de outro software no sistema.
+- Recursos opcionais de IA, voz ou módulos ausentes: confirme se a instalação usada inclui o módulo correspondente e seus arquivos de runtime; abas e menus de módulos opcionais aparecem apenas quando esses módulos são detectados.
+
+Contato e suporte:
+- Autor: Fernando Nillsson Cidade
+- Para sugestões, erros ou contribuições consulte os canais fornecidos no instalador ou na documentação anexa.
+
+Licença e avisos:
+- Informações de licenças, avisos e política de privacidade estão incluídas no instalador e na seção "Sobre" do aplicativo.
+
+Notas finais:
+Este documento descreve o comportamento da aplicação distribuída como executável nativo. Usuários avançados que planejam cenários específicos de implantação, automação local ou localização manual de arquivos devem consultar a documentação técnica ou o instalador para detalhes sobre caminhos e parâmetros.
+
+Módulo integrado Pomodoro:
+- O módulo integrado Pomodoro adiciona um módulo dedicado de foco com ciclos de trabalho e pausa integrados ao EISENHOWER ORGANIZER.
+- Quando ativo, ele pode ser acessado por Configurações -> Módulos -> Pomodoro, e também pode aparecer em aba/módulo principal próprio.
+- Tarefas podem ser compartilhadas das listas de Eisenhower para o fluxo do Pomodoro, preservando os metadados principais usados pela integração local (como título, data, horário, descrição, arquivo vinculado e contexto de status quando disponíveis).
+- Preferências de alarme para avisos de término de foco/pausa podem ser configuradas em Configurações -> Módulos -> Pomodoro -> Alarme.
+- Os dados trocados entre a aplicação principal e o módulo Pomodoro circulam localmente dentro da mesma instalação/contexto de execução. Essa integração opcional, por si só, não introduz transmissão automática de dados de tarefas a servidores externos.
+- Os recursos deste módulo estão plenamente integrados ao aplicativo.
+
+Módulo integrado Feynman:
+- O módulo Feynman amplia o EISENHOWER ORGANIZER para apoiar revisão de conteúdos e organização de conceitos de estudo.
+- Quando ativo, ele pode ser acessado por Configurações -> Módulos -> Feynman, e também pode aparecer como aba/módulo principal próprio.
+- Permite criar e organizar conceitos de estudo em lista, com edição, salvamento e exclusão com feedback visual.
+- A revisão pode ser separada por abas para destacar ideia principal, explicação simplificada e pontos de melhoria.
+- É possível vincular arquivos de apoio aos conceitos e abrir o arquivo vinculado por ação do usuário.
+- Conceitos e tarefas podem ser usados em conjunto; quando aplicável, a integração mantém os dados principais alinhados entre módulos.
+- Os dados do Feynman permanecem locais no mesmo contexto de instalação/execução; essa integração opcional não introduz transmissão automática de dados a servidores externos.
+- Os recursos deste módulo estão plenamente integrados ao aplicativo.
+
+Módulo integrado Mapa Mental:
+- O módulo Mapa Mental adiciona um módulo visual para criar mapas de ideias, temas, estudos e relações entre conceitos dentro do EISENHOWER ORGANIZER.
+- Quando ativo, ele pode ser acessado por Configurações -> Módulos -> Mapa Mental, e também pode aparecer como aba/módulo principal próprio.
+- É possível adicionar conceitos, mover nós, conectar ideias relacionadas, alterar cores, escrever notas, vincular arquivos, remover conceitos e acompanhar o total de conceitos/selecionados pelo contador do aplicativo.
+- Mapas podem ser salvos e carregados em JSON, restaurados automaticamente por autosalvamento local, limpos com confirmação e exportados como imagem PNG.
+- A importação de documentos pode extrair texto de arquivos selecionados pelo usuário e gerar estruturas de mapa quando os recursos de IA/local estiverem disponíveis. Os formatos aceitos incluem PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite e XML.
+- O processamento de documentos, a análise de estrutura e a geração de conceitos ocorrem dentro do contexto local do aplicativo quando usados os recursos de IA local empacotados ou configurados para o módulo. O conteúdo importado permanece sob controle do usuário.
+- A visualização do mapa pode ser organizada nos modos vertical, horizontal, radial ou árvore, com preferência lembrada localmente, e uma visão focada/cinemática pode ajudar na apresentação ou revisão passo a passo.
+- Os recursos deste módulo estão plenamente integrados ao aplicativo.
+
+Módulo integrado Audiolivro:
+- O módulo Audiolivro adiciona um leitor acessível para textos e PDFs, com reprodução em voz alta, controles de leitura e recursos visuais de acompanhamento.
+- Quando ativo, ele pode ser acessado por Configurações -> Módulos -> Audiolivro, e também pode aparecer como aba/módulo principal próprio.
+- O módulo permite escrever, colar, abrir, arrastar arquivos compatíveis, salvar texto em TXT, alternar entre as visões Texto e PDF e usar busca em ambas as visões.
+- Os controles incluem ler, pausar, continuar, parar, velocidade, volume, seleção de voz, ajustes de fonte, marcadores, espaçamento entre linhas, recuo e margem.
+- A leitura de PDF inclui navegação por páginas, zoom, ajuste à largura, ajuste à página, modo mão, modo seleção, cópia de texto e informações do arquivo/página.
+- A leitura assistida pode realçar palavra, frase ou parágrafo durante a reprodução, e a régua de foco pode ajudar no acompanhamento linha por linha.
+- Preferências de voz e fonte são salvas localmente em arquivo de configuração do módulo; arquivos temporários de áudio podem ser criados durante a síntese e removidos após a leitura.
+- Algumas vozes, especialmente as baseadas em Edge TTS, dependem de serviço de voz externo e conexão de rede iniciada pelo usuário. Nesses casos, o texto selecionado para leitura pode ser transmitido ao serviço de voz para geração do áudio, conforme os termos e disponibilidade desse serviço.
+- Os recursos deste módulo estão plenamente integrados ao aplicativo.
+
+Módulo integrado Gantt & BIM 4D:
+- O módulo integrado Gantt & BIM 4D adiciona recursos avançados de planejamento, gestão de cronogramas, gráfico de Gantt interativo, Método do Caminho Crítico (CPM) e simulação 4D construtiva ao EISENHOWER ORGANIZER.
+- Permite criar e estruturar tarefas em EAP (Estrutura Analítica do Projeto / WBS), gerenciar dependências lógicas (TI, II, TT, IT), marcos, linhas de base (baselines), importar/exportar cronogramas em formato CSV e sincronizar atividades com a Matriz de Eisenhower.
+- Opera de forma 100% local, preservando todos os cronogramas e dados no dispositivo do usuário.
+
+Módulo integrado Agenda de Avaliações e Registro de Atividades:
+- O módulo integrado Agenda de Avaliações adiciona recursos de planejamento cronológico, cadastro e acompanhamento de provas, avaliações, prazos e compromissos escolares e profissionais ao EISENHOWER ORGANIZER.
+- Permite registrar atividades por data, horário, categorias, notas e pesos, com visualização em lista e integração com o calendário, persistindo dados em banco de dados SQLite local no perfil do usuário.
+- Opera de forma 100% local, mantendo todos os registros protegidos no computador do usuário.
+
+Módulo integrado Modelo Qwen de IA Local:
+- O módulo integrado Modelo Qwen adiciona capacidades avançadas de inteligência artificial generativa e estruturação textual ao EISENHOWER ORGANIZER, operando com inferência 100% local e offline via llama.cpp com modelos quantizados Qwen2.5.
+- Auxilia o módulo Mapa Mental na geração automática de árvores de tópicos e conceitos a partir de documentos e notas, fornecendo resumos estruturados sem envio de dados a servidores externos e sem necessidade de internet.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL), ARQUITETURA C++23 / Qt 6.12.0 E ESCOPO AUXILIAR ("AS IS")
+- Tecnologia e Builds Limpos: Compilado nativamente em C++23 estrito com Qt 6.12.0 para Pure MSVC x64 (Visual Studio 18 2026 / MSVC 14.52, CRT app-local sem vc_redist.x64.exe) e MinGW-w64 15.1.0, validado continuamente por suíte CTest com 11 executáveis automatizados (Qt6: Compilar e Executar SUITE (MSVC) / Qt6: Compilar e Executar SUITE (MinGW)).
+- Duplo Licenciamento: Código-fonte público aberto sob GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp) com liberdade expressa para forks adaptarem source/assets/ após remoção das marcas exclusivas; distribuição oficial assinada na Microsoft Store (ID 9P289X0185C3) sob EULA Oficial e CLC do autor (Fernando Nillsson Cidade). Suporte voluntário best-effort exclusivamente via linceu_lighthouse@outlook.com (a Microsoft não presta suporte técnico).
+- Caráter Auxiliar ("AS IS"): Ferramenta auxiliar de produtividade, acessibilidade cognitiva e planejamento (sujeita a limitações e revisão humana; resultados de IA local Qwen/Ollama são probabilísticos e cronogramas CPM/4D BIM no Gantt jamais substituem conferência independente nem ART/RRT perante CREA/CAU).

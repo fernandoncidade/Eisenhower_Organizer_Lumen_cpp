@@ -1,0 +1,89 @@
+Privacy Policy - Gantt & 4D BIM Module
+Product: Eisenhower Organizer
+Module ID: modulo_gantt
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy describes how the Gantt & 4D BIM module handles information when used with Eisenhower Organizer. The module is designed to operate strictly locally on the user's device. This Policy is specific to the module and should be read together with the Privacy Policy of the parent application.
+
+1. Scope and principles
+- Local operation: all schedule data, tasks, dependencies, baselines, simulations, and settings remain stored locally on the user's device, except when the Microsoft Store processes acquisition, licensing, or payment for the module.
+- Minimization: the module handles only data strictly necessary for project management, Gantt charts, predecessor networks, critical path calculations, WBS tables, and 4D simulation.
+- User control: you maintain complete control over creating, editing, importing, exporting, and deleting schedules and activities.
+
+2. Data handled by the module
+2.1 Schedules, WBS, and project activities
+- Task titles, descriptions, start and end dates, durations in days/hours, percentage completed, execution status, budgeted costs, and actual costs.
+- Work Breakdown Structure (WBS) and hierarchical ordering of project phases and work packages.
+- Local synchronization metadata between the project schedule and the Eisenhower Organizer task manager.
+
+2.2 Dependency relationships, CPM, and Baselines
+- Logical predecessor and successor relationships between tasks (Finish-to-Start, Start-to-Start, Finish-to-Finish, Start-to-Finish) and time lags.
+- Calculated parameters including early dates, late dates, free float, total float, and Critical Path Method (CPM) identification.
+- Baseline records and Ghost Line data for planned versus actual schedule comparison.
+
+2.3 4D Simulation and local files
+- Temporal 4D simulation parameters linked to task dates and states.
+- Schedule files imported or exported in CSV format upon express user command.
+
+2.4 Local technical data
+- Local configuration and state persistence files for the schedule module saved in the user's persistent application directory.
+- Local technical diagnostic error logs generated solely on the device itself.
+
+3. Purposes of processing
+- Build and display interactive Gantt charts and project activity tables.
+- Perform analytical calculations for the Critical Path Method (CPM) and project float.
+- Manage baseline revisions to track schedule variance and project performance.
+- Execute timeline-synchronized 4D construction simulations.
+- Enable data import and export via CSV files and local synchronization with Eisenhower Organizer.
+- Preserve user display preferences, column widths, and zoom settings.
+
+4. What the module does not do
+- It does not create its own user accounts, registrations, or cloud logins.
+- It does not perform automatic telemetry or user tracking.
+- It does not transmit project schedules, costs, or task descriptions to external servers.
+- It does not inspect file system folders outside files explicitly opened or saved by the user.
+- It does not process or retain payment cards or banking details; transactions and license verification are managed by the Microsoft Store.
+
+5. Microsoft Store, purchase, and license
+- Module acquisition, license validation, and any payments are handled via official Microsoft Store channels.
+- The application queries the platform API only to check whether the plugin_gantt license is valid and active.
+- The developer has no access to passwords, billing records, or private personal data associated with the user's Microsoft account.
+
+6. Storage and retention
+- Activities, links, and baselines are retained locally as long as the user keeps application data.
+- Exported CSV files and backups remain under the sole ownership and custody of the user.
+- Complete data removal can be performed by clearing application files or deleting the corresponding project records.
+
+7. Sharing
+- The module does not sell, license, or transfer data to third parties.
+- Communication with Eisenhower Organizer occurs strictly within the same installation on the local computer.
+- Any distribution or sharing of project files requires explicit and voluntary action by the user.
+
+8. Security
+- Because data is held locally, schedule protection relies on the security posture of the Windows operating system, user access permissions, antivirus systems, and user backup routines.
+- We recommend keeping Windows and the application updated.
+
+9. User rights
+- You may review, modify, recalculate, export, and delete any schedule or project data at any time.
+- You are free to reset saved configurations and update baselines according to your planning requirements.
+
+10. Children's privacy
+- The module is designed for professional, academic, and general project planning and does not knowingly collect personal information from children.
+
+11. Changes to this Policy
+- This Policy may be updated to reflect enhancements in the Gantt/4D BIM module or regulatory revisions. Updates will accompany new releases of the software.
+
+12. Contact and support
+- Author: Fernando Nillsson Cidade
+- Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT AND SUPPORT AND ON-DEMAND NETWORK TRANSPARENCY
+1. Independence from Microsoft (Microsoft Store Policy 10.5): Microsoft does NOT provide a default privacy policy for EISENHOWER ORGANIZER, and this application is NOT covered by Microsoft's Privacy Statement. Microsoft does not provide customer support (developer contact: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Local Storage Paths: User files live under %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db in Agenda, gantt_database.db in Gantt, and logs/file_*.log) with zero telemetry and zero mandatory accounts.
+3. Optional User-Initiated Network Operations:
+   - Local AI Model (Qwen 2.5 GGUF): optional HTTPS download from Hugging Face (with HTTP Range pause/resume and disk deletion); subsequent llama.cpp inference sends zero data externally.
+   - Local Ollama: strictly loopback HTTP queries to http://127.0.0.1:11434 when triggered by the user.
+   - Edge TTS (Audiobook): selected reading text is sent to the speech service only when the user explicitly selects an online voice; local Windows SAPI voices stay 100% offline.
+   - Gantt REST API / Webhooks: disabled by default; listens or dispatches events only when explicitly enabled by the user with SecurityService.

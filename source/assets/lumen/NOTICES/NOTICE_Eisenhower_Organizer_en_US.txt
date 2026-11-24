@@ -1,0 +1,34 @@
+THIRD-PARTY LICENSES AND ATTRIBUTION NOTICE - LÚMEN
+Product: Eisenhower Matrix
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+This file summarizes third-party components and platform references used by or potentially included in the LÚMEN distribution. Complete license texts should accompany the package, installer, or LICENSES folder.
+
+1. Qt 6
+Use: graphical interface, internationalization, visual resources, runtime files, platform modules, and auxiliary functionality.
+License: according to the Qt edition and modules used in the build, including LGPL obligations where applicable.
+References: https://www.qt.io/ and https://doc.qt.io/
+
+2. Windows and Microsoft Store
+Use: operating system, distribution, installation, in-app purchase, update, and license validation when the product is acquired through the Store.
+Note: Microsoft, Windows, and Microsoft Store are Microsoft trademarks. The reference is descriptive and does not grant rights to Microsoft marks, logos, or services.
+
+3. Modules
+The integrated modules Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model may be delivered in the same package as the parent application. Each integrated module has its own notice in this documentation.
+
+4. Data and privacy
+This notice does not replace the Privacy Policy. See the corresponding policy for information about local data, in-app purchases, and any external services.
+
+5. Complete licenses and source offer
+See the source/assets/LICENSES folder or the equivalent location in the final distribution for Apache 2.0, BSD, ISC, LGPL 2.1, LGPL 3, GPL 3, MIT, PSF, FFmpeg, LLVM OpenMP, MinGW/GCC runtime, llama.cpp, SQLite, Zlib, DirectX/DXC, Microsoft redistributable notices, and other texts applicable to the package actually delivered. See also OPEN_SOURCE_SOURCE_OFFER_en_US.txt and THIRD_PARTY_COMPONENT_NOTICES.txt.
+
+6. Updates
+This notice should be reviewed whenever new libraries, models, runtimes, codecs, tools, or services are added to the product.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) AND TOOLCHAIN UPDATE (C++23 / Qt 6.12.0)
+- LÚMEN Source Code: Licensed under GNU Affero General Public License v3 (GNU AGPLv3). Full license text is bundled in LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt and https://www.gnu.org/licenses/agpl-3.0.html.
+- Official Microsoft Store Editions: Governed by the author's Official EULA and CLC without restricting LGPLv3/LGPLv2.1+ rights (Qt 6.12.0 and FFmpeg-n9.0.1: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll).
+- MSVC & MinGW Runtimes: Pure MSVC builds (MSVC 14.52) bundle only app-local VC++ Runtime DLLs (zero vc_redist.x64.exe); MinGW-w64 15.1.0 builds include libgcc, libstdc++, and libwinpthread under GPLv3 + GCC Runtime Library Exception 3.1.
+- On-Demand Local AI: llama.cpp b8987 runtime (CPU/Vulkan) under the MIT License and optional user-downloaded Qwen2.5-3B-Instruct GGUF weights under Apache License 2.0, plus optional loopback integration with local Ollama (localhost:11434).

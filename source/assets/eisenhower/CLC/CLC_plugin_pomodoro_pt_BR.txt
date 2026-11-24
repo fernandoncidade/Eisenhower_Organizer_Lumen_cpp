@@ -1,0 +1,37 @@
+CONTRATO DE LICENCIAMENTO COMERCIAL - MÓDULO POMODORO
+Produto: módulo integrado para Eisenhower Organizer
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Este Contrato complementa a EULA do Eisenhower Organizer e regula o uso comercial do módulo Pomodoro quando licenciado separadamente ou adquirido como compra no aplicativo pela Microsoft Store.
+
+1. Natureza do módulo
+O Pomodoro é um módulo do Eisenhower Organizer. Ele não é um aplicativo independente. A licença permite desbloquear funções de ciclos de foco, pausas, alarmes, preferências locais e integração de tarefas com o aplicativo pai.
+
+2. Licença
+O Licenciador concede uma licença limitada, não exclusiva, intransferível e revogável para usar o módulo com uma cópia licenciada do Eisenhower Organizer, conforme a modalidade adquirida.
+
+3. Microsoft Store
+Quando adquirido pela Microsoft Store, o módulo funciona como produto digital durável, salvo configuração diferente no Partner Center. A Microsoft Store pode processar pagamento, reembolso, instalação, atualização e verificação da licença associada à conta Microsoft do usuário.
+
+4. Bloqueio técnico
+O módulo pode ser entregue dentro do pacote do aplicativo pai. O acesso às funções deve permanecer bloqueado até que a licença ativa seja confirmada. É proibido burlar, modificar ou remover esse controle.
+
+5. Dados
+Preferências, ciclos, temporizadores e vínculos com tarefas são tratados localmente, salvo se o usuário exportar, compartilhar ou mover esses dados por conta própria.
+
+6. Suporte
+O suporte comercial cobre apenas o funcionamento documentado do módulo em versões suportadas do Eisenhower Organizer e do Windows.
+
+7. Restrições e responsabilidade
+Aplicam-se as mesmas restrições, limitações de garantia, limitações de responsabilidade, regras de propriedade intelectual e termos de encerramento previstos na EULA e no Contrato Comercial do aplicativo pai.
+Reserva de licenças open source: Nada neste Contrato restringe direitos concedidos por licenças open source de terceiros incluídas com o Software. Para componentes cobertos pela LGPL, incluindo Qt e FFmpeg quando entregues, o destinatário pode substituir ou relinkar bibliotecas compartilhadas compatíveis e pode realizar engenharia reversa somente na medida necessária para depurar modificações nesses componentes LGPL, conforme permitido pela LGPL aplicável. Os textos de licença, avisos de terceiros, oferta de código-fonte e configuração de build do FFmpeg estão incluídos em LICENSES e NOTICES.
+
+8. Observação jurídica
+Este Contrato complementa o regime de Duplo Licenciamento oficial (código-fonte aberto sob GNU AGPLv3; edições oficiais assinadas sob EULA e CLC).
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) & ESCOPO COMERCIAL OFICIAL
+1. Dualidade Jurídica: O código-fonte público de EISENHOWER ORGANIZER encontra-se aberto sob a licença copyleft GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp), garantindo estudo, auditoria e compilação própria livre de taxas. O presente Contrato de Licenciamento Comercial (CLC) aplica-se exclusivamente à aquisição de pacotes binários oficiais assinados pelo autor (Microsoft Store ID 9P289X0185C3 — com período de avaliação de 7 dias via TrialManager — e modalidades Individual, Empresarial/Small Business ou Corporativa/Enterprise com contrato de suporte dedicado).
+2. Liberdade sobre source/assets/ em Forks: Forks e distribuições independentes geradas a partir do código-fonte público sob GNU AGPLv3 possuem ampla autorização do autor para alterar, excluir ou adaptar todos os textos de source/assets/, vedado apenas o uso das marcas exclusivas "EISENHOWER ORGANIZER" e "LÚMEN" ou revenda do pacote binário oficial assinado pelo autor.
+3. Suporte e Isenção "AS IS": Suporte contratado limita-se ao pacote oficial emitido pelo Licenciador (contato: linceu_lighthouse@outlook.com); a Microsoft não presta suporte técnico ao cliente. Todos os resultados (incluindo inferência local Qwen/Ollama e cronogramas CPM/4D BIM no Gantt — que não substituem ART/RRT perante CREA/CAU) têm natureza auxiliar e são fornecidos "NO ESTADO EM QUE SE ENCONTRAM" ("AS IS"), respeitados os direitos LGPLv3/LGPLv2.1+ sobre Qt 6.12.0 e FFmpeg n9.0.1.

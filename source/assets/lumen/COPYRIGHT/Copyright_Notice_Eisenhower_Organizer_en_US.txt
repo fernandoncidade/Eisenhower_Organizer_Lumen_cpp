@@ -1,0 +1,22 @@
+COPYRIGHT AND TRADEMARK NOTICE - LÚMEN
+Product: Eisenhower Matrix
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+Copyright (C) 2025-2026 Fernando Nillsson Cidade. All rights reserved.
+
+LÚMEN, including its code, interface, text, documentation, visual assets, integration structure, and support materials, is the intellectual property of Fernando Nillsson Cidade, except for third-party components identified in their respective license notices.
+
+"LÚMEN" is a product trade name. Unauthorized use of the product name, logo, visual identity, interface, documentation, or distinctive materials is prohibited except as allowed by a written agreement or applicable law.
+
+Tasks, notes, files, maps, documents, text, PDFs, generated audio, and other content created or supplied by the user remain owned by the user or the applicable rights holders.
+
+Microsoft, Windows, Microsoft Store, Microsoft Edge, and other Microsoft product names are trademarks of the Microsoft group of companies. Their use in this product and documentation is descriptive only, to indicate compatibility, distribution, acquisition, licensing, or use of services. This product is not affiliated with, sponsored by, or endorsed by Microsoft unless expressly stated in writing.
+
+Third-party components distributed with the product remain subject to their respective rights holders and licenses. See the NOTICE, EULA, and LICENSES files included with the distribution.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) AND DEVELOPER FREEDOM ON source/assets/
+- Open-Source Repository: All C++23 / Qt 6.12.0 source code in this repository is licensed under the GNU Affero General Public License v3 (GNU AGPLv3 — LICENSE and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt).
+- Exclusive Trademark Protection (GNU AGPLv3 Section 7(e)): The trademarks "LÚMEN", "EISENHOWER ORGANIZER", and "LÚMEN", official icons, and digitally signed Microsoft Store binary packages remain the exclusive property of Fernando Nillsson Cidade.
+- Developer Freedom on source/assets/: Developers distributing open-source forks under GNU AGPLv3 are expressly authorized to edit, delete, or replace the institutional texts inside source/assets/ for their own releases, provided they remove the author's exclusive trademarks and distinctive icons.

@@ -1,0 +1,30 @@
+Project: EISENHOWER ORGANIZER
+Module: Audiobook
+Product ID: modulo_audiolivro
+Version: 2026.11.22.0
+Author: Fernando Nillsson Cidade
+
+Description:
+The Audiobook module adds an accessible reader for texts and PDFs, with aloud reading, search, navigation, visual adjustments, and playback controls. It works as a native module integrated into the main application.
+
+Main features:
+- Opening, editing, search, and reading of texts.
+- Reading and navigation of PDFs chosen by the user.
+- Voice, speed, volume, and font selection.
+- Speech highlighting and focus ruler.
+- Temporary audio files during synthesis.
+
+Data and connectivity:
+- The module operates locally by default.
+- Online voices, such as Edge TTS, may require sending the selected text to the voice provider when the user starts reading.
+- Purchase, license, and access confirmation are processed by the Microsoft Store.
+- See this module's specific Privacy Policy and EULA.
+
+Support:
+- Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA), C++23 / Qt 6.12.0 ARCHITECTURE & AUXILIARY SCOPE ("AS IS")
+- Technology & Clean Builds: Natively compiled in strict C++23 with Qt 6.12.0 across Pure MSVC x64 (Visual Studio 18 2026 / MSVC 14.52, app-local CRT without vc_redist.x64.exe) and MinGW-w64 15.1.0, continuously verified across 11 automated CTest suites (Qt6: Compilar e Executar SUITE (MSVC) / Qt6: Compilar e Executar SUITE (MinGW)).
+- Dual Licensing: Open-source code under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp) with express fork freedom on source/assets/ once exclusive trademarks are removed; official digitally signed Microsoft Store edition (ID 9P289X0185C3) under the author's Official EULA and CLC (Fernando Nillsson Cidade). Best-effort voluntary developer support strictly at linceu_lighthouse@outlook.com (Microsoft provides no customer support).
+- Auxiliary Scope ("AS IS"): Auxiliary productivity, cognitive-accessibility, and scheduling tool provided "AS IS" without warranties; Local AI outputs (Qwen/Ollama) are probabilistic aids and 4D BIM Gantt CPM schedules never replace independent verification or licensed ART/RRT engineering sign-off.

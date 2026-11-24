@@ -1,0 +1,59 @@
+LICENÇA DE USO DE USUÁRIO FINAL - LÚMEN
+Produto: Matriz de Eisenhower
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Ao instalar, baixar, acessar ou usar o LÚMEN, você concorda com esta Licença de Uso de Usuário Final ("Licença"). Se você não concordar, não use o produto.
+
+1. Partes e produto
+O Licenciador é Fernando Nillsson Cidade. O produto licenciado é o LÚMEN, aplicativo Windows para organização, priorização e acompanhamento de tarefas com base na Matriz de Eisenhower, incluindo documentação e recursos oficiais fornecidos no pacote.
+
+2. Software licenciado, não vendido
+O produto é licenciado, não vendido. Esta Licença concede apenas os direitos expressamente descritos aqui. Todos os demais direitos permanecem reservados ao Licenciador e aos titulares de componentes de terceiros.
+
+3. Concessão de uso
+Enquanto você cumprir esta Licença, o Licenciador concede direito limitado, não exclusivo, intransferível e revogável para instalar e usar o aplicativo em dispositivos Windows compatíveis, conforme a modalidade adquirida, as regras da Microsoft Store, quando aplicáveis, ou contrato comercial escrito.
+
+4. Módulos
+Os módulos integrados Pomodoro, Feynman, Mapa Mental, Audiolivro, Gantt & BIM 4D, Agenda de Avaliações e Modelo Qwen de IA Local podem ser distribuídos junto com o pacote do aplicativo pai. A entrega técnica desses arquivos não concede direito de uso. Cada módulo integrado opera segundo os termos desta licença.
+
+5. Restrições
+Você não pode contornar limitações técnicas ou controles de licença; copiar, revender, alugar, emprestar, sublicenciar ou distribuir o produto; remover avisos de propriedade intelectual; fazer engenharia reversa, descompilar ou desmontar, exceto no que a lei permitir; usar o produto para atividade ilegal; ou explorar o produto de forma que prejudique terceiros, sistemas, redes ou serviços.
+Reserva de licenças open source: Nada nesta Licença restringe direitos concedidos por licenças open source de terceiros incluídas com o produto. Para componentes cobertos pela LGPL, incluindo Qt e FFmpeg quando entregues, o destinatário pode substituir ou relinkar bibliotecas compartilhadas compatíveis e pode realizar engenharia reversa, descompilar ou desmontar somente na medida necessária para depurar modificações nesses componentes LGPL, conforme permitido pela LGPL aplicável. Os textos de licença, avisos de terceiros, oferta de código-fonte e configuração de build do FFmpeg estão incluídos em LICENSES e NOTICES.
+
+6. Dados e privacidade
+O aplicativo foi projetado para armazenar tarefas, preferências e arquivos exportados no ambiente local do usuário, salvo ação voluntária do usuário ou recurso informado em política própria. O tratamento de dados é descrito na Política de Privacidade aplicável.
+
+7. Serviços online e Microsoft Store
+Quando adquirido pela Microsoft Store, o produto pode depender da conta Microsoft, da disponibilidade da Store e das APIs de licenciamento para instalação, compra, atualização, reembolso e validação de licença. A Microsoft pode aplicar seus próprios termos de uso, regras de pagamento, políticas de privacidade e regras de uso da Store.
+
+8. Atualizações e suporte
+O Licenciador pode fornecer atualizações, correções ou alterações de funcionalidade. O suporte técnico depende da modalidade adquirida ou de contrato separado. A Microsoft, os fabricantes de hardware e as operadoras não são responsáveis por suporte do produto, salvo se forem o publicador ou se assumirem essa obrigação por escrito.
+
+9. Componentes de terceiros
+O produto pode incluir bibliotecas, componentes de tempo de execução, ferramentas, licenças abertas e avisos de terceiros. Esses componentes são licenciados por seus respectivos titulares e devem ser usados conforme seus termos.
+
+10. Conteúdo do usuário
+Tarefas, notas, documentos, mapas, PDFs, textos, áudios gerados e demais conteúdos criados ou fornecidos por você continuam pertencendo a você ou aos titulares correspondentes. Você é responsável por possuir direitos ou permissões sobre materiais usados no produto.
+
+11. Garantia
+Na máxima extensão permitida por lei, o produto é fornecido no estado em que se encontra, com as falhas que possa ter e conforme disponível, sem garantias expressas ou implícitas além das garantias legais obrigatórias.
+
+12. Limitação de responsabilidade
+Na máxima extensão permitida por lei, o Licenciador não responde por danos indiretos, especiais, incidentais, consequenciais, perda de dados, perda de lucro, interrupção de negócio ou indisponibilidade de serviços de terceiros. Quando houver responsabilidade direta não excluível, ela será limitada ao valor pago pelo produto ou a R$ 5,00, o que for maior, salvo regra legal obrigatória diversa.
+
+13. Encerramento
+Esta Licença termina se você violar seus termos. Ao terminar, você deve cessar o uso não autorizado do produto e de seus módulos. Licenças adquiridas pela Microsoft Store também podem ser suspensas, revogadas ou afetadas por regras da Store, reembolsos, estornos ou indisponibilidade de conta.
+
+14. Lei aplicável
+Salvo regra obrigatória de defesa do consumidor ou disposição escrita diversa, esta Licença será interpretada segundo as leis do Brasil.
+
+15. Revisão jurídica
+Regime de Duplo Licenciamento oficial: código-fonte aberto sob GNU AGPLv3 (LICENSE) e distribuição binária oficial assinada sob este EULA.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL), LIBERDADE EM source/assets/ E ESCOPO AUXILIAR ("AS IS")
+1. Código-Fonte Público (GNU AGPLv3): O código-fonte completo em C++23 / Qt 6.12.0 de LÚMEN e de todos os 7 módulos integrados (Pomodoro, Feynman, Mapa Mental, Audiolivro, Agenda, Gantt BIM 4D) e do módulo auxiliar Modelo (IA Local Qwen/Ollama) é público em https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp sob a Licença GNU Affero General Public License v3 (GNU AGPLv3), incluída em LICENSE e LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt. Qualquer obra derivada ou implantação modificada em rede (incluindo API HTTP REST do Gantt conforme Seção 13 da GNU AGPLv3) deve disponibilizar o código-fonte correspondente sob a mesma licença.
+2. Liberdade para Desenvolvedores sobre source/assets/: Os documentos contratuais e regulatórios em source/assets/ foram elaborados para as edições oficiais publicadas pelo autor na Microsoft Store. Desenvolvedores e mantenedores de forks sob a GNU AGPLv3 têm total liberdade para editar, substituir ou remover tais textos em suas próprias distribuições, desde que removam as marcas exclusivas ("EISENHOWER ORGANIZER" e "LÚMEN") e ícones oficiais do autor.
+3. Edições Oficiais Microsoft Store (ID 9N70CLLMVRPN): Os termos deste EULA e do Contrato de Licenciamento Comercial (CLC) aplicam-se às distribuições binárias oficiais assinadas pelo autor e comercializadas/disponibilizadas na Microsoft Store ou mediante licenciamento direto. É vedada a revenda comercial não autorizada por terceiros do pacote oficial do autor. A Microsoft NÃO presta suporte ao cliente nem cobre este software sob a Política de Privacidade da Microsoft.
+4. Natureza Auxiliar, Maturidade e Isenção ("AS IS"): O software e seus módulos operam como ferramentas auxiliares de produtividade, estudo ativo, leitura acessível e apoio a cronogramas, fornecidos "NO ESTADO EM QUE SE ENCONTRAM" ("AS IS"), com eventuais limitações e riscos de falhas algorítmicas (Lei nº 9.609/1998, Lei nº 9.610/1998, Código Civil, CDC e Seções 15–16 da GNU AGPLv3). Sínteses de IA local (Qwen 2.5 / Ollama) são probabilísticas e exigem revisão; leitura assistida no Audiolivro não constitui dispositivo médico/clínico; e cronogramas CPM/DAG/4D BIM no Gantt nunca substituem verificação técnica independente nem profissional legalmente habilitado com emissão de ART (CREA) ou RRT (CAU) (Leis nº 5.194/1966, nº 6.496/1977 e nº 12.378/2010). Caso o usuário utilize resultados exclusivamente para produção ou uso profissional crítico, assume integral responsabilidade.

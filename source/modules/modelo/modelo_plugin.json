@@ -1,0 +1,10 @@
+{
+  "name": "Modelo Qwen",
+  "version": "2026.11.22.0",
+  "service": true,
+  "capabilities": [
+    "text-analysis",
+    "mindmap-hierarchy",
+    "hierarchical-summaries"
+  ]
+}

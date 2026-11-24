@@ -1,0 +1,40 @@
+Política de Privacidade - Módulo Agenda de Avaliações
+Produto: LÚMEN
+ID do Módulo: modulo_agenda
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve como o módulo integrado Agenda de Avaliações e Registro de Atividades trata informações quando utilizado no LÚMEN. O módulo foi desenvolvido com foco absoluto em privacidade e operação exclusivamente local.
+
+1. Escopo e Princípios
+- Operação 100% local: Todos os dados cadastrados no módulo permanecem exclusivamente no dispositivo do usuário.
+- Minimização: São processadas apenas as informações necessárias para registrar atividades, cronogramas, pesos e avaliações.
+- Ausência de telemetria: O módulo não coleta dados de uso nem envia relatórios de atividades para nenhum servidor externo.
+
+2. Dados Tratados pelo Módulo
+- Títulos de atividades, disciplinas/matérias, datas, horários, descrições e status de conclusão.
+- Critérios de avaliação, notas obtidas, pesos e observações inseridas pelo usuário.
+- Arquivos de banco de dados relacional locais (ex.: agenda_avaliacoes.db) armazenados no diretório de perfil persistente do aplicativo.
+
+3. Finalidades do Tratamento
+- Permitir a visualização cronológica de compromissos e tarefas de estudo/trabalho.
+- Sincronizar prazos com o calendário e tarefas da Matriz de Eisenhower do aplicativo principal.
+- Garantir a persistência confiável dos dados no computador do usuário.
+
+4. O que o Módulo NÃO Faz
+- Não cria contas, cadastros ou autenticações externas.
+- Não transmite dados para a nuvem ou servidores de terceiros.
+- Não compartilha informações com parceiros ou anunciantes.
+
+5. Controle do Usuário
+O usuário tem total controle sobre seus registros, podendo adicionar, editar, exportar ou excluir atividades a qualquer momento.
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para LÚMEN, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\Lumen (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

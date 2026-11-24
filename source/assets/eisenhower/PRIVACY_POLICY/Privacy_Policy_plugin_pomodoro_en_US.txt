@@ -1,0 +1,86 @@
+Privacy Policy - Pomodoro Module
+Product: EISENHOWER ORGANIZER
+Module ID: modulo_pomodoro
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy describes how the Pomodoro module handles information when used with EISENHOWER ORGANIZER. The module is designed to operate locally on the user's device. This Policy is specific to the module and should be read together with the Privacy Policy of the parent application.
+
+1. Scope and principles
+- Local operation: Pomodoro data remains on the device, except when the Microsoft Store processes acquisition, licensing, or payment for the module.
+- Minimization: the module handles only data needed for focus/break cycles, task organization, and alarm settings.
+- User control: you control the creation, editing, movement, completion, and deletion of tasks used in the module.
+
+2. Data handled by the module
+2.1 Tasks and productivity flow
+- Task titles, descriptions, priority, status, dates, times, internal identifiers, and linked-file paths when this data is sent to Pomodoro by the parent app or created in the module itself.
+- Local task state in the Pomodoro workflow, such as pending, in-progress, or completed items.
+- Local synchronization metadata used to maintain consistency between Eisenhower, Pomodoro, and, when available, other modules of the same application.
+
+2.2 Timers and alarms
+- Focus and break cycle settings used during the session.
+- Alarm sound preference and alarm repeat interval.
+- Temporary timer execution state while the module is open.
+
+2.3 Local technical data
+- The module may use the application's unified task file and local configuration files, such as tarefas.json and pomodoro_alarm_config.json, in the application's persistent directory.
+- Local error logs may be generated for diagnosis on the device itself.
+
+3. Purposes of processing
+- Run Pomodoro cycles, breaks, alerts, and task tracking.
+- Display, organize, and update tasks associated with the focus workflow.
+- Synchronize tasks with the parent application when this feature is enabled.
+- Store local preferences to restore the user experience in future use.
+
+4. What the module does not do
+- It does not create its own account, registration, or login.
+- It does not collect automatic telemetry.
+- It does not send tasks, alarms, focus history, or preferences to the developer.
+- It does not scan user folders outside files or paths explicitly linked by the user in the application.
+- It does not access payment data; payments and licenses are processed by the Microsoft Store.
+
+5. Microsoft Store, purchase, and license
+- Module acquisition, license confirmation, and any payments are processed by the Microsoft Store, the user's Microsoft account, and Microsoft's systems.
+- The application queries the Microsoft Store to verify whether the plugin_pomodoro module license is active.
+- The developer does not receive or store full payment data, Microsoft account credentials, or banking information.
+- Data handled by Microsoft in these flows is subject to Microsoft's privacy policy and terms.
+
+6. Storage and retention
+- Tasks and preferences are stored locally while the user keeps the application data.
+- Alarm preferences may remain in pomodoro_alarm_config.json until replaced, manually deleted, or removed through application cleanup/uninstallation.
+- Exported files or linked paths remain under the user's control.
+
+7. Sharing
+- The module does not share data with third parties on its own initiative.
+- Data exchange between Pomodoro and EISENHOWER ORGANIZER occurs locally within the same installation.
+- Any external sharing occurs only through user action, for example by exporting, copying, or sending data to third parties.
+
+8. Security
+- Because data is stored on the device, protection depends on the safeguards of the operating system, user permissions, antivirus software, local encryption when configured, and backups.
+- We recommend keeping Windows, the Microsoft Store, and the application up to date.
+
+9. User rights and controls
+- You can create, edit, move, complete, and delete tasks through the application interface.
+- You can clear application data, remove local configuration files, and delete exports created by you.
+- You can uninstall the module or the application to remove installed files; persistent local data may require manual cleanup depending on the system's behavior.
+
+10. Children and adolescents
+- The module is not directed to children under 13 and does not intentionally collect personal data.
+
+11. Changes to this Policy
+- This Policy may be updated when the module receives new features, integrations, or relevant changes in data handling.
+
+12. Contact
+- Questions about this Policy:
+  Fernando Nillsson Cidade
+  Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT AND SUPPORT AND ON-DEMAND NETWORK TRANSPARENCY
+1. Independence from Microsoft (Microsoft Store Policy 10.5): Microsoft does NOT provide a default privacy policy for EISENHOWER ORGANIZER, and this application is NOT covered by Microsoft's Privacy Statement. Microsoft does not provide customer support (developer contact: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Local Storage Paths: User files live under %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db in Agenda, gantt_database.db in Gantt, and logs/file_*.log) with zero telemetry and zero mandatory accounts.
+3. Optional User-Initiated Network Operations:
+   - Local AI Model (Qwen 2.5 GGUF): optional HTTPS download from Hugging Face (with HTTP Range pause/resume and disk deletion); subsequent llama.cpp inference sends zero data externally.
+   - Local Ollama: strictly loopback HTTP queries to http://127.0.0.1:11434 when triggered by the user.
+   - Edge TTS (Audiobook): selected reading text is sent to the speech service only when the user explicitly selects an online voice; local Windows SAPI voices stay 100% offline.
+   - Gantt REST API / Webhooks: disabled by default; listens or dispatches events only when explicitly enabled by the user with SecurityService.

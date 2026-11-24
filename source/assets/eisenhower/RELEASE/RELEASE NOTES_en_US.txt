@@ -1,0 +1,1605 @@
+RELEASE NOTES: Version 2026.11.22.0
+Date: November 22, 2026
+
+General Summary
+This release delivers meaningful improvements in overall performance, stability, informational clarity, and organization across the entire application. The program now runs on a modernized foundation, offering brisk startup, a lighter and cleaner installation, end-to-end quality verification across every integrated tool, and fully renewed documentation inside the "About" window and user guides, while preserving instant switching between Portuguese and English.
+
+New Features, Adjustments, and Improvements
+
+1. Enhanced Performance, Stability, and Compatibility
+- Modernized Foundation Across All Features: The main application and all integrated workspaces (Eisenhower Matrix, Pomodoro, Feynman Technique, Mind Map, Audiobook, Agenda, Project Schedule, and Local Artificial Intelligence) received a full foundational refresh to deliver faster responsiveness, steadier continuous operation, and improved compatibility with modern Windows releases.
+- Smoother Daily Operation: Internal refinements make application launch, workspace tab switching, and saving your tasks feel noticeably smoother during everyday use.
+
+2. Lighter, Faster, and Cleaner Installation
+- Streamlined Installation Package: Installation packages were carefully trimmed to include strictly the essential items needed for full operation, reducing download size without requiring separate extra component installers to run.
+- Clean Install and Removal: Brisk installation and tidy system uninstallation without leaving unnecessary files behind on your computer.
+
+3. Verified End-to-End Quality and Reliability
+- Comprehensive Feature Verification: Every capability — quadrant task management, task editing, calendar views, focus timers, active study cards, mind maps, voice-assisted reading, custom agendas, project schedules with simulation, and local artificial intelligence — underwent thorough checks to prevent regressions and ensure consistent daily behavior.
+
+4. Licensing Transparency and Renewed "About" Documentation
+- Clear Licensing Information: The "About" dialog and built-in informational texts were updated in both English and Portuguese with clear explanations of the dual-licensing model (open usage terms alongside the official store commercial edition), plus the full open-source license text available to read directly inside the application.
+- Independent Privacy and Auxiliary Scope: Clear notices highlighting that your data and notes stay stored locally on your computer with zero automatic tracking, and that the software serves as an auxiliary tool requiring independent human review.
+
+5. Visual Polish, Languages, and Updated Guides
+- Consistent Application Icons: Standardized visual handling of the application icons shown across the operating system.
+- Updated In-App Manual and Guides: The built-in manual and help topics were updated to accurately reflect current menus, shortcuts, "About" options, and behavior across every tool, keeping instant runtime switching between English and Portuguese without restarting.
+
+Important Notes:
+- Strict Data Preservation: All of your tasks, settings, mind maps, histories, schedules, and saved preferences remain intact and protected during updates.
+- Non-Destructive Update: Updating never deletes personal files or tasks.
+- Complete Privacy: All core capabilities and local artificial intelligence run directly on your computer, keeping your data private without automatic external uploads.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.10.8.0
+Date: October 8, 2026
+
+General Summary
+This release consolidates and unifies a major evolutionary milestone across the application, bringing essential enhancements in performance, usability, visual organization, project tracking, and privacy. The installation package is now remarkably lightweight and fast to install, as the local artificial intelligence model is managed on demand by the user. A brand-new interactive download manager allows users to download, pause, resume, or delete the local model with complete transparency and disk space control. The application also introduces a built-in step-by-step assistant for connecting with Ollama, real-time installation status indicators in menus, intelligent mind map synthesis with automatic fallback when the model is not installed, a new responsive task editing experience, instant focus cycle synchronization in Pomodoro with goal discrepancy prevention, in-progress task tracking in the calendar, enhanced Eisenhower Matrix layouts (2x2, vertical, and horizontal with smart folding), deep project schedule integration (4D visual simulation, Microsoft Project and spreadsheet exchange, working day calendars, and daily site logs), independent module font and color customization, and full instant runtime language switching across all screens and dialogs.
+
+New Features, Adjustments, and Improvements
+
+1. Intelligent AI Management and On-Demand Downloads
+- Significantly Lighter Installer: The application installation package has been reduced by more than 2 gigabytes, making downloads and installations much faster and more practical.
+- Local Model Manager (Qwen 2.5): A new interactive and intuitive dialog allows users to download the artificial intelligence model directly from the provider whenever they wish. The screen displays a real-time progress bar, transfer speed, downloaded volume, and estimated time remaining, while offering buttons to pause, resume, cancel downloads, open the local destination folder, or delete the file to free up disk space (~2.17 GB) at any time.
+- Dynamic Menu Status Indicator: The settings menu now instantly shows whether the model is "[Installed]" or "[Not installed]", updating the very moment a download completes or the file is deleted.
+- Quick Access Action: A new menu item ("How to download or manage Qwen model (GGUF)...") opens the download manager with a single click.
+- Ollama Integration Guide: A clear step-by-step instruction dialog explains how to use the model via Ollama, featuring one-click terminal command copy buttons and a connection test button.
+- Smart Synthesis with Automatic Contingency: The mind map generator analyzes documents and builds clear conceptual summaries. If the AI model is not installed locally, the system automatically falls back to the intelligent heuristic method, ensuring mind maps are always created smoothly without errors or interruption.
+
+2. Eisenhower Matrix and Enhanced Task Organization
+- Flexible Layouts (2x2, Vertical and Horizontal): New tabbed viewing modes allow displaying all four quadrants simultaneously (2x2 mode) or organizing sections vertically or horizontally. In horizontal mode, sections can be compactly folded with rotated headers and elegant continuous frames to make optimal use of widescreen displays.
+- Dedicated "In Progress" Task Tracking: Each quadrant now includes its own dedicated in-progress task list, allowing users to freely drag and drop tasks between "Pending", "In Progress", and "Completed".
+- Instant Response Upon Saving: When confirming task edits, the dialog responds and closes immediately, saving data smoothly in the background without screen stutter or delays.
+- Visible In-Progress Tasks in Calendar: The calendar task board and date notifications now prominently feature the "[In Progress]" badge, complete with dynamic translation and quick double-click interaction.
+- Safe Task Removal: Protective confirmation dialogs for single deletions, batch deletions, and global data cleanups, with the negative option selected by default to prevent accidental data loss.
+
+3. Smart Responsive Task Editing and Focus Tracking
+- Responsive Dialog Interface: The task editing dialog dynamically adapts to screen size (single column on compact screens and two organized columns on wide displays), providing comfortable space for extensive notes and schedule controls.
+- Automatic Completion Calculation: Detailed tooltip cards when hovering over tasks display real-time completion progress from 0% to 100%, calculated from completed focus cycles or physical progress recorded in the schedule.
+- Pomodoro Goal Discrepancy Prevention: When starting focus sessions with active tasks, the timer checks whether individual task targets match current timer settings and presents a clear comparison table with intuitive alignment options.
+- Automatic Pomodoro Mode: An optional feature to automatically transition between focus cycles and rest periods with a customizable alarm ring count.
+
+4. Project Schedules, Engineering, and Data Exchange
+- Direct Context Menu Integration: Convert daily tasks into schedule activities, link project stages, and record physical progress percentages with field notes directly via right-click menus.
+- 4D BIM Construction Simulation: Visually replay project execution progress over time, with an interactive timeline slider and adjustable playback speed.
+- Microsoft Project and Spreadsheet Compatibility: Import and export schedule files in standard Microsoft Project XML format, along with a visual assistant for CSV spreadsheet tables.
+- Working Day Calendars and Holidays: Configure working days of the week and register project holidays, accurately computing completion dates by excluding non-working days.
+- Daily Site Log and Audit Trail: Record field measurements and inspect an end-to-end transparent history of planning changes.
+
+5. Visual Customization, Independent Colors, and Typography
+- Color Configuration Per Module and Global: Independent control of "Black" (adapts to light or dark system themes) and "Colored" (highlights by subject) visual modes for Eisenhower, Pomodoro, and Feynman, or a unified global mode.
+- Specific Font Settings: Individually customize fonts, styles, sizes, and decorations for general tasks and tasks with linked files, plus dedicated settings for Pomodoro, Feynman, and Mind Map nodes.
+- Precise Underlines and Typography: Accurate vertical positioning of underlines on multi-line task titles, with properly calibrated spacing for priority emojis and domain badges.
+- Centered Buttons and Clean Finish: Perfectly vertically aligned text, icons, and buttons across all application screens.
+
+6. Instant Runtime Dynamic Localization and Smooth Experience
+- Real-Time Language Switching: Seamlessly switch between Portuguese and English across all menus, buttons, dialogs, help screens, about windows, and system notifications without restarting the application.
+- Stabilized Audiobook Voice Catalog: Resilient speech synthesis engine that protects the voice catalog from transient interruptions, supporting over 300 voices with friendly localized language titles.
+
+
+7. C++23 / Qt 6.12.0 Modernization, Unified 11-Target Test Suite & Dual Licensing
+- Strict C++23 & Qt 6.12.0: Host and all 7 integrated modules upgraded to C++23 and Qt 6.12.0 (FFmpeg-n9.0.1, Pure MSVC 14.52, MinGW-w64 15.1.0).
+- Clean External Distributions & Compact Installers: MSVC installers use app-local CRT DLLs without embedding vc_redist.x64.exe, cutting ~18 MB of redundant installer weight for EISENHOWER ORGANIZER.
+- Unified Software Engineering Suite (11 CTest Executables): Built strictly inside build_suite_testes_msvc and build_suite_testes_mingw (11/11 passing on both toolchains with zero external distribution).
+- Transparent Dual Licensing & Store Compliance: Open-source repository under GNU AGPLv3 (LICENSE & LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt) with express fork freedom on source/assets/ (once exclusive trademarks are removed), paired with the official Microsoft Store release (ID 9P289X0185C3) under Official EULA + CLC and explicit "AS IS" auxiliary scope disclaimers.
+
+Important Notes:
+- Strict Data Preservation: All your tasks, settings, mind maps, historical logs, project schedules, and saved preferences are completely preserved and protected throughout the update process.
+- Non-Destructive Update: The updater never automatically deletes personal files or records.
+- Total Privacy: All features and artificial intelligence models operate locally on your computer, keeping your documents and notes strictly confidential without requiring an internet connection.
+- Module Availability: Extended features function harmoniously according to the modules installed in your environment.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.6.18.0
+Date: June 18, 2026
+
+General Summary
+This update improves the organization of the Eisenhower Matrix and makes switching between pending and completed tasks clearer. It adds a new 2x2 matrix layout, standardizes task-board frames and alignment, improves the calendar Global Task List presentation, refines the Feynman Method and Pomodoro experience, fixes checkbox use on already selected tasks, and expands task dragging between tabs and boards.
+
+New in the Eisenhower Matrix:
+- Added the new "2x2 Matrix Layout", available under "Settings > Task Layout > User Interface > Eisenhower Matrix".
+- The new layout shows all four quadrants at the same time, arranged in two rows and two columns: Important and Urgent; Important but Not Urgent; Not Important but Urgent; Not Important and Not Urgent.
+- Each quadrant now has "Pending" and "Completed" tabs, separating open or in-progress tasks from finished tasks.
+- The new layout tabs follow runtime language changes.
+
+Visual and Organization Improvements:
+- The "Pending" and "Completed" tabs were aligned to the left and placed closer to the task board for clearer reading.
+- Each quadrant in the 2x2 matrix now has its own frame around the tasks, making each board easier to identify.
+- The calendar Global Task List now has a line frame with its title integrated into the line, making the panel more consistent with the other layouts.
+- The "Quadrants Layout" now uses the same line-frame style used by the other viewing modes.
+- The frames in "Tabbed Layout", "Quadrants Layout", and "2x2 Matrix Layout" were aligned to keep the same visual height in relation to the window edge.
+- Quadrant labels were adjusted to keep the visual style more consistent with the other methods.
+- Tabs now use colors that match their purpose: pending tabs use the priority colors, and completed tabs use blue.
+
+Feynman Method Improvements:
+- The "My Tasks:" box now has a line frame with its title integrated into the frame.
+- In "Tabs" mode, the "Concept", "Explain Simply", "Identified Gaps", "Final Review and Simplification", and "Description" areas now use the same frame style as the "Horizontal" and "Vertical" modes.
+- Switching between "Tabs", "Vertical", and "Horizontal" layouts is more stable, keeping the "My Tasks:" area from becoming unexpectedly narrow.
+- The "My Tasks:" area now starts at a suitable minimum width, leaving more space for the study area.
+
+Pomodoro Improvements:
+- The vertical area where the "Timer" is displayed now starts at a suitable minimum width, making the screen division more predictable.
+
+Task Use Improvements:
+- Users can now drag one or multiple tasks and drop them directly onto any available tab, including "Pending" and "Completed" in the 2x2 matrix.
+- Dropping a task on "Completed" moves it to the completed board; dropping it on "Pending" returns it to the pending board.
+- Dragging between quadrants and between task states is more predictable across the Eisenhower Matrix layouts.
+
+Fixes and Adjustments:
+- Fixed checkbox behavior when a task was already selected.
+- Clicking the checkbox of a selected task now checks or unchecks it immediately.
+- When selecting a task in another priority or completed list, the previous selection is now cleared correctly.
+- Checking a task correctly moves it to "Completed"; unchecking a completed task correctly moves it back to "Pending".
+- The behavior was adjusted to work across all three Eisenhower Matrix layout modes.
+- New options and labels were prepared for dynamic translation.
+
+Manual and Documentation:
+- The manual was updated with instructions on how to enable and use the 2x2 Matrix Layout.
+- The documentation explains how to complete tasks, return tasks to pending, and drag one or multiple tasks between tabs.
+- README, project notes, and release notes were aligned with version 2026.6.18.0.
+
+Notes:
+- This update preserves existing tasks and preferences.
+- The new layout can be enabled or disabled from the task layout settings.
+- Existing task organization is reused in the new layout without requiring manual migration.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.6.15.0
+Date: June 15, 2026
+
+General Summary
+This update expands the integration between Eisenhower Organizer and its optional features. The version makes auxiliary windows more predictable, strengthens runtime translation, and adjusts the final package preparation so available modules are recognized more consistently.
+It also improves use of the calendar global list and expands the manual instructions to reflect the current workflows.
+
+General Application Improvements:
+- The main window and auxiliary windows now behave more naturally: when one of them is activated, it comes to the front, while the other can move behind without blocking use.
+- When the main application is closed, open auxiliary windows are also closed correctly.
+- Runtime language switching is more consistent across menus, buttons, and windows related to optional features.
+- Final package generation was adjusted to better recognize optional modules included in the package.
+- Progress display during application generation is clearer, showing completion percentages when available.
+- The Global Task List is more stable when removing one or more tasks directly through the context menu.
+- The manual and support documents were complemented with clearer guidance for the global list, optional features, and local persistence.
+
+New Activity Registration:
+- The "Activity Registration" feature was added as an optional resource, available under "Settings > Modules > Activity Registration" and "Tools > Activity Registration" only when the module is present.
+- The new "Activity Registration" window lets users register activities using course, syllabus, semester, subject, class group, activity type, sequence, date, time, priority, and mastery level.
+- The Activity Registration interface was reorganized into two areas for clearer use: selection lists stay on one side, while the calendar, date, time, and action buttons stay on the other.
+- A "Clear" button was added to reset selected options while keeping the default priority and mastery-level choices available.
+- A "Close" button was added to close the window directly.
+- The default priority for a new activity is now "Important and Urgent".
+- "Link time" is enabled by default to make it easier to register activities with a defined time.
+- The Activity Registration window can no longer be maximized, keeping it compact and appropriate for registration.
+- Activities registered through Activity Registration are now added as tasks in Eisenhower Organizer and can also follow Pomodoro and the Feynman Method when synchronization is enabled.
+- Priority, mastery level, date, and time are no longer repeated in the task description, because they already appear in their own fields in the interface.
+- Colors configured for activity types are applied again to tasks created by Activity Registration. When a task has a linked file, the standard blue highlight is preserved.
+- The "Delete item" and "Colors" options were integrated into "Settings > Modules > Activity Registration".
+- The Activity Registration now saves lists and tasks together with the active product data, avoiding separate records in an exclusive Activity Registration folder.
+- Activity Registration texts, including menus, buttons, labels, and lists, now follow language changes without requiring a restart.
+- The Activity Registration window now respects the main window better: it can move behind or in front depending on the active window, and it is closed together with the main application.
+- The Activity Registration can now switch between the "Civil Engineering" example and custom agendas created by the user.
+- New agendas can be created from the window's internal menu, with their own titles and multiple custom drop-down lists.
+- Opening a custom agenda now happens through the "Open agenda" option, avoiding accidental switches just by hovering over the menu.
+- The last opened agenda is remembered and loaded again the next time the Activity Registration window opens.
+- Users can edit or remove custom agendas and also edit or remove list titles without deleting the other lists in the agenda.
+- The "Delete item" menu follows the active agenda, showing the correct lists from the example or from the open custom agenda.
+- In "Colored" mode, custom agendas receive alternating colors, avoiding immediate repetition of the last applied color.
+- Activity Registration preferences are now kept in the Schedule's own settings file.
+- Fixed Activity Registration list and activity saving so product data is stored in the correct location.
+- Fixed runtime translation for Activity Registration texts that did not follow language changes.
+- Fixed behavior where the Activity Registration window could remain open after the main application was closed.
+- Adjusted window ordering between the main window and the Activity Registration so neither one remains permanently locked above the other.
+- Fixed title editing and removal in custom agendas so the other registered lists are preserved.
+- Removed unnecessary Activity Registration resources to keep the module lighter and more direct.
+- Activity Registration-specific information in these notes appears only when the corresponding module is included in the installation.
+
+Synchronized Feature Improvements:
+- Sending tasks between Eisenhower, Pomodoro, and the Feynman Method is more consistent.
+- Tasks received through synchronization better preserve important information in the visual presentation.
+- Task presentation is cleaner and avoids repeating information already shown by the interface.
+
+Fixes and Adjustments:
+- Adjusted shutdown behavior so open auxiliary windows close together with the main application.
+- Adjusted window ordering between the main window and auxiliary windows to avoid visual blocking.
+- Strengthened runtime translation for menus, buttons, labels, and lists.
+- Reviewed optional feature organization to make the final release more consistent.
+- Fixed an unexpected shutdown when deleting one or multiple tasks from the Global Task List.
+
+Notes:
+- This update does not manually change existing tasks.
+- Optional features continue to appear only when they are included in the installation.
+- Notes specific to optional features are displayed only when the corresponding feature is available.
+- Existing preferences continue to be reused whenever possible.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.6.7.0
+Date: June 7, 2026
+
+General Summary
+This update improves the overall organization of the application, strengthens safety when opening linked files, and makes optional modules more consistent in the final release. The main focus was to address findings from the stability and safety review, reduce unexpected behavior, and prepare the application for easier maintenance and future improvements.
+
+Calendar and Task Improvements:
+- The calendar is now more consistent when listing, highlighting, editing, and removing dated tasks.
+- Date highlights are updated more reliably after task changes.
+- Visual task counts in the calendar were adjusted to better follow user changes.
+- The calendar action menu is more predictable when locating the correct task.
+- Opening files linked to tasks is safer and now checks more carefully whether the file exists before trying to open it.
+
+Linked File Improvements:
+- Opening attached or linked files is safer on Windows.
+- The application reduces the risk of failures when opening file paths with spaces, long names, or special characters.
+- When a linked file is not available, the application avoids unnecessary attempts and handles the situation more carefully.
+- The experience is more reliable in both main tasks and study features that use linked files.
+
+Audiobook Improvements:
+- The focus ruler is more stable when turning it on, turning it off, and switching its state during reading.
+- Focus ruler behavior is more predictable when moving, resizing, and using shortcuts.
+- Online voice integration is better prepared for external changes in the narration service.
+- Online voice access is more flexible, allowing future adjustments without changing normal application use.
+- The reading experience is more consistent for users who rely on visual accessibility features.
+
+Feynman Method Improvements:
+- Opening study-linked files is safer and more reliable.
+- Receiving concepts from other methods is more stable.
+- The module is better prepared for newer tools used to create the application.
+- Integration with mind maps and shared tasks is more consistent.
+
+Mind Map Improvements:
+- Mind Map resources were refined to keep the module more consistent in the final release.
+- Concept organization, map drawing, and idea-processing support are better prepared for maintenance.
+- Mind Map integration with the other methods is better aligned with the current version.
+
+Pomodoro Improvements:
+- Pomodoro resources were reviewed to follow the new version.
+- The module is better aligned with the final application release.
+- Pomodoro identification information was updated to remain consistent with the other modules.
+
+General Application Improvements:
+- Internal module organization was simplified by removing auxiliary parts that were not required for the final application behavior.
+- Optional modules are better identified and aligned with version 2026.6.7.0.
+- The final release process is more consistent when bringing together the main application and additional modules.
+- Documents, version information, and supporting files were updated for this version.
+- The application foundation is cleaner and better prepared for future fixes and improvements.
+
+Fixes and Adjustments:
+- Fixed a linked-file opening path that could rely on a less safe Windows behavior.
+- Adjusted linked-file handling to reduce failures when the file path no longer exists.
+- Fixed a Feynman Method compatibility detail that could produce warnings with newer tools.
+- Adjusted Audiobook online voice integration to make behavior clearer and more flexible.
+- Reviewed sensitive points identified by the safety and stability analysis.
+
+Notes:
+- This update does not modify any user-saved data.
+- The completed analysis did not find critical memory leak issues in the checked areas.
+- The most visible changes are safer linked-file opening, improved Audiobook focus ruler stability, and better module consistency in the final release.
+- The other improvements strengthen organization, safety, stability, and preparation for future evolution.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.6.6.0
+Date: June 6, 2026
+
+General Summary
+This update improves the visual experience of Pomodoro, especially when resizing the application window. The main focus was to prevent the controls in the "Settings" panel from being compressed and to prevent the "Task Board" from visually overlapping the settings area. This version also strengthens the final application package and updates version information for the included modules.
+
+Pomodoro Improvements:
+- The "Settings" panel is now more stable when increasing or decreasing the window height.
+- The "Start", "Reset Clock", "Reset Cycle", and "Skip" buttons keep their appearance and remain readable while resizing.
+- The "Focus (min):", "Break (min):", and "Cycle 1/4:" dropdowns are no longer squeezed when the window becomes smaller.
+- Settings labels remain better aligned and easier to read.
+- The "Task Board" now has clearer separation from the "Settings" panel.
+- The task area should no longer move over the settings area while adjusting the interface size.
+- Pomodoro's visual organization is more predictable across the available usage modes.
+
+Interface Resizing Improvements:
+- The window handles smaller heights more comfortably without compromising the main Pomodoro controls.
+- Pomodoro panels now better preserve the space needed by each area.
+- The interface is more consistent when switching between larger and smaller window sizes.
+- The experience is more comfortable on screens with limited vertical space.
+
+Final Application Package Improvements:
+- Version information was updated to version 2026.6.6.0.
+- Optional application modules received updated identification to match this version.
+- Installers and supporting files were aligned with the new version.
+- Informational texts, notices, policies, and support documents were reviewed to stay consistent with the current release.
+
+Fixes and Adjustments:
+- Fixed visual behavior where Pomodoro controls could lose height while resizing.
+- Fixed an issue where the "Task Board" could appear over the "Settings" area.
+- Adjusted the visual separation between the main Pomodoro areas.
+- Strengthened the visual stability of the interface across different window sizes.
+
+Notes:
+- This update does not modify any user-saved data.
+- The changes in this version mainly focus on Pomodoro visual stability and final release consistency.
+- If the window is very small, the application now better preserves readability and separation between the main panels.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.30.0
+Date: May 30, 2026
+
+General Summary
+This update improves the integration between Eisenhower, Pomodoro, and Feynman, makes application messages clearer, and strengthens the final release package. The main focus was to make the methods easier to use together, reduce task inconsistencies, and deliver a cleaner and more complete final version.
+
+Task Synchronization Improvements:
+- Tasks can now be added across Eisenhower, Pomodoro, and Feynman when synchronization is enabled.
+- Task deletion can also follow the synchronized methods, keeping the windows more consistent with each other.
+- Synchronization options remain available under "Settings > Synchronize > Eisenhower/Pomodoro/Feynman".
+- When adding or deleting a task with synchronization enabled, the application displays a message explaining that the action will be applied to the selected methods.
+- The new messages follow the selected application language, in Portuguese or English.
+
+Pomodoro and Feynman Improvements:
+- Integration between the methods is now more predictable when creating and removing tasks.
+- Pomodoro is more consistent when receiving tasks from the main organization area.
+- Feynman is better prepared to follow tasks related to studies and concepts.
+- Actions between methods were adjusted to reduce unexpected differences between windows.
+
+Final Application Package Improvements:
+- The final version now includes the additional modules used by the application more reliably.
+- The application package is cleaner, without auxiliary files that are unnecessary for end users.
+- Additional features are more reliable after generating the final version.
+- The final package is better organized for installation, testing, and distribution.
+
+Fixes and Adjustments:
+- Fixed cases where additional modules could be missing from the final version.
+- Removed extra files that were not required to use the application.
+- Improved final version consistency in how resources are organized.
+- General adjustments strengthen stability and reduce unexpected behavior when using the methods together.
+
+Notes:
+- This update does not modify any user-saved data.
+- To use synchronization, enable the desired methods in the settings menu.
+- The improvements in this version focus on method integration, clearer messages, and the quality of the final version delivered to users.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.28.0
+Date: May 28, 2026
+
+General Summary
+This update improves PDF reading in Audiobook, strengthens the stability of study and productivity features, and prepares the internal foundation of the application for future improvements. The main focus was to make narration more reliable, reading highlights more accurate, and PDF navigation more comfortable.
+
+Audiobook Improvements and New Enhancements:
+- PDF reading is now more stable during narration with online voices.
+- The narrator now keeps the selected voice language more reliably, even when the text contains hyphens, dashes, underscores, periods, parentheses, quotation marks, and file names.
+- Text highlighting now follows speech more accurately in passages with document names, file extensions, and complex punctuation.
+- Reading file names inside PDFs is now more predictable, reducing unexpected highlight jumps.
+- Voice options were adjusted to prioritize more stable voices and reduce unwanted language changes during reading.
+- Text extracted from PDFs is handled more carefully to improve narration continuity.
+- The "Hand" and "Selection" buttons in the PDF viewer can now be turned off with a second click.
+- When "Selection" mode is turned off, the current selection highlight is cleared automatically.
+- When "Hand" mode is turned off, the cursor returns to normal behavior.
+
+Audiobook Fixes:
+- Fixed an issue where the voice could temporarily switch to Spanish or another language while reading certain passages.
+- Fixed an "Unknown error" warning when starting PDF narration in some situations.
+- Fixed an issue where highlighting skipped part of the narration and jumped directly to passages such as "(1).pdf".
+- Fixed the behavior of the "Hand" and "Selection" buttons, which previously stayed active after a single click.
+- Improved synchronization between audio and highlighting in PDFs with special characters and long file names.
+
+Pomodoro Improvements:
+- Pomodoro's internal organization was revised to improve the stability of the timer, tasks, and time management.
+- Adding, moving, removing, and updating tasks is now more consistent.
+- The task panel received adjustments to reduce unexpected behavior in lists, menus, and editing fields.
+- The integration between Pomodoro and Eisenhower was prepared to better preserve task states during continuous use.
+- The overall Pomodoro experience is now more stable for long focus and planning sessions.
+
+Feynman Method Improvements:
+- Concept management is now more organized and reliable.
+- Creating, saving, selecting, deleting, and updating concepts received stability improvements.
+- Integration with mind maps and linked files is now more consistent.
+- Clearing tabs, fields, and temporary content was improved to reduce unexpected states.
+- The overall Feynman Method experience is better prepared for maintenance and future evolution.
+
+General Application Improvements:
+- The internal structure of the main features was reorganized to make maintenance, fixes, and future improvements easier.
+- The application generation process was adjusted to better recognize the reorganized components.
+- Version information, installers, and auxiliary product texts were updated for this release.
+- Support documents, notices, and legal information received version and consistency updates.
+
+Notes:
+- This update does not modify any user-saved data.
+- The main visible changes are focused on Audiobook, especially PDF reading with narration and highlighting.
+- The other improvements strengthen stability, internal organization, and preparation for future application updates.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.27.0
+Date: May 27, 2026
+
+General Summary
+This update fixes Pomodoro behavior after restarting the app and improves the Eisenhower integration to reflect task completion changes.
+
+Pomodoro Fixes:
+- Tasks left in the “In Progress” panel now stay there when reopening the app.
+- The “To Do” panel no longer receives in-progress tasks by mistake.
+
+Eisenhower Integration Improvements:
+- When a task or group of tasks is marked as “not completed” in Eisenhower, they automatically return to “To Do” in Pomodoro.
+- Changes made in Eisenhower now appear in Pomodoro more consistently, without losing the current progress state.
+
+Notes:
+- This update does not modify any user-saved data.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.26.0
+Date: May 26, 2026
+
+General Summary
+This update brings a major evolution to the visual customization of the Pomodoro and Task Manager, along with important improvements in organization, navigation, stability, and automatic interface adaptation. The main focus of this version was to make the experience more comfortable, flexible, and intuitive across different screen sizes and work styles.
+
+New Pomodoro Layout Options:
+- Pomodoro now offers new visual organization modes to improve usability across different monitor types and workflows.
+- The following modes were added:
+  - "Tabs"
+  - "Vertical"
+  - "Horizontal"
+
+- It is now possible to combine:
+  - "Side by Side" layout
+  - "Bottom" layout
+    - with different content display styles.
+
+- The configuration can be changed in:
+  - "Settings > Task Layout > User Interface > Pomodoro"
+
+- The application now automatically saves the selected layout for future sessions.
+- Switching between layouts is now faster and more predictable.
+
+Improvements to Pomodoro Visual Organization:
+- The "Side by Side" mode was refined to better take advantage of widescreen monitors.
+- The "Bottom" mode received improvements for smaller screens and laptops.
+- Timer controls are now more organized and easier to access.
+- Spacing between buttons, lists, and configuration areas was adjusted to improve readability.
+- The visual behavior is now more consistent across different layouts.
+
+Task Manager Improvements:
+- The task panel received improvements in visual organization and navigation.
+- The system for moving tasks between lists and tabs is now more stable.
+- Navigation between categories and task areas became smoother.
+- Tab behavior was refined to improve continuous use during long sessions.
+- The application now responds better when moving tasks between different interface areas.
+
+Improvements to Tabs and Side Navigation:
+- Side tabs received visual and stability improvements.
+- Reading tab titles became more comfortable.
+- Navigation between sections became more predictable.
+- Adjustments were made to improve automatic adaptation on smaller resolutions.
+- The visual behavior of tabs became more consistent during window resizing.
+
+Automatic Interface Adaptation Improvements:
+- The interface now reorganizes elements more efficiently according to window size.
+- The application distributes internal space more effectively in horizontal, vertical, and tabbed layouts.
+- Task areas, lists, and side panels are now better protected against visual clipping.
+- Window resizing became more stable.
+- Usage on smaller monitors received important space optimization improvements.
+
+“In Progress” Panel Improvements:
+- The “In Progress” side panel received visual stability improvements.
+- Expanding and collapsing the panel became smoother.
+- Panel behavior became more consistent when switching layouts.
+- Internal space is now better utilized for long tasks and multiple items.
+
+Usability Improvements:
+- Adjustments were made to reduce unexpected behavior during rapid interface changes.
+- The application became more stable when switching between different visual modes.
+- Internal components now maintain better visual alignment.
+- Editing fields, lists, and controls now respond more predictably.
+- The overall user experience became smoother during prolonged sessions.
+
+Translation and Menu Organization Improvements:
+- Configuration menus were reorganized to make layout options easier to locate.
+- Layout names became clearer and more intuitive for end users.
+- Confirmation messages were refined for better understanding.
+- The menu structure became more consistent between Portuguese and English.
+
+Internal Stability Improvements:
+- Several internal adjustments were made to improve overall interface stability.
+- Layout management became more reliable.
+- The visual behavior of dynamic areas was refined to reduce inconsistencies.
+- Internal improvements help maintain smoother navigation even with multiple tasks open.
+
+Notes:
+- This update does not modify any user-saved data.
+- Improvements in this version are mainly focused on visual organization, layout flexibility, navigation, and interface stability.
+- It is recommended to review the new Pomodoro layouts to choose the most comfortable organization for your workflow.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.25.0
+Date: May 25, 2026
+
+General summary
+This update mainly improves the experience of using the Feynman method, with enhancements to visual organization, automatic interface adaptation, window resizing stability, and better use of available space. The goal was to make the study area more comfortable, predictable, and easier to use on both large and small screens.
+
+Improvements to the Feynman Method interface:
+- The visual organization of the Feynman Method has been revised to make controls more grouped and easier to locate.
+- The main buttons and priority and mastery options are now organized in a cleaner and more predictable bottom bar.
+- The internal interface spacing has been optimized to reduce excessive empty areas and improve content readability.
+- The task panel now makes better use of the available space next to the explanation and review areas.
+- Navigation between the method sections has become visually more comfortable.
+
+Improvements to the "Tabs", "Horizontal", and "Vertical" layouts:
+- The Feynman Method now adapts better to different window sizes.
+- Interface resizing has become more stable in horizontal, vertical, and tabbed layouts.
+- Side areas now respect smarter minimum limits, avoiding excessive content clipping.
+- The application now distributes space better between the task panel and the main study area.
+- On smaller screens, the side panel can automatically occupy less space to preserve the main reading and writing area.
+- The interface has become more predictable when maximizing, restoring, or resizing the window.
+
+Task panel improvements:
+- The task panel has become more compact and organized when used in reduced spaces.
+- The behavior for expanding and collapsing the side panel has been refined to make transitions smoother.
+- The panel minimum width is now automatically adjusted according to the available space.
+- The main panel now better prevents visual clipping in lists, text fields, and editing areas.
+
+Improvements to tabs and content areas:
+- The tab size has been adjusted to improve title readability.
+- The internal spacing of tabs has been increased to facilitate navigation.
+- The "Description" area received organization and integration improvements with the other areas of the Feynman Method.
+- Information display has become more consistent across different languages and screen sizes.
+
+Stability and usability improvements:
+- Adjustments were made to reduce visual issues during window size changes.
+- The interface now reacts more stably when switching between different layouts.
+- Text fields, lists, and editing areas are now better protected against visual overlapping.
+- The overall interface behavior has become more consistent when working with multiple concepts and tasks.
+- Internal improvements help maintain a smoother experience during continuous use of the tool.
+
+Notes:
+- This update does not modify data already saved by the user.
+- The improvements in this version are mainly focused on visual organization, interface stability, and automatic adaptation of the Feynman Method layouts.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.22.0
+Date: May 22, 2026
+
+General Summary
+This update mainly improves Pomodoro use, help documentation, language switching in license windows, and the clarity of information shown to the user. The goal was to make it easier to choose how Pomodoro appears on screen, understand what changed, and consult documents without losing the selected application language.
+
+What's new in Pomodoro:
+- Pomodoro now lets you choose between two interface modes: "Simple" and "Robust".
+- The option is available under "Settings > Task Layout > User Interface > Pomodoro".
+- Pomodoro now allows you to choose between three interface modes: "Tabs", "Horizontal", and "Vertical".
+- The option is available under "Settings > Task Layout > User Interface > Feynman".
+- "Simple" keeps a more compact and direct screen for users who want to use the timer with fewer visible elements.
+- "Robust" shows a more complete organization, with timer, task board, status tabs, and the side "In Progress" panel.
+- After choosing one of the modes, the application opens Pomodoro and shows a message confirming which layout was applied.
+- The selected layout is saved for future use.
+
+Improvements in the Pomodoro "Robust" layout:
+- The "Task Board" was reorganized to make task entry and actions easier to use.
+- Below the task text field, priority, mastery level, and completed-task flow now appear in one row.
+- The "Add", "Move Task(s)", "Remove Task(s)", and "Reset Count" buttons now appear together in a second row.
+- The "In Progress" panel can still be collapsed or expanded to free space during a focus session.
+- The organization is more predictable for users working with several tasks at the same time.
+
+Improvements in the "Tabs", "Horizontal", and "Vertical" layouts of Feynman:
+- The "Tabs" layout maintains the traditional organization, with the side panel "My Tasks:" and content tabs to the right.
+- The "Horizontal" layout organizes the elements horizontally, ideal for screens with adequate space.
+- The "Vertical" layout organizes the elements vertically, optimizing space usage on smaller screens.
+
+Translation and language switching:
+- The Pomodoro menu options "User Interface", "Simple", and "Robust" now have Portuguese and English translations.
+- The message confirming the applied layout also follows the selected language.
+- Windows opened through the "Open" button under "About > Licenses > General" now update their title when the application language changes.
+- These window titles use the same translation pattern as the main interface.
+
+Manual and usage instructions:
+- The manual was updated with instructions on how to open Pomodoro and Feynman.
+- Guidance was added for switching between the "Simple" and "Robust" layouts, "Tabs", "Horizontal" and "Vertical".
+- The documentation explains when to use each layout and how the task board is organized in "Robust" mode, "Tabs", "Horizontal" and "Vertical".
+- Pomodoro alarm instructions were expanded with clearer steps.
+
+Notes:
+- This update does not change data already saved by the user.
+- The changes to the Pomodoro and Feynman techniques focus on visual organization, layout choice, and ease of use.
+- Translation improvements help keep the interface consistent when switching between Portuguese and English.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.20.0
+Date: May 20, 2026
+
+General Summary
+This update brings together important improvements for stability, assisted reading, multi-monitor use, and legal information access. The focus was to make Eisenhower Organizer more reliable when working with PDF books, improve word tracking during read-aloud sessions, make the "About" window clearer, and make third-party license information easier to consult.
+
+Audiobook and assisted reading improvements:
+- Clearing a PDF loaded in the Audiobook module is now safer. After clicking "Clear", the file is released by the application, allowing it to be moved, renamed, or deleted in Windows.
+- The visual reading marker was reviewed so it follows more closely the word being spoken at that moment.
+- Reading large books, monographs, and long PDF documents is more stable.
+- Visual tracking is better protected against unwanted jumps when the same word appears several times on the same page or elsewhere in the book.
+- Number sequences, codes, symbols, and unusual text fragments are handled more carefully, reducing loss of synchronization during narration.
+- Behavior with PDFs containing covers, back covers, regular pages, and text-recognized pages was improved to reduce markers appearing away from the expected location.
+- Narration is more consistent with the voice selected by the user, avoiding unwanted language changes during reading when a Portuguese voice is selected.
+- Scenarios where reading could show an error window and fail to start were corrected.
+- The visual marker now resumes more predictably after difficult parts of a document, reducing the chance of assisted reading leaving the current text position.
+
+Main window and multi-monitor improvements:
+- The application window is more stable when used on computers with more than one monitor.
+- A strong flicker that could occur when dragging the window between a landscape screen and a portrait screen was corrected.
+- The window no longer gets stuck at a new minimum size after being moved from one screen to another.
+- The application now better respects the expected minimum size from startup, even after maximizing, restoring, and dragging the window between different monitors.
+
+"About" window and license improvements:
+- The "Licenses" tab in the "About" window now presents third-party licenses more clearly.
+- Long official website addresses were replaced with the full names of the licenses.
+- Each license now has two buttons: "Open", to view the text included with the application, and "Site", to open the official page in the browser.
+- Local license viewing now opens its own window, making it easier to read without leaving the application.
+- Links no longer appear as highlighted text inside the reading area, making the presentation cleaner.
+- The appearance of the "General" tab inside "Licenses" was adjusted to follow the same visual pattern as the other tabs.
+- Spacing between the main license text and the third-party license list was increased to improve readability.
+- The background color of the license area was corrected so it keeps the same visual tone as the other information areas.
+- The new buttons and messages in the "About" window follow the language selected in the application.
+- Textual search functionality was added to the "About" window, making it easier to find specific terms within the legal texts.
+
+Improvements in the "Manual" window:
+- Textual search functionality was added to the "Manual" window, making it easier to find specific terms within the usage instructions.
+
+Document, notice, and transparency improvements:
+- Third-party license notices were expanded and organized more clearly.
+- Information was added about components used by the application for interface, multimedia, PDF, reading, local database, execution, and support.
+- License documentation now better explains which materials are included with the application and where each one can be consulted.
+- Notices, agreements, and terms were adjusted to make clear that third-party components remain subject to their own licenses.
+- The offer to access materials required by third-party licenses was added in Portuguese and English.
+- The package documentation is now more complete for distribution, support, and end-user consultation.
+
+General fixes and adjustments:
+- Reference license files were organized more clearly to avoid confusion with the project's own license.
+- Legal materials are now more consistent across the main application and the optional Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model resources.
+- The list of official license sites was reviewed to better reflect the materials included in the package.
+- Legal information is now friendlier for users who simply want to consult the terms without searching for files manually.
+
+Notes:
+- This update does not change task file formats or modify data already saved by the user.
+- Audiobook improvements aim to increase assisted reading accuracy, but PDF quality may still affect results, especially in scanned documents, poorly recognized text, or highly irregular pages.
+- License and notice changes focus on transparency, organization, and easier consultation by the user.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.18.0
+Date: May 18, 2026
+
+General Summary
+This update complements recent improvements to the Eisenhower Organizer interface, documentation, informational texts, visual identity, recurrences, and local reminders. The focus was to make information screens better organized, expand the documents available in Brazilian Portuguese and U.S. English, make the product description clearer, and correct how productivity windows display available resources.
+
+Main new features and improvements:
+- The "About" window is now better organized, with grouped categories such as About, CLC, Copyright, EULA, Notices, Privacy Policy, and Miscellany.
+- Informational areas now display documents related to each category more clearly, reducing visual overload and making consultation easier.
+- The Privacy Policy tab was expanded to present documents specific to the main application and additional resources when available.
+- The Details, Licenses, and Notices tabs received the same document-oriented organization pattern, making navigation more predictable.
+- Dedicated Contract and Copyright areas were added, separating legal, contractual, and informational content more clearly.
+- Informational tab labels now better follow the language selected while the application is running.
+- Privacy Policy, EULA, Notices, Copyright, CLC, and About texts were expanded and standardized in Brazilian Portuguese and U.S. English.
+- Informational documentation was adjusted to use clearer, more objective, and more consistent language, with review of grammar, punctuation, accentuation, and terminology.
+- The product description was expanded in both languages, better explaining the purpose of Eisenhower Organizer and its productivity, organization, recurrence, reminder, study, review, reading, and export tools.
+- The Eisenhower Organizer icon and visual identity image set was updated to reflect the current package files.
+- Auxiliary maintenance and versioning files now better cover the informational documents, legal notes, and support texts included in the project.
+- Final version preparation is more consistent for MSVC and MinGW environments, with better alignment of resources copied to distribution directories.
+
+Fixes and adjustments:
+- The "Generate Next Recurrences" window now shows only origins that are actually available in the application.
+- The "Enable Local Reminders" window now also shows only origins that are actually available in the application.
+- Older preferences in these windows are handled more safely, preventing a previously saved selection from leaving the screen without a valid origin selected.
+- Item listing in recurrences and reminders is now more consistent with the resources available at the time of use.
+- The "About" window organization was adjusted to avoid too many loose tabs and make specific documents easier to find.
+- Duplicated, generic, or legacy informational texts were reviewed to better reflect the current product.
+- Reading documents in Portuguese and English is now more uniform across the different informational areas.
+
+Notes:
+- This update does not change task file formats or modify data already saved by the user.
+- The improvements focus on information presentation, document organization, visual stability, and consistency in productivity windows.
+- These release notes complement previous versions and consolidate adjustments made after the recurrence and local reminder improvements.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.11.0
+Date: May 11, 2026
+
+General Summary
+This update improves the "Generate Next Recurrences" window in Eisenhower Organizer, focusing on visual stability, predictable resizing, and safer use of the "When to apply" area. The window now better preserves the proper size for its controls, prevents overlap between fields and the calendar, and provides a more consistent experience when opening, maximizing, restoring, and manually resizing it.
+
+Fixes in "Generate Next Recurrences":
+- Fixed an issue where the window could fail to return to its initial size after being maximized and restored.
+- Fixed behavior where the "When to apply" group could become too compressed, causing the calendar to extend beyond the visible limits of the group.
+- Fixed visual overlap between drop-down lists, date fields, time fields, and other options inside the "When to apply" area.
+- Fixed manual window resizing so the internal columns can no longer become smaller than what is needed to safely display their controls.
+- Fixed the visual restoration of the window after switching between maximized and normal mode, preserving the expected proportions of the initial screen.
+- Fixed the calendar behavior in the "When to apply" area so it can still use additional space when the window grows, without damaging the layout when returning to a smaller size.
+
+Usage improvements:
+- The "When to apply" area is now better protected against clipping, visual overflow, and control collisions.
+- The window now respects a safer minimum size, reducing the risk of hidden or overlapping controls.
+- The main columns of the window are more stable, preserving enough space for items, settings, application period, and preview areas.
+- When the window is enlarged, the calendar can still show more months when space is available.
+- When the window is reduced, maximized, or restored, the content returns to a more predictable arrangement.
+- Reviewing upcoming recurrences is more comfortable, especially on smaller screens or when switching often between normal and maximized window states.
+
+Notes:
+- This update does not change saved data or the way recurrences are created.
+- The improvements focus on visual stability and usability in the recurrence generation window.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.9.0
+Date: May 9, 2026
+
+General Summary
+This update improves recurring tasks and local reminders in Eisenhower Organizer. Creating upcoming occurrences is easier to review before applying, and reminders are clearer when choosing items, times, and alert types. The update is designed for people who want to organize repeated commitments, deadlines, routines, and timed activities without needing to understand technical details.
+
+What's new in recurrences:
+- The Generate Next Recurrences window now lets you choose more precisely which tasks are included.
+- You can use all filtered items or generate recurrences only for selected items.
+- Search inside the window helps quickly find a specific task.
+- The Select visible button lets you mark all items currently shown after filtering.
+- The Clear button removes the current selection and makes it easier to start over.
+- The preview is more detailed and shows the item name, where it was found, where the new occurrence will be created, the frequency used, and the next expected dates.
+- When a column has many details, the view shows a summary and lets you check the complete list.
+- The generation period can now be controlled with start and end dates and times.
+- Tasks without a date or time can use a reference date and time when the matching option is enabled.
+- The default frequency remains available for tasks that do not yet have their own recurrence rule.
+- Duplicate prevention helps reduce repeated copies on the same date.
+- The Restore defaults button returns the window options to an initial setup.
+- OK saves preferences without creating occurrences; Apply saves and creates the occurrences.
+- Restore Original remains available to undo the latest recurrence generation when a previous state is available.
+
+What's new in local reminders:
+- The Enable Local Reminders window now also lets you choose between all filtered items and selected items only.
+- Search helps quickly locate the task that should receive an alert.
+- Reminders can use the task's own date and time or a manually chosen date and time.
+- The task search period can be adjusted with start, end, calendar selection, and quick shortcuts in days, weeks, or months.
+- When a task has a date but no time, the application can use a default time chosen by the user.
+- Alerts can appear inside the application, through the system tray, or through both paths when available.
+- If the system tray is not available, the application explains that alerts will be shown inside the app.
+- The active reminders area shows alerts already scheduled in the current session.
+- The Test button helps confirm that the alert will appear correctly.
+- The Remove active button cancels alerts that have not fired yet.
+- When several tasks share the same reminder time, they appear together in one alert with the task list.
+- The Maximum field now means how many times each alert will repeat at the same scheduled time. For example, with value 3, the alert fires three times in sequence.
+
+Usage improvements:
+- Choices made in the recurrence and reminder windows are remembered to make repeated use easier.
+- The summary at the top of each window shows how many items will be considered and how many actions can be performed.
+- The application warns when a source is missing, when no item was selected, or when no alert type is active.
+- Expired dates and times are handled more carefully to avoid reminders that cannot fire.
+- The window layout is more organized for reviewing tasks, dates, and times before confirming.
+- The manual and support documents were updated with clearer guidance for these features.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.8.0
+Date: May 8, 2026
+
+General Summary
+This update expands Eisenhower Organizer with new productivity, review, recurrence, reminder, export, and diagnostic tools. The daily experience is now more complete for planning tasks, tracking deadlines, reviewing study material, and turning information into practical actions. Visual stability, preference persistence, displayed text consistency, and save reliability were also improved.
+
+New features and functionality:
+- New global search to find tasks, study notes, reading content, and related information from a single window.
+- New short-term panel to quickly review items due today and over the next seven days.
+- New per-item recurrence setup with daily, weekly, monthly, and optional end-date choices.
+- New batch generation of upcoming recurrences, with a preview before confirmation.
+- New option to avoid duplicates when creating future occurrences.
+- New option to apply a default frequency to items that do not yet have recurrence configured.
+- New ability to undo the latest recurrence generation when a previous state is available.
+- New local reminders with source selection, time range, maximum quantity, in-app alert, and system-tray alert when available.
+- New reminder test to confirm that alerts are shown correctly before scheduling real items.
+- New active-reminders list, with an option to cancel alerts scheduled in the current session.
+- New calendar export for compatible scheduling applications.
+- New productivity history with a summary of completed tasks, focus cycles, reviews, recorded ideas, and estimated reading time.
+- New integrated study flow to turn a reading passage into a concept, review task, and visual support entry.
+- New ready-made templates to quickly create study, work, review, reading, and weekly planning task sets.
+- New spaced-review creation with adjustable intervals by mastery level.
+- New review window to inspect, edit, remove, and transfer reviews before confirming creation.
+- New diagnostic panel to check installed resources, loading status, location, and error messages when something is unavailable.
+- The manual was expanded with practical guidance for search, recurrences, reminders, spaced reviews, export, history, templates, diagnostics, and integrated study flow.
+
+Usage improvements:
+- Navigation through dated tasks is clearer for daily and weekly execution.
+- Creating recurring occurrences is safer because changes are previewed before being applied.
+- Recurrence and reminder dialog preferences are remembered to make repeated use faster.
+- Reminders now offer more control over selected items, filtered items, missing times, and alert types.
+- Saving and export preserve information such as priority, mastery level, date, time, description, external link, recurrence, review, and cross-area integration more reliably.
+- Monthly and yearly calendar views are more useful for checking tasks distributed across longer periods.
+- The global list has better support for grouping, visual emphasis, multiple selection, and opening external links.
+- Behavior on smaller screens is more stable, with better use of space when opening, maximizing, restoring, and resizing windows.
+- Common confirmation, cancellation, apply, and restore buttons are more consistent with the selected language.
+- Help instructions now better explain how to use the recent features in daily work.
+
+Fixes:
+- Fixed cases where a main tab could reappear after restart even after being hidden by the user.
+- Fixed protection against hiding all tabs at once, preventing an empty workspace.
+- Fixed multiple-selection behavior that could keep unintended items selected after a simple click.
+- Fixed top counter updates when switching, selecting, or reorganizing items.
+- Fixed calendar refresh inconsistencies after creating, editing, moving, removing, or clearing tasks.
+- Fixed cases where visual preferences and display choices were not restored predictably.
+- Fixed warnings and recovery choices when an external link could no longer be found.
+- Fixed recurrence generation to reduce duplication and better respect filters, dates, times, and user-defined limits.
+- Fixed reminder scenarios that could schedule alerts without a valid notification type or with an expired date/time.
+- Fixed state restoration after batch operations when undo is available.
+- Fixed data reading and recovery failures when saved information was incomplete or inconsistent.
+- Fixed texts, labels, and messages that did not correctly follow language switching.
+- Fixed sizing issues that could cause clipping, visual jumps, or loss of usable space in smaller windows.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.5.5.0
+Data: May 5, 2026
+
+General Summary
+This version strengthens the compilation, packaging, maintenance, and translation generation process of the Eisenhower Organizer. The main application, the Pomodoro and Feynman modules, auxiliary utilities, and installers now feature clearer workflows for Qt 6.12.0, with separation between MinGW and MSVC, predictable outputs, and less reliance on loose manual commands. It also brings together in a single update recent improvements in visual organization, stability, task reading, adaptation to smaller screens, and side panel control. Daily use has become clearer, more predictable, and with more freedom for you to decide what you want to keep visible on the screen. It extends the Eisenhower Organizer with support for the new optional Mind Map and Audiobook modules. It also improves interface tab control, facilitates access to modules, updates application version information, and fixes language and resource loading issues that could affect installed copies or those prepared for distribution. It improves the performance of the final versions of the application, expands the customization of the main tabs, fixes the persistence of the Eisenhower tab visibility, adjusts the appearance of the Audiobook, makes the Pomodoro In Progress panel more stable, and updates the informative texts displayed to the user.
+
+Eisenhower Organizer:
+- The Eisenhower Organizer has been migrated from a Python base to a native C++ base, maintaining the application's purpose and bringing more direct execution on Windows.
+- This modernization covers the main window, task management, calendar, global list, menus, editing dialogs, Manual, "About" window, languages, icons, activity logs, and support components.
+- The main application and auxiliary utilities now work better as Windows executables, with less dependence on external configurations and greater predictability when opening on different machines.
+- Direct program opening has become more reliable, with libraries and visual components automatically included when necessary.
+- The application icon now appears more consistently in the main executable and in the program windows.
+- New interface organization mode for tasks, with switching between Tab and Quadrant views directly in the settings.
+- Layout preference is now automatically saved and restored when opening the application again.
+- Layout switching now displays clear confirmation of success and also a warning when the change cannot be applied.
+- New interface texts related to layout and confirmations have been added to the two supported languages.
+- When trying to open a linked file that no longer exists, the application now shows a warning with options to remove the link, search for the file again, or just close the window.
+- The new manual search allows for quickly relinking a file to a task without needing to edit the item through another path.
+- Task visualization has become more flexible, with switching between Tabs and Quadrants and the preference saved for future openings.
+- In Tab view, each quadrant can now separately collapse or expand the tasks area and the completed area.
+- Lists can be organized by date, alphabetical order, and time, with combined use and in ascending or descending order.
+- Task editing has become more predictable, and the text shown in each item better represents actual information.
+- Date, time, priority, and domain have become clearer in task reading.
+- The calendar is more stable when creating, editing, moving, removing, and clearing tasks.
+- Synchronization between calendar, lists, and other application views has become more reliable.
+- Saving, primary backup, and importing external files have become more consistent.
+- JSON, CSV, XLSX, and PDF exports now better preserve task data.
+- The Clear action now leaves the application in a cleaner and more predictable state.
+- When a linked file is no longer found, the warning has become clearer and offers simple options to continue.
+- Texts, labels, manual, and support screens have become more consistent in Portuguese and English.
+- Startup behavior, saving, new sessions, and feedback messages have become more predictable.
+- Synchronization preferences between modules are now remembered after closing and opening the application.
+- The top of the application now displays, next to the menu bar, the number of selected tasks and the total tasks of the module that is open at that moment.
+- In Eisenhower mode, this count also takes into account the selection made in the Global Task List, making the number shown better match what is actually selected on the screen.
+- This count is updated as you select, deselect, move, or reorganize tasks, helping to review multiple tasks more securely.
+- New count texts correctly follow the chosen language in the application.
+- The main application tabs have become easier to recognize visually, making it easier to immediately identify when you are in Eisenhower, Feynman, or Pomodoro.
+- Navigation between quadrants has also become more pleasant, with clearer visual highlighting when hovering and opening each tab.
+- The pending and completed task areas within each quadrant have become more organized and simpler to expand or collapse.
+- The titles of these areas have become more visible and consistent, improving reading for both tasks in progress and tasks already completed.
+- The behavior of multiple selection in Eisenhower lists has been fixed: after selecting several tasks with Ctrl or Shift, a simple click on just one of them now returns to having only that task selected.
+- This adjustment reduces mistakes when reviewing larger lists and keeps the use of dragging multiple tasks functioning more stably.
+- The quadrants now have better horizontal use, reducing unnecessary side spaces and leaving the task area closer to the useful limits of the screen.
+- The calendar panel can start collapsed by default, freeing up space right at the application opening.
+- The calendar option has been reorganized within Settings > Task Layout > Show Panel or Show Panels, depending on the modules available in the installation.
+- The preference to show or hide the calendar is now automatically remembered in future openings.
+- The main window now better respects screen limits in lower resolutions, preventing important parts of the interface from being outside the visible area.
+- Maximizing behavior has become more stable and better adjusted to the actual size available on the monitor.
+- Internal areas have been adjusted to better distribute vertical space, reducing clipping of text boxes, lists, and controls on shorter screens.
+- The compilation environment was reorganized to work more clearly with Qt 6.12.0 in MinGW and MSVC.
+- CMake presets now better separate the main application, the Pomodoro module, and the Feynman module, allowing each part to be generated by the correct toolchain.
+- External application distributions are now generated in separate directories for MinGW and MSVC, reducing the risk of mixing DLLs, modules, or executables from different toolchains.
+- VS Code tasks were reorganized to compile and run the main application in MinGW and MSVC with Qt, compiler, and module paths configured automatically.
+- Before recompiling, tasks close open instances of the application when necessary, avoiding failures caused by locked files.
+- Qt runtime deployment has become more consistent, automatically copying necessary libraries, modules, translations, and assets to the build and distribution folders.
+- The version editing utility now uses the dedicated Qt6: find_VersionEditor task, with compilation and deployment in mocks\build.
+- Old direct compilation by the C/C++ extension was replaced by a specific Qt workflow, avoiding link errors with Qt classes and missing DLLs.
+- Regenerable artifacts of the version editor and auxiliary utilities were kept out of version control.
+- The cleanup script now directly removes the regenerable build, auxiliary distribution, and utility directories, maintaining a security check to not leave the project root.
+- Technical environment documentation was aligned with the current CMake, Qt 6.12.0, MinGW, MSVC, windeployqt, and VS Code task workflow.
+- The optional Mind Map and Audiobook modules can now appear as main tabs when their modules are available.
+- The Settings menu now features a Modules area that groups the actions of each available module.
+- Interface tabs can now be unlocked, reorganized, locked again, or restored to default order.
+- The chosen order for module tabs and the lock option are remembered the next time the application is opened.
+- The counter for selected items and total items now also works when Mind Map or Audiobook is open.
+- Optional modules, translations, and Pomodoro alarm sounds are found more reliably in installed or prepared copies of the application.
+- Common window buttons, such as Yes, No, Cancel, Apply, and Restore, now follow the chosen language more consistently.
+- Application information, installer details, privacy and license texts, and visible version references have been updated to 2026.5.3.0.
+- The Settings > Task Layout menu now includes the Show Interface Tabs option.
+- It is now possible to choose which main tabs are visible: Eisenhower, Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model.
+- The application automatically recognizes which optional modules are available and only allows changing tabs of modules present in the installation.
+- The Eisenhower tab still belongs to the main application, but can now be hidden when there is at least one other tab available.
+- The problem where the Eisenhower tab would reappear after restarting the application, even after being hidden by the user, has been fixed.
+- The choice of visible tabs is automatically remembered in future openings.
+- The application prevents hiding all tabs, avoiding a window with no visible workspace.
+- When opening a module through the menu, the corresponding tab becomes visible again automatically if it was hidden.
+- The Show Interface Tabs text now correctly follows language switching at runtime.
+- The About window, informative documents, installers, and visible version information have been updated to 2026.5.5.0.
+- Final versions of the application can be prepared with stronger performance optimizations, allowing for faster packages better adjusted to the computer used in preparation.
+
+Documentation and guidance:
+- The application manual now explains how to show or hide the main interface tabs.
+- The MANUAL.md file was supplemented with the same usage guidelines.
+- The README.md, MANUAL.md, and OBSERVACAO.md documents received a review of Portuguese, accentuation, punctuation, and textual standardization.
+
+Pomodoro Module:
+- Pomodoro remains directly integrated into the main application, with more natural access in daily use.
+- It has become easier to send tasks from the main flow to Pomodoro.
+- Alarm configuration has become more complete, with choice of sound, quick test, and repetition adjustment.
+- New sounds help to better customize cycle end warnings.
+- Opening Pomodoro has become friendlier when it is not yet available.
+- General application cleanup also removes tasks shown in Pomodoro when the module is active.
+- When a linked file is not found, it is now also possible to remove the link or search for the file again within Pomodoro.
+- When Pomodoro is open, the application also starts to show more clearly how many tasks are selected and how many exist within this module.
+- Internal Pomodoro tabs have become easier to distinguish visually, helping to locate what is to do, in progress, or completed more quickly.
+- General Pomodoro reading has become more aligned with the rest of the application, making the experience more consistent.
+- The In Progress panel can now also be collapsed and expanded in a practical way, following the same visual pattern adopted in the other modules.
+- This panel can start closed by default to give more space to the main list and the timer.
+- The preference to show or hide In Progress can now be controlled via the layout menu and is saved automatically.
+- A keyboard shortcut has been added to quickly toggle this panel: Ctrl+Shift+E.
+- The module has become more adaptable on smaller screens, with better vertical distribution between timer, lists, and side panel.
+- The Pomodoro module gained its own presets and tasks for compilation with MinGW and MSVC.
+- Module deployment is now done in separate directories for each toolchain, keeping the Qt runtime compatible with the compilation used.
+- Pomodoro translation compilers were renamed to Pomodoro_CompileTranslationsGUI and Pomodoro_CompileTranslationsTerminal.
+- The Pomodoro translation script now locates the project root more securely, compiles the selected utility, runs the Qt deployment, and saves the binaries in module\pomodoro\Pomodoro\language\output.
+- VS Code tasks allow compiling and running the graphical and terminal versions of the Pomodoro translation compiler without depending on the generic compile current file command.
+- The output folder for Pomodoro translation utilities has been marked as regenerable and should not be versioned.
+- Pomodoro alarm sounds are found more reliably after installation or packaging.
+- Pomodoro translations load more consistently from the module folders included in the application.
+- The In Progress panel has become more stable when being opened, closed, or resized.
+- The width of the In Progress panel is now preserved more consistently during use.
+- Visual jumps and unexpected size changes when switching the panel have been reduced.
+
+Feynman Module:
+- Tasks arrive in Feynman more consistently, better preserving important information.
+- The main Feynman panel has a more intuitive name.
+- When the description area is empty, it can be automatically filled based on other notes.
+- When the description has already been written manually, the user text is preserved.
+- General application cleanup also removes tasks shown in Feynman when the module is active.
+- When a linked file is not found, it is now also possible to remove the link or search for the file again within Feynman.
+- When Feynman is open, the application also clearly shows how many items are selected and how many exist in the module.
+- The steps of the method have become visually easier to recognize, making navigation between tabs more direct and more comfortable.
+- Feynman visual reading has become clearer, helping to better track each stage of the process.
+- The My Tasks: panel can now be collapsed and expanded with the same practical style already used in the Eisenhower calendar.
+- This panel can also start closed by default, leaving more space for the main study area.
+- The fixed description that was at the top was removed to free up more useful screen space.
+- The extra visual outline around the main area was removed, leaving the module with a cleaner appearance.
+- Main Feynman elements were repositioned to better take advantage of the upper area of the window.
+- The preference to show or hide My Tasks: can now be controlled via the layout menu and is saved automatically.
+- A keyboard shortcut was added to quickly toggle this panel: Ctrl+Shift+T.
+- The Feynman module gained its own presets and tasks for compilation with MinGW and MSVC.
+- Module deployment is now done in separate directories for each toolchain, reducing the risk of conflict between runtimes.
+- Feynman translation compilers were renamed to Feynman_CompileTranslationsGUI and Feynman_CompileTranslationsTerminal.
+- The Feynman translation script now locates the project root more securely, compiles the selected utility, runs the Qt deployment, and saves the binaries in module\feynman\Feynman\language\output.
+- VS Code tasks allow compiling and running the graphical and terminal versions of the Feynman translation compiler without depending on the generic compile current file command.
+- The output folder for Feynman translation utilities has been marked as regenerable and should not be versioned.
+- Feynman opening has become more reliable in installed or prepared copies of the application.
+- Feynman information is grouped with other optional modules on the application's informative screens.
+
+Mind Map Module:
+- New optional Mind Map module to create visual maps of ideas, topics, and study materials.
+- It is possible to add concepts, move them freely, connect related concepts, change colors, and remove individual or selected concepts.
+- Concepts can hold notes and linked files; Ctrl + double-click opens a linked file directly from the map.
+- Maps can be saved, loaded, automatically restored, cleared with confirmation, and exported as PNG images.
+- Documents can be imported to generate a mind map automatically when AI features are available.
+- Supported import formats include PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite, and XML.
+- Document processing shows progress while text is extracted, analyzed, and transformed into concepts.
+- By dragging a document into the new concept window, it is possible to create a map from that file.
+- The map can be organized in vertical, horizontal, radial, or tree modes, with the preference remembered automatically.
+- A focused view can cycle through concepts to help with presentation or step-by-step map review.
+- Total concepts and total selected concepts appear in the application counter.
+
+Audiobook Module:
+- New optional Audiobook module to read texts and PDFs aloud.
+- It is possible to open PDFs, write or paste text, drag compatible files to the reader, and switch between Text and PDF views.
+- Playback controls include read, pause, continue, stop, speed, volume, and voice selection.
+- Voice options are available in the Modules menu and are organized by language when information is available.
+- Font size and style can be adjusted, previewed, saved, and restored.
+- The text editor includes new text, save as TXT, undo, redo, search, bookmarks, line spacing, indentation, and margin.
+- PDF reading includes page navigation, zoom, fit to width, fit to page, hand mode, selection mode, text copy, and file/page information.
+- Search works in text and PDF, with next/previous navigation, case sensitivity, whole word search, and highlighting all results.
+- Assisted reading can highlight the current word, sentence, or paragraph while the audio is playing.
+- A focus ruler can be activated to facilitate line-by-line tracking.
+- Temporary audio files are cleaned up more reliably after reading.
+- The internal Text and PDF tabs now use the same color aesthetics as the main application tabs.
+- The Text tab received blue highlighting.
+- The PDF tab received red highlighting.
+- Text and PDF areas were realigned to better match the interface buttons and controls.
+- The coloring of the Text and PDF tabs is correctly maintained after updating interface texts.
+
+Installers and distribution:
+- The main Inno Setup script now explicitly recognizes MinGW and MSVC variants.
+- When compiling the installer directly via the Inno Setup IDE, the script automatically generates installers for both variants.
+- It remains possible to compile only one variant via command line using BuildFlavor=mingw or BuildFlavor=msvc.
+- Installers are now recorded in separate outputs: InnoSetupOutput_mingw and InnoSetupOutput_msvc.
+- Installer names now include the toolchain and version, making it easier to quickly identify which package will be distributed.
+- The installer now packages the corresponding complete distribution tree, preserving DLLs, modules, translations, assets, and auxiliary files generated for each toolchain.
+- Installation information, display name, default directory, and shortcut now better differentiate between MinGW and MSVC variants.
+
+Usage and stability improvements:
+- Application startup has become more stable, including a fix for a failure related to the calendar in certain openings.
+- The main executable no longer opens an unnecessary terminal window when started on Windows.
+- Date, time, and priority controls in the task creation area are better visually aligned.
+- The Global Task List now correctly shows the visual priority indicator before each task.
+- Quadrant labels have been restored, including their corresponding emojis.
+- Fixed the issue that displayed two tooltips when hovering over tasks; now only the correct preview is shown.
+- Fixed the error that doubled the year in displayed dates, such as "20262026", in Portuguese and English.
+
+Corrections and adjustments:
+- Fixed the issue that moved a task between pending and completed when only updating a linked file.
+- The task now preserves its original state when removing or redefining a file link.
+- Handling for missing linked files has become more consistent at double-click opening points.
+
+Language, content, and support:
+- The User Manual now follows language switching in real time even when it is already open.
+- The "About" window has become more reliable when loading texts, history, and resources, including in published copies of the application.
+- Language files have been reorganized with clearer names, and the application now recognizes this new organization automatically.
+- Translation loading has become more robust, with better compatibility for application and Qt files.
+- The translation compiler has been modernized and now exists in two native Windows versions: one with a graphical interface and another for direct use in the terminal.
+- The graphical translation compiler now starts in standby mode and no longer keeps the cursor stuck in a loading state after completing the process.
+- The project version editor was also converted to a native application, eliminating the need for Python at this stage.
+- Main application translation compilers were renamed to clearer names: Eisenhower_CompileTranslationsGUI and Eisenhower_CompileTranslationsTerminal.
+- The translation compilation workflow now uses a dedicated PowerShell script, with validation of expected tools, generation in source\language\output, and automatic deployment with windeployqt.
+- Graphical and terminal versions of the translation compiler can be compiled and executed directly by VS Code via their own tasks.
+- Application translation management files are no longer treated as isolated executables, being restricted to the role of an internal application component.
+- The translation process has become more predictable for maintenance because each utility has its own name, output folder, and execution task.
+
+Impact for the user:
+- Less friction when organizing tasks and switching between Eisenhower, Pomodoro, and Feynman.
+- More confidence when saving, importing, clearing, and recovering tasks.
+- More consistent and easy-to-understand interface in daily use.
+- More predictability when reopening the application and continuing from where you left off.
+- More clarity to quickly understand how many tasks you are actually manipulating in each area.
+- Less confusion when selecting several tasks and then returning to just one.
+- Simpler navigation between modules, quadrants, and workflow stages.
+- More organized and consistent visual reading throughout the main interface.
+- More useful screen space, especially on laptops and monitors with lower resolution.
+- Less chance of lists, fields, and buttons being partially hidden.
+- More freedom to keep visible only the panels that actually make sense for your daily use.
+- Automatic return of your viewing preference whenever the application is reopened.
+- Faster navigation with keyboard shortcuts for the main side panels.
+- Distributed installation becomes more predictable, with separate packages for MinGW and MSVC.
+- The chance of mixing runtime files from different toolchains has been reduced.
+- Opening the published application is more reliable because packaging uses the full tree generated by deploy.
+- Those who use only the final application do not need to change data, preferences, or existing files.
+- More study and learning flows can be done within the same application.
+- Optional modules only appear when they are present, keeping smaller installations cleaner.
+- Navigation between modules has become more flexible and easier to customize.
+- Module texts, buttons, and resources are more consistent when changing language or opening a packaged copy.
+- Existing user data remains compatible.
+- Navigation between modules has become more customizable.
+- Tab visibility preferences are more predictable after closing and opening the application.
+- The Audiobook interface is more visually aligned with the rest of the application.
+- The Pomodoro In Progress panel is more comfortable on resized screens.
+- Application texts and information are more consistent in Portuguese and English.
+- Existing user data remains compatible.
+
+Impact for maintenance and distribution:
+- Compilation of the application, modules, and utilities has become more standardized in VS Code.
+- Translation generation has become simpler to repeat and easier to diagnose when there is a failure.
+- Output paths have become more explicit, avoiding doubts about where to look for executables, DLLs, and installers.
+- Repository cleanup has become faster and more direct, removing entire regenerable folders instead of cleaning only internal content.
+- The distribution workflow has become more suitable for separately validating MinGW and MSVC before publishing installers.
+
+Observations:
+- Your existing data and files remain compatible.
+- No manual action is required to continue using the main application.
+- For maintenance and distribution, the new native base reduces reliance on Python and simplifies the use of auxiliary tools.
+- No manual action is required to use the new layout and link recovery options.
+- The improvements in this version take effect normally after updating the application.
+- Panel display preferences are now remembered automatically.
+- No manual action is required to use the improvements in this version.
+- Build, output, and deploy folders continue to be regenerable.
+- For maintenance, it is recommended to use the VS Code Qt6: tasks and the corresponding CMake presets.
+- No manual action is required for existing user data.
+- No manual action is required for existing user data.
+- Mind Map and Audiobook features only appear in installations that include these modules.
+- Some Audiobook voice features may depend on voice services available on the user's computer or network.
+- No manual action is required for existing user data.
+- Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model tabs only appear when the respective modules are available in the installation.
+- If a tab is hidden, it can be reactivated through the same layout menu.
+
+______________________________
+
+RELEASE NOTES: Version 0.2.0.0
+Date: February 22, 2026
+
+Main highlights:
+- New integrated yearly calendar, with a 12-month view and task counts per month.
+- New Year filter in the global list, in addition to the Day, Week, and Month filters.
+- In the Month filter, it is now possible to switch between detailed monthly view and summarized yearly view.
+- On wider screens, the interface now shows multiple calendars side by side to support continuous planning.
+- The global list now groups results by month when you use broad filters (Month/Year), improving readability.
+- The calendar panel now starts expanded and with smoother resizing.
+- New `F1` shortcut to open the complete list of shortcuts available in the app.
+- The “About” screen shortcut has been changed to `Ctrl+Shift+A`.
+- Task movement is now more flexible, allowing items to also be sent to completed lists with clear success or failure feedback.
+- Completed task lists now follow each quadrant’s visual color, making quick identification easier.
+- When changing the language, the app now clearly confirms when the change has been applied.
+
+Fixes and adjustments:
+- Strengthened synchronization between calendar, counters, and global list, including in multiple views.
+- More consistent visual updates for highlights and counts when navigating across months and years.
+- Better stability when opening, collapsing, and resizing the calendar panel.
+- More robust task saving, with unique identification to reduce inconsistency risks.
+- Automatic compatibility with older data, with no manual adjustment required.
+- More reliable preservation of priority, description, and task linking during loading and saving.
+
+Notes:
+- Your existing data remains compatible and is preserved automatically.
+- No manual action is required to use this version’s improvements.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.9.0
+Date: February 9, 2026
+
+Main highlights:
+- Improved system theme reactivity: the app reapplies colors and contrasts automatically when it detects a change in the Windows theme (light/dark), ensuring better legibility.
+- Automatic tab opening on drag: hovering the cursor over a tab title during a drag opens the tab automatically to make it easier to move tasks between quadrants.
+- Improved file drag-and-drop: dragging files to the input field now fills the name, shows the path as a tooltip, and preserves selection during batch moves.
+- More comfortable time input: the time selector allows continuous minute navigation, making it faster to adjust times.
+- Dynamic locale and language: date/time formats and interface texts update immediately when switching the language, including calendar popups and selectors.
+- Refined calendar pane: the global calendar list, filters and header follow the updated visual scheme and maintain good visibility in both light and dark themes.
+
+Fixes and adjustments:
+- Significant reduction of flicker when updating badges, counters and when moving/editing tasks.
+- Drag-and-drop operations reinforced to prevent duplication or loss of tasks and to preserve selection in batch actions.
+- Sorting and grouping by time slot fixed; empty time headers are removed automatically.
+- Context menus and shortcuts localized to provide labels in Portuguese when applicable.
+- Improved opening of linked files with more robust fallbacks and user-friendly error messages when a file is not found.
+- Adjustments to date format application to use a four-digit year where appropriate.
+
+Notes:
+- Existing data remains compatible and preserved; no user action is required.
+- If you prefer more contrast, the lightening/darkening adjustment options remain available for visual customization.
+
+______________________________
+
+NOTES RELEASE: Version 0.1.8.0
+Date: February 8, 2026
+
+Main highlights:
+- Dynamic theme update: the application reapplies native colors automatically when the Windows theme (light/dark) changes, maintaining contrast and legibility.
+- Native visual harmonization: the main layout background is a slightly lighter tone, while list areas and input fields use a slightly darker native tone for better contrast.
+- Active tab highlight adjusted: the selected tab now receives a slightly lighter fill by default and, in the system light mode, the active tab becomes intentionally darker for improved visibility.
+- Improved drag and drop: when positioning the cursor over a tab title during a drag, the tab opens automatically; dropping on the tab forwards the task(s) to the corresponding quadrant.
+- Inputs integrated with the theme: fields such as task text, date, time, priority selector and filters now use the same darker tone as the lists, ensuring visual consistency.
+- Calendar pane: the global calendar list and its header follow the new native color scheme, with badges and highlights keeping good visibility in both light and dark themes.
+
+Fixes and adjustments:
+- Better compatibility with different Qt/environment configurations to avoid startup failures on some systems.
+- Reduced flicker and stability improvements when updating badges, counters and when moving/editing tasks.
+- Reinforced drag-and-drop operations to preserve selection and avoid duplication or loss of tasks during movements between quadrants.
+- Adjustments to locale application for date/time and immediate text updates when changing the language at runtime.
+- Small usability refinements: more robust placeholders, icons on main buttons and enriched tooltips for quick task preview.
+
+Notes:
+- Existing data remains compatible and preserved; no action is required from the user.
+- If you want fine tuning of the contrast (lighter/darker), it is possible to choose lightening/darkening values to customize the appearance.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.7.0
+Date: February 7, 2026
+
+Main highlights:
+- More reliable resizing: the window now adjusts to the available monitor space.
+- More stable calendar panel: opening and closing the panel adjusts the window size predictably, without causing unexpected behavior.
+- Improved compatibility with multiple monitors and different scaling, keeping the interface usable on narrow screens.
+
+Fixes and tweaks:
+- Reduced flicker and improved updating of calendar counters and highlights.
+- Stability fixes for calendar operations and batch actions (move/remove).
+- Confirmation messages and dialogs refined for greater clarity.
+
+Notes:
+- No action is required from the user; existing data remains compatible and preserved.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.6.0
+Date: February 6, 2026
+
+Main highlights:
+- More consistent interface: warning and confirmation dialogs have been improved to guide the user in important actions.
+- Precise deletion: removal of identical tasks now respects priority, preventing the wrong item from being deleted.
+- Modularity improvements visible in use: actions such as move, edit and remove are faster and more predictable.
+- Safer batch operations: moving and removing multiple tasks preserves the selection and avoids inconsistencies.
+
+Fixes and tweaks:
+- Fixed behavior that occasionally duplicated or lost tasks when changing priority or date.
+- Confirmation and informational messages are displayed more clearly and user-friendly.
+- Calendar updates consolidate changes at the end of operations, reducing flicker and improving visual responsiveness.
+
+Notes:
+- More stable experience when editing, moving or removing tasks; batch flows and individual actions are more predictable.
+- No changes are required to your existing tasks — data remains local and compatible.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.5.0
+Date: February 5, 2026
+
+Main highlights:
+- Enhanced multiple selection: you can now select multiple tasks with CTRL + click or by clicking, holding and dragging over the calendar task list.
+- Batch actions in the context menu: the "Move to another quadrant" and "Remove Task" options apply to multiple selected tasks.
+- Safe removal and moving: batch operations have been reinforced to prevent errors and preserve selection during and after the action.
+- Optimized calendar update: calendar counters and highlights are updated in a consolidated way at the end of batch operations, reducing flicker and improving performance.
+
+Fixes and adjustments:
+- Fixed an issue that prevented removing multiple tasks when some items had already been removed or were inconsistent.
+- The selection rectangle appears only during dragging and the current selection is not lost when clicking selected items.
+- Clearer and more consistent confirmations and batch removal messages.
+
+Notes:
+- Improved experience when selecting, moving, and removing multiple tasks at once; a more robust and predictable workflow for the end user.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.4.0
+Date: February 4, 2026
+
+Highlights:
+- Improved drag selection: you can select multiple tasks by dragging the mouse over them; the current selection is preserved and the selection rectangle is visible only during the drag.
+- Persistent selection fixed: when selecting multiple tasks and clicking any of them, the selection remains and no residual selection boxes are created.
+- Drag multiple tasks: it is now possible to drag and move multiple selected tasks between any quadrants, repeatedly, without losing the selection.
+- Batch actions in the context menu: move and remove options apply to multiple tasks at once, with confirmation when necessary.
+- Consolidated edit dialog: text, description, date/time, and linked file editing are gathered in a single, simpler and more accessible dialog.
+- Calendar and synchronization: calendar counters and highlights update immediately after task changes; quick view of tasks by day/week/month improved.
+- Robustness and saving: move, edit, and remove operations have been reinforced to prevent loss or duplication of tasks; consistent auto-save.
+
+Fixes and adjustments:
+- Removal of persistent selection rectangles after click/drag operations.
+- Improved updating of views and tooltips to reflect changes in real time.
+- Clearer confirmations for batch removal and user-friendly error messages on failures.
+
+Notes:
+- Changes aim to improve the experience of multiple selection, drag-and-drop, and batch task management, keeping the flow simple and reliable for end users.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.3.0
+Date: February 3, 2026
+
+Main highlights:
+- Consolidation of editing: the options to add/edit description, open a linked file, and edit date/time have been moved from the context menu into the "Edit Task" window. You can now manage text, linked file, description, date, and time in a single, more complete and accessible dialog.
+- Enriched "Edit Task" dialog: the dialog allows choosing, opening, or removing a linked file, editing the description with preview, and linking/unlinking date and time independently while preserving local formats.
+- Simplified context menu: the menu is leaner and more direct, focusing on quick actions (move, remove, edit), while detailed edits are handled by the unified dialog.
+- Improved tooltips: previews display, in an ordered way, date, time, linked file, summarized description, and priority, making it easier to read without opening dialogs.
+- More robust file opening: attempts to open linked files use native mechanisms as a fallback, with clearer user messages and logging on failures.
+- Synchronization and consistency: improvements in updates between lists and the calendar ensure that changes made in the dialog are reflected immediately in the calendar pane and badges.
+- Consistent locale: date/time selectors and popups correctly apply the active language, keeping formats and labels coherent after switching language.
+- Important fixes:
+  - Prevents duplication or loss of tasks when editing/changing date or moving between quadrants.
+  - Reinforced cleanup of orphaned time headers after edits or removals.
+  - Immediate saving and updating of lists and the calendar after changes in the edit dialog.
+
+Notes:
+- A more integrated and intuitive editing flow for non-technical users: everything related to a task (text, file, description, date/time, priority) is accessible from one place.
+- No file format or persistence mechanism has been changed; data continues to be stored locally.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.2.0
+Date: February 2, 2026
+
+What's new:
+- Improved integration between the calendar and lists: more reliable synchronization when adding/editing/removing tasks, preventing orphaned items and updating badges immediately.
+- Enhanced and ordered tooltips: previews show linked file, date, time, brief description and priority in a clearer layout.
+- More robust opening of linked files: attempts via the platform's native mechanism as a fallback and clearer error messages for the user.
+- Improved context menu for the calendar and lists: edit, move between quadrants and removal (individual or batch for a day) with confirmations and safe dialog reuse.
+- Better calendar panel behavior: smoother toggling and predictable main window resizing when expanding/collapsing the panel.
+- Locale applied more consistently: calendar popups and date/time pickers respect the active language and update formats dynamically.
+- Enhanced visual highlights: days with tasks receive a semi-transparent background and items with a linked file are emphasized in bold/blue for easier identification.
+- Robustness and diagnostics: increased fault tolerance in sensitive operations and expanded logging to aid investigation without interrupting use.
+
+Fixes and important adjustments:
+- Fixes inconsistencies when locating original tasks from the calendar (edit/removal via menu).
+- Prevents duplication or loss of items during moves between lists and during date/time edit operations.
+- Adjustments to date detection under the cursor for more accurate tooltips across different Qt versions.
+- Reinforced cleanup of empty time headers after removals or edits.
+
+Notes:
+- No file format or storage mechanism was changed; data remains stored locally.
+- The application remains fully offline — no data is sent to external servers.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.1.0
+Date: February 1, 2026
+
+What's new:
+- Updated About dialog version and refinements in the display of history and release notes.
+- Improved calendar panel behavior: smoother expand/collapse and more predictable main window resizing when toggling the panel.
+- Enhanced fallback for opening linked files, increasing reliability when activating external files.
+
+Usability and internationalization improvements:
+- More consistent translations and date/time formats when switching language at runtime.
+- Immediate update of texts and titles in non-modal dialogs (About, Manual) after language change.
+- Task tooltips are more informative and readable, with improved ordering and formatting for quick preview.
+
+Reliability, synchronization and expected behavior:
+- Fixes in synchronization between lists and calendar, ensuring consistent updates of badges and highlights after adding/editing/moving tasks.
+- Reinforced cleanup of orphaned time headers to avoid empty groups after removals or moves.
+- Greater error tolerance in sensitive operations, with expanded logging to aid diagnosis without interrupting use.
+
+Accessibility, appearance and auxiliary behaviors:
+- Visual and contrast adjustments for badges and highlights, maintaining legibility in light and dark themes.
+- Better compatibility for opening links and files across platforms via more reliable native fallbacks.
+
+Important fixes and adjustments:
+- Prevents duplication or loss of tasks when moving/editing items between lists.
+- Fixes cases where the calendar did not update counters (badges) immediately after task changes.
+- Ensures previously opened dialogs are reused correctly or closed without leaving dangling references when the application exits.
+
+Notes:
+- No file format or saving mechanism has been changed; data remains stored locally.
+- The application remains fully offline — no data is sent to external servers.
+
+______________________________
+
+RELEASE NOTES: Version 0.1.0.0
+Date: January 21, 2026
+
+Highlights:
+- Collapsible calendar panel integrated into the main window, with a rotated side button to toggle visibility and automatic window resizing when expanding/collapsing.
+- Visual indicators (badges) on calendar days showing task counters; counts available per day, per week and per month.
+- Global task list linked to the calendar: filterable view by day/week/month, rich task preview and opening of linked files by double-click.
+- Improved date/time edit dialog: ability to link/unlink date and time separately, synchronization between the options and application of the local format to the date selector.
+- Grouping of tasks by hourly range within lists (e.g., 09:00–09:59) with hour headers and ordered insertion of tasks by time and text.
+- Native framing around the calendar (frame that follows the system theme) for better integration with the operating system appearance.
+
+Usability and internationalization improvements:
+- Dynamic locale application: calendar, date/time selectors and display formats use the active locale; language changes at runtime update texts and formats.
+- First day of the week set to Sunday in the calendar; date formats taken from the main date control for visual consistency.
+- Task tooltips enriched with information (linked file, date, time, short description and priority) for quick preview without opening dialogs.
+- Items with a linked file receive visual emphasis (bold font and color) for easier identification.
+- Robust placeholders for empty lists, ensuring no "orphan" or non-selectable items remain after removal/movement operations.
+
+Robustness, synchronization and expected behavior:
+- Automatic synchronization of the panel/calendar after task changes (addition, edit, removal, movement between quadrants).
+- Moving tasks between quadrants preserves/updates priority and correctly adjusts completion state.
+- Automatic cleanup of hour headers when there are no tasks in that range, avoiding empty headers.
+- Signal blocking during sensitive operations (drag-and-drop, moves between lists) to prevent duplicate events and loss/duplication of tasks.
+- Consistent persistence: tasks are saved after relevant operations to reduce the risk of data loss.
+
+Accessibility, appearance and auxiliary behaviors:
+- Badges and highlights use colors from the system palette with appropriate transparency for readability in light and dark themes.
+- Date/time controls receive minimum size and palette adjustments for better readability and comfort of use.
+- Platform-specific fallbacks for opening files implemented (native mechanisms when direct opening fails) for greater reliability.
+
+Fixes and important adjustments:
+- Prevents loss or duplication of tasks when moving/editing items between lists.
+- Removes orphan hour headers and fixes unstable ordering when inserting/editing tasks with time.
+- Ensures context menus and dialog texts are updated correctly when changing language at runtime.
+- Expanded exception handling and logging in critical points to reduce visible user failures and ease diagnosis.
+
+Notes:
+- No file format or saving mechanism has been changed; data remains stored locally.
+- The application remains fully offline — no data is sent to external servers.
+
+______________________________
+
+NOTES: Version 0.0.9.0
+Date: January 16, 2026
+
+Main highlights:
+- Improved localization: dates and times follow the selected language.
+- More reliable date/time edit dialog with better calendar compatibility.
+- Enhanced drag-and-drop; it's now easier to attach files to tasks.
+- Task description editing and quick preview on hover.
+- More robust import/export (full JSON, XLSX, PDF), preserving file, description and priority.
+- Automatic synchronization with the calendar after task changes.
+- Placeholders and lists handled to avoid orphan items and keep the interface clean.
+- Greater error tolerance and logging to reduce visible failures for the user.
+
+Fixes and adjustments:
+- Prevents loss or duplication of tasks when moving/editing items.
+- Adjustments in the display of dates/times and in the behavior of time controls.
+- Informative error messages when external libraries are not available.
+
+Notes:
+- No file format or saving mechanism was changed; data continues to be stored locally.
+- The application works fully offline — no data is sent to external servers.
+
+______________________________
+
+NOTES: Version 0.0.8.0
+Date: January 15, 2026
+
+Main new features and improvements:
+- Improved internationalization and date/time formatting:
+  - Translation manager with safe installation and removal of translators (includes trying to load Qt translations).
+  - Dynamic application of QLocale according to the selected language; date formats adjust automatically (includes handling years with 'yyyy').
+  - Language-change signals propagated to components that show date/time (calendar popup, date/time edit dialog, inputs).
+
+- "About" dialog and Release Notes integrated:
+  - "About" window updated to show embedded release notes and multiple tabs (History, Details, Licenses, Notices, Privacy Policy and Release Notes).
+  - Header updated to version 0.0.8.0 and improved runtime retranslation.
+
+- Manual viewer redesigned and navigable:
+  - Manual shown in a non-modal dialog with a list of sections and anchor-linked view.
+  - Section navigation, preservation of the current position when changing language, and mapped positions for quick jumps.
+  - Visual improvements: relative font sizes, emphasized titles and support for the application icon.
+
+- Task date/time editing and rendering:
+  - Date/time edit dialog applies locale to the calendar popup and time edit; correct synchronization between "Link date" and "Link time".
+  - Task display updates tooltip with formatted date/time, preserves base text and avoids orphaned time headers.
+  - Insert/remove item operations use signal blocking and cleanup of time groups to avoid inconsistent states.
+
+- Interface and shortcuts:
+  - Settings menu rebuilt: checkable language entries, keyboard shortcuts (Ctrl+M for calendar, Ctrl+Shift+M for manual, F1/Help for About, Alt+A/I/O to open menus) with proper context.
+  - Safe removal of old shortcuts before creating new ones, reducing conflicts.
+
+- Time controls:
+  - CustomTimeEdit with continuous minute wrapping behavior (smoother minute navigation).
+  - TimeEdit receives a consistent display format and updates when the language changes.
+
+- Robustness, logging and exception handling:
+  - Expanded logging and exception handling at critical points (translation, file loading, UI updates), making diagnosis easier without crashes.
+
+Important fixes:
+- Fixed the version number shown in the "About" dialog (now 0.0.8.0).
+- Fixes for dynamic application of Qt translations and searching for system .qm files, avoiding silent failures when translations are not present.
+- Prevents incorrect placeholders and lists with non-selectable items when inserting/editing tasks.
+- Prevents loss or duplication of tasks when moving between lists: operations block signals and consistently update calendar and persistence.
+- Fixes for UI updates when changing language at runtime (dialogs, default buttons, labels and menus).
+- Fixes for calendar popup behavior and displayed date/time formats.
+- Fixes for crashes when opening the Manual repeatedly (dialog reuse and focus) and when navigating anchors.
+
+Notes:
+- Changes focus on usability, localization and robustness; no file format or save mechanism was changed.
+- The app continues to operate offline — no data is sent to external servers.
+- For diagnostics, check the logs in the user's persistence directory.
+
+- Improvements in the interface module (incore_01_initUI.py):
+  - Friendlier date and time fields: formats adjust automatically to the language and the time control allows continuous minute scrolling, making it easier to pick times.
+  - Synchronization between "Link date" and "Link time": unchecking the date automatically disables the time to avoid inconsistent entries.
+  - Translated context menus: copy/cut/paste and similar menus appear in Portuguese when the language is set, providing a more consistent experience.
+  - Better visual and accessible feedback: main buttons (Add Task, Calendar) get icons when available and clear placeholders are shown in lists and completed lists.
+  - Stability when moving and editing tasks: events between lists are handled to avoid item duplication or loss and to keep the calendar synchronized.
+  - Expanded robustness and logging: sensitive operations (applying locale, language changes, signal connections) have error handling and logs to help diagnosis without crashing the app.
+  - Context and organization of lists: quadrants and completed lists were reinforced with predictable behaviors and custom context menus for task actions.
+
+Module-specific fixes:
+- Automatic adjustment of the date format to use a four-digit year when applicable.
+- Avoids silent errors when applying translations and updating date/time components at runtime.
+- Ensures time controls are only enabled when appropriate (date linked) to prevent invalid entries.
+
+______________________________
+
+RELEASE NOTES: Version 0.0.7.0
+Date: January 12, 2026
+
+Main features and improvements:
+- Localization and date/time format improvements: the date/time component respects the active locale (via the translation manager) and automatically adjusts displayed formats.
+- Updated text and display of the "About" dialog: version 0.0.7.0 and release notes integrated into the dialog for direct access.
+- Task rendering enhancements: tooltips with date and time, base text preserved, and more consistent formatting when updating lists.
+- More reliable integration with the calendar panel: lists and badges are updated automatically when tasks are added, edited, or removed.
+- Refined time-based grouping and time group management: avoids orphan/duplicated headers and maintains stable ordering of time-tagged tasks.
+
+Important fixes:
+- Fixed visual update issues in lists and calendar (badges, highlights, and placeholders).
+- Robustness: expanded exception handling and logging to reduce user-visible failures.
+- Adjustments to placeholders and non-selectable item behavior to prevent incorrect placeholders.
+
+Notes:
+- Changes focused on usability and robustness; no file format or saving mechanism was changed.
+- App continues to operate offline — no data is sent to external servers.
+
+______________________________
+
+RELEASE NOTES: Version 0.0.6.0
+Date: December 22, 2025
+
+Main new features and improvements:
+- Counting badges in the calendar: the calendar now displays small balloons (badges) in the top-right corner of days that have tasks, showing how many tasks are linked to that date.
+- Counters by day, week and month: in addition to per-day counts, the calendar keeps aggregated counts by week and by month, accessible via the widget API (public methods to retrieve counts).
+- "Native" border around the calendar: the QCalendarWidget is now wrapped by a container that draws the native Qt frame (QStyle::PE_FrameLineEdit). The border automatically follows the system theme (light/dark) via Qt's palette.
+- Automatic integration with tasks: when the task list is updated (additions, removals or edits), the calendar's badges and highlights are refreshed automatically.
+- Adaptive colors: badges use native palette colors (QPalette.highlight / highlightedText), ensuring good visibility in both light and dark themes.
+- Visual highlighting of dates with tasks: dates that have tasks remain highlighted (semi-transparent background) and now coexist with badges.
+- Reuse between dialog and panel: both the calendar dialog and the side panel use the badge widget and share the same logic for collecting/filtering tasks and visual updates.
+- Robustness and logging: initialization, painting and update operations are protected with exception handling and logging, reducing visible errors for users and easing diagnosis.
+
+Important fixes:
+- Consistent visual updates: fixes cases where the calendar did not immediately reflect changes in the task list (badges and highlights are now updated whenever the list changes).
+- Border responsive to theme changes: the frame now redraws correctly when switching between system light and dark modes.
+- Prevents incorrect badge drawing: badge size and position have been adjusted to fit correctly within cells, avoiding text overlap.
+
+Notes:
+- The new frame is drawn by Qt (QStyle::PE_FrameLineEdit) to keep appearance consistent with other controls (e.g., QLineEdit).
+- If you want to show week/month counters in the UI, the methods already exposed in the widget allow retrieving them for additional use.
+- No save behavior or file formats were changed; this release focuses on visual improvements and synchronization between lists and the calendar.
+
+______________________________
+
+RELEASE NOTES: Version 0.0.5.0
+Date: 21 December 2025
+
+Key improvements and features:
+- Drag-and-drop reliability: improvements to avoid invalid moves (does not allow dropping on the same list; ignores non-selectable items).
+- Safer processing: signals are blocked during drag-and-drop operations to prevent duplicate events.
+- Auto-save and synchronization: the task list is automatically saved after drag-and-drop and the calendar pane is updated immediately.
+- Consistent actions and indicators: default drop action set to copy and drop indicator improved for more predictable behavior.
+- Improved logging and error handling: more informative logs and exception handling to reduce crashes visible to the user.
+
+Important fixes:
+- Prevents task loss when moving items between lists.
+- Ignores drag-and-drop operations with no valid items, avoiding inconsistent states.
+- Improved visual updates of lists and the calendar after moves.
+
+Notes:
+- The application continues to operate offline — no data is sent to external servers.
+- Auto-save remains active; update to apply the drag-and-drop and stability improvements.
+
+______________________________
+
+RELEASE NOTES: Version 0.0.4.0
+Date: 21 December 2025
+
+Key improvements and features:
+- Time grouping: tasks with a time now appear grouped by hour range (e.g., 09:00–09:59) within each quadrant, making it easier to view the day.
+- Improved ordering: tasks are sorted by time first and then by text to help you find items quickly.
+- Drag-and-drop support: move tasks between quadrants and between completed lists intuitively using drag-and-drop.
+- Improved date/time edit dialog: easier to reset or remove a task's date and time; options respect the application's locale date/time format.
+- More comfortable time inputs: time control uses wrapping behavior for smoother minute navigation.
+- Calendar pane integration: the side calendar panel remains integrated and automatically updates the task list when items change.
+- Localization and formats: better language support and automatic adjustment of date/time formats based on the selected language.
+- Usability: refinements to labels, placeholders and context menus (move task, reset date, remove) for a clearer workflow.
+
+Important fixes:
+- Automatic removal of empty time headers to avoid orphaned items in lists.
+- Fixes to prevent task loss when moving/editing items and improved error handling for common operations.
+- Small adjustments to keep placeholders consistent when lists become empty.
+
+Notes:
+- The application continues to operate offline — no data is sent to external servers.
+- Auto-save remains active; please update to apply the new ordering and grouping to your tasks.
+
+______________________________
+
+RELEASE NOTES: Version 0.0.3.0
+Date: November 4, 2025
+
+Main new features and improvements:
+- It is now possible to assign a time to each task.
+- When a time is assigned, the task appears in the quadrant dialog and in the calendar dialog with the associated date and time displayed correctly.
+
+______________________________
+
+RELEASE NOTES: Version 0.0.2.0
+Date: October 14, 2025
+
+User summary
+- New release with useful features and fixes that make the application easier to use and more reliable.
+
+Main new features and improvements
+- Side Calendar Panel: there is now a collapsible calendar panel alongside the window to quickly view dates.
+- Updated Calendar Dialog: you can filter by Day, Week, or Month and see tasks linked to the selected date.
+- Languages and date format: the interface and date formats adapt to the selected language (for example, Portuguese or English).
+- Date display: dates are shown in the local format; when available, the task tooltip shows the date clearly formatted.
+- Improved auto-save: tasks continue to be saved in tasks.json (text and date are stored).
+- Simplified Import/Export: it is possible to import and export tasks in Excel (.xlsx) and PDF. If any feature requires additional software on your computer, the app clearly notifies the user.
+- Usability improvements: texts, placeholders and menus were rearranged to make the app easier to use.
+- More robust error handling: unexpected situations produce friendly messages instead of crashes.
+
+Important fixes
+- Small adjustments to avoid data loss and improve stability.
+
+Notes
+- The application works offline — no data is sent to external servers.
+
+______________________________
+
+RELEASE NOTES: Version 0.0.1.0
+Date: September 23, 2025
+
+In this new version:
+
+- EISENHOWER ORGANIZER application distributed as a Windows executable, without the need to install Python or dependencies manually.
+- Organization of tasks into the four quadrants of the Eisenhower Matrix, with separate lists for pending and completed tasks.
+- Quick task addition with quadrant selector and automatic movement between lists when marked as completed.
+- Task removal via context menu with confirmation.
+- Automatic persistence of tasks in a local tasks.json file in the user's directory.
+- Export of tasks to XLSX (Excel) and PDF, and import from these formats.
+- Multilingual interface with language selection and immediate text updates.
+- "About" window with history, details, warnings, licenses and privacy policy loaded from resource files.
+- Fully offline operation: no data is sent to external servers.
+- Simple installation via installer, with features and settings ready for immediate use.
+- Solutions for common issues and usage guidance included in the documentation and the "About" window.
+
+For questions, support or suggestions, consult the channels listed in the installer or in the application's documentation.

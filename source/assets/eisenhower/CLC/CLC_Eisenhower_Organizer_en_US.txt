@@ -1,0 +1,48 @@
+COMMERCIAL LICENSE AGREEMENT - EISENHOWER ORGANIZER
+Product: Eisenhower Matrix
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+This Commercial License Agreement ("Agreement") is entered into by Fernando Nillsson Cidade ("Licensor") and the individual or legal entity that acquires a commercial license for Eisenhower Organizer ("Licensee").
+
+This Agreement supplements the EULA, Privacy Policy, and third-party notices for the product. When the application is acquired through Microsoft Store, purchase, installation, updates, refunds, and license validation may also be governed by Microsoft Store terms and by the user's Microsoft account.
+
+1. Subject matter
+Licensor grants Licensee a limited, non-exclusive, non-transferable, revocable license to use Eisenhower Organizer as an application for organizing, prioritizing, and tracking tasks based on the Eisenhower Matrix.
+
+2. Commercial use
+Commercial use is permitted only within the number of users, devices, business units, or organization scope stated in the applicable quote, receipt, order, signed agreement, or Microsoft Store configuration.
+
+3. Modules
+The integrated modules Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model may be shipped with the parent application package, but remain locked until a valid license is confirmed. The technical presence of module files in the package does not grant use rights for an module without an active license.
+
+4. Restrictions
+Licensee may not copy, resell, sublicense, rent, lease, lend, distribute, unlock by unauthorized means, bypass license mechanisms, remove intellectual property notices, reverse engineer outside the limits allowed by law, or use the product for unlawful activity.
+
+5. Data and privacy
+The parent application is designed to keep tasks, preferences, and exported files under the user's control in the local environment, except for voluntary user action or a feature clearly disclosed in the applicable policy. Data handling is governed by the corresponding Privacy Policy.
+
+6. Support and updates
+Support, maintenance, update term, SLA, training, customization, and corporate deployment depend on the purchased commercial tier or a specific written agreement. Microsoft is not responsible for providing technical support for the application when Licensor is the publisher.
+
+7. Third-party components
+The product may include third-party components, such as Qt libraries and other runtime files. Those components remain subject to their respective licenses and notices.
+Open-source license reservation: Nothing in this Agreement restricts rights granted by third-party open-source licenses included with the Software. For LGPL-covered components, including Qt and FFmpeg where shipped, the recipient may replace or relink compatible shared libraries and may reverse engineer only to the extent necessary to debug modifications to those LGPL components, as permitted by the applicable LGPL. The license texts, third-party notices, source offer, and FFmpeg build configuration are included in LICENSES and NOTICES.
+
+8. Warranties and liability
+To the maximum extent permitted by applicable law, the product is provided as is and as available. Licensor is not liable for indirect damages, lost profits, data loss, business interruption, or unavailability of third-party services. Mandatory consumer rights remain preserved where applicable.
+
+9. Term and termination
+This Agreement remains valid while the license is active and Licensee complies with its terms. Breach may result in suspension or termination of use rights, without prejudice to other available remedies.
+
+10. Governing law
+Unless a different written provision or mandatory consumer rule applies, this Agreement will be interpreted under the laws of Brazil, with preferred venue in Sao Jose dos Pinhais, Parana.
+
+11. Legal note
+This model should be reviewed by legal counsel before public use, especially for international sales, public-sector customers, enterprise contracts, or specific regulatory requirements.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) & OFFICIAL COMMERCIAL SCOPE
+1. Dual-Licensing Boundary: Public source code of EISENHOWER ORGANIZER is open source under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp), granting full freedom to inspect, compile, modify, and fork. This Commercial Licensing Agreement (CLC) applies exclusively to the author's official digitally signed binary editions (Microsoft Store ID 9P289X0185C3 — with a 7-day trial via TrialManager — and Individual, Small Business, or Enterprise commercial tiers).
+2. Freedom on source/assets/ for Open-Source Forks: Developers maintaining independent GNU AGPLv3 forks are expressly authorized to modify, remove, or adapt all compliance texts in source/assets/, provided they remove the author's exclusive trademarks ("EISENHOWER ORGANIZER" and "LÚMEN") and never resell the author's official signed binaries.
+3. Support & "AS IS" Disclaimer: Commercial support covers solely the official package published by the Licensor (contact: linceu_lighthouse@outlook.com); Microsoft provides no customer support. All outputs (including Qwen/Ollama local AI and 4D BIM Gantt CPM calculations — never replacing licensed ART/RRT engineering sign-off) are auxiliary tools supplied "AS IS", preserving all LGPLv3/LGPLv2.1+ rights over Qt 6.12.0 and FFmpeg n9.0.1.

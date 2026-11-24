@@ -1,0 +1,86 @@
+Política de Privacidade - Módulo Pomodoro
+Produto: EISENHOWER ORGANIZER
+ID do Módulo: modulo_pomodoro
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve como o módulo Pomodoro trata informações quando é usado junto ao EISENHOWER ORGANIZER. O módulo foi projetado para operar localmente no dispositivo do usuário. Esta Política é específica do módulo e deve ser lida em conjunto com a Política de Privacidade do aplicativo principal.
+
+1. Escopo e princípios
+- Operação local: os dados do Pomodoro permanecem no dispositivo, salvo quando a Microsoft Store processa aquisição, licença ou pagamento do módulo.
+- Minimização: o módulo trata apenas dados necessários para ciclos de foco/pausa, organização de tarefas e configuração de alarmes.
+- Controle do usuário: você controla a criação, edição, movimentação, conclusão e exclusão das tarefas usadas no módulo.
+
+2. Dados tratados pelo módulo
+2.1 Tarefas e fluxo de produtividade
+- Títulos de tarefas, descrições, prioridade, status, datas, horários, identificadores internos e caminhos de arquivos vinculados quando esses dados forem enviados ao Pomodoro pelo aplicativo principal ou criados no próprio módulo.
+- Estado local das tarefas no fluxo do Pomodoro, como itens pendentes, em andamento ou concluídos.
+- Metadados de sincronização local usados para manter coerência entre Eisenhower, Pomodoro e, quando disponível, outros módulos do mesmo aplicativo.
+
+2.2 Temporizadores e alarmes
+- Configurações de ciclos de foco e pausa usadas durante a sessão.
+- Preferência de som de alarme e intervalo de repetição do alarme.
+- Estado temporário de execução do cronômetro enquanto o módulo está aberto.
+
+2.3 Dados técnicos locais
+- O módulo pode usar o arquivo unificado de tarefas do aplicativo e arquivos locais de configuração, como tarefas.json e pomodoro_alarm_config.json, no diretório persistente do aplicativo.
+- Registros locais de erro podem ser gerados para diagnóstico no próprio dispositivo.
+
+3. Finalidades do tratamento
+- Executar ciclos de Pomodoro, pausas, alertas e acompanhamento de tarefas.
+- Exibir, organizar e atualizar tarefas associadas ao fluxo de foco.
+- Sincronizar tarefas com o aplicativo principal quando esse recurso estiver ativado.
+- Guardar preferências locais para restaurar a experiência do usuário em usos futuros.
+
+4. O que o módulo não faz
+- Não cria conta própria, cadastro ou login.
+- Não coleta telemetria automática.
+- Não envia tarefas, alarmes, histórico de foco ou preferências ao desenvolvedor.
+- Não examina pastas do usuário fora dos arquivos ou caminhos explicitamente vinculados pelo usuário no aplicativo.
+- Não acessa dados de pagamento; pagamentos e licenças são processados pela Microsoft Store.
+
+5. Microsoft Store, compra e licença
+- A aquisição do módulo, a confirmação de licença e eventuais pagamentos são processados pela Microsoft Store, pela conta Microsoft do usuário e pelos sistemas da Microsoft.
+- O aplicativo consulta a Microsoft Store para verificar se a licença do módulo plugin_pomodoro está ativa.
+- O desenvolvedor não recebe nem armazena dados completos de pagamento, credenciais da conta Microsoft ou informações bancárias.
+- Dados tratados pela Microsoft nesses fluxos ficam sujeitos à política de privacidade e aos termos da Microsoft.
+
+6. Armazenamento e retenção
+- As tarefas e preferências ficam armazenadas localmente enquanto o usuário mantiver os dados do aplicativo.
+- Preferências de alarme podem permanecer em pomodoro_alarm_config.json até serem substituídas, apagadas manualmente ou removidas pela limpeza/desinstalação do aplicativo.
+- Arquivos exportados ou caminhos vinculados permanecem sob controle do usuário.
+
+7. Compartilhamento
+- O módulo não compartilha dados com terceiros por iniciativa própria.
+- A troca de dados entre Pomodoro e o EISENHOWER ORGANIZER ocorre localmente dentro da mesma instalação.
+- Qualquer compartilhamento externo ocorre somente por ação do usuário, por exemplo ao exportar, copiar ou enviar dados a terceiros.
+
+8. Segurança
+- Como os dados ficam no dispositivo, a proteção depende das salvaguardas do sistema operacional, permissões de usuário, antivírus, criptografia local quando configurada e backups.
+- Recomenda-se manter Windows, Microsoft Store e o aplicativo atualizados.
+
+9. Direitos e controles do usuário
+- Você pode criar, editar, mover, concluir e excluir tarefas pela interface do aplicativo.
+- Você pode limpar dados do aplicativo, remover arquivos locais de configuração e apagar exportações criadas por você.
+- Você pode desinstalar o módulo ou o aplicativo para remover os arquivos instalados; dados locais persistentes podem exigir limpeza manual conforme o comportamento do sistema.
+
+10. Crianças e adolescentes
+- O módulo não é direcionado a crianças menores de 13 anos e não realiza coleta intencional de dados pessoais.
+
+11. Alterações nesta Política
+- Esta Política pode ser atualizada quando o módulo receber novas funcionalidades, integrações ou mudanças relevantes no tratamento de dados.
+
+12. Contato
+- Dúvidas sobre esta Política:
+  Fernando Nillsson Cidade
+  E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para EISENHOWER ORGANIZER, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

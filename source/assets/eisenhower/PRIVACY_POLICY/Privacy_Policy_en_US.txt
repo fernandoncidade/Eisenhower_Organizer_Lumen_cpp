@@ -1,0 +1,102 @@
+Privacy Policy - EISENHOWER ORGANIZER
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy describes how EISENHOWER ORGANIZER (“Software”) handles user information. The Software is designed to operate locally, without automatic telemetry collection. Optional modules, when installed and activated by the user, may process additional content as described below.
+
+1. Scope and Principles
+ - Local operation: all data processed by the Software remains on your device.
+ - Minimization: only information necessary to organize tasks and run optional modules activated by you is processed.
+ - Transparency and control: you control the creation, editing, export, import, reading, generation, and deletion of your data.
+
+2. Data Processed by the Software
+2.1 Content entered by you
+ - Task text, as well as its status (pending/completed) and the associated quadrant (Important/Urgent, etc.).
+ - In the integrated Feynman module, concepts, explanations, knowledge gaps, reviews, and linked-file paths entered by you may be processed and saved locally.
+ - In the integrated Mind Map module, concepts, notes, relationships between nodes, colors, positions, layout mode, hierarchy navigation state, and linked-file paths entered by you may be processed and saved locally.
+ - In the integrated Audiobook module, texts typed, pasted, opened, or dragged into the reader, voice/font preferences, and reading information may be processed locally for editing, search, playback, and assisted reading.
+
+2.2 Files chosen by you
+ - Import: when you choose an XLSX or PDF file to import, the Software reads only that file to extract tasks.
+ - Export: when saving to XLSX or PDF (or JSON), the Software writes the contents of your task lists to the location you select.
+ - Feynman: when you link a support file to a concept, the module stores the local path and only opens the file when you request it.
+ - Mind Map: when you choose a document for import, the module reads only the selected file to extract text, analyze structure, and generate concepts. Supported formats may include PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite, and XML.
+ - Maps saved as JSON and images exported as PNG are written to the location you choose; local map autosave may write mapa_mental_autosave.json in the application's persistent directory.
+ - Audiobook: when you open or drag PDFs/text files into the reader, the module reads the selected file for display, search, text extraction, and aloud reading. Texts saved as TXT are written to the location you choose.
+ - During voice synthesis, temporary text/audio files may be created in the application's persistent directory and removed after reading whenever technically possible.
+
+2.3 Local technical data
+- Minimal data may be kept for operation, such as the local tasks file (tasks.json) and, if generated, local error logs. There is no automatic collection of personal identifiers.
+- If the integrated Pomodoro module is active, local operation may also involve focus/break cycle state, alarm preferences, and task metadata exchanged between the main organizer and the Pomodoro module within the same runtime context.
+- If the integrated Feynman module is active, local operation may also involve conceitos_feynman.json, linked-file paths, and local error logs.
+- If the integrated Mind Map module is active, local operation may also involve mapamental_config.json, mapa_mental_autosave.json, maps saved by the user, local AI model paths, temporary processing files, and local error logs.
+- If the integrated Audiobook module is active, local operation may also involve audiolivro_config.json, voice/font preferences, temporary audio/text files, and local error logs.
+
+3. What the Software DOES NOT Collect or Transmit
+ - No account, registration, or login.
+ - No telemetry, analytics, or online tracking.
+ - No automatic sending of data to the developer or third-party servers.
+ - No scanning of folders beyond the files you explicitly choose to open/import.
+ - Note about online voices: when you choose a voice based on an external service, such as Edge TTS, and start reading, the text selected for playback may be sent to the voice provider to generate audio. This transmission is initiated by your action and is not automatic application telemetry.
+
+4. Storage and Retention
+ - Storage location: tasks are saved in tasks.json in the user's persistent path (e.g., AppData). The exact path is determined by the operating system.
+ - Exports: exported files (XLSX, PDF, JSON) are saved in the location you choose.
+ - Retention: data remains until you edit, clear, or delete it; you can remove tasks.json and exported files at any time.
+ - Feynman: concepts and local preferences may remain in conceitos_feynman.json until you clear or replace the content, remove the file, or uninstall/clear the application's data.
+ - Mind Map: local preferences and autosaves may remain in mapamental_config.json and mapa_mental_autosave.json until you clear the map, replace the content, remove the files, or uninstall/clear the application's data.
+ - Audiobook: local preferences may remain in audiolivro_config.json; temporary audio/text files are intended for synthesis operation and the Software attempts to remove them after reading, although system failures or files in use may require manual cleanup.
+
+5. Legal Basis (LGPD)
+ - Local processing is carried out to execute the Software's features at the user's request, with implicit consent through use. As data is not sent to the developer, you maintain direct control over it.
+
+6. Sharing
+- The Software does not share data. Any sharing occurs only by your action (e.g., sending an exported file to third parties).
+- If the integrated Pomodoro module is active, any transfer of task information between Eisenhower Organizer and the Pomodoro module occurs locally inside the same installation and is not treated as external data sharing.
+- If the integrated Feynman module is active, concepts and tasks shared with the main organizer remain local and are not treated as external data sharing.
+- If the integrated Mind Map module is active, documents and maps are processed locally when the module's local resources are used; sharing maps, exported images, or documents with third parties occurs only by your action.
+- If the integrated Audiobook module is active, texts and PDFs are not shared automatically. When an external-service voice such as Edge TTS is used, the text selected for reading may be sent to the voice provider for audio synthesis by your action.
+
+7. Security
+ - As data remains only on your device, protection depends on your system's safeguards (user accounts, permissions, antivirus, backups). It is recommended to keep your system updated and make regular backups.
+
+8. Microsoft Store and Accessibility
+ - Accessibility and compliance documentation for publication (see “MS-Store-ADA-v8.9-FINAL-EN.pdf”) accompanies the distribution. This documentation does not change this Policy or authorize data collection; it serves to describe accessibility and interface compliance practices.
+
+9. Error and Diagnostic Reports
+ - The Software does not send error reports to the developer. Any error logs may be saved locally.
+ - If the operating system generates crash reports (e.g., Windows Error Reporting), this occurs according to your system settings and under the privacy policy of the respective provider (e.g., Microsoft). The developer does not control this flow.
+
+10. Data Subject Rights (LGPD)
+ - Access, correction, and deletion: you can view, edit, export, and delete your tasks via the interface. For complete removal, you can manually delete the tasks.json file and any exports.
+ - Portability: use the export function (XLSX/PDF/JSON) to obtain a copy of your data.
+ - Mind Map: you can save maps as JSON, export PNG images, clear the map through the interface, and manually remove mapamental_config.json or mapa_mental_autosave.json to delete local preferences/autosaves.
+ - Audiobook: you can clear the panel, save texts as TXT, change/restore preferences, and manually remove audiolivro_config.json or remaining temporary files to delete module preferences and local data.
+
+11. Children and Adolescents
+ - The Software is not directed at children under 13 and does not intentionally collect personal data.
+
+12. Third Parties and Libraries
+- The current native distribution uses Qt 6 and its modules for interface, internationalization, files, PDF, multimedia, network, and runtime resources. Historical references to components from earlier versions, such as PySide6, openpyxl, PyPDF2, and reportlab, should not be interpreted as automatic data collection or as mandatory parts of the current standard distribution. Licenses and notices are available in the “Notices/Licenses” section of the installer.
+- If the integrated Pomodoro module is bundled and active, any module-specific runtime components or libraries remain subject to the same local-only operation principle described in this Policy, and their notices must accompany the same distribution package where applicable.
+- If the integrated Feynman module is bundled and active, any module-specific runtime components or auxiliary files remain subject to the applicable licenses and notices, and its operation follows the local-processing principle described in this Policy.
+- If the integrated Mind Map module is bundled and active, components such as llama.cpp/GGML, CPU/Vulkan runtimes, SQLite/SQL drivers, local models, or auxiliary files remain subject to their respective licenses and notices. Local AI processing does not automatically send data to the developer.
+- If the integrated Audiobook module is bundled and active, PDF, multimedia, network/WebSocket, codec, and voice-service components remain subject to their respective licenses, terms, and policies. Use of an external voice service may involve sending the selected text to the provider to synthesize audio.
+
+13. Changes to this Policy
+ - This Policy may be updated. In case of relevant changes, the date at the top will be updated and, when appropriate, there may be a notice within the Software.
+
+14. Contact
+ - Questions about this Policy:
+ Fernando Nillsson Cidade
+ E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT AND SUPPORT AND ON-DEMAND NETWORK TRANSPARENCY
+1. Independence from Microsoft (Microsoft Store Policy 10.5): Microsoft does NOT provide a default privacy policy for EISENHOWER ORGANIZER, and this application is NOT covered by Microsoft's Privacy Statement. Microsoft does not provide customer support (developer contact: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Local Storage Paths: User files live under %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db in Agenda, gantt_database.db in Gantt, and logs/file_*.log) with zero telemetry and zero mandatory accounts.
+3. Optional User-Initiated Network Operations:
+   - Local AI Model (Qwen 2.5 GGUF): optional HTTPS download from Hugging Face (with HTTP Range pause/resume and disk deletion); subsequent llama.cpp inference sends zero data externally.
+   - Local Ollama: strictly loopback HTTP queries to http://127.0.0.1:11434 when triggered by the user.
+   - Edge TTS (Audiobook): selected reading text is sent to the speech service only when the user explicitly selects an online voice; local Windows SAPI voices stay 100% offline.
+   - Gantt REST API / Webhooks: disabled by default; listens or dispatches events only when explicitly enabled by the user with SecurityService.

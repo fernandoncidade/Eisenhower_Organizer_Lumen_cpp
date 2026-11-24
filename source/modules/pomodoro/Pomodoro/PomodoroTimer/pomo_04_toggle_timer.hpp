@@ -1,0 +1,3 @@
+#pragma once
+#include "source/modules/pomodoro/Pomodoro/tmp_02_PomodoroTimer.hpp"
+namespace source::plugin::Pomodoro::PomodoroTimerFns { void toggle_timer(PomodoroTimer &self); }

@@ -1,0 +1,27 @@
+FFmpeg LGPL BUILD CONFIGURATION NOTICE
+Product package: LÚMEN / EISENHOWER ORGANIZER
+Qt runtime observed: Qt 6.12.0
+FFmpeg version observed in shipped Qt runtime: FFmpeg-n9.0.1
+
+FFmpeg libraries observed in the distributed Qt 6.12.0 multimedia runtime:
+- avcodec-63.dll
+- avformat-63.dll
+- avutil-61.dll
+- swresample-7.dll
+- swscale-10.dll
+- plugins/multimedia/ffmpegmediaplugin.dll
+
+License reported by the FFmpeg DLLs:
+- LGPL version 2.1 or later
+
+MSVC build configuration reported by FFmpeg-n9.0.1 DLL exports (Qt 6.12.0):
+--prefix=/c/FFmpeg-n9.0.1/build/msvc/installed --disable-programs --disable-doc --disable-debug --enable-network --disable-lzma --enable-pic --disable-vulkan --disable-v4l2-m2m --disable-decoder=truemotion1 --disable-avdevice --disable-avfilter --enable-zlib ... --toolchain=msvc --enable-shared --disable-static
+
+Compliance notes:
+- Qt-provided FFmpeg builds use shared libraries/DLLs.
+- Configuration does not include --enable-gpl or --enable-nonfree.
+- FFmpeg DLL names are preserved without obfuscation.
+- Neither the EULA nor the CLC restricts LGPL rights, including replacement/relinking of compatible LGPL libraries or reverse engineering solely to debug modifications to those LGPL libraries.
+
+Corresponding source:
+Corresponding FFmpeg source matches the FFmpeg-n9.0.1 build used by Qt 6.12.0 (see LICENSES/OPEN_SOURCE_SOURCE_OFFER_pt_BR.txt and LICENSES/OPEN_SOURCE_SOURCE_OFFER_en_US.txt).

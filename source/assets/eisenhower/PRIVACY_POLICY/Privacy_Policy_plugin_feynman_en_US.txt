@@ -1,0 +1,86 @@
+Privacy Policy - Feynman Module
+Product: EISENHOWER ORGANIZER
+Module ID: modulo_feynman
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy describes how the Feynman module handles information when used with EISENHOWER ORGANIZER. The module is designed for local organization of studies, concepts, explanations, and reviews. This Policy is specific to the module and should be read together with the Privacy Policy of the parent application.
+
+1. Scope and principles
+- Local operation: Feynman data remains on the device, except when the Microsoft Store processes acquisition, licensing, or payment for the module.
+- Minimization: the module handles only content needed to record concepts, explanations, knowledge gaps, reviews, and related tasks.
+- Transparency and control: you decide which concepts to create, edit, link, share locally with the parent application, or delete.
+
+2. Data handled by the module
+2.1 Study content
+- Concept titles, explanations in your own words, knowledge gaps, reviews, descriptions, mastery level, priority, and status.
+- Tasks or records derived from concepts when you use integration features with Eisenhower or Pomodoro.
+- Internal identifiers used to update, sort, and synchronize local records.
+
+2.2 Linked files
+- When you link a support file to a concept, the module stores the local path of the file.
+- The module opens the linked file only when you request it.
+- The content of the linked file is not sent to the developer.
+
+2.3 Local technical data
+- The module may use the application's unified task file, tarefas.json, and legacy versions such as conceitos_feynman.json when present.
+- Local error logs may be generated for diagnosis on the device itself.
+
+3. Purposes of processing
+- Enable study through the Feynman method.
+- Save and retrieve concepts, explanations, gaps, and reviews.
+- Integrate concepts with tasks in the parent organizer when triggered by the user.
+- Keep local data consistent between modules installed in the same application.
+
+4. What the module does not do
+- It does not create its own account, registration, or login.
+- It does not collect automatic telemetry.
+- It does not send concepts, linked files, reviews, or tasks to the developer.
+- It does not scan user folders beyond the files you choose to link or open.
+- It does not access payment data; payments and licenses are processed by the Microsoft Store.
+
+5. Microsoft Store, purchase, and license
+- Module acquisition, license confirmation, and any payments are processed by the Microsoft Store, the user's Microsoft account, and Microsoft's systems.
+- The application queries the Microsoft Store to verify whether the plugin_feynman module license is active.
+- The developer does not receive or store full payment data, Microsoft account credentials, or banking information.
+- Data handled by Microsoft in these flows is subject to Microsoft's privacy policy and terms.
+
+6. Storage and retention
+- Concepts and related tasks remain in local files until you edit, delete, clear application data, or manually remove the files.
+- Linked-file paths remain stored while the concept exists or until you remove the link.
+- Exports or copies made by you remain in the location you choose.
+
+7. Sharing
+- The module does not share data with third parties on its own initiative.
+- Sending concepts to Eisenhower or Pomodoro occurs locally within the same installation.
+- Any external sharing occurs only through user action, for example by copying, exporting, or sending content to third parties.
+
+8. Security
+- Because data is stored on the device, protection depends on the safeguards of the operating system, user permissions, antivirus software, local encryption when configured, and backups.
+- We recommend keeping Windows, the Microsoft Store, and the application up to date.
+
+9. User rights and controls
+- You can view, edit, correct, and delete concepts through the module interface.
+- You can remove file links, clear local records, and manually delete persistent files.
+- You can uninstall the module or the application to remove installed files; persistent local data may require manual cleanup depending on the system's behavior.
+
+10. Children and adolescents
+- The module is not directed to children under 13 and does not intentionally collect personal data.
+
+11. Changes to this Policy
+- This Policy may be updated when the module receives new features, integrations, or relevant changes in data handling.
+
+12. Contact
+- Questions about this Policy:
+  Fernando Nillsson Cidade
+  Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT AND SUPPORT AND ON-DEMAND NETWORK TRANSPARENCY
+1. Independence from Microsoft (Microsoft Store Policy 10.5): Microsoft does NOT provide a default privacy policy for EISENHOWER ORGANIZER, and this application is NOT covered by Microsoft's Privacy Statement. Microsoft does not provide customer support (developer contact: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Local Storage Paths: User files live under %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db in Agenda, gantt_database.db in Gantt, and logs/file_*.log) with zero telemetry and zero mandatory accounts.
+3. Optional User-Initiated Network Operations:
+   - Local AI Model (Qwen 2.5 GGUF): optional HTTPS download from Hugging Face (with HTTP Range pause/resume and disk deletion); subsequent llama.cpp inference sends zero data externally.
+   - Local Ollama: strictly loopback HTTP queries to http://127.0.0.1:11434 when triggered by the user.
+   - Edge TTS (Audiobook): selected reading text is sent to the speech service only when the user explicitly selects an online voice; local Windows SAPI voices stay 100% offline.
+   - Gantt REST API / Webhooks: disabled by default; listens or dispatches events only when explicitly enabled by the user with SecurityService.

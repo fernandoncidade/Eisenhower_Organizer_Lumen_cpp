@@ -1,0 +1,92 @@
+Política de Privacidade - Módulo Mapa Mental
+Produto: EISENHOWER ORGANIZER
+ID do Módulo: modulo_mapamental
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve como o módulo Mapa Mental trata informações quando é usado junto ao EISENHOWER ORGANIZER. O módulo foi projetado para criação local de mapas, notas, conceitos, vínculos de arquivo e geração assistida por processamento local. Esta Política é específica do módulo e deve ser lida em conjunto com a Política de Privacidade do aplicativo principal.
+
+1. Escopo e princípios
+- Operação local: os dados do Mapa Mental permanecem no dispositivo, salvo quando a Microsoft Store processa aquisição, licença ou pagamento do módulo.
+- Minimização: o módulo trata apenas conteúdo necessário para criar, editar, salvar, carregar, exportar e gerar mapas mentais.
+- Controle do usuário: você escolhe quais documentos importar, quais mapas salvar, quais imagens exportar e quais arquivos vincular.
+
+2. Dados tratados pelo módulo
+2.1 Conteúdo do mapa
+- Conceitos, notas, resumos, relações entre nós, cores, posições, níveis hierárquicos, modo de layout e estado de navegação.
+- Caminhos locais de arquivos vinculados aos nós do mapa.
+- Tarefas ou registros derivados quando houver integração local com o aplicativo principal.
+
+2.2 Documentos escolhidos pelo usuário
+- Quando você importa um documento, o módulo lê o arquivo selecionado para extrair texto e criar estrutura de mapa.
+- Os formatos suportados podem incluir PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite e XML, conforme os recursos disponíveis no pacote.
+- O módulo não varre pastas automaticamente; ele processa apenas arquivos escolhidos por você.
+
+2.3 Processamento local de IA
+- Quando recursos locais de IA estiverem disponíveis, o módulo pode usar componentes locais de tempo de execução, como llama.cpp/GGML, CPU/Vulkan, modelos locais e arquivos auxiliares.
+- O texto do documento pode ser copiado para arquivos temporários de prompt/schema durante o processamento local e removido automaticamente ao final do ciclo temporário quando tecnicamente possível.
+- O processamento local de IA não envia documentos ao desenvolvedor.
+
+2.4 Dados técnicos locais
+- O módulo pode manter mapamental_config.json, mapa_mental_autosave.json, mapas salvos pelo usuário, caminhos de modelos locais, arquivos temporários de processamento e registros locais de erro.
+
+3. Finalidades do tratamento
+- Criar, editar, salvar e carregar mapas mentais.
+- Exportar imagens PNG e arquivos JSON quando solicitado.
+- Gerar mapas a partir de documentos escolhidos pelo usuário.
+- Restaurar preferências de layout e autosalvamento local.
+- Integrar dados locais com o aplicativo principal quando o usuário utiliza recursos de sincronização.
+
+4. O que o módulo não faz
+- Não cria conta própria, cadastro ou login.
+- Não coleta telemetria automática.
+- Não envia documentos, mapas, notas, imagens ou modelos ao desenvolvedor.
+- Não examina pastas do usuário além dos arquivos que você escolhe abrir/importar.
+- Não acessa dados de pagamento; pagamentos e licenças são processados pela Microsoft Store.
+
+5. Microsoft Store, compra e licença
+- A aquisição do módulo, a confirmação de licença e eventuais pagamentos são processados pela Microsoft Store, pela conta Microsoft do usuário e pelos sistemas da Microsoft.
+- O aplicativo consulta a Microsoft Store para verificar se a licença do módulo plugin_mapamental está ativa.
+- O desenvolvedor não recebe nem armazena dados completos de pagamento, credenciais da conta Microsoft ou informações bancárias.
+- Dados tratados pela Microsoft nesses fluxos ficam sujeitos à política de privacidade e aos termos da Microsoft.
+
+6. Armazenamento e retenção
+- Mapas salvos em JSON e imagens exportadas em PNG permanecem no local escolhido por você.
+- Autosalvamentos e preferências locais podem permanecer em mapa_mental_autosave.json e mapamental_config.json até você limpar, substituir ou apagar esses arquivos.
+- Arquivos temporários são destinados ao processamento e podem desaparecer ao final da sessão; falhas do sistema ou arquivos em uso podem exigir limpeza manual.
+
+7. Compartilhamento
+- O módulo não compartilha dados com terceiros por iniciativa própria.
+- A integração com Eisenhower, Pomodoro ou Feynman ocorre localmente dentro da mesma instalação.
+- Qualquer compartilhamento externo ocorre somente por ação do usuário, por exemplo ao exportar imagens, salvar mapas, copiar conteúdo ou enviar documentos a terceiros.
+
+8. Segurança
+- Como os dados ficam no dispositivo, a proteção depende das salvaguardas do sistema operacional, permissões de usuário, antivírus, criptografia local quando configurada e backups.
+- Documentos importados podem conter informações sensíveis; recomenda-se armazenar mapas e exportações em locais protegidos.
+- Recomenda-se manter Windows, Microsoft Store, drivers gráficos e o aplicativo atualizados.
+
+9. Direitos e controles do usuário
+- Você pode editar, limpar, salvar, exportar e excluir mapas pela interface ou removendo os arquivos locais.
+- Você pode remover vínculos de arquivos e apagar autosalvamentos/preferências locais manualmente.
+- Você pode desinstalar o módulo ou o aplicativo para remover os arquivos instalados; dados locais persistentes podem exigir limpeza manual conforme o comportamento do sistema.
+
+10. Crianças e adolescentes
+- O módulo não é direcionado a crianças menores de 13 anos e não realiza coleta intencional de dados pessoais.
+
+11. Alterações nesta Política
+- Esta Política pode ser atualizada quando o módulo receber novas funcionalidades, integrações ou mudanças relevantes no tratamento de dados.
+
+12. Contato
+- Dúvidas sobre esta Política:
+  Fernando Nillsson Cidade
+  E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para EISENHOWER ORGANIZER, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

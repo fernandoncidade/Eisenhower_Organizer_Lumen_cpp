@@ -1,0 +1,14 @@
+{
+  "name": "Qwen2.5-3B-Instruct Q4_K_M",
+  "purpose": "Text-only document analysis for the Mapa Mental plugin",
+  "source_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "source_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "source_file": "qwen2.5-3b-instruct-q4_k_m.gguf",
+  "size_bytes": 2104932768,
+  "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfE1cdc4fbb18e0a9615c62d",
+  "license": "Apache-2.0",
+  "text_only": true,
+  "quantization": "Q4_K_M",
+  "context_tokens": 32768,
+  "default_plugin_context_tokens": 8192
+}

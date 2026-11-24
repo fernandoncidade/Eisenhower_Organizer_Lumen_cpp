@@ -1,0 +1,35 @@
+END USER LICENSE AGREEMENT - GANTT & 4D BIM MODULE
+Product: integrated module for LÚMEN
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+This License supplements the LÚMEN EULA. By unlocking or using the Gantt & 4D BIM module, you accept these terms.
+
+1. Product
+Gantt & 4D BIM is an module for LÚMEN, intended for project schedule management, interactive Gantt charts, task dependencies, Critical Path Method (CPM) calculation, Work Breakdown Structure (WBS), baselines, and 4D construction simulation. It is not licensed for use independently of the parent application.
+
+2. License
+Licensor grants a limited, non-exclusive, non-transferable, revocable right to use the module with a licensed copy of LÚMEN and only while the module license is active.
+
+3. In-app purchase
+When acquired through Microsoft Store, the module is a durable digital product, unless configured differently in Partner Center. Validation, refund, update, and availability may depend on Microsoft Store and the user's Microsoft account.
+
+4. Restrictions
+You may not bypass the license lock, redistribute binary or module files, use the module without an active license, remove legal notices, or reverse engineer outside what is permitted by law.
+Open-source license reservation: Nothing in this License restricts rights granted by third-party open-source licenses included with the product. For LGPL-covered components, including Qt and FFmpeg where shipped, the recipient may replace or relink compatible shared libraries and may reverse engineer, decompile, or disassemble only to the extent necessary to debug modifications to those LGPL components, as permitted by the applicable LGPL. The license texts, third-party notices, source offer, and FFmpeg build configuration are included in LICENSES and NOTICES.
+
+5. Data
+Schedules, timelines, costs, predecessor relationships, simulations, baselines, and preferences are handled locally on the user's device unless voluntary action is taken by the user.
+
+6. Support, warranty, and liability
+The support, warranty, liability, termination, privacy, third-party, and governing law provisions of the LÚMEN EULA apply.
+
+7. Legal review
+This document is an operational model and should be reviewed by legal counsel before final publication.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA), FREEDOM ON source/assets/ AND AUXILIARY SCOPE ("AS IS")
+1. Public Source Code (GNU AGPLv3): The full C++23 / Qt 6.12.0 source code of LÚMEN, all 7 integrated modules (Pomodoro, Feynman, Mind Map, Audiobook, Agenda, 4D BIM Gantt), and the auxiliary Local AI Modelo module (Qwen/Ollama) is publicly available at https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp under the GNU Affero General Public License v3 (GNU AGPLv3), included in LICENSE and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt. Any derivative work or modified networked service (including the optional Gantt REST API under GNU AGPLv3 Section 13) must provide corresponding source code under GNU AGPLv3.
+2. Full Developer Freedom on source/assets/: Institutional and store compliance texts under source/assets/ were authored to support the author's official Microsoft Store listings. Fork maintainers under GNU AGPLv3 have express freedom to alter, replace, or delete these files in their own builds provided the author's exclusive trademarks ("EISENHOWER ORGANIZER" and "LÚMEN") and official icons are removed.
+3. Official Microsoft Store Editions (ID 9N70CLLMVRPN): This EULA and the Commercial Licensing Agreement (CLC) govern the author's official digitally signed binary packages on the Microsoft Store and authorized commercial tiers. Unauthorized third-party commercial resale or trademark misappropriation is prohibited. Microsoft does NOT provide customer support and does NOT cover this software under Microsoft's Privacy Statement.
+4. Auxiliary Scope, Maturity & Legal Disclaimer ("AS IS"): All modules are auxiliary tools for productivity, study, reading accessibility, and scheduling support supplied "AS IS" without warranties (Brazilian Law No. 9.609/1998, Law No. 9.610/1998, Civil Code, Consumer Defense Code, and GNU AGPLv3 Sections 15–16). Local AI outputs (Qwen 2.5 / Ollama) are probabilistic and must be reviewed; Audiobook features are not medical/clinical devices; and 4D BIM Gantt CPM/DAG schedules never replace independent verification or licensed engineering oversight issuing ART (CREA) / RRT (CAU) (or equivalent PE/CEng licensure). Exclusive reliance on results in critical production remains the user's sole responsibility.

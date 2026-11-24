@@ -1,0 +1,31 @@
+CONTRATO DE LICENCIAMENTO COMERCIAL - MÓDULO AGENDA DE AVALIAÇÕES
+Produto: módulo integrado para LÚMEN
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Este Contrato complementa a EULA e o Contrato de Licenciamento Comercial do LÚMEN e regula o uso comercial do módulo Agenda de Avaliações e Registro de Atividades integrado ao aplicativo.
+
+1. Natureza do módulo
+A Agenda de Avaliações é um módulo integrado nativamente ao LÚMEN. A licença comercial concede o direito de uso dos recursos de agendamento cronológico, controle de avaliações, registro de compromissos, cálculo de médias/pesos e persistência estruturada local.
+
+2. Licença
+O Licenciador concede uma licença limitada, não exclusiva, intransferível e revogável para usar o módulo em conjunto com uma instalação licenciada do LÚMEN, conforme a modalidade comercial adquirida.
+
+3. Dados e persistência
+As listas, avaliações, notas, datas e preferências da Agenda são armazenadas exclusivamente no ambiente local do dispositivo do usuário (banco de dados SQLite local). Nenhuma informação é transmitida a servidores externos.
+
+4. Suporte
+O suporte comercial cobre o funcionamento documentado do módulo em versões suportadas do LÚMEN e do sistema operacional Windows.
+
+5. Restrições e responsabilidade
+Aplicam-se as mesmas restrições, limitações de garantia, regras de propriedade intelectual e responsabilidade estabelecidas no Contrato Comercial principal do LÚMEN.
+Reserva de licenças open source: Nada neste Contrato restringe direitos concedidos por licenças open source de terceiros incluídas com o Software, incluindo componentes Qt (LGPL) e SQLite (Domínio Público).
+
+6. Observação jurídica
+Este documento complementa os termos comerciais gerais da aplicação.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) & ESCOPO COMERCIAL OFICIAL
+1. Dualidade Jurídica: O código-fonte público de LÚMEN encontra-se aberto sob a licença copyleft GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp), garantindo estudo, auditoria e compilação própria livre de taxas. O presente Contrato de Licenciamento Comercial (CLC) aplica-se exclusivamente à aquisição de pacotes binários oficiais assinados pelo autor (Microsoft Store ID 9N70CLLMVRPN — com período de avaliação de 7 dias via TrialManager — e modalidades Individual, Empresarial/Small Business ou Corporativa/Enterprise com contrato de suporte dedicado).
+2. Liberdade sobre source/assets/ em Forks: Forks e distribuições independentes geradas a partir do código-fonte público sob GNU AGPLv3 possuem ampla autorização do autor para alterar, excluir ou adaptar todos os textos de source/assets/, vedado apenas o uso das marcas exclusivas "EISENHOWER ORGANIZER" e "LÚMEN" ou revenda do pacote binário oficial assinado pelo autor.
+3. Suporte e Isenção "AS IS": Suporte contratado limita-se ao pacote oficial emitido pelo Licenciador (contato: linceu_lighthouse@outlook.com); a Microsoft não presta suporte técnico ao cliente. Todos os resultados (incluindo inferência local Qwen/Ollama e cronogramas CPM/4D BIM no Gantt — que não substituem ART/RRT perante CREA/CAU) têm natureza auxiliar e são fornecidos "NO ESTADO EM QUE SE ENCONTRAM" ("AS IS"), respeitados os direitos LGPLv3/LGPLv2.1+ sobre Qt 6.12.0 e FFmpeg n9.0.1.

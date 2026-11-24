@@ -1,0 +1,102 @@
+Privacy Policy - EISENHOWER ORGANIZER
+Parent product: Eisenhower Matrix
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy describes how EISENHOWER ORGANIZER, the parent application, handles user information. This document covers only the parent app and does not cover the integrated modules Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model, which have their own policies when purchased, installed, enabled by license, or used by the user.
+
+1. Scope and principles
+- Local operation: data created in the parent app remains on the user's device, except when the Microsoft Store processes acquisition, licensing, payment, or application updates.
+- Minimization: the parent app handles only information needed to organize tasks, dates, times, priorities, mastery level, linked files, and interface preferences.
+- Transparency and control: you control the creation, editing, import, export, saving, clearing, and deletion of your data.
+
+2. Data handled by the parent app
+2.1 Tasks and organization
+- Task text, descriptions, pending/completed status, Eisenhower Matrix quadrant, priority, mastery level, dates, times, and internal identifiers.
+- Metadata needed to sort, display, synchronize locally, and preserve task consistency.
+- Selections, filters, layout preferences, language, and panel/tab visibility.
+
+2.2 Files chosen by you
+- The parent app may import files chosen by the user to extract tasks when the feature is available.
+- The parent app may export tasks to formats such as JSON, XLSX, PDF, or other supported formats in the location you choose.
+- When you link a file to a task, the app may store that file's local path and only attempts to open it when you request it.
+- The app does not automatically scan folders beyond the files and paths you choose to use.
+
+2.3 Local technical data
+- The app may keep local files such as tarefas.json, layout.json, language.json, trial_info.json, backup files, and local error logs.
+- These files are stored in the application's persistent directory, such as AppData or the equivalent local location defined by the operating system.
+- The app may keep minimal local evaluation/licensing data, when applicable, to manage a trial period or activation.
+
+3. Purposes of processing
+- Create, edit, organize, complete, remove, save, load, and export tasks.
+- Show tasks in quadrants, lists, calendar, panels, and local reports.
+- Restore language, layout, sorting, tab visibility, and interface behavior preferences.
+- Keep local backups and reduce the risk of data loss.
+- Record errors locally for diagnosis on the device itself.
+
+4. What the parent app does not do
+- It does not create its own account, registration, or login.
+- It does not collect automatic telemetry.
+- It does not send tasks, linked files, preferences, reports, or local logs to the developer.
+- It does not sell, license, or share user data with third parties.
+- It does not access full payment data, Microsoft account credentials, or banking information.
+
+5. Microsoft Store, purchase, license, and updates
+- When the app is acquired, updated, licensed, or installed through the Microsoft Store, those flows are processed by Microsoft, the user's Microsoft account, and Microsoft's systems.
+- The app may query the Microsoft Store to verify the application license or compatible module licenses when those features are present.
+- The developer does not receive or store full payment data, Microsoft account credentials, or banking information.
+- Data handled by Microsoft in these flows is subject to Microsoft's privacy policy and terms.
+
+6. Modules and optional modules
+- This Policy covers only the Eisenhower Organizer parent app.
+- Modules such as Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model may handle additional data when they are present in the package, enabled by license, and activated by the user.
+- Each module has its own policy in the same set of product privacy documents.
+- If an module is not installed, enabled, or activated, its specific features and processing do not apply to the parent app.
+
+7. Storage and retention
+- Tasks and preferences remain locally until you edit, replace, clear, or delete the data.
+- Exports remain in the location you choose.
+- Backups and local logs may remain until they are removed by the app, the system, or manually by the user.
+- Uninstalling may remove installed files, but persistent data created in the user profile may require manual cleanup, depending on the operating system's behavior.
+
+8. Sharing
+- The parent app does not share data externally on its own initiative.
+- Any sharing occurs through user action, such as exporting a file, copying content, opening a file in another application, or sending data to third parties.
+- Local interaction with installed modules, when present, occurs within the same installation and is not treated as external sharing.
+
+9. Security
+- Because data is stored locally on the device, protection depends on the safeguards of the operating system, user permissions, antivirus software, local encryption when configured, and backups.
+- We recommend keeping Windows, the Microsoft Store, and the application up to date.
+- We recommend storing exports and task files in protected locations when they contain sensitive information.
+
+10. User rights and controls
+- You can access, correct, edit, export, and delete tasks through the app interface.
+- You can manually remove local task files, preferences, backups, and logs when you want to clear persistent data.
+- You can use export features to obtain a copy of the data in supported formats.
+
+11. Children and adolescents
+- The parent app is not directed to children under 13 and does not intentionally collect personal data.
+
+12. Third parties, libraries, and operating system
+- The app uses libraries and runtime components needed for interface, files, internationalization, PDF, multimedia, or other local features, depending on the installed package.
+- Third-party licenses and notices accompany the product when applicable.
+- Crash reports generated by the operating system, such as Windows Error Reporting, follow system settings and the policies of the respective provider; the developer does not control this flow.
+
+13. Changes to this Policy
+- This Policy may be updated when the parent app receives new features, integrations, or relevant changes in data handling.
+- The date at the top will be updated when there is a material change.
+
+14. Contact
+- Questions about this Policy:
+  Fernando Nillsson Cidade
+  Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT AND SUPPORT AND ON-DEMAND NETWORK TRANSPARENCY
+1. Independence from Microsoft (Microsoft Store Policy 10.5): Microsoft does NOT provide a default privacy policy for EISENHOWER ORGANIZER, and this application is NOT covered by Microsoft's Privacy Statement. Microsoft does not provide customer support (developer contact: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Local Storage Paths: User files live under %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db in Agenda, gantt_database.db in Gantt, and logs/file_*.log) with zero telemetry and zero mandatory accounts.
+3. Optional User-Initiated Network Operations:
+   - Local AI Model (Qwen 2.5 GGUF): optional HTTPS download from Hugging Face (with HTTP Range pause/resume and disk deletion); subsequent llama.cpp inference sends zero data externally.
+   - Local Ollama: strictly loopback HTTP queries to http://127.0.0.1:11434 when triggered by the user.
+   - Edge TTS (Audiobook): selected reading text is sent to the speech service only when the user explicitly selects an online voice; local Windows SAPI voices stay 100% offline.
+   - Gantt REST API / Webhooks: disabled by default; listens or dispatches events only when explicitly enabled by the user with SecurityService.

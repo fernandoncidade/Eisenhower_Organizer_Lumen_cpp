@@ -1,0 +1,32 @@
+COPYRIGHT AND TRADEMARK NOTICE — EISENHOWER ORGANIZER
+Version 2026.11.22.0, November 22, 2026
+======================================
+
+Copyright (C) 2025–2026 Fernando Nillsson Cidade. All rights reserved.
+
+The EISENHOWER ORGANIZER software and all associated documentation, including all content of the Software and Dependencies, are the intellectual property of Fernando Nillsson Cidade. Copyright protection covers, but is not limited to, the program's source code, graphical interface, texts, manuals, and project description.
+
+The name "EISENHOWER ORGANIZER" is a trademark belonging to Fernando Nillsson Cidade. The unauthorized use of the name, logo, or any distinctive material associated with the project is strictly prohibited.
+
+When the integrated Pomodoro module is officially bundled with the Software and detected by the application, that module module, its integration flows, its interface texts, and its accompanying documentation are also part of the protected project material for the purposes of this notice, unless a separate notice expressly states otherwise.
+Any trademark, product identity, layout, or distinctive signs associated with the integrated Pomodoro module in the official distribution remain subject to the same prohibition against unauthorized use, copying, or misrepresentation.
+
+When the integrated Feynman module is officially bundled with the Software and detected by the application, that module, its concept-review resources, interface texts, documentation, and accompanying materials are also part of the protected project material for the purposes of this notice, unless a separate notice expressly states otherwise.
+Any trademark, product identity, layout, distinctive sign, or presentation associated with the integrated Feynman module in the official distribution remains subject to the same prohibition against unauthorized use, copying, or misrepresentation.
+
+When the integrated Mind Map module is officially bundled with the Software and detected by the application, that module, its map creation/import/export flows, interface resources, texts, translations, documentation, integration structures, and accompanying materials are also part of the protected project material for the purposes of this notice, unless a separate notice expressly states otherwise.
+Any trademark, product identity, layout, distinctive sign, or presentation associated with the integrated Mind Map module in the official distribution remains subject to the same prohibition against unauthorized use, copying, or misrepresentation. Maps, texts, documents, notes, and other content created or provided by the user remain subject to the rights of their respective owners.
+
+When the integrated Audiobook module is officially bundled with the Software and detected by the application, that module, its accessible-reading resources, interface, texts, translations, documentation, integration settings, and accompanying materials are also part of the protected project material for the purposes of this notice, unless a separate notice expressly states otherwise.
+Any trademark, product identity, layout, distinctive sign, or presentation associated with the integrated Audiobook module in the official distribution remains subject to the same prohibition against unauthorized use, copying, or misrepresentation. Texts, PDFs, audio generated from user material, and other content read by the module remain subject to the rights of their respective owners and to the terms of the voice services used.
+When the integrated Gantt & BIM 4D module is built into the Software, its critical path method (CPM) algorithms, interface assets, texts, documentation, and schedule structures form part of the project's protected material for this notice. User schedules belong to the user.
+
+When the integrated Assessment Agenda module is built into the Software, its database schemas, activity tracking workflows, user interface, texts, and documentation form part of the protected material. User activities and grades belong to the user.
+
+When the integrated Local Qwen AI Model module is built into the Software, its integration code, local inference architecture, and mind map structuring routines form part of the protected material. The Qwen and llama.cpp trademarks belong to their respective holders.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) AND DEVELOPER FREEDOM ON source/assets/
+- Open-Source Repository: All C++23 / Qt 6.12.0 source code in this repository is licensed under the GNU Affero General Public License v3 (GNU AGPLv3 — LICENSE and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt).
+- Exclusive Trademark Protection (GNU AGPLv3 Section 7(e)): The trademarks "EISENHOWER ORGANIZER", "EISENHOWER ORGANIZER", and "LÚMEN", official icons, and digitally signed Microsoft Store binary packages remain the exclusive property of Fernando Nillsson Cidade.
+- Developer Freedom on source/assets/: Developers distributing open-source forks under GNU AGPLv3 are expressly authorized to edit, delete, or replace the institutional texts inside source/assets/ for their own releases, provided they remove the author's exclusive trademarks and distinctive icons.

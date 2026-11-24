@@ -1,0 +1,31 @@
+COMMERCIAL LICENSE AGREEMENT - ASSESSMENT AGENDA MODULE
+Product: integrated module for EISENHOWER ORGANIZER
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+This Agreement supplements the EULA and Commercial License Agreement of EISENHOWER ORGANIZER and governs commercial use of the integrated Assessment Agenda and Activity Tracker module.
+
+1. Nature of the Module
+The Assessment Agenda is a native module built directly into EISENHOWER ORGANIZER. The commercial license grants the right to use features for chronological scheduling, assessment tracking, appointment logging, grade/weight calculations, and local structured persistence.
+
+2. License Grant
+The Licensor grants a limited, non-exclusive, non-transferable, revocable license to use the module in conjunction with a licensed installation of EISENHOWER ORGANIZER, in accordance with the acquired commercial tier.
+
+3. Data and Persistence
+All agenda records, activities, grades, dates, and preferences are stored exclusively on the user's local device (local SQLite database). No data is transmitted to external servers.
+
+4. Support
+Commercial support covers documented module functionality on supported versions of EISENHOWER ORGANIZER and the Windows operating system.
+
+5. Restrictions and Liability
+The same restrictions, warranty disclaimers, intellectual property terms, and liability limits set forth in the primary Commercial License Agreement of EISENHOWER ORGANIZER apply.
+Open Source Reservation: Nothing in this Agreement restricts rights granted by third-party open-source licenses included with the Software, including Qt components (LGPL) and SQLite (Public Domain).
+
+6. Legal Notice
+This document supplements the general commercial licensing terms of the application.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) & OFFICIAL COMMERCIAL SCOPE
+1. Dual-Licensing Boundary: Public source code of EISENHOWER ORGANIZER is open source under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp), granting full freedom to inspect, compile, modify, and fork. This Commercial Licensing Agreement (CLC) applies exclusively to the author's official digitally signed binary editions (Microsoft Store ID 9P289X0185C3 — with a 7-day trial via TrialManager — and Individual, Small Business, or Enterprise commercial tiers).
+2. Freedom on source/assets/ for Open-Source Forks: Developers maintaining independent GNU AGPLv3 forks are expressly authorized to modify, remove, or adapt all compliance texts in source/assets/, provided they remove the author's exclusive trademarks ("EISENHOWER ORGANIZER" and "LÚMEN") and never resell the author's official signed binaries.
+3. Support & "AS IS" Disclaimer: Commercial support covers solely the official package published by the Licensor (contact: linceu_lighthouse@outlook.com); Microsoft provides no customer support. All outputs (including Qwen/Ollama local AI and 4D BIM Gantt CPM calculations — never replacing licensed ART/RRT engineering sign-off) are auxiliary tools supplied "AS IS", preserving all LGPLv3/LGPLv2.1+ rights over Qt 6.12.0 and FFmpeg n9.0.1.

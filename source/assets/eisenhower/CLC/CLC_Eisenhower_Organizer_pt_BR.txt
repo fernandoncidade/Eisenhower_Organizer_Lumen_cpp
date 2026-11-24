@@ -1,0 +1,48 @@
+CONTRATO DE LICENCIAMENTO COMERCIAL - EISENHOWER ORGANIZER
+Produto: Matriz de Eisenhower
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Este Contrato de Licenciamento Comercial ("Contrato") é celebrado entre Fernando Nillsson Cidade ("Licenciador") e a pessoa física ou jurídica que adquire uma licença comercial do Eisenhower Organizer ("Licenciado").
+
+Este Contrato complementa a EULA, a Política de Privacidade e os avisos de terceiros do produto. Quando o aplicativo for adquirido pela Microsoft Store, a compra, a instalação, as atualizações, os reembolsos e a validação de licença também poderão ser regidos pelos termos da Microsoft Store e pela conta Microsoft do usuário.
+
+1. Objeto
+O Licenciador concede ao Licenciado uma licença limitada, não exclusiva, intransferível e revogável para usar o Eisenhower Organizer como aplicativo de organização, priorização e acompanhamento de tarefas baseado na Matriz de Eisenhower.
+
+2. Uso comercial
+O uso comercial é permitido apenas dentro da quantidade de usuários, dispositivos, unidades ou organização indicada na proposta comercial, no recibo, no pedido, no contrato assinado ou na configuração da Microsoft Store aplicável.
+
+3. Módulos
+Os módulos integrados Pomodoro, Feynman, Mapa Mental, Audiolivro, Gantt & BIM 4D, Agenda de Avaliações e Modelo Qwen de IA Local podem ser entregues junto com o pacote do aplicativo pai, mas permanecem bloqueados até que uma licença válida seja confirmada. A presença técnica de arquivos do módulo no pacote não concede direito de uso sem licença ativa.
+
+4. Restrições
+O Licenciado não pode copiar, revender, sublicenciar, alugar, emprestar, distribuir, desbloquear por meios não autorizados, contornar mecanismos de licença, remover avisos de propriedade intelectual, realizar engenharia reversa fora dos limites permitidos por lei ou usar o produto em atividade ilegal.
+
+5. Dados e privacidade
+O aplicativo pai foi concebido para manter tarefas, preferências e arquivos exportados sob controle do usuário no ambiente local, salvo ação voluntária do usuário ou recurso claramente informado em política própria. O tratamento de dados deve observar a Política de Privacidade correspondente.
+
+6. Suporte e atualizações
+Suporte, manutenção, prazo de atualizações, SLA, treinamento, personalização e implantação corporativa dependem da modalidade comercial adquirida ou de contrato escrito específico. A Microsoft não é responsável por fornecer suporte técnico do aplicativo quando o Licenciador for o publicador.
+
+7. Componentes de terceiros
+O produto pode incluir componentes de terceiros, como bibliotecas Qt e outros arquivos de tempo de execução. Esses componentes permanecem sujeitos às suas respectivas licenças e avisos.
+Reserva de licenças open source: Nada neste Contrato restringe direitos concedidos por licenças open source de terceiros incluídas com o Software. Para componentes cobertos pela LGPL, incluindo Qt e FFmpeg quando entregues, o destinatário pode substituir ou relinkar bibliotecas compartilhadas compatíveis e pode realizar engenharia reversa somente na medida necessária para depurar modificações nesses componentes LGPL, conforme permitido pela LGPL aplicável. Os textos de licença, avisos de terceiros, oferta de código-fonte e configuração de build do FFmpeg estão incluídos em LICENSES e NOTICES.
+
+8. Garantias e responsabilidade
+Na máxima extensão permitida pela lei aplicável, o produto é fornecido no estado em que se encontra e conforme disponível. O Licenciador não responde por danos indiretos, lucros cessantes, perda de dados, interrupções de negócio ou indisponibilidade de serviços de terceiros. Direitos obrigatórios do consumidor permanecem preservados quando aplicáveis.
+
+9. Vigência e encerramento
+Este Contrato permanece válido enquanto a licença estiver ativa e o Licenciado cumprir seus termos. O descumprimento pode resultar em suspensão ou encerramento dos direitos de uso, sem prejuízo de outras medidas cabíveis.
+
+10. Lei aplicável
+Salvo disposição escrita diversa ou regra obrigatória aplicável ao consumidor, este Contrato será interpretado de acordo com as leis do Brasil, com foro preferencial em São José dos Pinhais, Paraná.
+
+11. Observação jurídica
+Este modelo deve ser revisado por profissional jurídico antes de uso público, especialmente para vendas internacionais, órgãos públicos, contratos empresariais ou requisitos regulatórios específicos.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) & ESCOPO COMERCIAL OFICIAL
+1. Dualidade Jurídica: O código-fonte público de EISENHOWER ORGANIZER encontra-se aberto sob a licença copyleft GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp), garantindo estudo, auditoria e compilação própria livre de taxas. O presente Contrato de Licenciamento Comercial (CLC) aplica-se exclusivamente à aquisição de pacotes binários oficiais assinados pelo autor (Microsoft Store ID 9P289X0185C3 — com período de avaliação de 7 dias via TrialManager — e modalidades Individual, Empresarial/Small Business ou Corporativa/Enterprise com contrato de suporte dedicado).
+2. Liberdade sobre source/assets/ em Forks: Forks e distribuições independentes geradas a partir do código-fonte público sob GNU AGPLv3 possuem ampla autorização do autor para alterar, excluir ou adaptar todos os textos de source/assets/, vedado apenas o uso das marcas exclusivas "EISENHOWER ORGANIZER" e "LÚMEN" ou revenda do pacote binário oficial assinado pelo autor.
+3. Suporte e Isenção "AS IS": Suporte contratado limita-se ao pacote oficial emitido pelo Licenciador (contato: linceu_lighthouse@outlook.com); a Microsoft não presta suporte técnico ao cliente. Todos os resultados (incluindo inferência local Qwen/Ollama e cronogramas CPM/4D BIM no Gantt — que não substituem ART/RRT perante CREA/CAU) têm natureza auxiliar e são fornecidos "NO ESTADO EM QUE SE ENCONTRAM" ("AS IS"), respeitados os direitos LGPLv3/LGPLv2.1+ sobre Qt 6.12.0 e FFmpeg n9.0.1.

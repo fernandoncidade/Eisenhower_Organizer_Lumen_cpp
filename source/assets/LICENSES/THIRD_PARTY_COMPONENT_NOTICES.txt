@@ -1,0 +1,35 @@
+THIRD-PARTY COMPONENT NOTICES
+Product package: LÚMEN / EISENHOWER ORGANIZER
+Version series: 2026.10.8.0 (C++23 / Qt 6.12.0)
+
+Dual-Licensing Overview:
+- Public repository source code of EISENHOWER ORGANIZER / LÚMEN is licensed under the GNU Affero General Public License v3 (GNU AGPLv3; see LICENSE and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt).
+- Official digitally signed Microsoft Store packages are governed by the author's Official EULA and Commercial Licensing Agreement (CLC), without restricting any upstream open-source or LGPL rights.
+
+This file summarizes third-party components observed in Windows runtime packages built with Qt 6.12.0 (Pure MSVC 14.52 and MinGW-w64 15.1.0):
+
+1. Qt 6.12.0 runtime
+Modules used: Qt Core, Gui, Widgets, OpenGLWidgets, Pdf, PdfWidgets, Sql, Multimedia, Network, WebSockets, plus platform/SQL/multimedia plugins and translations deployed via windeployqt.
+Primary open-source licensing path: GNU LGPLv3 (plus third-party notices in Qt's upstream SBOM). Corresponding license texts are in LICENSES/.
+
+2. FFmpeg (Qt 6.12.0 Multimedia runtime)
+Observed shared libraries: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll, and plugins/multimedia/ffmpegmediaplugin.dll.
+Observed license: LGPL version 2.1 or later (FFmpeg-n9.0.1; no --enable-gpl, no --enable-nonfree). See LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt.
+
+3. SQLite / Qt SQL driver
+Used by Agenda (listas.db), Gantt & BIM 4D (gantt_database.db), and Mind Map. SQLite is dedicated to the public domain (LICENSES/SQLite Blessing.txt).
+
+4. llama.cpp / GGML & Qwen 2.5
+On-demand local AI inference uses llama.cpp b8987 (CPU/Vulkan) under the MIT License (LICENSES/llama.cpp MIT License.txt) and optional user-downloaded Qwen2.5-3B-Instruct GGUF weights under Apache License 2.0 / Qwen License.
+
+5. LLVM OpenMP / libomp
+Local AI execution may bundle LLVM OpenMP runtime under Apache License 2.0 with LLVM exceptions (LICENSES/LLVM OpenMP License.txt).
+
+6. MinGW-w64 runtime (MinGW builds)
+Ships libgcc_s_seh-1.dll, libstdc++-6.dll, and libwinpthread-1.dll subject to GNU GPLv3 + GCC Runtime Library Exception 3.1 + MinGW-w64 Runtime License (texts in LICENSES/).
+
+7. Microsoft VC++ App-Local CRT & DirectX Shader Compiler (MSVC builds)
+MSVC builds use app-local deployment of VC++ 14.52 runtime DLLs (msvcp140.dll, msvcp140_1.dll, msvcp140_2.dll, vcruntime140.dll, vcruntime140_1.dll — without embedding vc_redist.x64.exe) and DirectX/DXC shader compiler components where shipped (LICENSES/Microsoft Redistributable Runtime Notice.txt and LICENSES/DirectXShaderCompiler License.txt).
+
+8. License hierarchy
+Nothing in the EULA or CLC restricts rights granted by GNU AGPLv3 (for repository source), GNU LGPLv3/LGPLv2.1+, or permissive upstream licenses.

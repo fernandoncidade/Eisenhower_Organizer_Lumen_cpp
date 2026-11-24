@@ -1,0 +1,87 @@
+Versão 2026.11.22.0, 22 de novembro de 2026
+
+Aviso de Licenças e Atribuições de Software de Terceiros
+
+Este documento descreve os principais componentes de terceiros associados à distribuição atual do LÚMEN. A aplicação é implementada nativamente em C++23 com Qt 6.12.0.
+
+Componente principal de terceiros na distribuição atual
+- Qt 6
+  - Uso: base de interface gráfica, internacionalização, recursos visuais e componentes de execução necessários para o aplicativo Windows.
+  - Forma de distribuição: bibliotecas dinâmicas, plugins de plataforma e arquivos auxiliares entregues junto com o executável.
+  - Licenciamento: conforme os termos aplicáveis da distribuição Qt utilizada no processo de compilação e empacotamento, incluindo os requisitos da LGPL quando aplicáveis.
+  - Referências oficiais:
+    https://www.qt.io/
+    https://doc.qt.io/
+    https://www.gnu.org/licenses/lgpl-3.0.html
+Componentes de runtime adicionais e materiais de licença
+- FFmpeg: o Qt Multimedia pode implantar bibliotecas de runtime FFmpeg (avcodec, avformat, avutil, swresample, swscale e o módulo multimídia FFmpeg do Qt). A build FFmpeg fornecida pelo Qt observada informa LGPL versão 2.1 ou posterior, usa bibliotecas compartilhadas e não informa --enable-gpl nem --enable-nonfree. Consulte LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt.
+- Runtime MinGW: builds MinGW podem incluir libgcc, libstdc++, libwinpthread ou arquivos de runtime relacionados. Consulte os textos GPLv3, GCC Runtime Library Exception e MinGW-w64 runtime em LICENSES.
+- Runtime MSVC/Microsoft: builds MSVC podem incluir arquivos Microsoft VC/UCRT/DirectX sujeitos aos termos redistribuíveis da Microsoft. Consulte LICENSES/Microsoft Redistributable Runtime Notice.txt.
+- SQLite/SQL: arquivos Qt SQL/qsqlite e componentes relacionados ao SQLite permanecem sujeitos aos avisos aplicáveis do Qt e do SQLite. Consulte LICENSES/SQLite Blessing.txt.
+- Runtime local de IA do Mapa Mental: quando o módulo Mapa Mental for entregue com llama.cpp/GGML, arquivos CPU/Vulkan ou libomp, consulte LICENSES/llama.cpp MIT License.txt e LICENSES/LLVM OpenMP License.txt.
+- DirectX/DXC: se dxcompiler.dll, dxil.dll, D3DCompiler_47.dll ou arquivos equivalentes forem entregues, consulte LICENSES/DirectXShaderCompiler License.txt e os termos de redistribuição Microsoft aplicáveis.
+
+Oferta de código-fonte open source e direitos LGPL
+- Consulte LICENSES/OPEN_SOURCE_SOURCE_OFFER_pt_BR.txt para a oferta de código-fonte correspondente dos componentes LGPL distribuídos com o pacote.
+- Nada na EULA, licença comercial, controle do módulo ou documentação do produto tem a finalidade de restringir direitos concedidos por licenças open source de terceiros, incluindo direitos LGPL de substituir/relinkar bibliotecas LGPL compatíveis e realizar engenharia reversa somente para depurar modificações nessas bibliotecas LGPL.
+
+Observações sobre conformidade e substituição de bibliotecas
+- A distribuição padrão do aplicativo mantém os componentes Qt de execução em arquivos separados, compatíveis com o modelo usual de distribuição dinâmica.
+- Quando exigido pela licença aplicável, o código-fonte correspondente da tecnologia Qt pode ser obtido pelos canais oficiais do próprio projeto Qt.
+- Caso a política de conformidade da organização usuária exija revisão, substituição ou auditoria desses componentes, recomenda-se utilizar versões compatíveis obtidas pelas fontes oficiais e realizar testes próprios antes da implantação.
+
+Escopo atual deste aviso
+- Este aviso se aplica ao aplicativo principal distribuído em formato executável nativo para Windows.
+- Ferramentas auxiliares atualmente entregues com o projeto também foram migradas para C++ e seguem o mesmo princípio de distribuição por executáveis nativos.
+- Componentes históricos do repositório que tenham existido em versões anteriores não devem ser interpretados como parte obrigatória da distribuição padrão atual.
+
+- Quando o módulo integrado Pomodoro estiver embarcado na distribuição oficial e for detectado pela aplicação, este aviso também deverá ser interpretado como aplicável a esse módulo nativo opcional e a quaisquer componentes de terceiros, arquivos de runtime ou obrigações de licença especificamente entregues com ele no mesmo pacote.
+
+- Quando o módulo integrado Feynman estiver embarcado na distribuição oficial e for detectado pela aplicação, este aviso também deverá ser interpretado como aplicável a esse módulo nativo opcional e a quaisquer componentes de terceiros, arquivos de runtime ou obrigações de licença especificamente entregues com ele no mesmo pacote.
+
+- Quando o módulo integrado Mapa Mental estiver embarcado na distribuição oficial e for detectado pela aplicação, este aviso também deverá ser interpretado como aplicável a esse módulo nativo opcional, às suas traduções, aos seus fluxos de importação/exportação e a quaisquer componentes de terceiros, arquivos de runtime, modelos locais ou obrigações de licença especificamente entregues com ele no mesmo pacote.
+- O módulo Mapa Mental pode utilizar módulos do Qt 6, recursos de SQL/SQLite, leitura de arquivos estruturados, processamento local de documentos e, quando fornecidos ou configurados, runtimes locais de IA como llama.cpp/GGML, com variantes CPU/Vulkan e arquivos auxiliares relacionados.
+- Componentes de IA local, modelos, runtimes, drivers e bibliotecas distribuídos com o módulo devem ser acompanhados de suas próprias licenças e avisos. O usuário ou distribuidor deve validar esses textos antes de redistribuição ou implantação corporativa.
+
+- Quando o módulo integrado Audiolivro estiver embarcado na distribuição oficial e for detectado pela aplicação, este aviso também deverá ser interpretado como aplicável a esse módulo nativo opcional, às suas traduções, aos seus recursos de leitura acessível e a quaisquer componentes de terceiros, arquivos de runtime ou obrigações de licença especificamente entregues com ele no mesmo pacote.
+- O módulo Audiolivro pode utilizar módulos do Qt 6 relacionados a PDF, multimídia, rede, WebSocket, texto, interface e reprodução de áudio. Esses componentes continuam sujeitos aos termos aplicáveis da distribuição Qt utilizada.
+- Recursos de voz baseados em Edge TTS ou serviço equivalente não representam telemetria automática do aplicativo, mas podem depender de serviço externo acionado pelo usuário para sintetizar áudio. O uso desses serviços permanece sujeito aos termos, políticas, disponibilidade e eventuais limitações do respectivo provedor.
+- Quando o módulo integrado Gantt & BIM 4D estiver presente, este aviso aplica-se aos seus componentes de cálculo de caminho crítico, recursos gráficos e manipulação de arquivos CSV.
+- Quando o módulo integrado Agenda de Avaliações estiver presente, este aviso aplica-se aos seus componentes de banco de dados SQLite e recursos de interface.
+- Quando o módulo integrado Modelo Qwen estiver presente, este aviso aplica-se ao motor de inferência llama.cpp (licença MIT) e aos modelos da família Qwen 2.5 (licença Qwen / Apache 2.0).
+
+Obtenção dos textos de licença completos
+- Os textos completos das licenças aplicáveis aos componentes distribuídos devem acompanhar o pacote de distribuição, o instalador ou a documentação complementar.
+- Links úteis:
+  - Qt Licensing: https://www.qt.io/licensing/
+  - LGPL v3: https://www.gnu.org/licenses/lgpl-3.0.html
+  - llama.cpp / GGML: https://github.com/ggml-org/llama.cpp
+  - MIT License: https://opensource.org/license/mit
+  - Vulkan: https://www.khronos.org/vulkan/
+
+Declaração sobre transmissão de dados e privacidade
+- O executável padrão não envia telemetria automática a servidores externos.
+- Os dados do usuário, como tarefas e arquivos exportados, permanecem armazenados localmente sob controle do próprio usuário.
+- Para detalhes adicionais, consulte a Política de Privacidade incluída na distribuição.
+- Quando o módulo integrado Feynman estiver ativo, conceitos, explicações, revisões e caminhos de arquivos vinculados permanecem no ambiente local do usuário, salvo ação externa realizada pelo próprio usuário.
+- Quando o módulo integrado Mapa Mental estiver ativo, documentos escolhidos pelo usuário para importação são lidos para extração/análise local e mapas/autosalvamentos permanecem no ambiente local do usuário, salvo ação externa realizada pelo próprio usuário.
+- Quando o módulo integrado Audiolivro estiver ativo, textos e PDFs permanecem locais durante edição/leitura; entretanto, ao selecionar uma voz baseada em serviço externo como Edge TTS e iniciar a leitura, o texto selecionado poderá ser transmitido ao provedor de voz para geração do áudio.
+
+Contato para pedidos de esclarecimento
+- Para dúvidas sobre licenças, atribuições, conformidade de distribuição ou componentes embarcados, utilize os canais de suporte e contato informados no instalador, na documentação ou na distribuição oficial do produto.
+
+Notas finais
+- Este documento foi atualizado para refletir a arquitetura e a distribuição atuais do LÚMEN como software nativo em C++23 com Qt 6.12.0.
+- Caso novos componentes de terceiros passem a integrar a distribuição oficial, este aviso deverá ser revisado e atualizado.
+
+- Se o módulo integrado Pomodoro estiver ativo em determinada instalação, o usuário deverá consultar os avisos e textos de licença que acompanham o mesmo pacote para verificar eventuais atribuições específicas aplicáveis a esse módulo integrado.
+- Se o módulo integrado Feynman estiver ativo em determinada instalação, o usuário deverá consultar os avisos e textos de licença que acompanham o mesmo pacote para verificar eventuais atribuições específicas aplicáveis a esse módulo integrado.
+- Se o módulo integrado Mapa Mental estiver ativo em determinada instalação, o usuário deverá consultar os avisos e textos de licença que acompanham o mesmo pacote para verificar eventuais atribuições específicas aplicáveis a runtimes de IA local, modelos, drivers, bibliotecas e demais componentes integrados.
+- Se o módulo integrado Audiolivro estiver ativo em determinada instalação, o usuário deverá consultar os avisos e textos de licença/termos que acompanham o mesmo pacote ou o serviço de voz utilizado para verificar atribuições e condições específicas aplicáveis a leitura de PDF, multimídia, rede, codecs e síntese de voz.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) E ATUALIZAÇÃO DE TOOLCHAIN (C++23 / Qt 6.12.0)
+- Código-Fonte do Projeto LÚMEN: Licenciado sob GNU Affero General Public License v3 (GNU AGPLv3). O texto integral acompanha este pacote em LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt e https://www.gnu.org/licenses/agpl-3.0.html.
+- Edições Oficiais Microsoft Store: Regidas por EULA Oficial e CLC do autor sem restringir direitos LGPLv3/LGPLv2.1+ (Qt 6.12.0 e FFmpeg-n9.0.1: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll).
+- Runtime MSVC & MinGW: Compilações Pure MSVC (MSVC 14.52) utilizam apenas DLLs app-local do VC++ Runtime (sem vc_redist.x64.exe); compilações MinGW-w64 15.1.0 incluem libgcc, libstdc++ e libwinpthread sob GPLv3 + GCC Runtime Library Exception 3.1.
+- IA Local Sob Demanda: Motor llama.cpp b8987 (CPU/Vulkan) sob Licença MIT e pesos opcionais Qwen2.5-3B-Instruct sob Licença Apache 2.0 (baixados apenas sob demanda pelo usuário), além de integração local com servidor Ollama (localhost:11434).

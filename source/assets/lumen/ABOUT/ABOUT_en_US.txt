@@ -1,0 +1,129 @@
+Project: LÚMEN
+Version: 2026.11.22.0
+Authors: Fernando Nillsson Cidade
+
+Short description:
+LÚMEN is a lightweight application to manage tasks using the Eisenhower Matrix (Important/Urgent). It allows creating, categorizing, marking tasks as completed, and exporting/importing tasks quickly and simply. The current release is distributed as a native C++ application built with Qt 6, with the required components already included for immediate use.
+
+Detailed description:
+The application organizes tasks into four quadrants:
+- 1st Quadrant: Important and Urgent
+- 2nd Quadrant: Important but Not Urgent
+- 3rd Quadrant: Not Important but Urgent
+- 4th Quadrant: Not Important and Not Urgent
+
+Each quadrant has a list of pending tasks and a list of completed tasks. A task marked as completed is automatically moved to the corresponding completed list; when unmarked it returns to the original list. Placeholder items indicate empty lists and are updated as needed.
+
+Main features:
+- Quickly add tasks with a quadrant selector.
+- Mark tasks as completed (automatic movement between lists).
+- Remove tasks via context menu with confirmation.
+- Local persistence: tasks are saved automatically to tasks.json in the application's persistent user directory (installation/executable).
+- Export to XLSX (Excel) and PDF via the "Save As" dialog.
+- Import tasks from XLSX and PDF via "Open" — supports spreadsheets with sheets named by quadrant and PDFs with identifiable sections.
+- Multilingual interface: language selection via the settings menu; texts and placeholders update immediately.
+- "About" window with history, details, notices, licenses and privacy policy loaded from resource files included in the executable.
+- Offline operation of the main application: Eisenhower workflow data remains on the user's device, with no telemetry; optional modules may have their own conditions described in this document and in the Privacy Policy.
+- Implementation of a calendar to link tasks.
+- View tasks by date (day, week, month).
+- Main interface tab control, allowing available tabs to be shown, hidden, reordered, locked, or restored to the default order without hiding all modules at the same time.
+
+Installation and distribution:
+- Provided as a native Windows installer/executable built in C++23 with Qt 6.12.0.
+- The distributed package already includes the required runtime components and resources for immediate use.
+- Default folder for saving/opening files is the user's folder; system dialogs allow choosing the desired location when exporting/importing.
+
+Data storage and privacy:
+- Tasks are stored locally in a tasks.json file in the system's persistent path (for example, the user's AppData). No data is sent automatically to external servers.
+- Exported files (XLSX, PDF, JSON) are saved at the location chosen by the user.
+- The privacy policy and legal notices are included in the installer and accessible from the "About" window.
+- Optional modules, when present, may create their own local configuration, autosave, cache, or temporary working files in the same installation/user-profile context.
+
+System requirements:
+- Windows 10 or later.
+- Standard minimal disk space for productivity applications.
+- Optional voice-reading, document-processing, or local-AI resources may require additional bundled components, voice services available on the computer, or a user-initiated network connection.
+
+Quick start:
+1. Launch the application.
+2. Type the task in the "Add task..." field and select the quadrant.
+3. Click "Add Task" or press Enter.
+4. Tick the checkbox next to a task to move it to the completed list; untick to restore it.
+5. Right-click a task to remove it.
+6. Use "File → Save As" to export; "File → Open" to import XLSX/PDF.
+7. Configure language under "Settings → Language" and view "About" for licenses and additional information.
+
+Common troubleshooting:
+- Locate tasks.json: the file is created in the application's persistent directory. If data is missing, check write permissions for your user folder.
+- PDF/XLSX do not import: use the expected format (sheets named by quadrant for XLSX or recognizable sections in PDF). The app shows messages when a format is unsupported.
+- High resource usage: the application is lightweight; performance issues likely originate from other software on the system.
+- Integrated modules: Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model are natively built into the application.
+
+Support and contact:
+- Author: Fernando Nillsson Cidade
+- For suggestions, bug reports, or contributions, refer to the channels provided in the installer or included documentation.
+
+License and notices:
+- License information, notices, and the privacy policy are included in the installer and accessible from the application's "About" section.
+
+Final notes:
+This document describes the behavior of the application as distributed in native executable form. Advanced users planning specific deployment scenarios, local automation, or manual file management should consult the technical documentation or installer for details on paths and parameters.
+
+Integrated Pomodoro module:
+- The integrated Pomodoro module adds a dedicated focus module with work and break cycles integrated into LÚMEN.
+- When active, it can be accessed through Settings -> Modules -> Pomodoro, and may also appear in its own main tab/module.
+- Tasks can be shared from Eisenhower lists to the Pomodoro workflow, preserving the main task metadata used by the local integration (such as title, date, time, description, linked file, and status context when available).
+- Alarm preferences for focus/break cycle notifications can be configured through Settings -> Modules -> Pomodoro -> Alarm.
+- Data exchanged between the main application and the Pomodoro module occurs locally within the same installation/runtime context. This optional integration does not, by itself, introduce automatic transmission of task data to external servers.
+- Features of this module are fully integrated into the application.
+
+Integrated Feynman module:
+- The integrated Feynman module extends LÚMEN to support concept review and study-knowledge organization.
+- When active, it can be accessed through Settings -> Modules -> Feynman, and may also appear in its own main tab/module.
+- It lets you create and organize study concepts in a list, with edit/save/delete actions and clear visual feedback.
+- Review can be separated by tabs to highlight the main idea, simplified explanation, and improvement points.
+- You can link support files to concepts and open the linked file through user action.
+- Concepts and tasks can be used together; when applicable, the integration keeps key data aligned between modules.
+- Feynman data remains local in the same installation/runtime context; this optional integration does not introduce automatic transmission of data to external servers.
+- Features of this module are fully integrated into the application.
+
+Integrated Mind Map module:
+- The integrated Mind Map module adds a visual module for creating maps of ideas, topics, study material, and relationships between concepts inside LÚMEN.
+- When active, it can be accessed through Settings -> Modules -> Mind Map, and may also appear in its own main tab/module.
+- You can add concepts, move nodes, connect related ideas, change colors, write notes, link files, remove concepts, and follow concept/selection totals through the application counter.
+- Maps can be saved and loaded as JSON, automatically restored through local autosave, cleared with confirmation, and exported as PNG images.
+- Document import can extract text from user-selected files and generate map structures when local/AI resources are available. Supported formats include PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite, and XML.
+- Document processing, structure analysis, and concept generation occur within the local application context when the module uses packaged or configured local AI resources. Imported content remains under the user's control.
+- The map can be arranged in vertical, horizontal, radial, or tree layouts, with the preferred layout remembered locally, and a focused/cinematic view can help present or review the map step by step.
+- Features of this module are fully integrated into the application.
+
+Integrated Audiobook module:
+- The integrated Audiobook module adds an accessible reader for text and PDFs, with aloud playback, reading controls, and visual tracking resources.
+- When active, it can be accessed through Settings -> Modules -> Audiobook, and may also appear in its own main tab/module.
+- The module lets you write, paste, open, drag compatible files, save text as TXT, switch between Text and PDF views, and search in both views.
+- Controls include read, pause, continue, stop, speed, volume, voice selection, font adjustments, bullets, line spacing, indentation, and margins.
+- PDF reading includes page navigation, zoom, fit to width, fit to page, hand mode, selection mode, text copy, and file/page information.
+- Assisted reading can highlight the current word, sentence, or paragraph during playback, and the focus ruler can help line-by-line tracking.
+- Voice and font preferences are saved locally in the module configuration file; temporary audio files may be created during synthesis and removed after reading.
+- Some voices, especially Edge TTS-based voices, depend on an external voice service and a user-initiated network connection. In those cases, the text selected for reading may be transmitted to the voice service to generate audio, subject to that service's terms and availability.
+- Features of this module are fully integrated into the application.
+
+Integrated Gantt & BIM 4D module:
+- The integrated Gantt & BIM 4D module adds advanced planning, schedule management, interactive Gantt charts, Critical Path Method (CPM) calculation, and 4D construction simulation to LÚMEN.
+- Enables hierarchical Work Breakdown Structure (WBS) creation, logic dependency and milestone management, baseline comparisons, CSV export/import, and bidirectional synchronization with Eisenhower Matrix tasks.
+- Operates 100% locally, keeping all project schedules and data safely on the user's computer.
+
+Integrated Assessment Agenda & Activity Tracker module:
+- The integrated Assessment Agenda & Activity Tracker module brings comprehensive chronological planning, logging, and tracking of assessments, exams, deadlines, and academic/professional commitments to LÚMEN.
+- Allows recording activities by date, time, category, grades, and weights, with list view, calendar integration, and structured persistence in a local SQLite database within the user's profile.
+- Operates 100% locally, keeping all tables and records strictly on the user's device.
+
+Integrated Local Qwen AI Model module:
+- The integrated Local Qwen AI Model module brings advanced generative AI, text analysis, and conceptual structuring executed 100% locally on the user's device via the llama.cpp engine with quantized Qwen2.5 models.
+- Powers automated concept tree generation for Mind Maps and provides structured summaries of documents and notes without cloud transmission and without requiring an internet connection.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA), C++23 / Qt 6.12.0 ARCHITECTURE & AUXILIARY SCOPE ("AS IS")
+- Technology & Clean Builds: Natively compiled in strict C++23 with Qt 6.12.0 across Pure MSVC x64 (Visual Studio 18 2026 / MSVC 14.52, app-local CRT without vc_redist.x64.exe) and MinGW-w64 15.1.0, continuously verified across 11 automated CTest suites (Qt6: Compilar e Executar SUITE (MSVC) / Qt6: Compilar e Executar SUITE (MinGW)).
+- Dual Licensing: Open-source code under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp) with express fork freedom on source/assets/ once exclusive trademarks are removed; official digitally signed Microsoft Store edition (ID 9N70CLLMVRPN) under the author's Official EULA and CLC (Fernando Nillsson Cidade). Best-effort voluntary developer support strictly at linceu_lighthouse@outlook.com (Microsoft provides no customer support).
+- Auxiliary Scope ("AS IS"): Auxiliary productivity, cognitive-accessibility, and scheduling tool provided "AS IS" without warranties; Local AI outputs (Qwen/Ollama) are probabilistic aids and 4D BIM Gantt CPM schedules never replace independent verification or licensed ART/RRT engineering sign-off.

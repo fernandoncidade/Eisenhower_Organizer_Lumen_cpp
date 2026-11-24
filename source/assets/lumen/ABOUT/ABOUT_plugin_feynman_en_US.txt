@@ -1,0 +1,29 @@
+Project: LÚMEN
+Module: Feynman
+Product ID: modulo_feynman
+Version: 2026.11.22.0
+Author: Fernando Nillsson Cidade
+
+Description:
+The Feynman module adds a local module for study, concept review, simplified explanations, knowledge gaps, and revisions. It works as a native module integrated into the main application.
+
+Main features:
+- Creation and organization of study concepts.
+- Fields for explanation, gaps, review, description, priority, and mastery level.
+- Linking of local support files.
+- Local integration with LÚMEN tasks.
+- Local persistence of records.
+
+Data and connectivity:
+- The module operates locally and does not send concepts or files to the developer.
+- Purchase, license, and access confirmation are processed by the Microsoft Store.
+- See this module's specific Privacy Policy and EULA.
+
+Support:
+- Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA), C++23 / Qt 6.12.0 ARCHITECTURE & AUXILIARY SCOPE ("AS IS")
+- Technology & Clean Builds: Natively compiled in strict C++23 with Qt 6.12.0 across Pure MSVC x64 (Visual Studio 18 2026 / MSVC 14.52, app-local CRT without vc_redist.x64.exe) and MinGW-w64 15.1.0, continuously verified across 11 automated CTest suites (Qt6: Compilar e Executar SUITE (MSVC) / Qt6: Compilar e Executar SUITE (MinGW)).
+- Dual Licensing: Open-source code under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp) with express fork freedom on source/assets/ once exclusive trademarks are removed; official digitally signed Microsoft Store edition (ID 9N70CLLMVRPN) under the author's Official EULA and CLC (Fernando Nillsson Cidade). Best-effort voluntary developer support strictly at linceu_lighthouse@outlook.com (Microsoft provides no customer support).
+- Auxiliary Scope ("AS IS"): Auxiliary productivity, cognitive-accessibility, and scheduling tool provided "AS IS" without warranties; Local AI outputs (Qwen/Ollama) are probabilistic aids and 4D BIM Gantt CPM schedules never replace independent verification or licensed ART/RRT engineering sign-off.

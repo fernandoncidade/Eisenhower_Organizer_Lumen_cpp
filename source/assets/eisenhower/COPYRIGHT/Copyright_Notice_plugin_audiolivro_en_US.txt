@@ -1,0 +1,22 @@
+COPYRIGHT AND TRADEMARK NOTICE - AUDIOBOOK MODULE
+Product: module for Eisenhower Organizer
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+Copyright (C) 2025-2026 Fernando Nillsson Cidade. All rights reserved.
+
+The Audiobook module, including code, interface, reading features, text, translations, documentation, icons, settings, and integrations with Eisenhower Organizer, is protected by copyright and other intellectual property rights.
+
+"Audiobook" is used in this product as the functional name of the module. Any mark, distinctive sign, layout, icon, or material associated with the module may not be copied, distributed, resold, or presented as a separate product without authorization.
+
+Text, PDFs, documents, audio generated from user content, and other materials read or converted by the module remain owned by the user or the applicable rights holders.
+
+Microsoft, Windows, Microsoft Store, and Microsoft Edge are trademarks of the Microsoft group of companies. References to those names are descriptive only and do not imply affiliation, sponsorship, or endorsement.
+
+Third-party components, codecs, PDF libraries, multimedia resources, and voice services used by the module remain subject to their respective licenses, terms, and notices.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) AND DEVELOPER FREEDOM ON source/assets/
+- Open-Source Repository: All C++23 / Qt 6.12.0 source code in this repository is licensed under the GNU Affero General Public License v3 (GNU AGPLv3 — LICENSE and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt).
+- Exclusive Trademark Protection (GNU AGPLv3 Section 7(e)): The trademarks "EISENHOWER ORGANIZER", "EISENHOWER ORGANIZER", and "LÚMEN", official icons, and digitally signed Microsoft Store binary packages remain the exclusive property of Fernando Nillsson Cidade.
+- Developer Freedom on source/assets/: Developers distributing open-source forks under GNU AGPLv3 are expressly authorized to edit, delete, or replace the institutional texts inside source/assets/ for their own releases, provided they remove the author's exclusive trademarks and distinctive icons.

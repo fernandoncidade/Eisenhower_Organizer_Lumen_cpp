@@ -1,0 +1,88 @@
+Version 2026.11.22.0, November 22, 2026
+
+Third-Party Software Licenses and Attributions Notice
+
+This document describes the main third-party components associated with the current LÚMEN distribution. The application is natively implemented in C++23 with Qt 6.12.0.
+
+Main third-party component in the current distribution
+- Qt 6
+  - Usage: graphical interface foundation, internationalization, visual resources, and runtime components required by the Windows application.
+  - Distribution format: dynamic libraries, platform modules, and supporting files delivered alongside the executable.
+  - Licensing: according to the applicable terms of the Qt distribution used during build and packaging, including LGPL requirements where applicable.
+  - Official references:
+    https://www.qt.io/
+    https://doc.qt.io/
+    https://www.gnu.org/licenses/lgpl-3.0.html
+Additional runtime components and license materials
+- FFmpeg: Qt Multimedia may deploy FFmpeg runtime libraries (avcodec, avformat, avutil, swresample, swscale, and the Qt FFmpeg multimedia module). The observed Qt-provided FFmpeg build reports LGPL version 2.1 or later, uses shared libraries, and does not report --enable-gpl or --enable-nonfree. See LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt.
+- MinGW runtime: MinGW builds may include libgcc, libstdc++, libwinpthread, or related runtime files. See the GPLv3, GCC Runtime Library Exception, and MinGW-w64 runtime license texts in LICENSES.
+- MSVC/Microsoft runtime: MSVC builds may include Microsoft VC/UCRT/DirectX runtime files subject to Microsoft redistributable terms. See LICENSES/Microsoft Redistributable Runtime Notice.txt.
+- SQLite/SQL: Qt SQL/qsqlite runtime files and SQLite-related components remain subject to the applicable Qt and SQLite notices. See LICENSES/SQLite Blessing.txt.
+- Mind Map local AI runtime: when the Mind Map module is shipped with llama.cpp/GGML, CPU/Vulkan files, or libomp, see LICENSES/llama.cpp MIT License.txt and LICENSES/LLVM OpenMP License.txt.
+- DirectX/DXC: if dxcompiler.dll, dxil.dll, D3DCompiler_47.dll, or equivalent shader/runtime files are shipped, see LICENSES/DirectXShaderCompiler License.txt and the applicable Microsoft redistribution terms.
+
+Open-source source offer and LGPL rights
+- See LICENSES/OPEN_SOURCE_SOURCE_OFFER_en_US.txt for the corresponding-source offer covering LGPL components distributed with the package.
+- Nothing in the product EULA, commercial license, module lock, or documentation is intended to restrict rights granted by third-party open-source licenses, including LGPL rights to replace/relink compatible LGPL libraries and reverse engineer only to debug modifications to those LGPL libraries.
+
+Notes on compliance and library replacement
+- The standard application distribution keeps Qt runtime components in separate files, consistent with the usual dynamic distribution model.
+- Where required by the applicable license, the corresponding source code for the Qt technology can be obtained through Qt's official channels.
+- If an organization's compliance policy requires review, replacement, or auditing of these components, compatible versions obtained from official sources should be used and validated before deployment.
+
+Current scope of this notice
+- This notice applies to the main application distributed as a native Windows executable.
+- Auxiliary tools currently delivered with the project have also been migrated to C++ and follow the same native executable distribution model.
+- Historical components that may have existed in earlier repository versions should not be interpreted as mandatory parts of the current standard distribution.
+
+- When the integrated Pomodoro module is bundled with the official distribution and detected by the application, this notice should also be read as covering that optional native module and any third-party components, runtime files, or license obligations specifically shipped with it in the same package.
+
+- When the integrated Feynman module is bundled with the official distribution and detected by the application, this notice should also be read as covering that optional native module and any third-party components, runtime files, or license obligations specifically shipped with it in the same package.
+
+- When the integrated Mind Map module is bundled with the official distribution and detected by the application, this notice should also be read as covering that optional native module, its translations, its import/export flows, and any third-party components, runtime files, local models, or license obligations specifically shipped with it in the same package.
+- The Mind Map module may use Qt 6 modules, SQL/SQLite resources, structured-file reading, local document processing, and, when supplied or configured, local AI runtimes such as llama.cpp/GGML, including CPU/Vulkan variants and related auxiliary files.
+- Local AI components, models, runtimes, drivers, and libraries distributed with the module should be accompanied by their own licenses and notices. The user or distributor should validate those texts before redistribution or corporate deployment.
+
+- When the integrated Audiobook module is bundled with the official distribution and detected by the application, this notice should also be read as covering that optional native module, its translations, its accessible-reading resources, and any third-party components, runtime files, or license obligations specifically shipped with it in the same package.
+- The Audiobook module may use Qt 6 modules related to PDF, multimedia, network, WebSocket, text, interface, and audio playback. Those components remain subject to the applicable terms of the Qt distribution used.
+- Voice features based on Edge TTS or an equivalent service do not represent automatic telemetry by the application, but may depend on an external service initiated by the user to synthesize audio. Use of those services remains subject to the terms, policies, availability, and any limitations of the respective provider.
+
+Obtaining full license texts
+- Full texts of the licenses applicable to distributed components should accompany the distribution package, installer, or supplementary documentation.
+- Useful links:
+  - Qt Licensing: https://www.qt.io/licensing/
+  - LGPL v3: https://www.gnu.org/licenses/lgpl-3.0.html
+  - llama.cpp / GGML: https://github.com/ggml-org/llama.cpp
+  - MIT License: https://opensource.org/license/mit
+  - Vulkan: https://www.khronos.org/vulkan/
+
+Statement on data transmission and privacy
+- The standard executable does not send automatic telemetry to external servers.
+- User data, such as tasks and exported files, remains stored locally under the user's control.
+- For further details, see the Privacy Policy included with the distribution.
+- When the Feynman module is active, concepts, explanations, reviews, and linked-file paths remain in the user's local environment, except for any external action performed by the user.
+- When the Mind Map module is active, documents chosen by the user for import are read for local extraction/analysis, and maps/autosaves remain in the user's local environment except for any external action performed by the user.
+- When the Audiobook module is active, texts and PDFs remain local during editing/reading; however, when an external-service voice such as Edge TTS is selected and reading is started, the selected text may be transmitted to the voice provider to generate audio.
+
+Contact for clarification requests
+- For questions about licenses, attributions, distribution compliance, or bundled components, use the support and contact channels provided in the installer, documentation, or official product distribution.
+
+Final notes
+- This document has been updated to reflect the current LÚMEN architecture and distribution as native C++ software built with Qt 6.
+- If new third-party components become part of the official distribution, this notice must be reviewed and updated.
+
+- If the integrated Pomodoro module is active in a given installation, the user should review the notices and license texts that accompany the same package for any module-specific attributions that may apply to that integrated module.
+- If the integrated Feynman module is active in a given installation, the user should review the notices and license texts that accompany the same package for any module-specific attributions that may apply to that integrated module.
+- If the integrated Mind Map module is active in a given installation, the user should review the notices and license texts that accompany the same package for any specific attributions that may apply to local AI runtimes, models, drivers, libraries, and other integrated components.
+- If the integrated Audiobook module is active in a given installation, the user should review the notices and license texts/terms that accompany the same package or the voice service used for any specific conditions applicable to PDF reading, multimedia, network, codecs, and voice synthesis.
+
+- When the integrated Gantt & BIM 4D module is present, this notice applies to its critical path calculations, chart graphics, and CSV processing.
+- When the integrated Assessment Agenda module is present, this notice applies to its SQLite database components and interface routines.
+- When the integrated Local Qwen AI Model module is present, this notice applies to the llama.cpp inference engine (MIT License) and Qwen 2.5 models (Qwen License / Apache 2.0).
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) AND TOOLCHAIN UPDATE (C++23 / Qt 6.12.0)
+- LÚMEN Source Code: Licensed under GNU Affero General Public License v3 (GNU AGPLv3). Full license text is bundled in LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt and https://www.gnu.org/licenses/agpl-3.0.html.
+- Official Microsoft Store Editions: Governed by the author's Official EULA and CLC without restricting LGPLv3/LGPLv2.1+ rights (Qt 6.12.0 and FFmpeg-n9.0.1: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll).
+- MSVC & MinGW Runtimes: Pure MSVC builds (MSVC 14.52) bundle only app-local VC++ Runtime DLLs (zero vc_redist.x64.exe); MinGW-w64 15.1.0 builds include libgcc, libstdc++, and libwinpthread under GPLv3 + GCC Runtime Library Exception 3.1.
+- On-Demand Local AI: llama.cpp b8987 runtime (CPU/Vulkan) under the MIT License and optional user-downloaded Qwen2.5-3B-Instruct GGUF weights under Apache License 2.0, plus optional loopback integration with local Ollama (localhost:11434).

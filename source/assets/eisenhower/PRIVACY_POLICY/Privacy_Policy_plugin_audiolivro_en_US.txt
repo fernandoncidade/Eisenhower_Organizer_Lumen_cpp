@@ -1,0 +1,96 @@
+Privacy Policy - Audiobook Module
+Product: EISENHOWER ORGANIZER
+Module ID: modulo_audiolivro
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy describes how the Audiobook module handles information when used with EISENHOWER ORGANIZER. The module is designed for assisted reading of texts and PDFs, search, navigation, font adjustment, voice selection, and audio playback. This Policy is specific to the module and should be read together with the Privacy Policy of the parent application.
+
+1. Scope and principles
+- Local operation by default: texts, PDFs, and preferences remain on the device, except when you use a voice based on an external service or when the Microsoft Store processes acquisition, licensing, or payment for the module.
+- Minimization: the module handles only content needed to open, display, search, read aloud, highlight, and save texts.
+- User control: you choose which texts to type, paste, open, drag, read aloud, or save.
+
+2. Data handled by the module
+2.1 Texts and PDFs
+- Texts typed, pasted, opened, dragged into the reader, or extracted from PDFs chosen by you.
+- Navigation and selection information needed for search, reading highlight, and playback.
+- TXT files saved by you in the location you choose.
+
+2.2 Reading preferences
+- Selected voice, speed, volume, font, font size, and visual preferences.
+- Settings associated with the focus ruler and assisted reading.
+
+2.3 Voice synthesis and temporary files
+- During aloud reading, the module may create temporary audio and text files, such as audiolivro_*.mp3, audiolivro_*.wav, audiolivro_*.txt, or audiolivro_*.part.
+- The module attempts to remove temporary files after use when technically possible.
+- Word timestamp data may exist in memory during the session to highlight the passage being read.
+
+2.4 Local technical data
+- The module may keep audiolivro_config.json and local error logs in the application's persistent directory.
+
+3. Online voices and external services
+- Some voices are based on an external service, such as Edge TTS.
+- When you choose an online voice and start reading, the text selected for playback may be sent to the voice provider to generate audio.
+- This transmission occurs through user action when starting reading with an online voice and is not automatic application telemetry.
+- The voice provider may handle data according to its own terms and privacy policy.
+
+4. Purposes of processing
+- Display, search, navigate, and read texts and PDFs.
+- Convert selected text into audio when requested.
+- Apply speech highlighting, focus ruler, and accessibility adjustments.
+- Save local voice and font preferences for future use.
+
+5. What the module does not do
+- It does not create its own account, registration, or login.
+- It does not collect automatic telemetry.
+- It does not send texts, PDFs, preferences, or files to the developer.
+- It does not scan user folders beyond the files you choose to open or drag into the module.
+- It does not access payment data; payments and licenses are processed by the Microsoft Store.
+
+6. Microsoft Store, purchase, and license
+- Module acquisition, license confirmation, and any payments are processed by the Microsoft Store, the user's Microsoft account, and Microsoft's systems.
+- The application queries the Microsoft Store to verify whether the plugin_audiolivro module license is active.
+- The developer does not receive or store full payment data, Microsoft account credentials, or banking information.
+- Data handled by Microsoft in these flows is subject to Microsoft's privacy policy and terms.
+
+7. Storage and retention
+- Texts saved as TXT remain in the location you choose.
+- Local preferences may remain in audiolivro_config.json until you change, restore, manually delete, or clear/uninstall application data.
+- Temporary files are intended for audio generation and playback; system failures or files in use may require manual cleanup.
+
+8. Sharing
+- The module does not share data with third parties on its own initiative.
+- Texts and PDFs are transmitted externally only when you use an online voice that requires sending text to the voice provider.
+- Any other external sharing occurs only through user action, for example by saving, copying, or sending files to third parties.
+
+9. Security
+- Because data is mostly stored on the device, protection depends on the safeguards of the operating system, user permissions, antivirus software, local encryption when configured, and backups.
+- PDFs and texts may contain sensitive information; we recommend using the module only with materials that you are authorized to open, read, or convert to audio.
+- We recommend keeping Windows, the Microsoft Store, and the application up to date.
+
+10. User rights and controls
+- You can clear the panel, change preferences, save texts as TXT, and remove remaining temporary files.
+- You can delete audiolivro_config.json to remove local preferences.
+- You can uninstall the module or the application to remove installed files; persistent local data may require manual cleanup depending on the system's behavior.
+
+11. Children and adolescents
+- The module is not directed to children under 13 and does not intentionally collect personal data.
+
+12. Changes to this Policy
+- This Policy may be updated when the module receives new features, integrations, voices, or relevant changes in data handling.
+
+13. Contact
+- Questions about this Policy:
+  Fernando Nillsson Cidade
+  Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT AND SUPPORT AND ON-DEMAND NETWORK TRANSPARENCY
+1. Independence from Microsoft (Microsoft Store Policy 10.5): Microsoft does NOT provide a default privacy policy for EISENHOWER ORGANIZER, and this application is NOT covered by Microsoft's Privacy Statement. Microsoft does not provide customer support (developer contact: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Local Storage Paths: User files live under %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db in Agenda, gantt_database.db in Gantt, and logs/file_*.log) with zero telemetry and zero mandatory accounts.
+3. Optional User-Initiated Network Operations:
+   - Local AI Model (Qwen 2.5 GGUF): optional HTTPS download from Hugging Face (with HTTP Range pause/resume and disk deletion); subsequent llama.cpp inference sends zero data externally.
+   - Local Ollama: strictly loopback HTTP queries to http://127.0.0.1:11434 when triggered by the user.
+   - Edge TTS (Audiobook): selected reading text is sent to the speech service only when the user explicitly selects an online voice; local Windows SAPI voices stay 100% offline.
+   - Gantt REST API / Webhooks: disabled by default; listens or dispatches events only when explicitly enabled by the user with SecurityService.

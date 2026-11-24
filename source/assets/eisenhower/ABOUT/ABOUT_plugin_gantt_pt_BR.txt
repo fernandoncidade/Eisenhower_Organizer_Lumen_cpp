@@ -1,0 +1,32 @@
+Projeto: EISENHOWER ORGANIZER
+Módulo: Gantt & BIM 4D
+ID do Produto: modulo_gantt
+Versão: 2026.11.22.0
+Autor: Fernando Nillsson Cidade
+
+Descrição:
+O módulo Gantt & BIM 4D adiciona recursos avançados de planejamento, gestão de cronogramas, gráfico de Gantt interativo, Método do Caminho Crítico (CPM) e simulação 4D ao Eisenhower Organizer. Ele funciona como recurso suplementar integrado ao aplicativo principal.
+
+Funcionalidades principais:
+- Gráfico de Gantt interativo com suporte a dependências (FS, SS, FF, SF) e marcos.
+- Cálculo automático do Caminho Crítico (CPM - Critical Path Method), folgas e datas limite.
+- Tabela WBS (EAP) com estrutura hierárquica, prazos, custos, progresso e status.
+- Gerenciamento de Linhas de Base (Baselines) e visualização de Linha Fantasma para comparação.
+- Simulação 4D construtiva vinculada ao avanço temporal do cronograma.
+- Importação e exportação de cronogramas em formato CSV.
+- Sincronização local bidirecional com as tarefas e prioridades do Eisenhower Organizer.
+
+Dados e conectividade:
+- O módulo opera localmente por padrão.
+- Cronogramas, vínculos, baselines, simulações e arquivos CSV permanecem no ambiente local do usuário.
+- Compra, licença e confirmação de acesso são processadas pela Microsoft Store.
+- Consulte a política de privacidade e a EULA específicas deste módulo.
+
+Suporte:
+- E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL), ARQUITETURA C++23 / Qt 6.12.0 E ESCOPO AUXILIAR ("AS IS")
+- Tecnologia e Builds Limpos: Compilado nativamente em C++23 estrito com Qt 6.12.0 para Pure MSVC x64 (Visual Studio 18 2026 / MSVC 14.52, CRT app-local sem vc_redist.x64.exe) e MinGW-w64 15.1.0, validado continuamente por suíte CTest com 11 executáveis automatizados (Qt6: Compilar e Executar SUITE (MSVC) / Qt6: Compilar e Executar SUITE (MinGW)).
+- Duplo Licenciamento: Código-fonte público aberto sob GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp) com liberdade expressa para forks adaptarem source/assets/ após remoção das marcas exclusivas; distribuição oficial assinada na Microsoft Store (ID 9P289X0185C3) sob EULA Oficial e CLC do autor (Fernando Nillsson Cidade). Suporte voluntário best-effort exclusivamente via linceu_lighthouse@outlook.com (a Microsoft não presta suporte técnico).
+- Caráter Auxiliar ("AS IS"): Ferramenta auxiliar de produtividade, acessibilidade cognitiva e planejamento (sujeita a limitações e revisão humana; resultados de IA local Qwen/Ollama são probabilísticos e cronogramas CPM/4D BIM no Gantt jamais substituem conferência independente nem ART/RRT perante CREA/CAU).

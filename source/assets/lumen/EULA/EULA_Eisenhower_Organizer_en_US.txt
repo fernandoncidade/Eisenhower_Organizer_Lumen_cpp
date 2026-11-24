@@ -1,0 +1,59 @@
+END USER LICENSE AGREEMENT - LÚMEN
+Product: Eisenhower Matrix
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+By installing, downloading, accessing, or using LÚMEN, you agree to this End User License Agreement ("License"). If you do not agree, do not use the product.
+
+1. Parties and product
+The Licensor is Fernando Nillsson Cidade. The licensed product is LÚMEN, a Windows application for organizing, prioritizing, and tracking tasks based on the Eisenhower Matrix, including official documentation and resources provided in the package.
+
+2. Licensed, not sold
+The product is licensed, not sold. This License grants only the rights expressly described here. All other rights remain reserved by Licensor and by the owners of third-party components.
+
+3. Use grant
+While you comply with this License, Licensor grants you a limited, non-exclusive, non-transferable, revocable right to install and use the application on compatible Windows devices, according to the purchased tier, Microsoft Store rules where applicable, or a written commercial agreement.
+
+4. Modules
+The integrated modules Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model may be distributed together with the parent application package. Technical delivery of those files does not grant use rights. Each integrated module operates under the terms of this license.
+
+5. Restrictions
+You may not bypass technical limitations or license controls; copy, resell, rent, lease, lend, sublicense, or distribute the product; remove intellectual property notices; reverse engineer, decompile, or disassemble except where allowed by law; use the product for unlawful activity; or exploit the product in a way that harms third parties, systems, networks, or services.
+Open-source license reservation: Nothing in this License restricts rights granted by third-party open-source licenses included with the product. For LGPL-covered components, including Qt and FFmpeg where shipped, the recipient may replace or relink compatible shared libraries and may reverse engineer, decompile, or disassemble only to the extent necessary to debug modifications to those LGPL components, as permitted by the applicable LGPL. The license texts, third-party notices, source offer, and FFmpeg build configuration are included in LICENSES and NOTICES.
+
+6. Data and privacy
+The application is designed to store tasks, preferences, and exported files in the user's local environment, except for voluntary user action or a feature disclosed in the applicable policy. Data handling is described in the applicable Privacy Policy.
+
+7. Online services and Microsoft Store
+When acquired through Microsoft Store, the product may depend on the Microsoft account, Store availability, and licensing APIs for installation, purchase, update, refund, and license validation. Microsoft may apply its own terms of use, payment rules, privacy policies, and Store usage rules.
+
+8. Updates and support
+Licensor may provide updates, fixes, or functionality changes. Technical support depends on the purchased tier or a separate agreement. Microsoft, hardware manufacturers, and carriers are not responsible for product support unless they are the publisher or expressly assume that obligation in writing.
+
+9. Third-party components
+The product may include third-party libraries, runtimes, tools, open-source licenses, and notices. Those components are licensed by their respective owners and must be used under their terms.
+
+10. User content
+Tasks, notes, documents, maps, PDFs, text, generated audio, and other content created or supplied by you remain owned by you or the applicable rights holders. You are responsible for having rights or permissions for materials used in the product.
+
+11. Warranty
+To the maximum extent permitted by law, the product is provided as is, with all faults, and as available, without express or implied warranties beyond mandatory legal warranties.
+
+12. Limitation of liability
+To the maximum extent permitted by law, Licensor is not liable for indirect, special, incidental, consequential damages, data loss, lost profits, business interruption, or unavailability of third-party services. Where direct liability cannot be excluded, it is limited to the amount paid for the product or BRL 5.00, whichever is greater, unless mandatory law requires otherwise.
+
+13. Termination
+This License ends if you violate its terms. Upon termination, you must stop unauthorized use of the product and its modules. Licenses acquired through Microsoft Store may also be suspended, revoked, or affected by Store rules, refunds, chargebacks, or account unavailability.
+
+14. Governing law
+Unless mandatory consumer rules or a different written provision applies, this License will be interpreted under the laws of Brazil.
+
+15. Legal review
+This document is an operational model and should be reviewed by legal counsel before final publication.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA), FREEDOM ON source/assets/ AND AUXILIARY SCOPE ("AS IS")
+1. Public Source Code (GNU AGPLv3): The full C++23 / Qt 6.12.0 source code of LÚMEN, all 7 integrated modules (Pomodoro, Feynman, Mind Map, Audiobook, Agenda, 4D BIM Gantt), and the auxiliary Local AI Modelo module (Qwen/Ollama) is publicly available at https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp under the GNU Affero General Public License v3 (GNU AGPLv3), included in LICENSE and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt. Any derivative work or modified networked service (including the optional Gantt REST API under GNU AGPLv3 Section 13) must provide corresponding source code under GNU AGPLv3.
+2. Full Developer Freedom on source/assets/: Institutional and store compliance texts under source/assets/ were authored to support the author's official Microsoft Store listings. Fork maintainers under GNU AGPLv3 have express freedom to alter, replace, or delete these files in their own builds provided the author's exclusive trademarks ("EISENHOWER ORGANIZER" and "LÚMEN") and official icons are removed.
+3. Official Microsoft Store Editions (ID 9N70CLLMVRPN): This EULA and the Commercial Licensing Agreement (CLC) govern the author's official digitally signed binary packages on the Microsoft Store and authorized commercial tiers. Unauthorized third-party commercial resale or trademark misappropriation is prohibited. Microsoft does NOT provide customer support and does NOT cover this software under Microsoft's Privacy Statement.
+4. Auxiliary Scope, Maturity & Legal Disclaimer ("AS IS"): All modules are auxiliary tools for productivity, study, reading accessibility, and scheduling support supplied "AS IS" without warranties (Brazilian Law No. 9.609/1998, Law No. 9.610/1998, Civil Code, Consumer Defense Code, and GNU AGPLv3 Sections 15–16). Local AI outputs (Qwen 2.5 / Ollama) are probabilistic and must be reviewed; Audiobook features are not medical/clinical devices; and 4D BIM Gantt CPM/DAG schedules never replace independent verification or licensed engineering oversight issuing ART (CREA) / RRT (CAU) (or equivalent PE/CEng licensure). Exclusive reliance on results in critical production remains the user's sole responsibility.

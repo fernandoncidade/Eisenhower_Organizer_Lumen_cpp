@@ -1,0 +1,102 @@
+Política de Privacidade - EISENHOWER ORGANIZER
+Produto pai: Matriz de Eisenhower
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve como o EISENHOWER ORGANIZER, aplicativo principal, trata informações do usuário. Este documento cobre apenas o aplicativo pai e não cobre os módulos integrados Pomodoro, Feynman, Mapa Mental, Audiolivro, Gantt & BIM 4D, Agenda de Avaliações e Modelo Qwen de IA Local, que possuem políticas próprias quando adquiridos, instalados, liberados por licença ou usados pelo usuário.
+
+1. Escopo e princípios
+- Operação local: os dados criados no aplicativo principal permanecem no dispositivo do usuário, salvo quando a Microsoft Store processa aquisição, licença, pagamento ou atualização do aplicativo.
+- Minimização: o aplicativo principal trata apenas informações necessárias para organizar tarefas, datas, horários, prioridades, domínio, arquivos vinculados e preferências de interface.
+- Transparência e controle: você controla criação, edição, importação, exportação, salvamento, limpeza e exclusão dos seus dados.
+
+2. Dados tratados pelo aplicativo principal
+2.1 Tarefas e organização
+- Texto das tarefas, descrições, status pendente/concluído, quadrante da Matriz de Eisenhower, prioridade, nível de domínio, datas, horários e identificadores internos.
+- Metadados necessários para ordenar, exibir, sincronizar localmente e preservar a consistência das tarefas.
+- Seleções, filtros, preferências de layout, idioma e visibilidade de painéis/abas.
+
+2.2 Arquivos escolhidos por você
+- O aplicativo principal pode importar arquivos escolhidos pelo usuário para extrair tarefas, quando a funcionalidade estiver disponível.
+- O aplicativo principal pode exportar tarefas para formatos como JSON, XLSX, PDF ou outros formatos suportados no local escolhido por você.
+- Quando você vincula um arquivo a uma tarefa, o app pode armazenar o caminho local desse arquivo e só tenta abri-lo quando você solicita.
+- O app não examina pastas automaticamente além dos arquivos e caminhos que você escolhe usar.
+
+2.3 Dados técnicos locais
+- O app pode manter arquivos locais como tarefas.json, layout.json, language.json, trial_info.json, arquivos de backup e registros locais de erro.
+- Esses arquivos ficam no diretório persistente do aplicativo, como AppData ou local equivalente definido pelo sistema operacional.
+- O app pode manter dados mínimos de avaliação/licenciamento local, quando aplicável, para controle de período de teste ou ativação.
+
+3. Finalidades do tratamento
+- Criar, editar, organizar, concluir, remover, salvar, carregar e exportar tarefas.
+- Mostrar tarefas em quadrantes, listas, calendário, painéis e relatórios locais.
+- Restaurar preferências de idioma, layout, ordenação, visibilidade de abas e comportamento da interface.
+- Manter backups locais e reduzir risco de perda de dados.
+- Registrar erros localmente para diagnóstico no próprio dispositivo.
+
+4. O que o aplicativo principal não faz
+- Não cria conta própria, cadastro ou login.
+- Não coleta telemetria automática.
+- Não envia tarefas, arquivos vinculados, preferências, relatórios ou registros locais ao desenvolvedor.
+- Não vende, licencia ou compartilha dados do usuário com terceiros.
+- Não acessa dados completos de pagamento, credenciais da conta Microsoft ou informações bancárias.
+
+5. Microsoft Store, compra, licença e atualizações
+- Quando o app é adquirido, atualizado, licenciado ou instalado pela Microsoft Store, esses fluxos são processados pela Microsoft, pela conta Microsoft do usuário e pelos sistemas da Microsoft.
+- O app pode consultar a Microsoft Store para verificar licença do aplicativo ou de módulos compatíveis, quando esses recursos estiverem presentes.
+- O desenvolvedor não recebe nem armazena dados completos de pagamento, credenciais da conta Microsoft ou informações bancárias.
+- Dados tratados pela Microsoft nesses fluxos ficam sujeitos à política de privacidade e aos termos da Microsoft.
+
+6. Módulos e módulos opcionais
+- Esta Política cobre apenas o aplicativo pai Eisenhower Organizer.
+- Módulos como Pomodoro, Feynman, Mapa Mental e Audiolivro podem tratar dados adicionais quando estiverem presentes no pacote, liberados por licença e acionados pelo usuário.
+- Cada módulo possui política própria no mesmo conjunto de documentos de privacidade do produto.
+- Se um módulo não estiver instalado, liberado ou acionado, suas funcionalidades e tratamentos específicos não se aplicam ao aplicativo principal.
+
+7. Armazenamento e retenção
+- As tarefas e preferências permanecem localmente até você editar, substituir, limpar ou excluir os dados.
+- Exportações permanecem no local escolhido por você.
+- Backups e registros locais podem permanecer até serem removidos pelo app, pelo sistema ou manualmente pelo usuário.
+- A desinstalação pode remover arquivos instalados, mas dados persistentes criados no perfil do usuário podem exigir limpeza manual, conforme o comportamento do sistema operacional.
+
+8. Compartilhamento
+- O aplicativo principal não compartilha dados externamente por iniciativa própria.
+- Qualquer compartilhamento ocorre por ação do usuário, por exemplo ao exportar arquivo, copiar conteúdo, abrir arquivo em outro aplicativo ou enviar dados a terceiros.
+- A interação local com módulos instalados, quando existir, ocorre dentro da mesma instalação e não é tratada como compartilhamento externo.
+
+9. Segurança
+- Como os dados ficam localmente no dispositivo, a proteção depende das salvaguardas do sistema operacional, permissões de usuário, antivírus, criptografia local quando configurada e backups.
+- Recomenda-se manter Windows, Microsoft Store e o aplicativo atualizados.
+- Recomenda-se armazenar exportações e arquivos de tarefas em locais protegidos quando contiverem informações sensíveis.
+
+10. Direitos e controles do usuário
+- Você pode acessar, corrigir, editar, exportar e excluir tarefas pela interface do app.
+- Você pode remover manualmente arquivos locais de tarefas, preferências, backups e registros quando desejar limpar dados persistentes.
+- Você pode usar funções de exportação para obter cópia dos dados em formatos suportados.
+
+11. Crianças e adolescentes
+- O aplicativo principal não é direcionado a crianças menores de 13 anos e não realiza coleta intencional de dados pessoais.
+
+12. Terceiros, bibliotecas e sistema operacional
+- O app usa bibliotecas e componentes de execução necessários para interface, arquivos, internacionalização, PDF, multimídia ou outros recursos locais, conforme o pacote instalado.
+- Licenças e avisos de terceiros acompanham o produto quando aplicável.
+- Relatórios de falha gerados pelo sistema operacional, como Windows Error Reporting, seguem as configurações do sistema e as políticas do respectivo fornecedor; o desenvolvedor não controla esse fluxo.
+
+13. Alterações nesta Política
+- Esta Política pode ser atualizada quando o aplicativo principal receber novas funcionalidades, integrações ou mudanças relevantes no tratamento de dados.
+- A data no topo será atualizada quando houver alteração material.
+
+14. Contato
+- Dúvidas sobre esta Política:
+  Fernando Nillsson Cidade
+  E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para EISENHOWER ORGANIZER, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

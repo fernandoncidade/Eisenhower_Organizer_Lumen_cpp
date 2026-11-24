@@ -1,0 +1,86 @@
+LICENÇA DE USO DE USUÁRIO FINAL - LÚMEN
+Versão 2026.11.22.0, 22 de novembro de 2026
+
+Copyright (c) 2025–2026 Fernando Nillsson Cidade. Todos os direitos reservados.
+
+Ao instalar, copiar ou utilizar o Software distribuído como executável, você concorda em estar vinculado pelos termos desta Licença. Se você não concordar com os termos desta Licença, não instale nem use o Software.
+
+1. DEFINIÇÕES
+   "Licenciador": Fernando Nillsson Cidade, titular dos direitos autorais do Software.
+   "Software": LÚMEN — aplicativo para organização de tarefas baseado na Matriz de Eisenhower, incluindo o executável instalado, seus recursos embarcados, a documentação associada e, quando aplicável, módulos integrados ao aplicativo.
+   "Licenciado" ou "Você": a pessoa física ou jurídica que instala ou utiliza o Software.
+
+2. AMBIENTE DE DISTRIBUIÇÃO
+   O Software é distribuído como aplicativo nativo para Windows, compilado em C++23 com Qt 6.12.0. Os componentes de runtime necessários acompanham o pacote distribuído.
+
+3. CONCESSÃO DE LICENÇA
+   Sujeito aos termos desta Licença, o Licenciador concede ao Licenciado uma licença limitada, não exclusiva, intransferível e revogável para usar o Software conforme a modalidade adquirida (gratuita ou comercial).
+
+4. RESTRIÇÕES DE USO
+   O Licenciado não poderá:
+   a) Reproduzir, distribuir, sublicenciar, alugar, arrendar, emprestar, vender ou transferir o executável, exceto quando autorizado por contrato comercial separado;
+   b) Realizar engenharia reversa, descompilar, desmontar ou tentar extrair código-fonte do executável, exceto quando expressamente permitido por lei aplicável;
+   c) Remover ou alterar avisos de propriedade intelectual ou marca presentes no Software;
+   d) Usar o Software para fins ilegais ou em desconformidade com regulamentações aplicáveis.
+   Reserva de licenças open source: Nada nesta Licença restringe direitos concedidos por licenças open source de terceiros incluídas com o Software. Para componentes cobertos pela LGPL, incluindo Qt e FFmpeg quando entregues, o destinatário pode substituir ou relinkar bibliotecas compartilhadas compatíveis e pode realizar engenharia reversa, descompilar ou desmontar somente na medida necessária para depurar modificações nesses componentes LGPL, conforme permitido pela LGPL aplicável. Os textos de licença, avisos de terceiros, oferta de código-fonte e configuração de build do FFmpeg estão incluídos em LICENSES e NOTICES.
+
+5. FUNCIONALIDADES E DADOS
+   - O Software armazena tarefas localmente no arquivo tasks.json no caminho persistente do usuário (por exemplo, AppData). Não há transmissão automática de dados a servidores externos.
+   - O Software oferece exportação (XLSX, PDF, JSON) e importação (XLSX, PDF). Arquivos exportados são salvos no local escolhido pelo usuário.
+   - Recursos de acessibilidade e conformidade concebidos para distribuição em lojas (por exemplo, Microsoft Store) estão documentados no instalador e no arquivo "MS-Store-ADA-v8.9-FINAL-EN.pdf" incluído no pacote.
+   - Módulo integrado Pomodoro: se a distribuição do Software incluir o módulo integrado Pomodoro e o executável o detectar em tempo de execução, um módulo local adicional poderá ficar disponível para ciclos de foco/pausa, configurações de alarme e troca local de tarefas entre o planejamento no Eisenhower e a execução no Pomodoro.
+   - Quaisquer dados de tarefas compartilhados entre o organizador principal e o módulo integrado Pomodoro são tratados localmente dentro da mesma instalação/contexto de execução. Salvo ajuste escrito em contrário, as mesmas limitações gerais de uso, restrição, privacidade, garantia e responsabilidade desta Licença aplicam-se a esse módulo opcional como parte do Software.
+   - Módulo integrado Feynman: se a distribuição do Software incluir o módulo integrado Feynman e o executável o detectar em tempo de execução, um módulo local adicional poderá ficar disponível para organização de conceitos de estudo, explicações simplificadas, lacunas de entendimento e revisões, com possibilidade de vincular arquivos de apoio e integrar tarefas com o organizador principal.
+   - Os conceitos, explicações e revisões registrados no Feynman são tratados localmente dentro da mesma instalação/contexto de execução. O usuário é responsável pelo conteúdo e pelos direitos sobre arquivos vinculados.
+   - Módulo integrado Mapa Mental: se a distribuição do Software incluir o módulo integrado Mapa Mental e o executável o detectar em tempo de execução, um módulo local adicional poderá ficar disponível para criação de mapas de conceitos, notas, vínculos de arquivo, salvamento/carregamento em JSON, autosalvamento local, exportação em PNG, modos de layout e importação de documentos para geração assistida por processamento local/IA quando os recursos necessários estiverem presentes.
+   - O conteúdo de mapas, documentos importados, caminhos de arquivos vinculados, preferências e resultados gerados pelo módulo Mapa Mental permanece sob controle do usuário e é processado localmente, salvo ação externa realizada pelo próprio usuário fora do Software.
+   - Resultados gerados por processamento/IA são auxiliares e devem ser revisados pelo usuário. O usuário é responsável pelos direitos sobre documentos importados e pelo uso dos mapas gerados.
+   - Módulo integrado Audiolivro: se a distribuição do Software incluir o módulo integrado Audiolivro e o executável o detectar em tempo de execução, um módulo adicional poderá ficar disponível para leitura de textos e PDFs em voz alta, busca, navegação de PDF, ajustes de voz/fonte, leitura assistida, régua de foco e geração temporária de áudio.
+   - Textos, PDFs, preferências de voz/fonte e arquivos temporários de áudio são tratados localmente, exceto quando o usuário acionar voluntariamente uma voz baseada em serviço externo, como Edge TTS. Nessa hipótese, o texto selecionado para leitura poderá ser transmitido ao serviço de voz para síntese do áudio, sujeito aos termos e à disponibilidade desse serviço.
+   - O usuário é responsável por respeitar direitos autorais dos textos, PDFs e demais materiais lidos ou convertidos em áudio pelo módulo.
+
+- Módulo Gantt & BIM 4D integrado: recursos avançados de cronograma, gráfico de Gantt, caminho crítico (CPM), marcos, baselines e simulação 4D construtiva, com armazenamento estritamente local dos cronogramas.
+   - Módulo Agenda de Avaliações integrado: planejamento cronológico, cadastro de avaliações, prazos e notas, com persistência em banco de dados SQLite local no perfil do usuário.
+   - Módulo Modelo Qwen (IA Local) integrado: inferência de IA e estruturação conceitual executadas 100% localmente no hardware do usuário via llama.cpp, sem envio de prompts ou dados para servidores externos.
+
+6. TERCEIROS
+   O Software incorpora componentes de terceiros sujeitos a licenças próprias. Textos de licença e lista de componentes de terceiros acompanham o instalador e estão disponíveis para consulta no pacote de distribuição. O uso desses componentes está sujeito às respectivas licenças.
+   Quando o módulo integrado Feynman estiver incluído, recursos, traduções e arquivos auxiliares específicos do módulo permanecem sujeitos às licenças e avisos de terceiros aplicáveis incluídos no pacote de distribuição.
+   Quando o módulo integrado Mapa Mental estiver incluído, componentes como runtimes locais de IA, llama.cpp/GGML, suporte CPU/Vulkan, drivers SQLite/SQL, modelos ou arquivos auxiliares podem acompanhar o pacote e permanecem sujeitos às respectivas licenças e avisos de terceiros.
+   Quando o módulo integrado Audiolivro estiver incluído, componentes de PDF, multimídia, rede/WebSocket, codecs, serviços de voz ou arquivos auxiliares podem ser utilizados. Recursos de voz externos permanecem sujeitos aos termos e políticas do respectivo provedor.
+
+7. ATUALIZAÇÕES E SUPORTE
+   O Licenciador pode, a seu exclusivo critério, fornecer atualizações ou correções. Suporte técnico e termos de atualização dependem da modalidade de licença adquirida (consulte o Contrato Comercial quando aplicável).
+
+8. GARANTIA LIMITADA E RESPONSABILIDADE
+   - O Software é fornecido "NO ESTADO EM QUE SE ENCONTRA", sem garantias expressas ou implícitas, salvo as garantias legais aplicáveis.
+   - Na medida permitida por lei, o Licenciador não será responsável por quaisquer danos indiretos, especiais, incidentais, consequenciais ou lucros cessantes decorrentes do uso ou impossibilidade de uso do Software.
+   - Quando houver responsabilidade direta admitida por lei, a indenização estará limitada ao valor pago pelo Software (quando aplicável) ou a R$ 5,00, o que for maior.
+
+9. PRIVACIDADE E PROTEÇÃO DE DADOS
+   - Dados gerados pelo uso do Software (por exemplo, tasks.json e arquivos exportados) permanecem sob controle do usuário.
+   - O Licenciador declara não coletar telemetria automática pelo executável padrão. Tratamento de quaisquer dados pessoais seguirá a Política de Privacidade incluída no pacote.
+   - No módulo integrado Feynman, arquivos como conceitos_feynman.json poderão armazenar conceitos, explicações, lacunas, revisões e caminhos de arquivos vinculados no ambiente local do usuário.
+   - No módulo integrado Mapa Mental, arquivos como mapa_mental_autosave.json, mapamental_config.json e mapas salvos pelo usuário poderão armazenar conceitos, notas, relações, preferências de layout e caminhos de arquivos vinculados no ambiente local do usuário.
+   - No módulo integrado Audiolivro, arquivos como audiolivro_config.json e arquivos temporários de síntese de voz poderão armazenar preferências, texto temporário ou áudio temporário no ambiente local do usuário. O uso de Edge TTS ou serviço equivalente poderá envolver transmissão do texto selecionado ao provedor de voz por ação do usuário.
+
+10. RESCISÃO
+    Esta Licença poderá ser rescindida por violação de suas cláusulas. Após rescisão o Licenciado deve cessar o uso e remover o executável conforme aplicável.
+
+11. LEI APLICÁVEL E FORO
+    Esta Licença será regida pelas leis brasileiras. Para dirimir litígios, fica eleito o foro da Comarca de São José dos Pinhais, Estado do Paraná, Brasil.
+
+12. DECLARAÇÃO DE ACESSIBILIDADE
+    Para fins de distribuição em lojas digitais, foi elaborada documentação de acessibilidade (arquivo "MS-Store-ADA-v8.9-FINAL-EN.pdf"). A inclusão desse documento não altera as limitações de responsabilidade desta Licença; relatos de barreiras de acessibilidade devem ser comunicados aos canais de suporte indicados no instalador.
+
+13. ACORDO INTEGRAL
+    Esta Licença, juntamente com a Política de Privacidade e documentos de licença de terceiros incluídos no instalador, constitui o acordo completo entre as partes com relação ao Software.
+
+Contato para informações e suporte: canais e endereços fornecidos no instalador/distribuição.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL), LIBERDADE EM source/assets/ E ESCOPO AUXILIAR ("AS IS")
+1. Código-Fonte Público (GNU AGPLv3): O código-fonte completo em C++23 / Qt 6.12.0 de LÚMEN e de todos os 7 módulos integrados (Pomodoro, Feynman, Mapa Mental, Audiolivro, Agenda, Gantt BIM 4D) e do módulo auxiliar Modelo (IA Local Qwen/Ollama) é público em https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp sob a Licença GNU Affero General Public License v3 (GNU AGPLv3), incluída em LICENSE e LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt. Qualquer obra derivada ou implantação modificada em rede (incluindo API HTTP REST do Gantt conforme Seção 13 da GNU AGPLv3) deve disponibilizar o código-fonte correspondente sob a mesma licença.
+2. Liberdade para Desenvolvedores sobre source/assets/: Os documentos contratuais e regulatórios em source/assets/ foram elaborados para as edições oficiais publicadas pelo autor na Microsoft Store. Desenvolvedores e mantenedores de forks sob a GNU AGPLv3 têm total liberdade para editar, substituir ou remover tais textos em suas próprias distribuições, desde que removam as marcas exclusivas ("EISENHOWER ORGANIZER" e "LÚMEN") e ícones oficiais do autor.
+3. Edições Oficiais Microsoft Store (ID 9N70CLLMVRPN): Os termos deste EULA e do Contrato de Licenciamento Comercial (CLC) aplicam-se às distribuições binárias oficiais assinadas pelo autor e comercializadas/disponibilizadas na Microsoft Store ou mediante licenciamento direto. É vedada a revenda comercial não autorizada por terceiros do pacote oficial do autor. A Microsoft NÃO presta suporte ao cliente nem cobre este software sob a Política de Privacidade da Microsoft.
+4. Natureza Auxiliar, Maturidade e Isenção ("AS IS"): O software e seus módulos operam como ferramentas auxiliares de produtividade, estudo ativo, leitura acessível e apoio a cronogramas, fornecidos "NO ESTADO EM QUE SE ENCONTRAM" ("AS IS"), com eventuais limitações e riscos de falhas algorítmicas (Lei nº 9.609/1998, Lei nº 9.610/1998, Código Civil, CDC e Seções 15–16 da GNU AGPLv3). Sínteses de IA local (Qwen 2.5 / Ollama) são probabilísticas e exigem revisão; leitura assistida no Audiolivro não constitui dispositivo médico/clínico; e cronogramas CPM/DAG/4D BIM no Gantt nunca substituem verificação técnica independente nem profissional legalmente habilitado com emissão de ART (CREA) ou RRT (CAU) (Leis nº 5.194/1966, nº 6.496/1977 e nº 12.378/2010). Caso o usuário utilize resultados exclusivamente para produção ou uso profissional crítico, assume integral responsabilidade.

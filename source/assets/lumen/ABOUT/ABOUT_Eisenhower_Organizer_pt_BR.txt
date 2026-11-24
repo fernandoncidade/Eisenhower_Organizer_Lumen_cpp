@@ -1,0 +1,41 @@
+Projeto: LÚMEN
+Produto: Matriz de Eisenhower
+Versão: 2026.11.22.0
+Autor: Fernando Nillsson Cidade
+
+Descrição resumida:
+LÚMEN é um aplicativo nativo para Windows que ajuda o usuário a organizar tarefas pela Matriz de Eisenhower, separando atividades por importância, urgência, datas, horários, status e prioridades. Este documento descreve somente o aplicativo pai. Módulos integrados, como Pomodoro, Feynman, Mapa Mental, Audiolivro, Gantt & BIM 4D, Agenda de Avaliações e Modelo Qwen de IA Local, possuem documentos próprios.
+
+Principais funcionalidades:
+- Criação, edição, conclusão e remoção de tarefas.
+- Organização em quatro quadrantes: Importante e Urgente; Importante, mas Não Urgente; Não Importante, mas Urgente; Não Importante e Não Urgente.
+- Listas separadas para tarefas pendentes e concluídas.
+- Calendário, visualização por data e painel de próximas tarefas.
+- Persistência local de dados no perfil do usuário.
+- Importação e exportação em formatos suportados, conforme os recursos disponíveis no pacote.
+- Interface em português do Brasil e inglês dos EUA.
+- Janela "Sobre" com políticas, licenças, avisos e informações de suporte.
+
+Instalação e distribuição:
+- Distribuído como aplicativo nativo para Windows, construído em C++23 com Qt 6.12.0.
+- Quando distribuído pela Microsoft Store, a instalação, a atualização, a compra e a licença são processadas pelos mecanismos da Microsoft Store.
+- O aplicativo inclui módulos integrados que funcionam de forma nativa e integrada.
+
+Privacidade e dados:
+- O aplicativo pai foi projetado para operar localmente, sem telemetria automática enviada ao desenvolvedor.
+- Tarefas, preferências e arquivos exportados permanecem no dispositivo ou no local escolhido pelo usuário.
+- Consulte a Política de Privacidade específica do aplicativo pai para mais detalhes.
+
+Módulos:
+- Os módulos nativos integrados ao produto expandem as funcionalidades de produtividade do aplicativo.
+- Cada módulo possui sua própria descrição, política de privacidade, EULA, aviso de direitos autorais e avisos de terceiros.
+
+Suporte:
+- Autor: Fernando Nillsson Cidade
+- E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL), ARQUITETURA C++23 / Qt 6.12.0 E ESCOPO AUXILIAR ("AS IS")
+- Tecnologia e Builds Limpos: Compilado nativamente em C++23 estrito com Qt 6.12.0 para Pure MSVC x64 (Visual Studio 18 2026 / MSVC 14.52, CRT app-local sem vc_redist.x64.exe) e MinGW-w64 15.1.0, validado continuamente por suíte CTest com 11 executáveis automatizados (Qt6: Compilar e Executar SUITE (MSVC) / Qt6: Compilar e Executar SUITE (MinGW)).
+- Duplo Licenciamento: Código-fonte público aberto sob GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp) com liberdade expressa para forks adaptarem source/assets/ após remoção das marcas exclusivas; distribuição oficial assinada na Microsoft Store (ID 9N70CLLMVRPN) sob EULA Oficial e CLC do autor (Fernando Nillsson Cidade). Suporte voluntário best-effort exclusivamente via linceu_lighthouse@outlook.com (a Microsoft não presta suporte técnico).
+- Caráter Auxiliar ("AS IS"): Ferramenta auxiliar de produtividade, acessibilidade cognitiva e planejamento (sujeita a limitações e revisão humana; resultados de IA local Qwen/Ollama são probabilísticos e cronogramas CPM/4D BIM no Gantt jamais substituem conferência independente nem ART/RRT perante CREA/CAU).

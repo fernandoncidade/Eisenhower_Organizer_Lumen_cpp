@@ -1,0 +1,105 @@
+Política de Privacidade - LÚMEN
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve como o LÚMEN (“Software”) lida com informações do usuário. O Software foi projetado para operar localmente, sem coleta de telemetria automática. Módulos opcionais, quando instalados e acionados pelo usuário, podem tratar conteúdos adicionais conforme descrito abaixo.
+
+1. Escopo e Princípios
+- Operação local: todos os dados tratados pelo Software permanecem no seu dispositivo.
+- Minimização: apenas informações necessárias para organizar tarefas e executar os módulos opcionais acionados por você são processadas.
+- Transparência e controle: você controla criação, edição, exportação, importação, leitura, geração e exclusão dos seus dados.
+
+2. Dados Processados pelo Software
+2.1 Conteúdo inserido por você
+- Texto das tarefas, bem como seu estado (pendente/concluída) e o quadrante associado (Importante/Urgente, etc.).
+- No módulo integrado Feynman, conceitos, explicações, lacunas de entendimento, revisões e caminhos de arquivos vinculados inseridos por você podem ser processados e salvos localmente.
+- No módulo integrado Mapa Mental, conceitos, notas, relações entre nós, cores, posições, modo de layout, estado de navegação hierárquica e caminhos de arquivos vinculados inseridos por você podem ser processados e salvos localmente.
+- No módulo integrado Audiolivro, textos digitados, colados, abertos ou arrastados para o leitor, preferências de voz/fonte e informações de leitura podem ser processados localmente para edição, busca, reprodução e leitura assistida.
+- No módulo integrado Gantt & BIM 4D, cronogramas, tarefas, marcos, durações, predecessores e simulações 4D são armazenados e processados localmente no dispositivo.
+- No módulo integrado Agenda de Avaliações, atividades, notas, pesos e prazos são salvos estruturadamente em banco de dados SQLite local no perfil do usuário.
+- No módulo integrado Modelo Qwen de IA Local, todo o processamento de linguagem natural e geração de tópicos ocorre estritamente na CPU/GPU local, sem envio de prompts a provedores externos de nuvem.
+
+2.2 Arquivos escolhidos por você
+- Importação: quando você escolhe um arquivo XLSX ou PDF para importar, o Software lê somente esse arquivo para extrair tarefas.
+- Exportação: ao salvar em XLSX ou PDF (ou JSON), o Software grava o conteúdo das suas listas de tarefas no local que você selecionar.
+- Feynman: quando você vincula um arquivo de apoio a um conceito, o módulo armazena o caminho local e só abre o arquivo quando você solicita.
+- Mapa Mental: quando você escolhe um documento para importação, o módulo lê somente o arquivo selecionado para extrair texto, analisar estrutura e gerar conceitos. Os formatos suportados podem incluir PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite e XML.
+- Mapas salvos em JSON e imagens exportadas em PNG são gravados no local escolhido por você; o autosalvamento local do mapa pode gravar mapa_mental_autosave.json no diretório persistente do aplicativo.
+- Audiolivro: quando você abre ou arrasta PDFs/textos para o leitor, o módulo lê o arquivo selecionado para exibição, busca, extração de texto e leitura em voz alta. Textos salvos em TXT são gravados no local escolhido por você.
+- Durante a síntese de voz, arquivos temporários de texto/áudio podem ser criados no diretório persistente do aplicativo e removidos após a leitura sempre que tecnicamente possível.
+
+2.3 Dados técnicos locais
+- Podem ser mantidos dados mínimos para funcionamento, como o arquivo local de tarefas (tasks.json) e, se gerados, registros de erro locais. Não há coleta automática de identificadores pessoais.
+- Se o módulo integrado Pomodoro estiver ativo, a operação local também poderá envolver estado de ciclos de foco/pausa, preferências de alarme e metadados de tarefas trocados entre o organizador principal e o módulo Pomodoro dentro do mesmo contexto de execução.
+- Se o módulo integrado Feynman estiver ativo, a operação local também poderá envolver conceitos_feynman.json, caminhos de arquivos vinculados e registros locais de erro.
+- Se o módulo integrado Mapa Mental estiver ativo, a operação local também poderá envolver mapamental_config.json, mapa_mental_autosave.json, mapas salvos pelo usuário, caminhos de modelos locais de IA, arquivos temporários de processamento e registros locais de erro.
+- Se o módulo integrado Audiolivro estiver ativo, a operação local também poderá envolver audiolivro_config.json, preferências de voz/fonte, arquivos temporários de áudio/texto e registros locais de erro.
+
+3. O que o Software NÃO Coleta ou Transmite
+- Sem conta, cadastro ou login.
+- Sem telemetria, analytics ou rastreamento online.
+- Sem envio automático de dados a servidores do desenvolvedor ou de terceiros.
+- Sem varredura de pastas além dos arquivos que você explicitamente escolher abrir/importar.
+- Observação sobre voz online: ao escolher uma voz baseada em serviço externo, como Edge TTS, e iniciar a leitura, o texto selecionado para reprodução poderá ser enviado ao provedor de voz para geração do áudio. Essa transmissão é acionada por sua ação e não constitui telemetria automática do aplicativo.
+
+4. Armazenamento e Retenção
+- Local de armazenamento: tarefas são salvas em tasks.json no caminho persistente do usuário (por exemplo, AppData). O caminho exato é determinado pelo sistema operacional.
+- Exportações: arquivos exportados (XLSX, PDF, JSON) são gravados no local escolhido por você.
+- Retenção: os dados permanecem até você editar, limpar ou excluir; você pode remover o tasks.json e os arquivos exportados a qualquer momento.
+- Feynman: conceitos e preferências locais podem permanecer em conceitos_feynman.json até você limpar, substituir o conteúdo, remover o arquivo ou desinstalar/limpar os dados do aplicativo.
+- Mapa Mental: preferências e autosalvamentos locais podem permanecer em mapamental_config.json e mapa_mental_autosave.json até você limpar o mapa, substituir o conteúdo, remover os arquivos ou desinstalar/limpar os dados do aplicativo.
+- Audiolivro: preferências locais podem permanecer em audiolivro_config.json; arquivos temporários de áudio/texto são destinados à operação de síntese e o Software tenta removê-los após a leitura, embora falhas do sistema ou arquivos em uso possam exigir limpeza manual.
+
+5. Base Legal (LGPD)
+- Tratamento local realizado para execução das funcionalidades do Software a pedido do usuário, com consentimento implícito no uso. Como os dados não são enviados ao desenvolvedor, você mantém controle direto sobre eles.
+
+6. Compartilhamento
+- O Software não compartilha dados. Qualquer compartilhamento ocorre somente por sua ação (ex.: enviar um arquivo exportado a terceiros).
+- Se o módulo integrado Pomodoro estiver ativo, qualquer transferência de informações de tarefas entre o LÚMEN e o módulo Pomodoro ocorre localmente dentro da mesma instalação e não é tratada como compartilhamento externo de dados.
+- Se o módulo integrado Feynman estiver ativo, conceitos e tarefas compartilhados com o organizador principal permanecem locais e não são tratados como compartilhamento externo de dados.
+- Se o módulo integrado Mapa Mental estiver ativo, documentos e mapas são processados localmente quando usados os recursos locais do módulo; compartilhar mapas, imagens exportadas ou documentos com terceiros ocorre somente por sua ação.
+- Se o módulo integrado Audiolivro estiver ativo, textos e PDFs não são compartilhados automaticamente. Ao usar voz baseada em serviço externo, como Edge TTS, o texto selecionado para leitura pode ser enviado ao provedor de voz para síntese do áudio por sua ação.
+
+7. Segurança
+- Como os dados ficam apenas no seu dispositivo, a proteção depende das salvaguardas do próprio sistema (contas de usuário, permissões, antivírus, backups). Recomenda-se manter o sistema atualizado e fazer cópias de segurança periódicas.
+
+8. Microsoft Store e Acessibilidade
+- Documentação de acessibilidade e conformidade para publicação (vide “MS-Store-ADA-v8.9-FINAL-EN.pdf”) acompanha a distribuição. Essa documentação não altera esta Política nem autoriza coleta de dados; serve para descrever práticas de acessibilidade e conformidade de interface.
+
+9. Relatórios de Erro e Diagnóstico
+- O Software não envia relatórios de erro ao desenvolvedor. Eventuais registros de erro podem ser gravados localmente.
+- Caso o sistema operacional gere relatórios de falha (ex.: Windows Error Reporting), isso ocorre segundo as configurações do seu sistema e sob a política de privacidade do respectivo fornecedor (por exemplo, Microsoft). O desenvolvedor não controla esse fluxo.
+
+10. Direitos do Titular (LGPD)
+- Acesso, correção e exclusão: você pode ver, editar, exportar e excluir suas tarefas pela interface. Para remoção completa, você pode apagar manualmente o arquivo tasks.json e quaisquer exportações.
+- Portabilidade: utilize a função de exportação (XLSX/PDF/JSON) para obter uma cópia dos dados.
+- Mapa Mental: você pode salvar mapas em JSON, exportar imagens PNG, limpar o mapa pela interface e remover manualmente mapamental_config.json ou mapa_mental_autosave.json para apagar preferências/autosalvamentos locais.
+- Audiolivro: você pode limpar o painel, salvar textos em TXT, alterar/restaurar preferências e remover manualmente audiolivro_config.json ou arquivos temporários remanescentes para apagar preferências e dados locais do módulo.
+
+11. Crianças e Adolescentes
+- O Software não é direcionado a crianças menores de 13 anos e não realiza coleta intencional de dados pessoais.
+
+12. Terceiros e Bibliotecas
+- A distribuição nativa atual utiliza Qt 6 e seus módulos para interface, internacionalização, arquivos, PDF, multimídia, rede e recursos de execução. Referências históricas a componentes de versões anteriores, como PySide6, openpyxl, PyPDF2 e reportlab, não devem ser interpretadas como coleta automática de dados nem como parte obrigatória da distribuição padrão atual. Licenças e avisos estão disponíveis na seção “Notices/Licenses” do instalador.
+- Se o módulo integrado Pomodoro estiver embarcado e ativo, quaisquer componentes de runtime ou bibliotecas específicos do módulo permanecem sujeitos ao mesmo princípio de operação exclusivamente local descrito nesta Política, e seus avisos devem acompanhar o mesmo pacote de distribuição quando aplicável.
+- Se o módulo integrado Feynman estiver embarcado e ativo, quaisquer componentes de runtime ou arquivos auxiliares específicos do módulo permanecem sujeitos às licenças e avisos aplicáveis, e sua operação segue o princípio de processamento local descrito nesta Política.
+- Se o módulo integrado Mapa Mental estiver embarcado e ativo, componentes como llama.cpp/GGML, runtimes CPU/Vulkan, drivers SQLite/SQL, modelos locais ou arquivos auxiliares permanecem sujeitos às respectivas licenças e avisos. O processamento local de IA não envia dados automaticamente ao desenvolvedor.
+- Se o módulo integrado Audiolivro estiver embarcado e ativo, componentes de PDF, multimídia, rede/WebSocket, codecs e serviços de voz permanecem sujeitos às respectivas licenças, termos e políticas. O uso de serviço externo de voz poderá envolver envio do texto selecionado ao provedor para síntese do áudio.
+
+13. Alterações nesta Política
+- Esta Política pode ser atualizada. Em caso de mudanças relevantes, a data no topo será atualizada e, quando apropriado, poderá haver aviso dentro do Software.
+
+14. Contato
+- Dúvidas sobre esta Política:
+  Fernando Nillsson Cidade
+  E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para LÚMEN, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\Lumen (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

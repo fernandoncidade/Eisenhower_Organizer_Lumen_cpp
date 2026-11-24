@@ -1,0 +1,35 @@
+LICENÇA DE USO DE USUÁRIO FINAL - MÓDULO POMODORO
+Produto: módulo integrado para LÚMEN
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Esta Licença complementa a EULA do LÚMEN. Ao desbloquear ou usar o módulo Pomodoro, você aceita estes termos.
+
+1. Produto
+Pomodoro é um módulo do LÚMEN, destinado a ciclos de foco, pausas, alarmes, preferências locais e integração de tarefas. Ele não é licenciado para uso independente do aplicativo pai.
+
+2. Licença
+O Licenciador concede direito limitado, não exclusivo, intransferível e revogável para usar o módulo com uma cópia licenciada do LÚMEN e somente enquanto a licença do módulo estiver ativa.
+
+3. Compra no aplicativo
+Quando adquirido pela Microsoft Store, o módulo é um produto digital durável, salvo configuração diferente no Partner Center. Validação, reembolso, atualização e disponibilidade podem depender da Microsoft Store e da conta Microsoft do usuário.
+
+4. Restrições
+Você não pode burlar o bloqueio de licença, redistribuir binários ou arquivos do módulo, usar o módulo sem licença ativa, remover avisos legais ou realizar engenharia reversa fora do permitido por lei.
+Reserva de licenças open source: Nada nesta Licença restringe direitos concedidos por licenças open source de terceiros incluídas com o produto. Para componentes cobertos pela LGPL, incluindo Qt e FFmpeg quando entregues, o destinatário pode substituir ou relinkar bibliotecas compartilhadas compatíveis e pode realizar engenharia reversa, descompilar ou desmontar somente na medida necessária para depurar modificações nesses componentes LGPL, conforme permitido pela LGPL aplicável. Os textos de licença, avisos de terceiros, oferta de código-fonte e configuração de build do FFmpeg estão incluídos em LICENSES e NOTICES.
+
+5. Dados
+Temporizadores, ciclos, alarmes, preferências e vínculos com tarefas são tratados localmente, salvo ação voluntária do usuário.
+
+6. Suporte, garantia e responsabilidade
+Aplicam-se as regras de suporte, garantia, responsabilidade, encerramento, privacidade, terceiros e lei aplicável da EULA do LÚMEN.
+
+7. Revisão jurídica
+Regime de Duplo Licenciamento oficial: código-fonte aberto sob GNU AGPLv3 (LICENSE) e distribuição binária oficial assinada sob este EULA.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL), LIBERDADE EM source/assets/ E ESCOPO AUXILIAR ("AS IS")
+1. Código-Fonte Público (GNU AGPLv3): O código-fonte completo em C++23 / Qt 6.12.0 de LÚMEN e de todos os 7 módulos integrados (Pomodoro, Feynman, Mapa Mental, Audiolivro, Agenda, Gantt BIM 4D) e do módulo auxiliar Modelo (IA Local Qwen/Ollama) é público em https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp sob a Licença GNU Affero General Public License v3 (GNU AGPLv3), incluída em LICENSE e LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt. Qualquer obra derivada ou implantação modificada em rede (incluindo API HTTP REST do Gantt conforme Seção 13 da GNU AGPLv3) deve disponibilizar o código-fonte correspondente sob a mesma licença.
+2. Liberdade para Desenvolvedores sobre source/assets/: Os documentos contratuais e regulatórios em source/assets/ foram elaborados para as edições oficiais publicadas pelo autor na Microsoft Store. Desenvolvedores e mantenedores de forks sob a GNU AGPLv3 têm total liberdade para editar, substituir ou remover tais textos em suas próprias distribuições, desde que removam as marcas exclusivas ("EISENHOWER ORGANIZER" e "LÚMEN") e ícones oficiais do autor.
+3. Edições Oficiais Microsoft Store (ID 9N70CLLMVRPN): Os termos deste EULA e do Contrato de Licenciamento Comercial (CLC) aplicam-se às distribuições binárias oficiais assinadas pelo autor e comercializadas/disponibilizadas na Microsoft Store ou mediante licenciamento direto. É vedada a revenda comercial não autorizada por terceiros do pacote oficial do autor. A Microsoft NÃO presta suporte ao cliente nem cobre este software sob a Política de Privacidade da Microsoft.
+4. Natureza Auxiliar, Maturidade e Isenção ("AS IS"): O software e seus módulos operam como ferramentas auxiliares de produtividade, estudo ativo, leitura acessível e apoio a cronogramas, fornecidos "NO ESTADO EM QUE SE ENCONTRAM" ("AS IS"), com eventuais limitações e riscos de falhas algorítmicas (Lei nº 9.609/1998, Lei nº 9.610/1998, Código Civil, CDC e Seções 15–16 da GNU AGPLv3). Sínteses de IA local (Qwen 2.5 / Ollama) são probabilísticas e exigem revisão; leitura assistida no Audiolivro não constitui dispositivo médico/clínico; e cronogramas CPM/DAG/4D BIM no Gantt nunca substituem verificação técnica independente nem profissional legalmente habilitado com emissão de ART (CREA) ou RRT (CAU) (Leis nº 5.194/1966, nº 6.496/1977 e nº 12.378/2010). Caso o usuário utilize resultados exclusivamente para produção ou uso profissional crítico, assume integral responsabilidade.

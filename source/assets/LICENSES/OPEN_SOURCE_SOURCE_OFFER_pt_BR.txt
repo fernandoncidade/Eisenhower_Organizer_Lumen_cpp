@@ -1,0 +1,22 @@
+OFERTA DE CÓDIGO-FONTE CORRESPONDENTE DE COMPONENTES OPEN SOURCE
+Pacote do produto: LÚMEN / EISENHOWER ORGANIZER
+Série de versão: 2026.10.8.0 (C++23 / Qt 6.12.0)
+
+Este repositório e os pacotes distribuídos operam sob modelo de Duplo Licenciamento:
+1. Código-fonte público do projeto: licenciado sob a GNU Affero General Public License v3 (GNU AGPLv3), cujo texto integral consta em LICENSE (na raiz do repositório) e em LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt.
+2. Pacotes binários oficiais assinados na Microsoft Store: distribuídos sob EULA Oficial e Contrato de Licenciamento Comercial (CLC) do autor, com preservação integral dos direitos open source e LGPL descritos abaixo.
+
+Este pacote pode incluir componentes de runtime licenciados sob a GNU Lesser General Public License (LGPL), incluindo bibliotecas Qt 6.12.0 e bibliotecas FFmpeg n9.0.1, além de outros componentes de terceiros sob licenças permissivas ou copyleft.
+
+Para componentes cobertos pela LGPL distribuídos com este produto, o distribuidor fornecerá o código-fonte correspondente completo desses componentes LGPL, incluindo eventuais modificações aplicadas pelo distribuidor e informações de compilação disponíveis, ou uma oferta/acesso equivalente permitido pela licença aplicável.
+
+Canal de solicitação:
+Use os canais de suporte/contato indicados no instalador, na documentação do produto ou no repositório oficial (e-mail: linceu_lighthouse@outlook.com | GitHub: https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp). Inclua o nome do produto (Eisenhower Organizer ou Lúmen), versão, variante de build (Pure MSVC ou MinGW) e a lista de arquivos para os quais o código-fonte correspondente está sendo solicitado.
+
+Substituição e relink de bibliotecas LGPL:
+O produto foi projetado para distribuir componentes de runtime LGPL como bibliotecas compartilhadas/DLLs separadas sempre que possível. Nada na EULA, licença comercial, controle técnico ou documentação do produto restringe os direitos concedidos pela LGPL para substituir ou relinkar bibliotecas LGPL compatíveis, ou para realizar engenharia reversa da aplicação somente na medida necessária para depurar modificações nessas bibliotecas LGPL.
+
+Referências de código-fonte:
+- Pacotes de codigo-fonte e informações SBOM do Qt 6.12.0 estão disponíveis pelos canais oficiais de distribuição e documentação do Qt (https://www.qt.io/licensing/).
+- O código-fonte do FFmpeg correspondente aos binários FFmpeg entregues com este pacote deve corresponder à build FFmpeg-n9.0.1 identificada em LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt.
+- O código-fonte completo do EISENHOWER ORGANIZER / LÚMEN sob GNU AGPLv3 está disponível no repositório oficial no GitHub.

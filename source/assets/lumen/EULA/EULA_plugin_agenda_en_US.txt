@@ -1,0 +1,29 @@
+END USER LICENSE AGREEMENT - ASSESSMENT AGENDA MODULE
+Product: integrated module for LÚMEN
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+This License supplements the EULA of LÚMEN. By using the Assessment Agenda & Activity Tracker module, you agree to these terms.
+
+1. Product
+The Assessment Agenda is an integrated module within LÚMEN, designed for logging activities, deadlines, grades, and assessments. It operates directly inside the main application.
+
+2. License Grant
+The Licensor grants a non-exclusive, non-transferable, revocable right to use the module in conjunction with LÚMEN.
+
+3. Restrictions
+You may not decompile, disassemble, or reverse engineer beyond the limits permitted by applicable law, nor remove any copyright or intellectual property notices.
+Open Source Reservation: Nothing in this License restricts rights granted by third-party open-source licenses covering components used (such as Qt and SQLite).
+
+4. Data and Privacy
+All activity records, grades, and appointment data remain strictly stored on the user's local device storage.
+
+5. Support, Warranty, and Liability
+The support terms, warranty disclaimers, and limitation of liability set forth in the main EULA of LÚMEN apply in full.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA), FREEDOM ON source/assets/ AND AUXILIARY SCOPE ("AS IS")
+1. Public Source Code (GNU AGPLv3): The full C++23 / Qt 6.12.0 source code of LÚMEN, all 7 integrated modules (Pomodoro, Feynman, Mind Map, Audiobook, Agenda, 4D BIM Gantt), and the auxiliary Local AI Modelo module (Qwen/Ollama) is publicly available at https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp under the GNU Affero General Public License v3 (GNU AGPLv3), included in LICENSE and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt. Any derivative work or modified networked service (including the optional Gantt REST API under GNU AGPLv3 Section 13) must provide corresponding source code under GNU AGPLv3.
+2. Full Developer Freedom on source/assets/: Institutional and store compliance texts under source/assets/ were authored to support the author's official Microsoft Store listings. Fork maintainers under GNU AGPLv3 have express freedom to alter, replace, or delete these files in their own builds provided the author's exclusive trademarks ("EISENHOWER ORGANIZER" and "LÚMEN") and official icons are removed.
+3. Official Microsoft Store Editions (ID 9N70CLLMVRPN): This EULA and the Commercial Licensing Agreement (CLC) govern the author's official digitally signed binary packages on the Microsoft Store and authorized commercial tiers. Unauthorized third-party commercial resale or trademark misappropriation is prohibited. Microsoft does NOT provide customer support and does NOT cover this software under Microsoft's Privacy Statement.
+4. Auxiliary Scope, Maturity & Legal Disclaimer ("AS IS"): All modules are auxiliary tools for productivity, study, reading accessibility, and scheduling support supplied "AS IS" without warranties (Brazilian Law No. 9.609/1998, Law No. 9.610/1998, Civil Code, Consumer Defense Code, and GNU AGPLv3 Sections 15–16). Local AI outputs (Qwen 2.5 / Ollama) are probabilistic and must be reviewed; Audiobook features are not medical/clinical devices; and 4D BIM Gantt CPM/DAG schedules never replace independent verification or licensed engineering oversight issuing ART (CREA) / RRT (CAU) (or equivalent PE/CEng licensure). Exclusive reliance on results in critical production remains the user's sole responsibility.

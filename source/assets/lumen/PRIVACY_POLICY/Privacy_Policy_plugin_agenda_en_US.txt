@@ -1,0 +1,40 @@
+Privacy Policy - Assessment Agenda Module
+Product: LÚMEN
+Module ID: modulo_agenda
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy describes how the integrated Assessment Agenda & Activity Tracker module handles information when used in LÚMEN. The module was designed with total commitment to user privacy and strictly local execution.
+
+1. Scope and Principles
+- 100% Local Operation: All data logged within the module remains exclusively on the user's local device.
+- Data Minimization: Only information necessary for tracking activities, schedules, weights, and assessments is processed.
+- No Telemetry: The module collects no usage analytics and transmits no activity logs to external servers.
+
+2. Data Handled by the Module
+- Activity titles, subjects/courses, dates, times, descriptions, and completion status.
+- Assessment criteria, grades obtained, weights, and user notes.
+- Local relational database files (e.g., agenda_avaliacoes.db) stored in the application's persistent profile directory.
+
+3. Purposes of Processing
+- Enabling chronological visualization of study and work commitments.
+- Synchronizing deadlines with the calendar and main Eisenhower Matrix tasks.
+- Providing reliable local persistence on the user's computer.
+
+4. What the Module Does NOT Do
+- Does not create external accounts, logins, or profiles.
+- Does not transmit data to cloud or third-party servers.
+- Does not share information with advertisers or partners.
+
+5. User Control
+The user retains full control over all records and may create, edit, export, or delete activities at any time.
+
+--------------------------------------------------------------------------------
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT AND SUPPORT AND ON-DEMAND NETWORK TRANSPARENCY
+1. Independence from Microsoft (Microsoft Store Policy 10.5): Microsoft does NOT provide a default privacy policy for LÚMEN, and this application is NOT covered by Microsoft's Privacy Statement. Microsoft does not provide customer support (developer contact: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Local Storage Paths: User files live under %LOCALAPPDATA%\Lumen (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db in Agenda, gantt_database.db in Gantt, and logs/file_*.log) with zero telemetry and zero mandatory accounts.
+3. Optional User-Initiated Network Operations:
+   - Local AI Model (Qwen 2.5 GGUF): optional HTTPS download from Hugging Face (with HTTP Range pause/resume and disk deletion); subsequent llama.cpp inference sends zero data externally.
+   - Local Ollama: strictly loopback HTTP queries to http://127.0.0.1:11434 when triggered by the user.
+   - Edge TTS (Audiobook): selected reading text is sent to the speech service only when the user explicitly selects an online voice; local Windows SAPI voices stay 100% offline.
+   - Gantt REST API / Webhooks: disabled by default; listens or dispatches events only when explicitly enabled by the user with SecurityService.

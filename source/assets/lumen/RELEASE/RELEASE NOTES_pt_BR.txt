@@ -1,0 +1,2536 @@
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo Geral
+Esta versão consolida melhorias importantes de desempenho, estabilidade, clareza informativa e organização geral em todo o aplicativo. O programa agora opera sobre uma base modernizada, oferecendo inicialização ágil, instalação mais leve e limpa, verificação completa da qualidade de todas as ferramentas integradas e documentação totalmente renovada dentro da janela "Sobre" e nos guias de uso, mantendo intacta a alternância imediata entre Português e Inglês.
+
+Novidades, Ajustes e Melhorias
+
+1. Desempenho, Estabilidade e Compatibilidade Aprimorados
+- Base Modernizada em Todos os Recursos: O aplicativo principal e todas as áreas integradas (Matriz de Eisenhower, Pomodoro, Método Feynman, Mapa Mental, Audiolivro, Agenda, Cronograma de Projetos e Inteligência Artificial Local) receberam atualização estrutural completa para garantir resposta mais rápida, maior estabilidade durante o uso contínuo e melhor compatibilidade com versões atuais do Windows.
+- Inicialização Mais Fluida: Otimizações internas tornam a abertura do programa, a troca entre abas e a gravação das suas tarefas ainda mais suaves no dia a dia.
+
+2. Instalação Mais Enxuta, Rápida e Limpa
+- Pacote de Instalação Otimizado: Os arquivos de instalação foram cuidadosamente enxugados para incluir apenas os recursos realmente necessários para o funcionamento completo do aplicativo, reduzindo o tamanho do instalador sem exigir downloads adicionais separados para funcionar.
+- Instalação e Remoção Limpas: Instalação mais ágil no computador e desinstalação organizada pelo sistema operacional, sem deixar componentes desnecessários no equipamento.
+
+3. Qualidade e Confiabilidade Verificadas de Ponta a Ponta
+- Validação Abrangente das Funcionalidades: Todos os recursos do programa — organização em quadrantes, edição de tarefas, calendário, ciclos de foco, estudos ativos, mapas mentais, leitura assistida com voz, agendas personalizadas, cronogramas com simulação e inteligência artificial local — passaram por verificações rigorosas para prevenir falhas e assegurar resultados consistentes.
+
+4. Transparência de Licenciamento e Documentação Renovada na Janela "Sobre"
+- Esclarecimento Claro de Licenças: A janela "Sobre" e os documentos informativos internos foram revisados em Português e Inglês com linguagem transparente sobre o duplo licenciamento (uso livre da versão aberta e condições comerciais da edição oficial de loja), além da inclusão do texto integral da licença aberta para leitura direta no aplicativo.
+- Privacidade Independente e Uso Auxiliar: Informações reforçadas destacando que seus dados e anotações permanecem armazenados localmente no seu computador, sem coleta automática, e que as ferramentas oferecem apoio auxiliar sujeito à conferência do usuário.
+
+5. Acabamento Visual, Idiomas e Guias Atualizados
+- Padronização de Ícones e Acabamento: Ajuste na organização visual dos ícones exibidos pelo aplicativo no sistema operacional.
+- Guias e Manual Integrado Atualizados: O manual de uso acessível pelo aplicativo e as orientações de ajuda foram atualizados para refletir com exatidão os menus, atalhos, opções da janela "Sobre" e o comportamento atual das ferramentas, preservando a tradução instantânea entre Português e Inglês sem reiniciar.
+
+Observações Importantes:
+- Preservação Estrita de Dados: Todas as suas tarefas, configurações, mapas mentais, históricos, cronogramas e preferências salvas permanecem intactas e protegidas durante a atualização.
+- Atualização Não Destrutiva: O instalador jamais remove arquivos ou tarefas pessoais.
+- Total Privacidade: Todas as operações principais e a inteligência artificial local acontecem no seu próprio computador, preservando seus dados sem coleta externa.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.10.8.0
+Data: 8 de outubro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo Geral
+Esta versão consolida e unifica um grande salto evolutivo no aplicativo, reunindo aprimoramentos fundamentais de desempenho, usabilidade, organização visual, controle de projetos e privacidade. O pacote de instalação tornou-se extremamente leve e ágil, pois o modelo de inteligência artificial agora é gerenciado sob demanda pelo usuário. Uma nova central interativa de download permite baixar, pausar, retomar ou excluir o modelo local com total transparência e controle de espaço em disco. O aplicativo passa a contar com um assistente integrado para conexão com o Ollama, acompanhamento em tempo real do status de instalação nos menus, síntese inteligente de mapas mentais com método alternativo automático caso o modelo não esteja instalado, nova experiência de edição responsiva de tarefas, sincronização imediata de ciclos de foco no Pomodoro com prevenção de divergências, visualização de tarefas em andamento no calendário, layouts aprimorados na Matriz de Eisenhower (modos 2x2, vertical e horizontal com recolhimento inteligente), integração profunda com cronogramas de projetos (simulação visual 4D, intercâmbio com Microsoft Project e planilhas, calendários de dias úteis e diário de obra), personalização independente de fontes e cores por módulo e suporte completo à troca instantânea de idiomas em todas as telas e diálogos.
+
+Novidades, Ajustes e Melhorias
+
+1. Gerenciamento Inteligente de Inteligência Artificial e Download sob Demanda
+- Instalador Muito Mais Leve: O pacote de instalação do aplicativo foi reduzido em mais de 2 gigabytes, tornando o download e a instalação muito mais rápidos e práticos.
+- Gerenciador do Modelo Local (Qwen 2.5): Uma nova janela interativa e intuitiva permite baixar o modelo de inteligência artificial diretamente do provedor quando você desejar. A tela informa a barra de progresso, velocidade de transferência, volume baixado e tempo estimado, além de oferecer botões para pausar, retomar, cancelar o download, abrir a pasta no computador ou excluir o arquivo para liberar espaço em disco (~2,17 GB) a qualquer momento.
+- Indicador Dinâmico nos Menus: O menu de configurações agora mostra instantaneamente se o modelo está "[Instalado]" ou "[Não instalado]", atualizando-se no mesmo segundo em que o download é concluído ou o arquivo é removido.
+- Acesso Rápido para Download e Gestão: Um novo item de menu ("Como baixar ou gerenciar modelo Qwen (GGUF)...") permite abrir a janela de download com apenas um clique.
+- Guia de Integração com Ollama: Uma janela de instruções passo a passo explica de forma simples como usar o modelo através do Ollama, com botões para copiar comandos com um clique e botão de teste de conexão.
+- Síntese Inteligente com Contingência Automática: O gerador de mapas mentais analisa documentos e constrói resumos conceituais claros. Caso o modelo de inteligência artificial não esteja instalado no computador, o sistema utiliza automaticamente o método heurístico inteligente, garantindo que o seu mapa mental seja criado sem falhas ou interrupções.
+
+2. Matriz de Eisenhower e Organização de Tarefas Aprimorada
+- Layouts Flexíveis (2x2, Vertical e Horizontal): Novos modos de visualização em abas permitem exibir os quatro quadrantes simultaneamente (modo 2x2) ou organizar as seções verticalmente ou horizontalmente. No modo horizontal, as seções podem ser recolhidas de forma compacta com títulos rotacionados e molduras elegantes para aproveitar melhor monitores largos.
+- Gestão Dedicada de Tarefas "Em Progresso": Cada quadrante conta com sua própria lista de tarefas em andamento, permitindo arrastar e soltar tarefas livremente entre as listas "Pendentes", "Em Progresso" e "Concluídas".
+- Resposta Instantânea ao Salvar: Ao confirmar a edição de qualquer tarefa, a janela responde e fecha imediatamente, salvando as informações suavemente em segundo plano e sem congelamentos na tela.
+- Exibição de Tarefas em Andamento no Calendário: O quadro de tarefas do calendário e as notificações de datas agora exibem o selo destacado "[Em Progresso]" com tradução dinâmica e interação rápida por clique duplo.
+- Remoção Segura de Tarefas: Diálogos preventivos de confirmação para exclusão de tarefas individuais, exclusão em lote e limpeza geral, com a opção negativa selecionada por padrão para evitar perdas acidentais.
+
+3. Nova Janela Inteligente de Edição de Tarefas e Controle de Foco
+- Interface Responsiva: A janela de edição de tarefas se adapta dinamicamente ao tamanho da tela (coluna única em telas menores e duas colunas organizadas em telas amplas), oferecendo espaço confortável para anotações e controles de prazos.
+- Cálculo Automático de Conclusão: Cartões informativos ao passar o mouse sobre as tarefas mostram o progresso de 0% a 100% calculado a partir dos ciclos de foco realizados ou do avanço físico do cronograma.
+- Prevenção de Divergência de Metas no Pomodoro: Ao iniciar o foco com tarefas em andamento, o temporizador verifica se as metas de cada atividade coincidem com o ciclo atual e apresenta uma tabela comparativa com opções práticas de alinhamento.
+- Modo Automático no Pomodoro: Opção de avançar automaticamente entre os períodos de foco e descanso com número configurável de toques do alarme.
+
+4. Cronograma de Projetos, Engenharia e Intercâmbio de Dados
+- Integração Direta pelo Menu de Contexto: Transforme tarefas do dia a dia em atividades do cronograma, vincule etapas e lance porcentagens de avanço físico com anotações de campo diretamente pelo botão direito do mouse.
+- Simulação Visual Construtiva (4D): Reprodução visual da evolução das etapas do projeto ao longo do tempo, com linha do tempo ajustável e controles de reprodução.
+- Compatibilidade com Microsoft Project e Planilhas: Importação e exportação de arquivos de cronograma no formato do Microsoft Project e assistente visual para tabelas em planilhas eletrônicas.
+- Calendários de Dias Úteis e Feriados: Configuração de dias úteis da semana e cadastro de feriados, permitindo calcular datas finais de projetos com exatidão descontando dias não trabalháveis.
+- Diário de Obra e Auditoria: Registro de ocorrências de campo e acompanhamento transparente de alterações no planejamento.
+
+5. Personalização Visual, Cores e Tipografia Independente
+- Configuração de Cores por Módulo e Geral: Controle independente dos modos visuais "Preto" (adaptável ao tema claro ou escuro) e "Coloridas" (destaque por disciplina) para Eisenhower, Pomodoro e Feynman, ou modo geral unificado.
+- Configurações de Fontes Específicas: Ajuste individual de fontes, estilos, tamanhos e formatações para tarefas gerais e tarefas com arquivos vinculados, além de configurações próprias para Pomodoro, Feynman e nós do Mapa Mental.
+- Sublinhado e Formatação com Precisão Visual: Correção do alinhamento vertical dos sublinhados em títulos com múltiplas linhas e calibração precisa do espaço de emojis e insígnias.
+- Centralização de Botões e Acabamento: Textos, ícones e botões perfeitamente alinhados e centralizados em todas as telas.
+
+6. Tradução Dinâmica Instantânea e Experiência Fluida
+- Alternância Imediata de Idiomas: Troca em tempo real entre Português e Inglês em todos os menus, botões, diálogos, telas de ajuda, janelas sobre e mensagens do sistema, sem necessidade de reiniciar o programa.
+- Síntese de Voz Estabilizada no Audiolivro: Catálogo de vozes protegido contra interrupções momentâneas, com suporte a mais de 300 vozes e exibição amigável dos idiomas.
+
+
+7. Modernização C++23 / Qt 6.12.0, Suíte de Testes (11 Alvos CTest) e Duplo Licenciamento
+- C++23 e Qt 6.12.0: Base de código e os 7 módulos integrados migrados para C++23 estrito e Qt 6.12.0 (FFmpeg-n9.0.1, Pure MSVC 14.52 e MinGW-w64 15.1.0).
+- Distribuições Limpas e Instaladores Compactos: Pacotes MSVC utilizam CRT app-local sem embutir vc_redist.x64.exe, reduzindo drasticamente o tamanho do instalador final de LÚMEN.
+- Suíte de Engenharia de Software (11 Executáveis CTest): Suíte unificada em tests/ compilada exclusivamente em build_suite_testes_msvc e build_suite_testes_mingw (11/11 aprovados em ambos os compiladores, sem distribuição externa).
+- Duplo Licenciamento e Conformidade: Código-fonte público sob GNU AGPLv3 (LICENSE e LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt) com liberdade expressa em source/assets/ para forks (removidas as marcas exclusivas), coexistindo com a edição oficial Microsoft Store (ID 9N70CLLMVRPN) sob EULA e CLC e avisos claros de uso auxiliar "AS IS".
+
+Observações Importantes:
+- Preservação Estrita de Dados: Todas as tarefas, configurações, mapas mentais, históricos, cronogramas e preferências salvas permanecem intactas e protegidas durante o processo de atualização.
+- Atualização Não Destrutiva: O atualizador jamais remove arquivos ou tarefas pessoais.
+- Total Privacidade: Todas as funcionalidades e modelos de inteligência artificial operam diretamente no seu computador, mantendo seus documentos e anotações sob sigilo absoluto e sem depender da internet.
+- Disponibilidade de Módulos: Os recursos estendidos funcionam harmoniosamente de acordo com os módulos disponíveis na sua instalação.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.6.18.0
+Data: 18 de junho de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização melhora a organização da Matriz de Eisenhower e torna a alternância entre tarefas pendentes e concluídas mais clara. A versão adiciona um novo layout em matriz 2x2, padroniza molduras e alinhamentos dos quadros de tarefas, melhora a apresentação da Lista Global de Tarefas do calendário, refina a experiência no Método Feynman e no Pomodoro, corrige o uso da caixa de seleção em tarefas já selecionadas e amplia o arraste de tarefas entre abas e quadros.
+
+Novidades na Matriz de Eisenhower:
+- Adicionado o novo layout "Layout Matriz 2x2", disponível em "Configurações > Layout de Tarefas > Interface do Usuário > Matriz de Eisenhower".
+- O novo layout mostra os quatro quadrantes ao mesmo tempo, organizados em duas linhas e duas colunas: Importante e Urgente; Importante, mas Não Urgente; Não Importante, mas Urgente; Não Importante e Não Urgente.
+- Cada quadrante agora possui as abas "Pendente" e "Concluídas", separando tarefas em andamento ou abertas das tarefas já finalizadas.
+- As abas do novo layout acompanham a troca de idioma em tempo de execução.
+
+Melhorias visuais e de organização:
+- As abas "Pendente" e "Concluídas" foram alinhadas à esquerda e aproximadas do quadro de tarefas para deixar a leitura mais direta.
+- Cada quadrante da matriz 2x2 recebeu uma moldura própria em torno das tarefas, deixando os quadros mais definidos.
+- A Lista Global de Tarefas do calendário recebeu uma moldura em linha, com o título integrado à própria linha, deixando o painel mais consistente com os demais layouts.
+- O "Layout em Quadrantes" passou a usar o mesmo padrão de molduras em linha usado nos outros modos de visualização.
+- As molduras dos layouts "Layout em Abas", "Layout em Quadrantes" e "Layout Matriz 2x2" foram alinhadas para manter a mesma altura visual em relação à borda da janela.
+- Os rótulos dos quadrantes foram ajustados para manter um visual mais padronizado com os demais métodos.
+- As abas receberam cores coerentes com os quadrantes: pendentes usam as cores de prioridade e concluídas usam azul.
+
+Melhorias no Método Feynman:
+- A caixa "Minhas Tarefas:" recebeu uma moldura em linha, com o título integrado à moldura.
+- No modo "Abas", as áreas "Conceito", "Explique com Simplicidade", "Lacunas Identificadas", "Revisão e Simplificação Final" e "Descrição" passaram a usar o mesmo visual de moldura dos modos "Horizontal" e "Vertical".
+- A troca entre os layouts "Abas", "Vertical" e "Horizontal" ficou mais estável, mantendo a largura da área "Minhas Tarefas:" sem encolher de forma inesperada.
+- A área "Minhas Tarefas:" passa a iniciar com largura mínima adequada, deixando mais espaço para a área de estudo.
+
+Melhorias no Pomodoro:
+- A área vertical onde fica o "Timer" passa a iniciar com largura mínima adequada, deixando a divisão da tela mais previsível.
+
+Melhorias no uso das tarefas:
+- Agora é possível arrastar uma ou várias tarefas e soltar diretamente sobre qualquer aba disponível, incluindo "Pendente" e "Concluídas" da matriz 2x2.
+- Ao soltar uma tarefa em "Concluídas", ela passa para o quadro de concluídas; ao soltar em "Pendente", ela volta para o quadro de pendentes.
+- O arraste entre quadrantes e entre estados ficou mais previsível nos layouts da Matriz de Eisenhower.
+
+Correções e ajustes:
+- Corrigido o comportamento da caixa de seleção quando a tarefa já estava selecionada.
+- Agora, ao clicar na caixa de seleção de uma tarefa selecionada, a tarefa é marcada ou desmarcada imediatamente.
+- Ao selecionar uma tarefa em outra prioridade ou em outra lista de concluídas, a seleção anterior é removida corretamente.
+- Marcar uma tarefa move corretamente para "Concluídas"; desmarcar uma tarefa concluída move corretamente de volta para "Pendente".
+- O comportamento foi ajustado para funcionar nos três modos de layout da Matriz de Eisenhower.
+- As novas opções e rótulos foram preparados para tradução dinâmica.
+
+Manual e documentação:
+- O manual foi atualizado com instruções sobre como ativar e usar o Layout Matriz 2x2.
+- A documentação explica como concluir tarefas, devolver tarefas para pendentes e arrastar uma ou várias tarefas entre abas.
+- README, observações do projeto e notas de lançamento foram alinhados à versão 2026.6.18.0.
+
+Observações:
+- Esta atualização preserva as tarefas e preferências existentes.
+- O novo layout pode ser ativado ou desativado pelas configurações de layout de tarefas.
+- A organização das tarefas existentes é reaproveitada no novo layout sem exigir migração manual.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.6.15.0
+Data: 15 de junho de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização amplia a integração entre o Lúmen e seus recursos opcionais. A versão deixa as janelas auxiliares mais previsíveis, reforça a tradução em tempo de execução e ajusta a preparação da versão final para reconhecer melhor os módulos disponíveis.
+Também melhora o uso da lista global do calendário e amplia as instruções do manual para refletir os fluxos atuais.
+
+Melhorias gerais do aplicativo:
+- A janela principal e as janelas auxiliares passam a se comportar de forma mais natural: quando uma delas é ativada, ela vem para frente, e a outra pode ficar atrás sem bloquear o uso.
+- Ao fechar o aplicativo principal, janelas auxiliares abertas também são encerradas corretamente.
+- A troca de idioma em tempo de execução ficou mais consistente em menus, botões e janelas relacionadas aos recursos opcionais.
+- A geração da versão final foi ajustada para reconhecer melhor os módulos opcionais incluídos no pacote.
+- A exibição do progresso durante a geração do aplicativo ficou mais clara, mostrando percentuais de andamento quando disponível.
+- A Lista Global de Tarefas ficou mais estável ao remover uma ou várias tarefas diretamente pelo menu de contexto.
+- O manual e os documentos de apoio foram complementados com orientações mais claras sobre lista global, recursos opcionais e persistência local.
+
+Novo Registro de Atividades:
+- Foi adicionada a funcionalidade "Registro de Atividades" como recurso opcional, disponível nos menus "Configurações > Módulos > Registro de Atividades" e "Ferramentas > Registro de Atividades" somente quando o módulo estiver presente.
+- A nova janela "Cadastro de Atividades" permite registrar atividades a partir de curso, ementa, semestre, disciplina, turma, tipo de atividade, sequência, data, horário, prioridade e nível de domínio.
+- A interface da Agenda foi reorganizada em duas áreas para deixar o preenchimento mais claro: as listas de seleção ficam de um lado, enquanto calendário, data, horário e botões ficam do outro.
+- O botão "Limpar" foi adicionado para desfazer as seleções feitas, mantendo as opções padrão de prioridade e nível de domínio disponíveis.
+- O botão "Fechar" foi adicionado para encerrar a janela de forma direta.
+- A prioridade padrão da atividade agora é "Importante e Urgente".
+- A opção "Vincular horário" fica habilitada por padrão para facilitar o cadastro de atividades com hora definida.
+- A janela da Agenda não pode mais ser maximizada, mantendo um tamanho mais compacto e adequado ao cadastro.
+- As atividades registradas pela Agenda passam a entrar como tarefas no Lúmen e também podem acompanhar Pomodoro e Método Feynman quando a sincronização estiver ativa.
+- As informações de prioridade, nível de domínio, data e horário deixam de ser repetidas na descrição da tarefa, pois já aparecem nos campos próprios da interface.
+- As cores configuradas para tipos de atividade voltam a ser aplicadas às tarefas criadas pela Agenda. Quando uma tarefa possui arquivo vinculado, o destaque azul padronizado é preservado.
+- As opções "Excluir item" e "Cores" foram integradas ao menu "Configurações > Módulos > Registro de Atividades".
+- A Agenda agora salva listas e tarefas junto aos dados do produto em uso, evitando registros separados em uma pasta exclusiva da Agenda.
+- Os textos da Agenda, incluindo menus, botões, rótulos e listas, passam a acompanhar a troca de idioma sem exigir reinício.
+- A janela da Agenda agora respeita melhor a janela principal: pode ficar atrás ou à frente conforme a janela ativa, e é fechada junto com o aplicativo principal.
+- A Agenda passa a permitir alternar entre o exemplo "Engenharia Civil" e agendas personalizadas criadas pelo usuário.
+- Novas agendas podem ser criadas pelo menu interno da janela, com títulos próprios e múltiplas listas suspensas personalizadas.
+- A abertura de uma agenda personalizada agora acontece pela opção "Abrir agenda", evitando trocas acidentais apenas ao passar o mouse sobre o menu.
+- A última agenda aberta é lembrada e carregada novamente na próxima abertura da janela da Agenda.
+- O usuário pode editar ou remover agendas personalizadas e também editar ou remover títulos de listas sem apagar as demais listas da agenda.
+- O menu "Excluir item" acompanha a agenda ativa, mostrando as listas corretas do exemplo ou da agenda personalizada aberta.
+- No modo "Coloridas", agendas personalizadas recebem cores alternadas, evitando repetir imediatamente a última cor aplicada.
+- As preferências da Agenda passam a ficar em um arquivo próprio de configurações da Agenda.
+- Corrigido o salvamento de listas e atividades da Agenda para usar o local correto de dados do produto.
+- Corrigida a tradução dinâmica de textos da Agenda que não acompanhavam a troca de idioma.
+- Corrigido o comportamento em que a janela da Agenda podia continuar aberta depois do fechamento do aplicativo principal.
+- Ajustada a sobreposição entre a janela principal e a Agenda para evitar que uma delas fique presa permanentemente acima da outra.
+- Corrigido o comportamento de edição e remoção de títulos em agendas personalizadas para preservar as demais listas já cadastradas.
+- Removidos recursos desnecessários da Agenda para deixar o módulo mais leve e direto.
+- As informações específicas do Registro de Atividades nestas notas aparecem somente quando o módulo correspondente está incluído na instalação.
+
+Melhorias nos recursos sincronizados:
+- O envio de tarefas entre Eisenhower, Pomodoro e Método Feynman ficou mais consistente.
+- Tarefas recebidas por sincronização preservam melhor informações importantes na apresentação visual.
+- A apresentação das tarefas ficou mais limpa e evita repetição de informações já exibidas pela interface.
+
+Correções e ajustes:
+- Ajustado o encerramento de janelas auxiliares abertas junto com o fechamento do aplicativo principal.
+- Ajustada a sobreposição entre a janela principal e janelas auxiliares para evitar bloqueio visual entre elas.
+- Reforçada a tradução dinâmica de menus, botões, rótulos e listas em tempo de execução.
+- Revisada a organização de recursos opcionais para deixar a versão final mais consistente.
+- Corrigido o encerramento inesperado ao excluir uma ou múltiplas tarefas pela Lista Global de Tarefas.
+
+Observações:
+- Esta atualização não altera manualmente tarefas já existentes.
+- Recursos opcionais continuam aparecendo somente quando estão incluídos na instalação.
+- As notas específicas de recursos opcionais são exibidas apenas quando o respectivo recurso está disponível.
+- Preferências existentes continuam sendo reaproveitadas quando possível.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.6.7.0
+Data: 7 de junho de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização melhora a organização geral do aplicativo, reforça a segurança ao abrir arquivos vinculados e deixa os módulos adicionais mais consistentes na versão final. O foco principal foi corrigir pontos encontrados na análise de estabilidade e segurança, reduzir comportamentos inesperados e preparar melhor o aplicativo para manutenção e novas melhorias.
+
+Melhorias no calendário e nas tarefas:
+- O calendário ficou mais consistente ao listar, destacar, editar e remover tarefas com datas.
+- A atualização dos destaques de datas ficou mais confiável depois de mudanças nas tarefas.
+- A contagem visual de tarefas no calendário foi ajustada para acompanhar melhor as alterações feitas pelo usuário.
+- O menu de ações do calendário ficou mais previsível ao localizar a tarefa correta.
+- A abertura de arquivos vinculados a tarefas ficou mais segura e passa a conferir melhor se o arquivo realmente existe antes de tentar abri-lo.
+
+Melhorias na abertura de arquivos vinculados:
+- A abertura de arquivos anexados ou vinculados ficou mais segura no Windows.
+- O aplicativo reduz o risco de falhas ao abrir caminhos de arquivos com espaços, nomes longos ou caracteres especiais.
+- Quando um arquivo vinculado não está disponível, o aplicativo evita tentativas desnecessárias e trata melhor a situação.
+- A experiência ficou mais confiável tanto nas tarefas principais quanto nos recursos de estudo que usam arquivos vinculados.
+
+Melhorias no Audiolivro:
+- A régua de foco ficou mais estável ao ativar, desativar e alternar seu estado durante a leitura.
+- O comportamento da régua de foco ficou mais previsível ao mover, redimensionar e usar atalhos.
+- A integração com vozes online ficou melhor preparada para mudanças externas do serviço de narração.
+- O acesso às vozes online ficou mais flexível, permitindo ajustes futuros sem alterar o uso normal do aplicativo.
+- A experiência de leitura ficou mais consistente para quem usa recursos de acessibilidade visual.
+
+Melhorias no Método Feynman:
+- A abertura de arquivos vinculados ao estudo ficou mais segura e confiável.
+- O recebimento de conceitos vindos de outros métodos ficou mais estável.
+- O módulo ficou melhor preparado para ferramentas mais recentes usadas na geração do aplicativo.
+- A integração com mapas mentais e tarefas compartilhadas ficou mais consistente.
+
+Melhorias no Mapa Mental:
+- A organização dos recursos do Mapa Mental foi refinada para manter o módulo mais consistente na versão final.
+- A estrutura de conceitos, desenho do mapa e apoio ao processamento de ideias ficou mais preparada para manutenção.
+- A integração do Mapa Mental com os demais métodos ficou mais alinhada à versão atual.
+
+Melhorias no Pomodoro:
+- A organização dos recursos do Pomodoro foi revisada para acompanhar a nova versão.
+- O módulo ficou mais bem alinhado com a entrega final do aplicativo.
+- As informações de identificação do Pomodoro foram atualizadas para manter consistência com os demais módulos.
+
+Melhorias gerais do aplicativo:
+- A organização dos módulos internos foi simplificada, removendo partes auxiliares que não eram necessárias para o funcionamento final.
+- Os módulos opcionais ficaram mais bem identificados e alinhados à versão 2026.6.7.0.
+- O processo de geração da versão final ficou mais consistente ao reunir o aplicativo principal e os módulos adicionais.
+- Documentos, informações de versão e arquivos de apoio foram atualizados para acompanhar esta versão.
+- A base do aplicativo ficou mais limpa e preparada para futuras correções e melhorias.
+
+Correções e ajustes:
+- Corrigido um ponto de abertura de arquivos que podia depender de um caminho menos seguro no Windows.
+- Ajustado o tratamento de arquivos vinculados para reduzir falhas quando o caminho não existe.
+- Corrigido um detalhe de compatibilidade no Método Feynman que podia gerar avisos em ferramentas mais recentes.
+- Ajustada a integração com vozes online do Audiolivro para deixar o comportamento mais claro e flexível.
+- Revisados pontos sensíveis apontados pela análise de segurança e estabilidade.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- A análise realizada não encontrou falhas críticas de vazamento de memória nos pontos verificados.
+- As principais mudanças visíveis estão na abertura mais segura de arquivos vinculados, na estabilidade da régua de foco do Audiolivro e na consistência dos módulos na versão final.
+- As demais melhorias reforçam organização, segurança, estabilidade e preparação para futuras evoluções.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.6.6.0
+Data: 6 de junho de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização melhora a experiência visual do Pomodoro, principalmente ao redimensionar a janela do aplicativo. O foco principal foi impedir que os controles do quadro "Configurações" fossem comprimidos e evitar que o "Quadro de Tarefas" invadisse visualmente a área de configurações. A versão também reforça a organização da entrega final do aplicativo e atualiza as informações de versão dos módulos incluídos.
+
+Melhorias no Pomodoro:
+- O quadro "Configurações" ficou mais estável ao aumentar ou diminuir a altura da janela.
+- Os botões "Iniciar", "Resetar Relógio", "Resetar Ciclo" e "Pular" mantêm sua aparência e continuam legíveis durante o redimensionamento.
+- As listas suspensas de "Foco (min):", "Descanso (min):" e "Ciclo 1/4:" deixam de ser esmagadas quando a janela fica menor.
+- Os rótulos das configurações permanecem alinhados e com leitura mais confortável.
+- O "Quadro de Tarefas" ganhou separação mais clara em relação ao quadro "Configurações".
+- A área de tarefas não deve mais avançar por cima das configurações durante ajustes de tamanho da interface.
+- A organização visual do Pomodoro ficou mais previsível nos modos de uso disponíveis.
+
+Melhorias ao redimensionar a interface:
+- A janela lida melhor com alturas menores sem comprometer os controles principais do Pomodoro.
+- Os quadros do Pomodoro passam a respeitar melhor o espaço necessário de cada área.
+- A interface ficou mais consistente ao alternar entre tamanhos de janela maiores e menores.
+- O uso em telas com pouco espaço vertical ficou mais confortável.
+
+Melhorias na versão final do aplicativo:
+- As informações de versão foram atualizadas para a versão 2026.6.6.0.
+- Os módulos opcionais do aplicativo receberam atualização de identificação para acompanhar esta versão.
+- Os instaladores e arquivos de apoio foram alinhados à nova versão.
+- Textos informativos, avisos, políticas e documentos de suporte foram revisados para manter consistência com a entrega atual.
+
+Correções e ajustes:
+- Corrigido o comportamento visual em que controles do Pomodoro podiam perder altura durante o redimensionamento.
+- Corrigido o problema em que o "Quadro de Tarefas" podia aparecer sobre a área de "Configurações".
+- Ajustada a separação visual entre as principais áreas do Pomodoro.
+- Reforçada a estabilidade visual da interface em diferentes tamanhos de janela.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As mudanças desta versão são voltadas principalmente à estabilidade visual do Pomodoro e à consistência da versão final entregue ao usuário.
+- Caso a janela esteja muito pequena, o aplicativo passa a preservar melhor a leitura e a separação entre os quadros principais.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.30.0
+Data: 30 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização melhora a integração entre Eisenhower, Pomodoro e Feynman, deixa as mensagens do aplicativo mais claras e reforça a entrega dos recursos na versão final. O foco principal foi facilitar o uso dos métodos em conjunto, reduzir inconsistências entre tarefas e entregar um pacote final mais limpo e completo.
+
+Novidades na sincronização de tarefas:
+- As tarefas podem ser adicionadas nos métodos Eisenhower, Pomodoro e Feynman de forma integrada quando a sincronização estiver ativa.
+- A exclusão de tarefas também passa a acompanhar os métodos sincronizados, mantendo as janelas mais consistentes entre si.
+- As opções de sincronização continuam disponíveis em "Configurações > Sincronizar > Eisenhower/Pomodoro/Feynman".
+- Ao adicionar ou excluir uma tarefa com a sincronização ativa, o aplicativo mostra uma mensagem informando que a ação será aplicada aos métodos selecionados.
+- As novas mensagens acompanham o idioma escolhido no aplicativo, em português ou inglês.
+
+Melhorias no uso com Pomodoro e Feynman:
+- A integração entre os métodos ficou mais previsível durante a criação e remoção de tarefas.
+- O Pomodoro ficou mais consistente ao receber tarefas vindas da organização principal.
+- O Feynman ficou melhor preparado para acompanhar tarefas relacionadas aos estudos e conceitos.
+- As ações entre os métodos foram ajustadas para reduzir diferenças inesperadas entre as janelas.
+
+Melhorias na versão final do aplicativo:
+- A versão final agora inclui melhor os módulos adicionais usados pelo aplicativo.
+- A entrega do aplicativo ficou mais limpa, sem arquivos auxiliares desnecessários para o usuário final.
+- A abertura dos recursos adicionais ficou mais confiável após a geração da versão final.
+- O pacote final ficou mais organizado para instalação, teste e distribuição.
+
+Correções e ajustes:
+- Corrigidos casos em que módulos adicionais podiam não ser incluídos corretamente na versão final.
+- Removidos arquivos extras que não eram necessários para usar o aplicativo.
+- Melhorada a consistência da versão final em relação à organização dos recursos.
+- Ajustes gerais reforçam a estabilidade e reduzem comportamentos inesperados durante o uso integrado dos métodos.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- Para usar a sincronização, ative os métodos desejados no menu de configurações.
+- As melhorias desta versão são voltadas à integração entre métodos, clareza das mensagens e qualidade da versão final entregue ao usuário.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.28.0
+Data: 28 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização melhora a leitura de PDFs no Audiolivro, reforça a estabilidade dos recursos de estudo e produtividade e prepara a base interna do aplicativo para evoluções futuras. O foco principal foi tornar a narração mais confiável, o realce da leitura mais preciso e a navegação em documentos PDF mais confortável.
+
+Novidades e melhorias no Audiolivro:
+- A leitura de arquivos PDF ficou mais estável durante a narração com vozes online.
+- O narrador mantém melhor o idioma da voz escolhida, mesmo quando o texto contém hífens, travessões, sublinhados, pontos, parênteses, aspas e nomes de arquivo.
+- O realce do texto agora acompanha melhor a fala em trechos com nomes de documentos, extensões de arquivo e pontuação complexa.
+- A leitura de termos como nomes de arquivos em PDF ficou mais previsível, reduzindo saltos inesperados no realce.
+- As opções de voz foram ajustadas para priorizar vozes mais estáveis e reduzir trocas indevidas de idioma durante a leitura.
+- O tratamento de texto extraído de PDFs foi aprimorado para melhorar a continuidade da narração.
+- Os botões "Mão" e "Seleção" no visualizador de PDF agora podem ser desativados com um segundo clique.
+- Ao desativar o modo "Seleção", o realce de seleção atual é limpo automaticamente.
+- Ao desativar o modo "Mão", o cursor volta ao comportamento normal.
+
+Correções no Audiolivro:
+- Corrigido um problema em que a voz podia mudar temporariamente para espanhol ou outro idioma durante a leitura de certos trechos.
+- Corrigido um aviso de "Erro desconhecido" ao iniciar a narração de PDFs em algumas situações.
+- Corrigido um problema em que o realce pulava parte da narração e avançava diretamente para trechos como "(1).pdf".
+- Corrigido o comportamento dos botões "Mão" e "Seleção", que antes permaneciam ativos após um único clique.
+- Melhorada a sincronização entre áudio e realce em PDFs com caracteres especiais e nomes de arquivo longos.
+
+Melhorias no Pomodoro:
+- A organização interna do Pomodoro foi revisada para aumentar a estabilidade do temporizador, das tarefas e do gerenciamento de tempo.
+- As ações de adicionar, mover, remover e atualizar tarefas ficaram mais consistentes.
+- O painel de tarefas recebeu ajustes para reduzir comportamentos inesperados em listas, menus e campos de edição.
+- A integração entre Pomodoro e Eisenhower foi preparada para manter melhor o estado das tarefas durante o uso contínuo.
+- A experiência geral do Pomodoro ficou mais estável para sessões longas de foco e organização.
+
+Melhorias no Método Feynman:
+- O gerenciamento de conceitos ficou mais organizado e confiável.
+- As ações de criar, salvar, selecionar, excluir e atualizar conceitos receberam melhorias de estabilidade.
+- A integração com mapas mentais e arquivos vinculados ficou mais consistente.
+- A limpeza de abas, campos e conteúdos temporários foi aprimorada para reduzir estados inesperados.
+- A experiência geral do Método Feynman ficou mais preparada para manutenção e evolução futura.
+
+Melhorias gerais do aplicativo:
+- A estrutura interna dos principais recursos foi reorganizada para facilitar manutenção, correções e novas melhorias.
+- O processo de geração do aplicativo foi ajustado para reconhecer melhor os componentes reorganizados.
+- Informações de versão, instaladores e textos auxiliares do produto foram atualizados para esta versão.
+- Documentos de suporte, avisos e informações legais receberam ajustes de versão e consistência.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As principais mudanças visíveis estão concentradas no Audiolivro, especialmente na leitura de PDFs com narração e realce.
+- As demais melhorias reforçam estabilidade, organização interna e preparação para novas evoluções do aplicativo.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.27.0
+Data: 27 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização corrige o comportamento do Pomodoro após reiniciar o aplicativo e melhora a integração com o Eisenhower para refletir mudanças de conclusão de tarefas.
+
+Correções no Pomodoro:
+- Tarefas deixadas no painel “Em Progresso” agora permanecem lá ao reabrir o aplicativo.
+- O painel “A Fazer” não recebe mais tarefas que estavam em andamento por engano.
+
+Melhorias na integração com o Eisenhower:
+- Ao marcar uma tarefa ou grupo de tarefas como “não concluída” no Eisenhower, elas voltam automaticamente para “A Fazer” no Pomodoro.
+- As alterações feitas no Eisenhower passam a aparecer no Pomodoro de forma mais consistente, sem perder o andamento atual.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.26.0
+Data: 26 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização traz uma grande evolução para a personalização visual do Pomodoro e do Gerenciador de Tarefas, além de melhorias importantes de organização, navegação, estabilidade e adaptação automática da interface. O foco principal desta versão foi tornar o uso mais confortável, flexível e intuitivo para diferentes tamanhos de tela e estilos de trabalho.
+
+Novidades nos layouts do Pomodoro:
+- O Pomodoro agora oferece novos modos de organização visual para facilitar o uso em diferentes tipos de monitor e fluxo de trabalho.
+- Foram adicionados os modos:
+  - "Abas"
+  - "Vertical"
+  - "Horizontal"
+
+- Agora é possível combinar:
+  - Layout "Ao lado"
+  - Layout "Embaixo"
+    - com diferentes formas de exibição do conteúdo.
+
+- A configuração pode ser alterada em:
+  - "Configurações > Layout de Tarefas > Interface do Usuário > Pomodoro"
+
+- O aplicativo salva automaticamente o layout escolhido para os próximos usos.
+- A troca entre os layouts ficou mais rápida e previsível.
+
+Melhorias na organização visual do Pomodoro:
+- O modo "Ao lado" foi refinado para aproveitar melhor monitores largos.
+- O modo "Embaixo" recebeu melhorias para telas menores e notebooks.
+- Os controles do temporizador ficaram mais organizados e fáceis de acessar.
+- O espaço entre botões, listas e áreas de configuração foi ajustado para melhorar a leitura.
+- O comportamento visual ficou mais consistente entre os diferentes layouts.
+
+Melhorias no Gerenciador de Tarefas:
+- O painel de tarefas recebeu melhorias de organização visual e navegação.
+- O sistema de movimentação de tarefas entre listas e abas ficou mais estável.
+- A navegação entre categorias e áreas de tarefas ficou mais fluida.
+- O comportamento das abas foi refinado para melhorar o uso contínuo durante sessões longas.
+- O aplicativo agora responde melhor ao mover tarefas entre diferentes áreas da interface.
+
+Melhorias nas abas e navegação lateral:
+- As abas laterais receberam melhorias visuais e de estabilidade.
+- A leitura dos títulos das abas ficou mais confortável.
+- A navegação entre seções ficou mais previsível.
+- Foram realizados ajustes para melhorar a adaptação automática em resoluções menores.
+- O comportamento visual das abas ficou mais consistente durante redimensionamentos da janela.
+
+Melhorias na adaptação automática da interface:
+- A interface agora reorganiza melhor os elementos conforme o tamanho da janela.
+- O aplicativo distribui melhor os espaços internos em layouts horizontais, verticais e em abas.
+- Áreas de tarefas, listas e painéis laterais ficaram mais protegidos contra cortes visuais.
+- O redimensionamento da janela ficou mais estável.
+- O uso em monitores menores recebeu melhorias importantes de aproveitamento de espaço.
+
+Melhorias no painel “Em Progresso”:
+- O painel lateral “Em Progresso” recebeu melhorias de estabilidade visual.
+- A expansão e recolhimento do painel ficaram mais suaves.
+- O comportamento do painel ficou mais consistente ao alternar layouts.
+- O espaço interno passou a ser melhor aproveitado em tarefas longas e múltiplos itens.
+
+Melhorias de usabilidade:
+- Foram realizados ajustes para reduzir comportamentos inesperados durante alterações rápidas da interface.
+- O aplicativo ficou mais estável ao alternar entre diferentes modos visuais.
+- Componentes internos agora mantêm melhor alinhamento visual.
+- Campos de edição, listas e controles passaram a responder de forma mais previsível.
+- A experiência geral de uso ficou mais fluida durante sessões prolongadas.
+
+Melhorias de tradução e organização dos menus:
+- Os menus de configuração receberam reorganização para facilitar a localização das opções de layout.
+- Os nomes dos layouts ficaram mais claros e intuitivos para o usuário final.
+- Mensagens de confirmação foram refinadas para melhor entendimento.
+- A estrutura dos menus ficou mais consistente entre português e inglês.
+
+Melhorias internas de estabilidade:
+- Foram realizados diversos ajustes internos para melhorar a estabilidade geral da interface.
+- O gerenciamento de layouts ficou mais confiável.
+- O comportamento visual das áreas dinâmicas foi refinado para reduzir inconsistências.
+- Melhorias internas ajudam a manter a navegação mais fluida mesmo com múltiplas tarefas abertas.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As melhorias desta versão são focadas principalmente em organização visual, flexibilidade de layouts, navegação e estabilidade da interface.
+- Recomenda-se revisar os novos layouts do Pomodoro para escolher a organização mais confortável para seu fluxo de trabalho.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.25.0
+Data: 25 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização aprimora principalmente a experiência de uso do método Feynman, com melhorias de organização visual, adaptação automática da interface, estabilidade ao redimensionar a janela e melhor aproveitamento do espaço disponível. O objetivo foi tornar a área de estudo mais confortável, previsível e fácil de utilizar tanto em telas grandes quanto em telas menores.
+
+Melhorias na interface do Método Feynman:
+- A organização visual do Método Feynman foi revisada para deixar os controles mais agrupados e fáceis de localizar.
+- Os botões principais e opções de prioridade e domínio agora aparecem organizados em uma barra inferior mais limpa e previsível.
+- O espaço interno da interface foi otimizado para reduzir excesso de áreas vazias e melhorar a leitura do conteúdo.
+- O painel de tarefas passou a utilizar melhor o espaço disponível ao lado das áreas de explicação e revisão.
+- A navegação entre as áreas do método ficou mais confortável visualmente.
+
+Melhorias nos layouts "Abas", "Horizontal" e "Vertical":
+- O Método Feynman agora se adapta melhor a diferentes tamanhos de janela.
+- O redimensionamento da interface ficou mais estável em layouts horizontais, verticais e em abas.
+- As áreas laterais passaram a respeitar limites mínimos mais inteligentes, evitando cortes excessivos de conteúdo.
+- O aplicativo agora distribui melhor o espaço entre o painel de tarefas e a área principal de estudo.
+- Em telas menores, o painel lateral pode ocupar menos espaço automaticamente para preservar a área principal de leitura e escrita.
+- A interface ficou mais previsível ao maximizar, restaurar ou redimensionar a janela.
+
+Melhorias no painel de tarefas:
+- O painel de tarefas ficou mais compacto e organizado quando utilizado em espaços reduzidos.
+- O comportamento de expandir e recolher o painel lateral foi refinado para tornar a transição mais suave.
+- A largura mínima do painel agora é ajustada automaticamente conforme o espaço disponível.
+- O painel principal evita melhor cortes visuais em listas, campos de texto e áreas de edição.
+
+Melhorias nas abas e áreas de conteúdo:
+- O tamanho das abas foi ajustado para melhorar a leitura dos títulos.
+- O espaçamento interno das abas foi ampliado para facilitar a navegação.
+- A área "Descrição" recebeu melhorias de organização e integração com as demais áreas do Método Feynman.
+- A visualização das informações ficou mais consistente entre diferentes idiomas e tamanhos de tela.
+
+Melhorias de estabilidade e usabilidade:
+- Foram realizados ajustes para reduzir problemas visuais durante alterações de tamanho da janela.
+- A interface passou a reagir de forma mais estável ao alternar entre diferentes layouts.
+- Campos de texto, listas e áreas de edição ficaram mais protegidos contra sobreposição visual.
+- O comportamento geral da interface ficou mais consistente ao trabalhar com múltiplos conceitos e tarefas.
+- Melhorias internas ajudam a manter uma experiência mais fluida durante o uso contínuo da ferramenta.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As melhorias desta versão são voltadas principalmente à organização visual, estabilidade da interface e adaptação automática dos layouts do Método Feynman.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.22.0
+Data: 22 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização melhora principalmente o uso do Pomodoro, a documentação de ajuda, a troca de idioma em janelas de licença e a clareza das informações apresentadas ao usuário. O objetivo foi deixar mais fácil escolher como o Pomodoro aparece na tela, entender o que mudou e consultar documentos sem perder o idioma escolhido no aplicativo.
+
+Novidades no Pomodoro:
+- O Pomodoro agora permite escolher entre dois modos de interface: "Simples" e "Robusta".
+- A escolha fica em "Configurações > Layout de Tarefas > Interface do Usuário > Pomodoro".
+- O Pomodoro agora permite escolher entre três modos de interface: "Abas", "Horizontal" e "Vertical".
+- A escolha fica em "Configurações > Layout de Tarefas > Interface do Usuário > Feynman".
+- O modo "Simples" mantém uma tela mais compacta e direta para quem quer usar o temporizador com menos elementos visíveis.
+- O modo "Robusta" apresenta uma organização mais completa, com temporizador, quadro de tarefas, abas de status e painel lateral "Em Progresso".
+- Ao escolher um dos modos, o aplicativo abre o Pomodoro e mostra uma mensagem confirmando qual layout foi aplicado.
+- A escolha do layout é salva para os próximos usos.
+
+Melhorias no layout "Robusta" do Pomodoro:
+- O "Quadro de Tarefas" foi reorganizado para facilitar o preenchimento e a execução das ações.
+- Abaixo do campo de texto da tarefa, prioridade, nível de domínio e fluxo de tarefas concluídas agora aparecem em uma única linha.
+- Os botões "Adicionar", "Mover Tarefa(s)", "Remover Tarefa(s)" e "Resetar Contagem" agora aparecem juntos em uma segunda linha.
+- O painel "Em Progresso" continua podendo ser recolhido ou expandido para liberar espaço durante a sessão de foco.
+- A organização ficou mais previsível para quem usa várias tarefas ao mesmo tempo.
+
+Melhorias no layout "Abas", "Horizontal" e "Vertical" do Feynman:
+- O layout "Abas" mantém a organização tradicional, com o painel lateral "Minhas Tarefas:" e as abas de conteúdo à direita.
+- O layout "Horizontal" organiza os elementos de forma horizontal, ideal para telas com espaço adequado.
+- O layout "Vertical" organiza os elementos de forma vertical, otimizando o uso de espaço em telas menores.
+
+Tradução e troca de idioma:
+- As opções "Interface do Usuário", "Simples" e "Robusta" do menu do Pomodoro passaram a ter tradução em português e inglês.
+- A mensagem que confirma o layout aplicado também acompanha o idioma escolhido.
+- As janelas abertas pelo botão "Abrir" dentro de "Sobre > Licenças > Geral" agora atualizam o título quando o idioma do aplicativo muda.
+- Os títulos dessas janelas usam o mesmo padrão de tradução da interface principal.
+
+Manual e instruções de uso:
+- O manual foi atualizado com instruções sobre como abrir o Pomodoro e o Feynman.
+- Foram adicionadas orientações sobre como alternar entre os layouts "Simples" e "Robusta", "Abas", "Horizontal" e "Vertical".
+- A documentação explica quando usar cada layout e como o quadro de tarefas fica organizado no modo "Robusta", "Abas", "Horizontal" e "Vertical".
+- As instruções do alarme do Pomodoro foram ampliadas com passos mais claros.
+
+Notas:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As mudanças do Pomodoro e do Feynman são voltadas à organização visual, escolha de layout e facilidade de uso.
+- As melhorias de tradução ajudam a manter a interface coerente ao alternar entre português e inglês.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.20.0
+Data: 20 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização reúne correções importantes de estabilidade, leitura assistida, uso em múltiplas telas e consulta de informações legais. O foco foi tornar o Lúmen mais confiável ao trabalhar com livros em PDF, melhorar o acompanhamento da leitura em voz alta, deixar a janela "Sobre" mais clara e facilitar o acesso às licenças de terceiros incluídas com o aplicativo.
+
+Melhorias no Audiolivro e na leitura assistida:
+- A limpeza de um PDF carregado no Audiolivro ficou mais segura. Depois de clicar em "Limpar", o arquivo deixa de ficar preso pelo aplicativo, permitindo mover, renomear ou excluir o PDF no Windows.
+- A marcação visual da leitura assistida foi revisada para acompanhar melhor a palavra que está sendo pronunciada naquele momento.
+- A leitura de livros grandes, monografias e documentos longos em PDF ficou mais estável.
+- O acompanhamento visual ficou mais protegido contra saltos indevidos quando a mesma palavra aparece várias vezes na mesma página ou em outras partes do livro.
+- Sequências numéricas, códigos, símbolos e trechos que não formam palavras comuns passaram a ser tratados com mais cuidado, reduzindo perdas de sincronização durante a narração.
+- O comportamento em PDFs com capa, contracapa, páginas comuns e páginas com reconhecimento de texto foi melhorado para reduzir marcações fora do local esperado.
+- A narração ficou mais coerente com a voz escolhida pelo usuário, evitando mudanças indevidas de idioma durante a leitura quando uma voz em português estiver selecionada.
+- Foram corrigidos cenários em que a leitura podia exibir uma janela de erro e não iniciar corretamente.
+- A retomada do destaque visual após trechos difíceis do documento ficou mais previsível, evitando que a leitura assistida abandone o ponto atual do texto.
+
+Melhorias na janela principal e em múltiplas telas:
+- A janela do aplicativo ficou mais estável ao ser usada em computadores com mais de um monitor.
+- Foi corrigida a oscilação brusca que podia ocorrer ao arrastar a janela entre uma tela em modo paisagem e outra em modo retrato.
+- A janela deixou de ficar presa em uma nova dimensão mínima depois de ser movida de uma tela para outra.
+- O aplicativo passou a respeitar melhor o tamanho mínimo esperado desde a inicialização, mesmo após maximizar, restaurar e arrastar a janela entre monitores diferentes.
+
+Melhorias na janela "Sobre" e nas licenças:
+- A aba "Licenças" da janela "Sobre" agora apresenta as licenças de terceiros de forma mais clara.
+- Os endereços longos dos sites oficiais foram substituídos pelos nomes completos das licenças.
+- Cada licença passou a ter dois botões: "Abrir", para consultar o texto incluído no próprio aplicativo, e "Site", para abrir a página oficial no navegador.
+- A consulta local das licenças agora abre uma janela própria, facilitando a leitura sem sair do aplicativo.
+- Os links deixaram de aparecer como texto destacado dentro da área de leitura, deixando a apresentação mais limpa.
+- A aparência da aba "Geral" dentro de "Licenças" foi ajustada para seguir o mesmo padrão visual das demais abas.
+- O espaçamento entre o texto da licença principal e a lista de licenças de terceiros foi aumentado para melhorar a leitura.
+- A cor de fundo da área de licenças foi corrigida para manter a mesma tonalidade visual das demais áreas informativas.
+- Os novos botões e mensagens da janela "Sobre" acompanham a troca de idioma do aplicativo.
+- Recurso de busca textual foi adicionado à janela "Sobre", facilitando encontrar termos específicos dentro dos textos legais.
+
+Melhorias na janela "Manual":
+- Recurso de busca textual foi adicionado à janela "Manual", facilitando encontrar termos específicos dentro das instruções de uso.
+
+Melhorias em documentos, avisos e transparência:
+- Os avisos de licenças de terceiros foram ampliados e organizados com mais clareza.
+- Foram incluídas informações sobre componentes usados pelo aplicativo para interface, multimídia, PDF, leitura, banco de dados local, execução e suporte.
+- A documentação de licenças agora explica melhor quais materiais acompanham o aplicativo e onde consultar cada um deles.
+- Os avisos, contratos e termos foram ajustados para deixar claro que componentes de terceiros continuam sujeitos às respectivas licenças.
+- A oferta de acesso aos materiais exigidos por licenças de terceiros foi adicionada em português e inglês.
+- A documentação do pacote ficou mais completa para distribuição, suporte e consulta pelo usuário final.
+
+Correções e ajustes gerais:
+- A organização dos arquivos de referência de licença foi melhorada para evitar confusão com a licença própria do projeto.
+- A preparação dos materiais legais ficou mais consistente entre o aplicativo principal e os recursos opcionais Pomodoro, Feynman, Mapa Mental e Audiolivro.
+- A lista de sites oficiais das licenças foi revisada para refletir melhor os materiais incluídos no pacote.
+- A apresentação das informações legais ficou mais amigável para quem deseja apenas consultar os termos sem procurar arquivos manualmente.
+
+Observações:
+- Esta atualização não altera o formato dos arquivos de tarefas nem modifica dados já salvos pelo usuário.
+- As melhorias do Audiolivro buscam aumentar a precisão da leitura assistida, mas a qualidade do PDF ainda pode influenciar o resultado, especialmente em documentos digitalizados, com texto mal reconhecido ou com páginas muito irregulares.
+- As mudanças em licenças e avisos são voltadas à transparência, organização e facilidade de consulta pelo usuário.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.18.0
+Data: 18 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização complementa as melhorias recentes de interface, documentação, textos informativos, identidade visual, recorrências e lembretes locais do Eisenhower Organizer. O foco foi deixar as telas de informação mais organizadas, ampliar os documentos disponíveis em português e inglês, tornar a descrição do produto mais clara e corrigir a exibição de recursos nas janelas de produtividade conforme o que estiver disponível no aplicativo.
+
+Novidades e melhorias principais:
+- A janela "Sobre" ficou mais organizada, com agrupamento por categorias como Sobre, CLC, Direitos Autorais, EULA, Notices, Política de Privacidade e Miscelânea.
+- As áreas informativas passaram a exibir melhor os documentos relacionados a cada categoria, reduzindo a sobrecarga visual e facilitando a consulta.
+- A aba de Política de Privacidade foi ampliada para apresentar documentos específicos do aplicativo principal e de recursos complementares quando estiverem disponíveis.
+- As abas de Detalhes, Licenças e Avisos receberam o mesmo padrão de organização por documentos relacionados, deixando a navegação mais previsível.
+- Foram adicionadas áreas exclusivas para Contrato e Direitos Autorais, separando melhor os conteúdos jurídicos, contratuais e informativos.
+- Os rótulos das abas informativas passaram a acompanhar melhor o idioma escolhido durante o uso do aplicativo.
+- Os textos de Política de Privacidade, EULA, Avisos, Direitos Autorais, CLC e Sobre foram expandidos e padronizados em português brasileiro e inglês dos Estados Unidos.
+- A documentação informativa foi ajustada para usar linguagem mais clara, objetiva e consistente, com revisão de gramática, acentuação, pontuação e terminologia.
+- A descrição do produto foi ampliada nos dois idiomas, explicando melhor a proposta do Eisenhower Organizer, suas ferramentas de produtividade, organização, recorrência, lembretes, estudo, revisão, leitura e exportação.
+- O conjunto de ícones e imagens de identidade visual do Eisenhower Organizer foi atualizado para refletir melhor os arquivos atuais do pacote.
+- Os arquivos auxiliares de manutenção e versionamento passaram a contemplar melhor os documentos informativos, notas legais e textos de apoio incluídos no projeto.
+- A preparação das versões finais ficou mais consistente para ambientes MSVC e MinGW, com melhor alinhamento dos recursos copiados para os diretórios de distribuição.
+
+Correções e ajustes:
+- A janela "Gerar próximas recorrências" agora mostra somente as origens realmente disponíveis no aplicativo.
+- A janela "Ativar lembretes locais" agora também mostra somente as origens realmente disponíveis no aplicativo.
+- Preferências antigas dessas janelas são tratadas com mais segurança, evitando que uma seleção salva anteriormente deixe a tela sem uma origem válida marcada.
+- A listagem de itens em recorrências e lembretes ficou mais coerente com os recursos disponíveis no momento de uso.
+- A organização da janela "Sobre" foi ajustada para evitar excesso de abas soltas e facilitar a localização de documentos específicos.
+- Textos informativos duplicados, genéricos ou herdados de versões anteriores foram revisados para refletir melhor o produto atual.
+- A leitura de documentos em português e inglês ficou mais uniforme entre as diferentes áreas informativas.
+
+Observações:
+- Esta atualização não altera o formato dos arquivos de tarefas nem modifica os dados já salvos pelo usuário.
+- As melhorias são voltadas à apresentação das informações, organização documental, estabilidade visual e coerência das janelas de produtividade.
+- As notas desta versão complementam as versões anteriores e consolidam ajustes realizados após as melhorias de recorrências e lembretes locais.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.11.0
+Data: 11 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização aperfeiçoa a janela de geração de recorrências no Lúmen, com foco em estabilidade visual, redimensionamento mais previsível e maior segurança ao configurar quando as próximas ocorrências serão aplicadas. A janela agora preserva melhor o espaço necessário para os campos, calendários e listas, evitando cortes, vazamentos e sobreposições quando o usuário maximiza, restaura ou redimensiona manualmente a tela.
+
+Correções na geração de recorrências:
+- Corrigido um problema em que a janela de geração de recorrências podia não recuperar corretamente o tamanho inicial após ser maximizada e restaurada.
+- Corrigido um comportamento em que a área "Quando aplicar" podia perder suas proporções internas e deixar o calendário ultrapassar os limites visuais do grupo.
+- Corrigida a sobreposição entre campos de data, campos de horário, listas suspensas e opções de referência para itens sem data ou sem horário.
+- Corrigido o redimensionamento manual para impedir que a janela seja reduzida a um ponto em que os controles internos avancem uns sobre os outros.
+- Corrigida a distribuição das colunas principais para preservar espaço adequado entre seleção de itens, configurações, período de aplicação e prévia.
+- Corrigido o comportamento ao alternar entre janela normal e maximizada, mantendo o retorno para dimensões seguras e previsíveis.
+
+Melhorias no calendário da área "Quando aplicar":
+- O calendário continua podendo aproveitar espaço adicional quando a janela cresce, exibindo mais meses quando houver área disponível.
+- Ao restaurar ou reduzir a janela, o calendário volta a se acomodar sem invadir outros controles.
+- A área do calendário ficou mais estável para consulta de datas de início e fim da geração.
+- A interação com os botões de início e fim permanece mais organizada mesmo após mudanças de tamanho da janela.
+
+Melhorias de uso:
+- A janela ficou mais confortável para revisar recorrências em telas menores, em telas grandes e em uso maximizado.
+- O usuário pode redimensionar a janela com menor risco de perder a leitura dos campos ou provocar colisões visuais.
+- A configuração do período de aplicação ficou mais previsível para quem alterna entre datas, horários e calendário.
+- A prévia das ocorrências e as opções principais permanecem em áreas mais estáveis, facilitando conferir antes de aplicar.
+
+Observações:
+- Esta atualização não altera os dados salvos nem muda as regras de geração das recorrências.
+- As melhorias são voltadas à estabilidade visual, ao redimensionamento e à clareza da janela de recorrências.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.9.0
+Data: 9 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização melhora o uso das tarefas repetidas e dos lembretes locais no Lúmen. O objetivo é deixar mais simples escolher quais itens serão usados, conferir o que será criado antes de confirmar e receber avisos de forma mais previsível. As mudanças ajudam especialmente quem organiza estudos, revisões, compromissos recorrentes e atividades com data ou horário.
+
+Novidades em recorrências:
+- A janela de geração de recorrências ficou mais completa para escolher exatamente quais itens entram no processo.
+- Agora é possível usar todos os itens filtrados ou trabalhar somente com os itens selecionados manualmente.
+- A pesquisa dentro da janela ajuda a encontrar uma tarefa, revisão, conceito ou item específico antes de gerar novas ocorrências.
+- O botão para selecionar itens visíveis facilita marcar rapidamente tudo que apareceu após a pesquisa.
+- A opção de limpar seleção ajuda a recomeçar a escolha sem precisar fechar a janela.
+- A prévia ficou mais clara e mostra o item, onde ele foi encontrado, onde a nova ocorrência será criada, qual recorrência será usada e quais serão as próximas datas.
+- Quando houver muitas informações em uma coluna, a janela mostra um resumo e permite consultar a lista completa sem perder a visão geral.
+- O período de criação pode ser ajustado por data e horário de início e fim, oferecendo mais controle sobre o intervalo considerado.
+- Itens sem data ou sem horário podem receber uma data e um horário de referência quando a opção correspondente estiver ativada.
+- A frequência padrão continua disponível para incluir itens que ainda não têm uma recorrência própria configurada.
+- A opção para evitar duplicadas ajuda a impedir novas cópias quando uma ocorrência igual já existe.
+- O botão Restaurar padrões volta a janela para uma configuração inicial segura.
+- O botão OK salva as preferências sem criar novas ocorrências, enquanto Aplicar salva e gera as ocorrências.
+- A restauração do estado anterior continua disponível para desfazer a última geração quando houver informações suficientes para recuperar o estado anterior.
+
+Novidades em lembretes locais:
+- A janela de lembretes locais também ganhou escolha entre todos os itens filtrados e somente itens selecionados.
+- A pesquisa permite localizar rapidamente o que deve receber lembrete.
+- Os lembretes podem usar a data e o horário do próprio item ou uma data e horário escolhidos manualmente.
+- O período pode ser definido com início, fim, calendário e atalhos rápidos em dias, semanas ou meses.
+- Quando uma tarefa tem data, mas não tem horário, é possível usar um horário padrão.
+- O aviso pode aparecer dentro do aplicativo, pela bandeja do sistema ou pelos dois caminhos quando disponíveis.
+- Se a bandeja do sistema não estiver disponível, o aplicativo orienta o uso do aviso dentro do app.
+- A lista de lembretes ativos mostra o que já foi agendado na sessão atual.
+- O botão Testar permite conferir o aviso antes de agendar lembretes reais.
+- O botão Remover ativos cancela os lembretes que ainda não tocaram na sessão atual.
+- Quando vários itens têm o mesmo horário, eles são reunidos em um único aviso com a lista de itens.
+- O campo Máximo agora funciona como quantidade de repetições para cada horário agendado. Por exemplo, se estiver em 2, o mesmo aviso toca duas vezes em sequência.
+
+Melhorias de uso:
+- As preferências escolhidas nas janelas de recorrências e lembretes são lembradas para usos futuros.
+- Os resumos no topo das janelas ajudam a entender quantos itens serão considerados e quantos avisos ou ocorrências podem ser criados.
+- As janelas avisam quando falta escolher um método, quando nenhum item foi selecionado ou quando não há forma válida de aviso.
+- Datas e horários no passado são tratados com mais cuidado para evitar agendamentos que não possam acontecer.
+- A organização visual das janelas ficou mais confortável para revisar listas, datas e opções antes de confirmar.
+- As instruções do manual e dos documentos de apoio foram complementadas para explicar esses comportamentos de forma mais direta.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.5.8.0
+Data: 8 de maio de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização amplia o Lúmen com novas ferramentas de produtividade, revisão, recorrência, lembretes, exportação e diagnóstico. A experiência de uso ficou mais completa para quem organiza tarefas, acompanha prazos, revisa estudos e transforma conteúdos de leitura em ações práticas. Também foram reforçadas a estabilidade visual, a persistência das preferências, a consistência dos textos exibidos e a confiabilidade do salvamento.
+
+Novos recursos e funcionalidades:
+- Nova busca global para localizar tarefas, estudos, leituras e conteúdos relacionados a partir de uma única janela.
+- Novo painel de curto prazo para revisar rapidamente itens de hoje e dos próximos sete dias.
+- Nova configuração de recorrência por item, com opções diária, semanal, mensal e data final opcional.
+- Nova geração em lote de próximas recorrências, com prévia do que será criado antes da confirmação.
+- Nova opção para evitar duplicações ao criar ocorrências futuras.
+- Nova opção de aplicar uma frequência padrão a itens ainda sem recorrência configurada.
+- Nova possibilidade de desfazer a última geração de recorrências, quando houver estado anterior disponível.
+- Novos lembretes locais com escolha de origem, período, quantidade máxima, aviso dentro do aplicativo e aviso pela bandeja do sistema quando disponível.
+- Novo teste de lembrete para confirmar se o aviso será exibido corretamente antes de agendar itens reais.
+- Nova lista de lembretes ativos, com opção para cancelar os avisos agendados na sessão atual.
+- Nova exportação de calendário para uso em agendas compatíveis.
+- Novo histórico de produtividade com visão resumida de tarefas concluídas, ciclos de foco, revisões, ideias registradas e tempo estimado de leitura.
+- Novo fluxo integrado de estudo para transformar um trecho de leitura em conceito, tarefa de revisão e registro visual de apoio.
+- Novos modelos prontos para criar rapidamente planos de estudo, trabalho, revisão, leitura e planejamento semanal.
+- Nova criação de revisões espaçadas com intervalos ajustáveis por nível de domínio.
+- Nova janela para revisar, editar, remover e transferir revisões antes de confirmar a criação.
+- Novo painel de diagnóstico para conferir recursos instalados, status de carregamento, localização e mensagens de erro quando algo não estiver disponível.
+- O manual foi expandido com instruções práticas sobre busca, recorrências, lembretes, revisões espaçadas, exportação, histórico, modelos, diagnóstico e fluxo integrado de estudo.
+
+Melhorias de uso:
+- A navegação por tarefas datadas ficou mais clara para execução diária e semanal.
+- A criação de ocorrências recorrentes ficou mais segura por exibir prévia antes de aplicar alterações.
+- As preferências dos diálogos de recorrência e lembretes são lembradas para facilitar usos repetidos.
+- Os lembretes agora oferecem mais controle sobre itens selecionados, itens filtrados, horários ausentes e formas de aviso.
+- A exportação e o salvamento preservam melhor informações como prioridade, domínio, data, horário, descrição, vínculo externo, recorrência, revisão e integração entre áreas de trabalho.
+- A visualização mensal e anual do calendário ficou mais útil para consultar tarefas distribuídas em períodos maiores.
+- A lista global ganhou melhor suporte a agrupamento, destaque visual, seleção múltipla e abertura de vínculos externos.
+- O comportamento em telas menores ficou mais estável, com melhor aproveitamento do espaço ao abrir, maximizar, restaurar e redimensionar janelas.
+- Os botões comuns de confirmação, cancelamento, aplicação e restauração ficaram mais consistentes com o idioma escolhido.
+- As instruções de ajuda agora descrevem melhor como usar os recursos recentes no dia a dia.
+
+Erros e bugs corrigidos:
+- Corrigidos casos em que uma aba principal podia reaparecer depois de reiniciar, mesmo após ter sido ocultada pelo usuário.
+- Corrigida a proteção contra ocultar todas as abas ao mesmo tempo, evitando uma tela sem área de trabalho visível.
+- Corrigidos comportamentos de seleção múltipla que podiam manter itens indevidos selecionados após um clique simples.
+- Corrigidos problemas de atualização do contador superior ao alternar, selecionar ou reorganizar itens.
+- Corrigidas inconsistências na atualização do calendário depois de criar, editar, mover, remover ou limpar tarefas.
+- Corrigidos casos em que preferências visuais e escolhas de exibição não eram restauradas de forma previsível.
+- Corrigidos avisos e caminhos de recuperação quando um vínculo externo não era mais encontrado.
+- Corrigida a geração de recorrências para reduzir duplicações e respeitar melhor filtros, datas, horários e limites definidos pelo usuário.
+- Corrigidos cenários em que lembretes podiam ser agendados sem uma forma válida de aviso ou com data/hora já vencida.
+- Corrigida a restauração de estado após operações em lote quando a opção de desfazer está disponível.
+- Corrigidas falhas de leitura e recuperação de dados quando informações salvas estavam incompletas ou inconsistentes.
+- Corrigidos textos, rótulos e mensagens que não acompanhavam corretamente a troca de idioma.
+- Corrigidos ajustes de tamanho que podiam causar cortes, saltos visuais ou perda de espaço útil em janelas menores.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen  
+Versão: 2026.5.5.0  
+Data: 5 de maio de 2026  
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta versão reforça o processo de compilação, empacotamento, manutenção e geração de traduções do Lúmen. O aplicativo principal, os módulos Pomodoro e Feynman, os utilitários auxiliares e os instaladores agora contam com fluxos mais claros para Qt 6.12.0, com separação entre MinGW e MSVC, saídas previsíveis e menos dependência de comandos manuais soltos. Também reúne em uma única atualização as melhorias recentes de organização visual, estabilidade, leitura das tarefas, adaptação a telas menores e controle dos painéis laterais. O uso diário ficou mais claro, mais previsível e com mais liberdade para você decidir o que deseja manter visível na tela. Amplia o Lúmen com suporte aos novos módulos opcionais Mapa Mental e Audiolivro. Também melhora o controle das abas da interface, facilita o acesso aos módulos, atualiza as informações de versão do aplicativo e corrige problemas de idioma e carregamento de recursos que podiam afetar cópias instaladas ou preparadas para distribuição. Melhora o desempenho das versões finais do aplicativo, amplia a personalização das abas principais, corrige a persistência da visibilidade da aba Eisenhower, ajusta a aparência do Audiolivro, torna o painel Em Progresso do Pomodoro mais estável e atualiza os textos informativos exibidos ao usuário.
+
+Lúmen:
+- O Lúmen foi migrado de uma base em Python para uma base nativa em C++, mantendo a proposta de uso do aplicativo e trazendo execução mais direta no Windows.
+- Essa modernização abrange a janela principal, o gerenciamento das tarefas, o calendário, a lista global, os menus, os diálogos de edição, o Manual, a janela "Sobre", os idiomas, os ícones, os registros de atividade e os componentes de suporte.
+- O aplicativo principal e os utilitários auxiliares agora funcionam melhor como executáveis do Windows, com menos dependência de configurações externas e maior previsibilidade ao abrir em diferentes máquinas.
+- A abertura direta do programa ficou mais confiável, com bibliotecas e componentes visuais incluídos automaticamente quando necessário.
+- O ícone do aplicativo passou a aparecer de forma mais consistente no executável principal e nas janelas do programa.
+- Novo modo de organização da interface para tarefas, com alternância entre visualização em Abas e em Quadrantes diretamente nas configurações.
+- A preferência de layout agora fica salva automaticamente e é restaurada ao abrir o aplicativo novamente.
+- A troca de layout passou a exibir confirmação clara de sucesso e também aviso quando a alteração não puder ser aplicada.
+- Os novos textos da interface relacionados a layout e confirmações foram adicionados aos dois idiomas suportados.
+- Ao tentar abrir um arquivo vinculado que não existe mais, o aplicativo agora mostra um aviso com opções para remover o vínculo, procurar o arquivo novamente ou apenas fechar a janela.
+- A nova busca manual permite religar rapidamente um arquivo à tarefa sem precisar editar o item por outro caminho.
+- A visualização de tarefas ficou mais flexível, com alternância entre Abas e Quadrantes e com a preferência salva para as próximas aberturas.
+- Na visualização em Abas, cada quadrante agora pode recolher ou expandir separadamente a área de tarefas e a área de concluídas.
+- As listas podem ser organizadas por data, ordem alfabética e horário, com uso combinado e em ordem crescente ou decrescente.
+- A edição de tarefas ficou mais previsível, e o texto mostrado em cada item representa melhor as informações reais.
+- Data, horário, prioridade e domínio ficaram mais claros na leitura das tarefas.
+- O calendário está mais estável ao criar, editar, mover, remover e limpar tarefas.
+- A sincronização entre calendário, listas e demais visões do aplicativo ficou mais confiável.
+- O salvamento, o backup principal e a importação de arquivos externos ficaram mais consistentes.
+- As exportações em JSON, CSV, XLSX e PDF passaram a preservar melhor os dados das tarefas.
+- A ação Limpar agora deixa o aplicativo em um estado mais limpo e previsível.
+- Quando um arquivo vinculado não é mais encontrado, o aviso ficou mais claro e oferece opções simples para continuar.
+- Textos, rótulos, manual e telas de apoio ficaram mais consistentes em português e inglês.
+- O comportamento de inicialização, salvamento, nova sessão e mensagens de retorno ficou mais previsível.
+- As preferências de sincronização entre módulos agora são lembradas após fechar e abrir o aplicativo.
+- O topo do aplicativo agora exibe, ao lado da barra de menus, a quantidade de tarefas selecionadas e o total de tarefas do módulo que estiver aberto naquele momento.
+- No modo Eisenhower, essa contagem também leva em conta a seleção feita na Lista Global de Tarefas, fazendo com que o número mostrado combine melhor com o que realmente está selecionado na tela.
+- Essa contagem é atualizada conforme você seleciona, desseleciona, move ou reorganiza tarefas, ajudando a revisar várias tarefas com mais segurança.
+- Os novos textos de contagem acompanham corretamente o idioma escolhido no aplicativo.
+- As abas principais do aplicativo ficaram mais fáceis de reconhecer visualmente, facilitando identificar de imediato quando você está no Eisenhower, no Feynman ou no Pomodoro.
+- A navegação entre os quadrantes também ficou mais agradável, com destaque visual mais claro ao passar o mouse e ao abrir cada aba.
+- As áreas de tarefas pendentes e concluídas dentro de cada quadrante ficaram mais organizadas e mais simples de expandir ou recolher.
+- Os títulos dessas áreas ficaram mais visíveis e consistentes, melhorando a leitura tanto para tarefas em andamento quanto para tarefas já concluídas.
+- Foi corrigido o comportamento da seleção múltipla nas listas do Eisenhower: depois de selecionar várias tarefas com Ctrl ou Shift, agora um clique simples em apenas uma delas volta a deixar somente aquela tarefa selecionada.
+- Esse ajuste reduz enganos ao revisar listas maiores e mantém o uso de arrastar várias tarefas funcionando de forma mais estável.
+- Os quadrantes ficaram com melhor aproveitamento horizontal, reduzindo espaços laterais desnecessários e deixando a área de tarefas mais próxima dos limites úteis da tela.
+- O painel de calendário pode começar recolhido por padrão, liberando espaço logo na abertura do aplicativo.
+- A opção do calendário foi reorganizada dentro de `Configurações > Layout de Tarefas > Mostrar Painel` ou `Mostrar Painéis`, conforme os módulos disponíveis na instalação.
+- A preferência de mostrar ou ocultar o calendário agora é lembrada automaticamente nas próximas aberturas.
+- A janela principal passou a respeitar melhor os limites da tela em resoluções menores, evitando que partes importantes da interface fiquem fora da área visível.
+- O comportamento ao maximizar ficou mais estável e mais bem ajustado ao tamanho real disponível no monitor.
+- As áreas internas foram ajustadas para distribuir melhor o espaço vertical, reduzindo cortes de caixas de texto, listas e controles em telas mais baixas.
+- O ambiente de compilação foi reorganizado para trabalhar de forma mais clara com Qt 6.12.0 em MinGW e MSVC.
+- Os presets do CMake agora separam melhor o aplicativo principal, o módulo Pomodoro e o módulo Feynman, permitindo gerar cada parte pelo toolchain correto.
+- As distribuições externas do aplicativo passaram a ser geradas em diretórios separados para MinGW e MSVC, reduzindo risco de misturar DLLs, módulos ou executáveis de toolchains diferentes.
+- As tarefas do VS Code foram reorganizadas para compilar e executar o aplicativo principal em MinGW e MSVC com os caminhos de Qt, compilador e módulos configurados automaticamente.
+- Antes de recompilar, as tarefas encerram instâncias abertas do aplicativo quando necessário, evitando falhas causadas por arquivos bloqueados.
+- O deploy do runtime Qt ficou mais consistente, copiando automaticamente bibliotecas, módulos, traduções e assets necessários para as pastas de build e distribuição.
+- O utilitário de edição de versão passou a usar a tarefa dedicada `Qt6: find_VersionEditor`, com compilação e deploy em `mocks\build`.
+- A compilação direta antiga pela extensão C/C++ foi substituída por um fluxo específico de Qt, evitando erros de link com classes do Qt e DLLs ausentes.
+- Os artefatos regeneráveis do editor de versão e dos utilitários auxiliares ficaram fora do versionamento.
+- O script de limpeza agora remove diretamente os diretórios regeneráveis de build, distribuição auxiliar e utilitários, mantendo uma verificação de segurança para não sair da raiz do projeto.
+- A documentação técnica de ambiente foi alinhada ao fluxo atual de CMake, Qt 6.12.0, MinGW, MSVC, `windeployqt` e tarefas do VS Code.
+- Os módulos opcionais Mapa Mental e Audiolivro agora podem aparecer como abas principais quando seus módulos estiverem disponíveis.
+- O menu Configurações agora conta com uma área de Módulos que agrupa as ações de cada módulo disponível.
+- As abas da interface agora podem ser desbloqueadas, reorganizadas, bloqueadas novamente ou restauradas para a ordem padrão.
+- A ordem escolhida para as abas dos módulos e a opção de bloqueio são lembradas na próxima abertura do aplicativo.
+- O contador de itens selecionados e itens totais agora também funciona quando o Mapa Mental ou o Audiolivro estiver aberto.
+- Módulos opcionais, traduções e sons de alarme do Pomodoro são encontrados com mais confiabilidade em cópias instaladas ou preparadas do aplicativo.
+- Botões comuns de janelas, como Sim, Não, Cancelar, Aplicar e Restaurar, agora seguem o idioma escolhido com mais consistência.
+- As informações do aplicativo, detalhes dos instaladores, textos de privacidade e licença e referências visíveis de versão foram atualizados para 2026.5.3.0.
+- O menu Configurações > Layout de Tarefas agora inclui a opção Mostrar Abas de Interface.
+- Agora é possível escolher quais abas principais ficam visíveis: Eisenhower, Pomodoro, Feynman, Mapa Mental e Audiolivro.
+- O aplicativo reconhece automaticamente quais módulos opcionais estão disponíveis e só permite alterar abas de módulos presentes na instalação.
+- A aba Eisenhower continua pertencendo ao aplicativo principal, mas agora pode ficar oculta quando houver pelo menos outra aba disponível.
+- Foi corrigido o problema em que a aba Eisenhower voltava a aparecer após reiniciar o aplicativo, mesmo depois de ter sido ocultada pelo usuário.
+- A escolha das abas visíveis é lembrada automaticamente nas próximas aberturas.
+- O aplicativo impede ocultar todas as abas, evitando uma janela sem área de trabalho visível.
+- Ao abrir um módulo pelo menu, a aba correspondente volta a ficar visível automaticamente, caso estivesse oculta.
+- O texto Mostrar Abas de Interface agora acompanha corretamente a troca de idioma em tempo de execução.
+- A janela Sobre, os documentos informativos, os instaladores e as informações visíveis de versão foram atualizados para 2026.5.5.0.
+- As versões finais do aplicativo podem ser preparadas com otimizações mais fortes de desempenho, permitindo gerar pacotes mais rápidos e melhor ajustados ao computador usado na preparação.
+
+Documentação e orientações:
+- O manual do aplicativo agora explica como mostrar ou ocultar as abas principais da interface.
+- O arquivo MANUAL.md foi complementado com as mesmas orientações de uso.
+- Os documentos README.md, MANUAL.md e OBSERVACAO.md receberam revisão de português, acentuação, pontuação e padronização textual.
+
+Módulo Pomodoro:
+- O Pomodoro continua integrado diretamente ao aplicativo principal, com acesso mais natural no uso diário.
+- Ficou mais fácil enviar tarefas do fluxo principal para o Pomodoro.
+- A configuração do alarme ficou mais completa, com escolha de som, teste rápido e ajuste de repetição.
+- Novos sons ajudam a personalizar melhor os avisos de término de ciclo.
+- A abertura do Pomodoro ficou mais amigável quando ele ainda não estiver disponível.
+- A limpeza geral do aplicativo também remove as tarefas mostradas no Pomodoro quando o módulo estiver ativo.
+- Quando um arquivo vinculado não for encontrado, agora também é possível remover o vínculo ou procurar o arquivo novamente dentro do Pomodoro.
+- Quando o Pomodoro estiver aberto, o aplicativo também passa a mostrar com mais clareza quantas tarefas estão selecionadas e quantas existem dentro desse módulo.
+- As abas internas do Pomodoro ficaram mais fáceis de distinguir visualmente, ajudando a localizar com mais rapidez o que está a fazer, em progresso ou concluído.
+- A leitura geral do Pomodoro ficou mais alinhada com o restante do aplicativo, deixando a experiência mais consistente.
+- O painel `Em Progresso` agora também pode ser recolhido e expandido de forma prática, seguindo o mesmo padrão visual adotado nos outros módulos.
+- Esse painel pode iniciar fechado por padrão para dar mais espaço à lista principal e ao temporizador.
+- A preferência de mostrar ou ocultar `Em Progresso` agora pode ser controlada pelo menu de layout e fica salva automaticamente.
+- Foi adicionado um atalho de teclado para alternar rapidamente esse painel: `Ctrl+Shift+E`.
+- O módulo ficou mais adaptável em telas menores, com melhor distribuição vertical entre temporizador, listas e painel lateral.
+- O módulo Pomodoro ganhou presets e tarefas próprias para compilação com MinGW e MSVC.
+- O deploy do módulo passou a ser feito em diretórios separados para cada toolchain, mantendo o runtime Qt compatível com a compilação usada.
+- Os compiladores de tradução do Pomodoro foram renomeados para `Pomodoro_CompileTranslationsGUI` e `Pomodoro_CompileTranslationsTerminal`.
+- O script de tradução do Pomodoro agora localiza a raiz do projeto com mais segurança, compila o utilitário selecionado, executa o deploy do Qt e grava os binários em `módulo\pomodoro\Pomodoro\language\output`.
+- As tarefas do VS Code permitem compilar e executar as versões gráfica e de terminal do compilador de traduções do Pomodoro sem depender do comando genérico de compilar arquivo atual.
+- A pasta de saída dos utilitários de tradução do Pomodoro foi marcada como regenerável e não deve ser versionada.
+- Os sons de alarme do Pomodoro são encontrados com mais confiabilidade após a instalação ou empacotamento.
+- As traduções do Pomodoro carregam com mais consistência a partir das pastas do módulo incluídas no aplicativo.
+- O painel Em Progresso ficou mais estável ao ser aberto, fechado ou redimensionado.
+- A largura do painel Em Progresso passa a ser preservada com mais consistência durante o uso.
+- Foram reduzidos saltos visuais e mudanças inesperadas de tamanho ao alternar o painel.
+
+Módulo Feynman:
+- As tarefas chegam ao Feynman com mais consistência, preservando melhor as informações importantes.
+- O painel principal do Feynman ficou com um nome mais intuitivo.
+- Quando a área de descrição estiver vazia, ela pode ser preenchida automaticamente com base nas demais anotações.
+- Quando a descrição já tiver sido escrita manualmente, o texto do usuário é preservado.
+- A limpeza geral do aplicativo também remove as tarefas mostradas no Feynman quando o módulo estiver ativo.
+- Quando um arquivo vinculado não for encontrado, agora também é possível remover o vínculo ou procurar o arquivo novamente dentro do Feynman.
+- Quando o Feynman estiver aberto, o aplicativo também mostra com clareza quantos itens estão selecionados e quantos existem no módulo.
+- As etapas do método ficaram visualmente mais fáceis de reconhecer, tornando a navegação entre as abas mais direta e mais confortável.
+- A leitura visual do Feynman ficou mais clara, ajudando a acompanhar melhor cada etapa do processo.
+- O painel `Minhas Tarefas:` agora pode ser recolhido e expandido com o mesmo estilo prático já usado no calendário do Eisenhower.
+- Esse painel também pode iniciar fechado por padrão, deixando mais espaço para a área principal de estudo.
+- A descrição fixa que ficava no topo foi removida para liberar mais espaço útil na tela.
+- O contorno visual extra ao redor da área principal foi removido, deixando o módulo com aparência mais limpa.
+- Os elementos principais do Feynman foram reposicionados para aproveitar melhor a área superior da janela.
+- A preferência de mostrar ou ocultar `Minhas Tarefas:` agora pode ser controlada pelo menu de layout e fica salva automaticamente.
+- Foi adicionado um atalho de teclado para alternar rapidamente esse painel: `Ctrl+Shift+T`.
+- O módulo Feynman ganhou presets e tarefas próprias para compilação com MinGW e MSVC.
+- O deploy do módulo passou a ser feito em diretórios separados para cada toolchain, reduzindo risco de conflito entre runtimes.
+- Os compiladores de tradução do Feynman foram renomeados para `Feynman_CompileTranslationsGUI` e `Feynman_CompileTranslationsTerminal`.
+- O script de tradução do Feynman agora localiza a raiz do projeto com mais segurança, compila o utilitário selecionado, executa o deploy do Qt e grava os binários em `módulo\feynman\Feynman\language\output`.
+- As tarefas do VS Code permitem compilar e executar as versões gráfica e de terminal do compilador de traduções do Feynman sem depender do comando genérico de compilar arquivo atual.
+- A pasta de saída dos utilitários de tradução do Feynman foi marcada como regenerável e não deve ser versionada.
+- A abertura do Feynman ficou mais confiável em cópias instaladas ou preparadas do aplicativo.
+- As informações do Feynman ficam agrupadas com os demais módulos opcionais nas telas informativas do aplicativo.
+
+Módulo Mapa Mental:
+- Novo módulo opcional Mapa Mental para criar mapas visuais de ideias, tópicos e materiais de estudo.
+- É possível adicionar conceitos, movê-los livremente, conectar conceitos relacionados, alterar cores e remover conceitos individuais ou selecionados.
+- Os conceitos podem guardar notas e arquivos vinculados; Ctrl + duplo clique abre um arquivo vinculado diretamente pelo mapa.
+- Os mapas podem ser salvos, carregados, restaurados automaticamente, limpos com confirmação e exportados como imagens PNG.
+- Documentos podem ser importados para gerar um mapa mental automaticamente quando os recursos de IA estiverem disponíveis.
+- Os formatos de importação aceitos incluem PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite e XML.
+- O processamento de documentos mostra o progresso enquanto o texto é extraído, analisado e transformado em conceitos.
+- Ao arrastar um documento para a janela de novo conceito, é possível criar um mapa a partir desse arquivo.
+- O mapa pode ser organizado nos modos vertical, horizontal, radial ou árvore, com a preferência lembrada automaticamente.
+- Uma visualização focada pode percorrer os conceitos para ajudar na apresentação ou revisão do mapa passo a passo.
+- O total de conceitos e o total de conceitos selecionados aparecem no contador do aplicativo.
+
+Módulo Audiolivro:
+- Novo módulo opcional Audiolivro para ler textos e PDFs em voz alta.
+- É possível abrir PDFs, escrever ou colar textos, arrastar arquivos compatíveis para o leitor e alternar entre as visões Texto e PDF.
+- Os controles de reprodução incluem ler, pausar, continuar, parar, velocidade, volume e escolha de voz.
+- As opções de voz ficam disponíveis no menu Módulos e são organizadas por idioma quando houver informações disponíveis.
+- Tamanho e estilo da fonte podem ser ajustados, pré-visualizados, salvos e restaurados.
+- O editor de texto inclui novo texto, salvar como TXT, desfazer, refazer, busca, marcadores, espaçamento entre linhas, recuo e margem.
+- A leitura de PDF inclui navegação por páginas, zoom, ajuste à largura, ajuste à página, modo mão, modo seleção, cópia de texto e informações do arquivo/página.
+- A busca funciona em texto e PDF, com navegação para próximo/anterior, diferenciação de maiúsculas e minúsculas, busca por palavra inteira e destaque de todos os resultados.
+- A leitura assistida pode destacar a palavra, frase ou parágrafo atual enquanto o áudio é reproduzido.
+- Uma régua de foco pode ser ativada para facilitar o acompanhamento linha por linha.
+- Arquivos temporários de áudio são limpos com mais confiabilidade após a leitura.
+- As abas internas Texto e PDF agora usam a mesma estética de cores das abas principais do aplicativo.
+- A aba Texto recebeu destaque azul.
+- A aba PDF recebeu destaque vermelho.
+- As áreas de texto e PDF foram realinhadas para combinar melhor com os botões e controles da interface.
+- A coloração das abas Texto e PDF é mantida corretamente após atualização dos textos da interface.
+
+Instaladores e distribuição:
+- O script principal do Inno Setup agora reconhece explicitamente as variantes MinGW e MSVC.
+- Ao compilar o instalador diretamente pela IDE do Inno Setup, o script gera automaticamente os instaladores das duas variantes.
+- Também continua possível compilar apenas uma variante pela linha de comando usando `BuildFlavor=mingw` ou `BuildFlavor=msvc`.
+- Os instaladores agora são gravados em saídas separadas: `InnoSetupOutput_mingw` e `InnoSetupOutput_msvc`.
+- Os nomes dos instaladores passaram a incluir o toolchain e a versão, facilitando identificar rapidamente qual pacote será distribuído.
+- O instalador passou a empacotar a árvore completa de distribuição correspondente, preservando DLLs, módulos, traduções, assets e arquivos auxiliares gerados para cada toolchain.
+- As informações de instalação, nome exibido, diretório padrão e atalho agora diferenciam melhor as variantes MinGW e MSVC.
+
+Melhorias de uso e estabilidade:
+- A inicialização do aplicativo ficou mais estável, inclusive com correção de falha relacionada ao calendário em determinadas aberturas.
+- O executável principal não abre mais uma janela de terminal desnecessária ao ser iniciado no Windows.
+- Os controles de data, horário e prioridade na área de criação de tarefas ficaram mais bem alinhados visualmente.
+- A Lista Global de Tarefas voltou a mostrar corretamente o indicador visual de prioridade antes de cada tarefa.
+- Os rótulos dos quadrantes foram restaurados, incluindo seus emojis correspondentes.
+- Corrigido o problema que exibia dois tooltips ao passar o mouse sobre tarefas; agora apenas a pré-visualização correta é mostrada.
+- Corrigido o erro que duplicava o ano em datas exibidas, como "20262026", em Português e Inglês.
+
+Correções e ajustes:
+- Corrigido o problema que movia a tarefa entre pendente e concluída ao apenas atualizar um arquivo vinculado.
+- A tarefa agora preserva seu estado original ao remover ou redefinir um vínculo de arquivo.
+- O tratamento para arquivos vinculados ausentes ficou mais consistente nos pontos de abertura por duplo clique.
+
+Idioma, conteúdo e suporte:
+- O Manual de Utilização agora acompanha a troca de idioma em tempo real mesmo quando já está aberto.
+- A janela "Sobre" ficou mais confiável ao carregar textos, histórico e recursos, inclusive em cópias publicadas do aplicativo.
+- Os arquivos de idioma foram reorganizados com nomes mais claros, e o aplicativo agora reconhece essa nova organização automaticamente.
+- O carregamento das traduções ficou mais robusto, com melhor compatibilidade para os arquivos do aplicativo e do próprio Qt.
+- O compilador de traduções foi modernizado e agora existe em duas versões nativas para Windows: uma com interface gráfica e outra para uso direto no terminal.
+- O compilador gráfico de traduções passou a iniciar em modo de espera e não mantém mais o cursor preso em estado de carregamento após concluir o processo.
+- O editor de versões do projeto também foi convertido para uma aplicação nativa, eliminando a necessidade de Python nessa etapa.
+- Os compiladores de tradução do aplicativo principal foram renomeados para nomes mais claros: `Eisenhower_CompileTranslationsGUI` e `Eisenhower_CompileTranslationsTerminal`.
+- O fluxo de compilação das traduções agora usa um script PowerShell dedicado, com validação das ferramentas esperadas, geração em `source\language\output` e deploy automático com `windeployqt`.
+- As versões gráfica e de terminal do compilador de traduções podem ser compiladas e executadas diretamente pelo VS Code por tarefas próprias.
+- Os arquivos de gerenciamento de tradução do aplicativo deixaram de ser tratados como executáveis isolados, ficando restritos ao papel de componente interno do aplicativo.
+- O processo de tradução ficou mais previsível para manutenção, porque cada utilitário tem nome, pasta de saída e tarefa de execução próprios.
+
+Impacto para o usuário:
+- Menos atrito ao organizar tarefas e alternar entre Eisenhower, Pomodoro e Feynman.
+- Mais confiança ao salvar, importar, limpar e recuperar tarefas.
+- Interface mais consistente e fácil de entender no uso cotidiano.
+- Mais previsibilidade ao reabrir o aplicativo e continuar de onde você parou.
+- Mais clareza para entender rapidamente quantas tarefas você realmente está manipulando em cada área.
+- Menos confusão ao selecionar várias tarefas e depois voltar para apenas uma.
+- Navegação mais simples entre módulos, quadrantes e etapas do fluxo de trabalho.
+- Leitura visual mais organizada e consistente em toda a interface principal.
+- Mais espaço útil na tela, especialmente em notebooks e monitores com resolução menor.
+- Menor chance de listas, campos e botões ficarem parcialmente escondidos.
+- Mais liberdade para deixar visíveis apenas os painéis que realmente fazem sentido no seu uso diário.
+- Retorno automático da sua preferência de visualização sempre que o aplicativo for aberto novamente.
+- Navegação mais rápida com atalhos de teclado para os principais painéis laterais.
+- A instalação distribuída passa a ser mais previsível, com pacotes separados para MinGW e MSVC.
+- A chance de misturar arquivos de runtime de toolchains diferentes foi reduzida.
+- A abertura do aplicativo publicado fica mais confiável porque o empacotamento usa a árvore completa gerada pelo deploy.
+- Quem usa apenas o aplicativo final não precisa alterar dados, preferências ou arquivos existentes.
+- Mais fluxos de estudo e aprendizado podem ser feitos dentro do mesmo aplicativo.
+- Módulos opcionais aparecem apenas quando estiverem presentes, mantendo instalações menores mais limpas.
+- A navegação entre módulos ficou mais flexível e mais fácil de personalizar.
+- Textos, botões e recursos dos módulos ficam mais consistentes ao trocar idioma ou abrir uma cópia empacotada.
+- Os dados existentes do usuário continuam compatíveis.
+- A navegação entre módulos ficou mais personalizável.
+- As preferências de visibilidade das abas ficam mais previsíveis depois de fechar e abrir o aplicativo.
+- A interface do Audiolivro ficou mais alinhada visualmente ao restante do aplicativo.
+- O painel Em Progresso do Pomodoro ficou mais confortável em telas redimensionadas.
+- Textos e informações do aplicativo ficaram mais consistentes em português e inglês.
+- Os dados existentes do usuário continuam compatíveis.
+
+Impacto para manutenção e distribuição:
+- A compilação do aplicativo, dos módulos e dos utilitários ficou mais padronizada no VS Code.
+- A geração de traduções ficou mais simples de repetir e mais fácil de diagnosticar quando houver falha.
+- Os caminhos de saída ficaram mais explícitos, evitando dúvidas sobre onde procurar executáveis, DLLs e instaladores.
+- A limpeza do repositório ficou mais rápida e direta, removendo pastas regeneráveis inteiras em vez de limpar apenas o conteúdo interno.
+- O fluxo de distribuição ficou mais adequado para validar separadamente MinGW e MSVC antes de publicar instaladores.
+
+Observações:
+- Seus dados e arquivos existentes continuam compatíveis.
+- Nenhuma ação manual é necessária para continuar usando o aplicativo principal.
+- Para manutenção e distribuição, a nova base nativa reduz a dependência de Python e simplifica o uso das ferramentas auxiliares.
+- Nenhuma ação manual é necessária para usar as novas opções de layout e de recuperação de vínculos.
+- As melhorias desta versão passam a valer normalmente após atualizar o aplicativo.
+- As preferências de exibição dos painéis passam a ser lembradas automaticamente.
+- Nenhuma ação manual é necessária para usar as melhorias desta versão.
+- As pastas de build, output e deploy continuam sendo regeneráveis.
+- Para manutenção, recomenda-se usar as tarefas `Qt6:` do VS Code e os presets CMake correspondentes.
+- Nenhuma ação manual é necessária para dados existentes do usuário.
+- Nenhuma ação manual é necessária para dados existentes do usuário.
+- Os recursos de Mapa Mental e Audiolivro aparecem apenas em instalações que incluírem esses módulos.
+- Alguns recursos de voz do Audiolivro podem depender de serviços de voz disponíveis no computador ou na rede do usuário.
+- Nenhuma ação manual é necessária para dados existentes do usuário.
+- As abas de Pomodoro, Feynman, Mapa Mental e Audiolivro aparecem apenas quando os respectivos módulos estiverem disponíveis na instalação.
+- Caso uma aba seja ocultada, ela pode ser reativada pelo mesmo menu de layout.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen  
+Versão: 2026.2.23.0  
+Data: 23 de fevereiro de 2026  
+Autor: Fernando Nillsson Cidade
+
+Resumo geral  
+Esta atualização melhorou a experiência no calendário da Matriz Eisenhower. A seleção de dias ficou mais previsível, e os controles visuais passaram a se comportar melhor quando o painel é redimensionado.
+
+Principais melhorias
+
+1. Seleção de datas mais intuitiva  
+- Ao selecionar um novo dia, a seleção anterior é substituída automaticamente.  
+- Para selecionar vários dias ao mesmo tempo, basta manter a tecla `CTRL` pressionada.  
+- Clicar novamente em um dia já selecionado agora atualiza corretamente a lista de tarefas, inclusive quando há vários calendários mensais visíveis.
+
+2. Filtro por dia mais útil  
+- O filtro “Dia” agora funciona com múltiplas datas selecionadas (quando usado com `CTRL`).  
+- Quando apenas um dia está selecionado, o comportamento continua simples e direto.
+
+3. Layout mais estável no painel do calendário  
+- O checkbox “Mostrar prioridade” agora acompanha o redimensionamento do painel.  
+- Ao arrastar a barra vertical, os controles se ajustam junto com a área do calendário, mantendo o layout alinhado.
+
+Correções aplicadas
+
+1. Correção da atualização de tarefas ao clicar novamente em um dia já selecionado.  
+2. Correção da regra de seleção para ficar consistente entre os calendários mensais.  
+3. Correção visual do posicionamento dos controles durante o redimensionamento do painel.
+
+Impacto para o usuário  
+- Menos confusão ao selecionar dias no calendário.  
+- Mais flexibilidade para filtrar tarefas por vários dias de interesse.  
+- Interface mais organizada e consistente ao ajustar o tamanho do painel.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen  
+Versão: 2026.2.21.0  
+Data: 21 de fevereiro de 2026  
+Autor: Fernando Nillsson Cidade
+
+Visão Geral  
+Esta atualização trouxe melhorias importantes de usabilidade, organização visual e qualidade dos resultados de IA. O foco foi deixar a experiência mais fluida no calendário, mais prática no gerenciamento de tarefas e mais inteligente na geração de conteúdos no Mapa Mental.
+
+Melhorias principais
+
+1. Calendário da Matriz Eisenhower
+- O calendário ficou mais responsivo e se adapta melhor ao espaço disponível na tela.
+- A visualização mensal e anual está mais estável e consistente.
+- A navegação entre datas ficou mais fluida, com melhor sincronização entre diferentes visões.
+- O desempenho visual foi otimizado para evitar atualizações desnecessárias.
+
+2. Gestão de Tempo
+- A coluna lateral de tarefas em andamento ficou mais interativa.
+- Agora é possível selecionar várias tarefas com mais facilidade.
+- O duplo clique para abrir arquivo vinculado ficou mais prático.
+- O menu de contexto da coluna lateral foi aprimorado.
+- Tarefas com arquivo vinculado ganharam destaque visual para identificação rápida.
+
+3. Barra de Status
+- A contagem de itens selecionados ficou mais precisa.
+- Foi corrigido o problema de contagem duplicada da mesma tarefa em listas espelhadas.
+- O indicador de seleção atualiza melhor em tempo real.
+
+4. Método Feynman
+- A abertura de arquivos vinculados ficou mais simples: agora basta duplo clique.
+- As instruções visuais foram atualizadas para refletir esse novo comportamento.
+- O destaque visual de itens com arquivo vinculado ficou mais claro.
+
+5. Mapa Mental com IA
+- A detecção automática de idioma foi aprimorada e está mais confiável.
+- A geração de resumo contextual ficou mais relevante e menos repetitiva.
+- A extração de conceitos e ideias principais ficou mais precisa.
+- As relações entre conceitos passaram a ser identificadas com maior qualidade.
+- O processamento geral está mais robusto, inclusive em textos difíceis ou incompletos.
+
+Correções de bugs
+
+1. Contagem duplicada de seleção
+- Corrigido problema que podia contar a mesma tarefa mais de uma vez.
+
+2. Atualizações visuais excessivas no calendário
+- Corrigidas repinturas e recálculos desnecessários para melhorar fluidez.
+
+3. Perda de referência de data
+- Corrigida inconsistência ao alternar entre modos mensal e anual.
+
+4. Robustez da IA em cenários limitados
+- Melhorado o comportamento quando o texto é curto, ambíguo ou com estrutura incompleta.
+
+Validação recomendada (rápida)
+1. Testar o calendário em telas com diferentes larguras e alternar entre visão mensal e anual.  
+2. Selecionar tarefas na coluna lateral e verificar sincronização com a área principal.  
+3. Abrir arquivos vinculados por duplo clique em Gestão de Tempo e Feynman.  
+4. Processar textos em português e inglês no Mapa Mental para validar resumos, conceitos e ideias.  
+5. Confirmar que a barra de status não duplica a contagem de tarefas selecionadas.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.20.0
+Data: 20 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral
+Esta atualização melhora a forma como o app conversa com você: mensagens de confirmação, aviso, sucesso e erro ficaram mais claras, consistentes e previsíveis. Também corrigimos fluxos importantes de exclusão e limpeza para evitar comportamentos confusos.
+
+Principais melhorias
+
+1. Mensagens mais claras em todo o app
+- Avisos e confirmações agora seguem o mesmo padrão visual e de linguagem.
+- Mensagens de sucesso e erro ficaram mais objetivas, facilitando entender o resultado de cada ação.
+- Experiência mais consistente ao trocar idioma durante o uso.
+
+2. Método Feynman
+- Ao excluir conceitos, agora há confirmação e retorno claro de sucesso ou erro.
+- Salvamento de conceito com feedback mais direto.
+- Melhor tratamento ao lidar com arquivos vinculados (ex.: arquivo não encontrado).
+
+3. Mapas Mentais
+- Limpeza do mapa agora pede confirmação e mostra resultado final.
+- Nova opção para excluir nó(s) e conexão(ões) com confirmação antes da ação.
+- Correção importante na exclusão: nós e conexões são removidos corretamente, inclusive em seleção múltipla.
+
+4. Gestão de Tempo e Pomodoro
+- Ações de remover tarefa (individual ou em lote) ficaram mais seguras, com confirmações claras.
+- Feedback de sucesso, falha ou erro foi padronizado.
+- Mensagens de “nenhuma tarefa” ficaram mais claras.
+
+5. Leitor Acessível
+- Alertas de pausa, erro de leitura e ativação da régua de foco ficaram mais informativos.
+- Fluxos de limpar conteúdo e salvar arquivos ficaram mais consistentes e fáceis de entender.
+
+6. Matriz Eisenhower e Calendário
+- Remoção de tarefas por dia e por mês agora confirma antes de executar.
+- Após a exclusão no calendário, o app informa o resultado com mais clareza.
+- Melhor consistência nas mensagens de criar, limpar, abrir e salvar.
+
+7. Estabilidade geral
+- Melhorias no comportamento de janelas de mensagem em diferentes telas e contextos de uso.
+- Menos risco de mensagens abrirem com falha em ações específicas.
+
+Correções aplicadas
+
+1. Correção de falha em confirmação de ações
+- Resolvido problema que podia impedir a abertura correta de algumas janelas de confirmação.
+
+2. Correção na exclusão de nós no Mapa Mental
+- Ajustado comportamento para evitar exclusão parcial (somente conexões) e inconsistências visuais.
+
+3. Correção de feedback no calendário
+- Após remover tarefas por período, o app agora exibe confirmação de conclusão da ação.
+
+Validação recomendada (rápida)
+1. Excluir 1 conceito e vários conceitos no Feynman e confirmar os avisos de confirmação e resultado.
+2. Limpar o Mapa Mental e excluir 1 nó e vários nós para validar confirmação e remoção correta.
+3. No calendário, remover tarefas do dia e do mês e verificar a confirmação antes e o aviso ao final.
+4. No Leitor Acessível, testar limpar conteúdo e salvar arquivo para validar os novos avisos.
+5. No Gerenciador de Tarefas, remover tarefa individual e em lote para conferir mensagens de retorno.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.19.0
+Data: 19 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo geral  
+Esta versão traz melhorias visuais e de usabilidade para deixar a experiência mais consistente em toda a aplicação. Também foram feitos ajustes para que a interface se adapte melhor quando o idioma é alterado durante o uso.
+
+Principais melhorias
+
+1. Método Feynman  
+- Ajustes visuais para melhor organização da área de domínio.  
+- Conceitos com arquivo vinculado agora ficam destacados em azul e negrito, facilitando a identificação.  
+- Esse destaque é atualizado na hora, ao vincular ou remover arquivos.
+
+2. Pomodoro  
+- Campos de configuração ficaram com tamanho visual mais uniforme.  
+- A aparência se mantém consistente mesmo após trocar o idioma.
+
+3. Gerenciador de Tarefas  
+- Melhor alinhamento visual entre campo de tarefa e seleção de prioridade.  
+- Interface mais estável e padronizada em diferentes idiomas.
+
+4. Leitor Acessível  
+- Controles da barra de ferramentas ficaram com altura uniforme nas áreas de Texto e PDF.  
+- Resultado: visual mais limpo e navegação mais confortável.
+
+5. Barras de busca (Texto e PDF)  
+- Melhor alinhamento entre campo de busca e botões de navegação.  
+- Leitura e uso dos controles ficaram mais naturais.
+
+Correções aplicadas
+
+1. Correção de variações visuais após troca de idioma  
+- Elementos da interface que podiam ficar desalinhados agora mantêm padrão consistente.
+
+2. Correção de largura no Método Feynman  
+- Ajuste para melhor exibição de conteúdos longos, reduzindo cortes e desalinhamentos.
+
+3. Correção de alinhamento nas barras de busca  
+- Campo de busca e botões agora permanecem visualmente alinhados.
+
+4. Correção de feedback visual para conceitos com arquivo  
+- Destaque visual imediato para conceitos vinculados, ajudando na revisão e organização.
+
+Validação recomendada (rápida)  
+1. Trocar o idioma com o app aberto e verificar se o layout permanece alinhado.  
+2. No Método Feynman, conferir se os controles continuam bem ajustados em idiomas diferentes.  
+3. Vincular e remover arquivo de um conceito no Feynman e confirmar o destaque imediato (azul e negrito).  
+4. No Leitor Acessível, validar se os controles de Texto e PDF estão visualmente padronizados.  
+5. Verificar se as barras de busca de Texto e PDF estão com alinhamento consistente.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.18.0
+Data: 18 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo rápido
+- Melhor integração entre tarefas da Matriz de Eisenhower e do Gerenciador de Tempo.
+- Calendário com visualização anual e filtros mais completos.
+- Importação e exportação de tarefas mais confiáveis (JSON, Excel e PDF).
+- Salvamento mais seguro com cópias de backup automáticas.
+- Melhorias na inicialização do app, ícone no Windows e estabilidade geral da interface.
+
+Melhorias para o dia a dia
+- Tarefas duplicadas entre áreas diferentes do app foram reduzidas.
+- Sincronização entre listas e quadros ficou mais estável.
+- Ao remover várias tarefas, a experiência ficou mais limpa, com menos janelas repetidas.
+- Edição de tarefas com datas/horários ficou mais clara e consistente com o idioma escolhido.
+- Seleção múltipla em listas ficou mais visível e fácil de usar.
+
+Calendário aprimorado
+- Nova visualização anual para acompanhar tarefas por mês.
+- Novo filtro por ano.
+- Alternância entre visualização mensal e anual.
+- Lista de tarefas do calendário mais organizada em períodos maiores.
+- Destaque visual do dia atual para facilitar orientação.
+
+Importar, exportar e salvar com mais segurança
+- Estrutura de importação/exportação foi padronizada para reduzir erros.
+- PDFs exportados agora preservam melhor os dados para reimportação.
+- Validação de dados mais rígida ao abrir arquivos.
+- Criação automática de backup antes de salvar, reduzindo risco de perda de informações.
+
+Estabilidade e correções
+- Correção de falhas que podiam gerar tarefas “espelhadas”/duplicadas.
+- Correção de problemas de consistência de ícone no Windows.
+- Inicialização da aplicação mais robusta.
+- Melhor tratamento de situações internas da interface para evitar travamentos.
+
+Impacto esperado
+- Mais confiança ao organizar tarefas entre recursos diferentes.
+- Menos retrabalho com dados duplicados ou inconsistentes.
+- Uso do calendário mais útil para planejamento mensal e anual.
+- Experiência geral mais estável e previsível.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.17.0
+Data: 17 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Entrega focada em reforços e correções do Pomodoro, maior integração com o gerenciador de tarefas, atualizações de tradução em tempo de execução e refinamentos na aplicação de tema para evitar estados inválidos e artefatos visuais.
+
+Melhorias principais
+- Pomodoro: mais robusto e previsível
+  - Bloqueio ao iniciar quando o limite de ciclos foi atingido, com alerta informativo.
+  - Botões exibem texto e emoji conforme o estado (▶️ Iniciar, ⏸️ Pausar, ▶️ Continuar).
+  - Reset e pular ciclo atualizam corretamente o tempo restante, a barra de progresso e o display em todos os estados.
+- Preservação de progresso ao alterar configurações
+  - Ao mudar tempos ou número de ciclos, o tempo já decorrido é levado em conta e o tempo restante é ajustado para preservar o progresso do usuário.
+  - Validações mínimas evitam valores inválidos.
+- Traduções em runtime
+  - Textos de botões, títulos e placeholders atualizam sem reiniciar a interface, preservando seleções quando possível.
+- Tema e aparência
+  - Aplicação da paleta do sistema de forma segura em labels, listas e seletores para manter aparência nativa e evitar retângulos indesejados.
+  - Reaplicação reativa ao alternar tema preserva legibilidade.
+- Integração Pomodoro ↔ Tarefas
+  - Ciclos concluídos incrementam automaticamente o contador de pomodoros das tarefas em andamento.
+  - Tarefas que atingem o limite configurado podem ser marcadas como concluídas automaticamente (quando habilitado).
+  - Coluna lateral “⚙️ Em Progresso” melhora a visibilidade das tarefas em andamento com título traduzido dinamicamente e ajuste de largura para layout consistente.
+
+Correções e proteções
+- Prevenção de início do timer em estados inválidos quando o limite de ciclos foi alcançado.
+- Evita valores negativos no tempo restante ao atualizar configurações.
+- Tratamento seguro ao aplicar paleta em widgets que não suportam certas operações, reduzindo artefatos visuais.
+- Evita acúmulo de handlers/conexões duplicadas ao abrir/fechar/atualizar componentes, reduzindo exceções e comportamentos inesperados.
+
+O que validar rapidamente
+1. Iniciar/pausar/continuar o Pomodoro e confirmar mudança de rótulos (▶️ / ⏸️).
+2. Alterar tempos de foco/descanso e verificar preservação do progresso atual.
+3. Atingir o limite de ciclos e confirmar alerta e bloqueio de novo foco.
+4. Completar um ciclo de foco e verificar incremento de pomodoros nas tarefas em andamento.
+5. Alternar o tema do sistema e confirmar que labels, listas e seletores permanecem legíveis e sem artefatos.
+
+Próximos passos sugeridos
+- Incluir testes automatizados para preservação de progresso ao atualizar configurações.
+- Cobrir via testes de integração o fluxo Pomodoro → Gerenciador de Tarefas.
+- Ampliar verificações visuais da aplicação de paleta para temas claro/escuro.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.16.0
+Data: 16 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Entrega voltada a melhorar a integração entre Mapas Mentais e o Método Feynman, tornar mais fluida a experiência com arquivos vinculados (visualização, abertura e vinculação), aumentar a robustez do salvamento/backup do Mapa Mental e garantir limpeza segura de recursos em segundo plano. Foram adicionadas proteções para reduzir falhas, aprimoramentos de usabilidade (tooltips mais ricos, handlers gerenciáveis) e ajustes para melhor compatibilidade em diferentes ambientes.
+
+Melhorias principais
+- Arquivos vinculados: preview e abertura
+  - Visualização enriquecida mostrando seções claras (Conceito, Explique, Lacunas, Revisão e Arquivo Vinculado) para facilitar a leitura rápida.
+  - Tooltip posicionado para não sair da tela e escondido automaticamente quando o cursor sai do item.
+  - Abertura de arquivos mais confiável, com verificação do caminho e aviso ao usuário caso o arquivo não seja encontrado.
+
+- Integração Mapas → Método Feynman
+  - Conceitos enviados do mapa são validados e integrados de forma segura, evitando duplicatas e preservando histórico de anotações.
+  - Possibilidade de enviar rapidamente o conteúdo de um nó para o Método Feynman mantendo o vínculo ao arquivo quando houver.
+  - Ações de abrir/vincular arquivo no diálogo foram tornadas previsíveis, evitando execuções repetidas por acidente.
+
+- Persistência e backup do Mapa Mental
+  - Salvamento mais seguro dos dados do mapa, incluindo informações de layout essenciais.
+  - Backup automático otimizado para não regravar arquivos se nada mudou, reduzindo I/O desnecessário.
+  - Carregamento mais tolerante a dados inválidos: entradas fora do esperado são ignoradas, restaurando o máximo possível sem travar.
+
+- Aparência e tema
+  - Campos de texto, listas e seletores seguem melhor o tema do sistema, mantendo a aparência nativa sem causar artefatos visuais.
+  - Sincronização reativa ao trocar tema do sistema para preservar legibilidade e consistência.
+
+- Encerramento e limpeza
+  - Parada segura de processos/trabalhos em segundo plano ao fechar a aplicação, evitando tarefas órfãs e possíveis instabilidades.
+
+Correções de bugs
+- Tooltip posicionado corretamente para não desaparecer fora da área visível.
+- Abertura de arquivos agora informa o usuário e tenta alternativas quando necessário, evitando falhas silenciosas.
+- Evitado acúmulo de handlers no diálogo de edição de nós, prevenindo múltiplas execuções de uma mesma ação.
+- Backups não reescrevem o arquivo quando não há alteração real no mapa.
+- Carregamento de mapas tolera índices inválidos sem abortar o processo.
+
+O que verificar rapidamente (validação)
+1. Pairar sobre itens para ver o preview com seções claras e sem ultrapassar as bordas da tela.
+2. Usar Ctrl + duplo clique em um nó com arquivo vinculado para abrir o arquivo; confirmar comportamento em seu sistema.
+3. Integrar um conceito do mapa ao Método Feynman e verificar que aparece na lista com o vínculo preservado.
+4. Modificar o mapa e observar a criação do backup; reabrir sem alterar e confirmar que não houve regravação desnecessária.
+5. Alternar o tema do sistema (claro/escuro) e conferir que campos e listas mantêm boa leitura sem artefatos.
+6. Abrir/fechar o diálogo de edição de nó repetidas vezes e confirmar que ações não se acumulam.
+
+Próximos passos sugeridos
+- Adicionar testes automatizados para preview de arquivos e para o fluxo de integração do mapa ao Método Feynman.
+- Expor preferências de UX (por exemplo: habilitar/desabilitar preview e confirmação ao vincular arquivos).
+- Criar testes de integração para os processos em segundo plano relacionados ao Método Feynman.
+- Avaliar testes visuais para garantir ausência de regressões em temas claro/escuro.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.13.0
+Data: 13 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Atualização focada em refinamentos de layout e interação (painel de calendário e redimensionamento), maior confiabilidade do arrastar & soltar nas colunas de tarefas, integração entre Pomodoro e tarefas, e melhorias na aplicação de tema e nas traduções. Pequenas correções de logs e proteções contra exceções aumentam a estabilidade geral.
+
+Melhorias principais
+- Painel de calendário
+  - Alternância entre mostrar/ocultar o calendário mais previsível, com ajuste automático de largura para evitar sobreposição de conteúdo.
+  - Comportamento de redimensionamento aprimorado para manter proporções e evitar tamanhos inválidos ao abrir/fechar o painel.
+
+- Arrastar & soltar em abas/colunas de tarefas
+  - Ao arrastar sobre o cabeçalho de uma aba, a aba alvo abre automaticamente para facilitar o drop.
+  - Drops sobre o cabeçalho movem as tarefas corretamente para a coluna escolhida sem perder seleção ou itens.
+  - Fluxo protegido contra estados intermediários inconsistentes, reduzindo perdas de itens durante movimentos.
+
+- Integração Pomodoro ↔ Tarefas
+  - Ciclos do Pomodoro acionam atualizações no gerenciador de tarefas para facilitar o fluxo de foco.
+  - Coluna "Em Progresso" exibida ao lado do painel de temporizador, com layout inicial responsivo e atualização reativa de listas.
+
+- Entrada de tarefas e suporte a arquivos
+  - Campo de nova tarefa aceita arrastar arquivos e preencher o campo; pressionar Enter adiciona a tarefa.
+  - Traduções e textos de interface atualizam em tempo real sem perder seleções importantes (por ex. prioridade).
+
+- Aparência e sincronização de tema
+  - Campos e listas seguem melhor o tema do sistema, evitando artefatos visuais ao alternar entre claro/escuro.
+  - Reaplicação de cores e estilos foi reforçada para manter aparência consistente sem usar estilos fixos.
+
+Correções de bugs
+- Evitado comportamento de redimensionamento incorreto ao alternar o painel de calendário.
+- Corrigido problema que fazia itens desaparecerem ao soltar sobre cabeçalho de abas.
+- Protegido contra exceções na aplicação de tema em widgets variados, evitando retângulos de fundo indesejados.
+- Reduzidas falhas durante inicialização do gerenciador de tarefas e do temporizador por conexões/mecanismos não disponíveis.
+- Ao atualizar listas de opções, o índice selecionado é preservado sempre que possível.
+
+O que verificar rapidamente
+1. Alternar o painel de calendário em janelas de diferentes tamanhos e repetir abrir/fechar; verificar que colunas e conteúdo não se sobrepõem.
+2. Arrastar uma tarefa entre colunas, incluindo soltar sobre o título da aba; confirmar que a tarefa aparece na coluna destino.
+3. Executar um ciclo do Pomodoro e observar atualização/acionamento nas tarefas em andamento.
+4. Arrastar um arquivo para o campo de nova tarefa e pressionar Enter para adicionar; confirmar persistência do anexo.
+5. Alternar o tema (claro/escuro) e mudar o idioma: confirmar aparência consistente e preservação de seleções em menus.
+
+Observações
+- Atualização prioriza experiência e robustez; fluxos conhecidos permanecem inalterados.
+- Se ocorrer comportamento inesperado, reproduza o passo e consulte os logs para diagnóstico.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.12.0
+Data: 12 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Atualização focada em melhorar a integração entre Mapas Mentais e o Método Feynman, tornar a edição de nós e conceitos mais confiável e reforçar o salvamento automático do Mapa Mental. Inclui refinamentos visuais para respeitar o tema do sistema e correções que evitam comportamento repetido ao vincular/remover anexos.
+
+Principais melhorias
+- Integração Mapas → Método Feynman
+  - Conceitos enviados do mapa são integrados de forma segura: títulos vazios ou sem notas são ignorados, conceitos duplicados são mesclados preservando histórico e as mudanças aparecem imediatamente na lista de estudo.
+  - Melhoria na identificação e normalização dos campos para evitar entradas inválidas.
+
+- Edição de nós e anexos
+  - Diálogo de edição de nó centralizado para editar texto e notas e para associar/remover arquivos de forma previsível.
+  - Suporte a abrir arquivo vinculado com Ctrl+duplo-clique.
+  - Corrigido comportamento que causava múltiplas execuções de ação ao vincular/remover arquivos repetidamente.
+
+- Experiência e usabilidade do Método Feynman
+  - Campos e listas seguem melhor a paleta/tema do sistema, reduzindo artefatos visuais ao alternar entre claro/escuro.
+  - Traduções e textos da interface atualizam sem perder a seleção do nível de domínio.
+  - Tooltips mais informativos e organização das áreas de edição para facilitar leitura e navegação entre Conceito → Explique → Lacunas → Revisão.
+  - Seleção de conceitos mais robusta mesmo quando a lista exibe apenas o texto resumido.
+
+- Gerenciamento de conceitos
+  - Exclusão com confirmação para múltipla seleção e remoção segura dos itens selecionados.
+  - Menu de contexto para ajustar rapidamente o nível de domínio (Iniciante / Intermediário / Avançado) com atualização imediata da interface.
+
+- Persistência e backup do Mapa Mental
+  - Serialização mais tolerante a dados ausentes e que preserva metadados de layout.
+  - Backup automático otimizado: evita regravação quando não houve alteração efetiva, reduzindo I/O redundante.
+  - Timer de backup configurável e mais seguro contra concorrência.
+
+Correções de bugs (principais)
+- Evita duplicação de integrações e entradas inválidas ao receber dados do mapa.
+- Evita acumulo de ações/execuções ao vincular ou remover anexos repetidamente.
+- Remove artefatos visuais causados por aplicação inadequada de paleta em alguns controles.
+- Backup automático não regrava arquivo quando não houve alteração significativa.
+- Abertura de arquivo vinculado via atalho (Ctrl+duplo-clique) confiável.
+
+O que verificar rapidamente
+1. Enviar um conceito do Mapa Mental para o Método Feynman: confirmar criação ou atualização e visualização imediata na lista.
+2. Abrir diálogo de edição do nó, associar e remover arquivo várias vezes e verificar que cada ação ocorre apenas uma vez.
+3. Pressionar Ctrl+duplo-clique sobre um nó com anexo para abrir o arquivo.
+4. Alternar tema do sistema (claro/escuro) e conferir ausência de retângulos ou artefatos em campos e listas.
+5. Modificar o mapa, aguardar backup e confirmar que o arquivo de backup não é regravado se nada relevante mudou.
+
+Observações
+- Atualização prioriza confiabilidade e experiência; fluxos já conhecidos permanecem inalterados.
+- Em caso de comportamento inesperado, reproduza o passo e consulte os logs para diagnóstico.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.11.0
+Data: 11 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Atualização focada em tornar o arrastar&soltar mais confiável, melhorar a experiência com arquivos vinculados e aumentar a estabilidade do backup e restauração do Mapa Mental. Inclui ajustes de usabilidade nas barras de busca e refinamentos visuais para manter legibilidade em temas claro/escuro.
+
+Principais mudanças
+- Drag & drop mais robusto
+  - Campos e visualizadores aceitam arquivos arrastados de forma mais segura; quedas inválidas são tratadas sem travar a aplicação.
+  - Ao arrastar um arquivo para criar tarefa ou para o leitor, o arquivo pode ser rapidamente vinculado ou carregado conforme confirmação do usuário.
+
+- Abertura e vínculo de arquivos simplificados
+  - Arquivos vinculados a conceitos e tarefas abrem de forma compatível com o sistema, com mensagens claras ao usuário.
+  - Interface de vinculação de arquivos ao criar/editar itens apresenta confirmação e informação sobre o arquivo anexado.
+
+- Mapa Mental: persistência e restauração mais seguras
+  - Backups automáticos evitam escritas redundantes, reduzindo risco de I/O desnecessário.
+  - Carregamento de mapas tolera dados parcialmente corrompidos e tenta restaurar o máximo possível sem abortar.
+
+- Busca (Texto/PDF) e legibilidade em temas
+  - Barras de busca mantêm contraste adequado em temas claros e escuros para preservar legibilidade.
+  - Comportamento de realce e navegação por resultados mais consistente.
+
+- Sincronização de paleta e aparência
+  - Componentes de entrada e listas seguem melhor a paleta do sistema, evitando artefatos visuais e mantendo aparência nativa.
+
+Correções de bugs
+- Evita exceções em drops com dados inesperados.
+- Backup automático não reescreve arquivo quando não há mudanças.
+- Restaurar mapa não falha por índices inválidos; ignora entradas fora do esperado.
+- Evita acúmulo de handlers ao vincular/remover arquivos repetidamente.
+- Barra de busca preserva contraste em temas escuros.
+
+O que verificar rapidamente
+- Arraste um PDF para o leitor e confira se carrega e exibe caminho.
+- Arraste um arquivo para o campo de nova tarefa e confirme o vínculo quando solicitado.
+- Salve o mapa, faça alterações sem mudança semântica e verifique que o backup não é regravado frequentemente.
+- Abra as barras de busca em tema claro e escuro e confirme legibilidade.
+
+Observações
+- Atualização prioriza robustez e usabilidade; não altera fluxos principais de uso.
+- Caso encontre comportamento inesperado, reproduza o passo e consulte os logs para facilitar diagnóstico.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.10.0
+Data: 10 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Atualização voltada à consistência visual: inputs e menus dropdown agora seguem a aparência nativa do sistema e respeitam corretamente temas Claro/Escuro, proporcionando interface mais integrada e sem artefatos visuais.
+
+Principais mudanças
+- Aparência nativa dos campos
+  - Campos de texto e seletores exibem fundo nativo sem retângulos ou bordas visuais impostas pelo aplicativo.
+- Popups e menus mais coerentes
+  - Dropdowns (listas abertas) usam cor de preenchimento alinhada ao tema do Windows: mais claro em tema Claro e levemente escurecido em tema Escuro.
+- Uniformidade entre módulos
+  - Comportamento visual padronizado em Matriz Eisenhower, Gestão de Tempo, Gerenciador de Tarefas e Método Feynman.
+- Melhoria na experiência do Pomodoro e listas
+  - Campos do timer e seletores de prioridade/tempo abrem listas com o mesmo estilo de preenchimento, sem criar caixas visuais no controle principal.
+
+Correções de bugs
+- Removidos retângulos indesejados em campos e combos que apareciam em alguns temas.
+- Popups que antes usavam cores fixas agora ajustam-se ao modo Claro/Escuro para evitar contrastes fortes.
+- Ajustes protegidos para evitar efeitos visuais incorretos em listas e áreas compostas.
+
+O que verificar
+- Em Windows 10/11 tema Claro: abra dropdowns (prioridade, timer, domínio, quadrantes) — o fundo da lista deve ficar claro e integrado ao tema.
+- Em tema Escuro: os mesmos controles devem apresentar o preenchimento levemente mais escuro, sem retângulos no controle principal.
+- Confirme que campos de texto e seletores mantêm aparência nativa do sistema em diálogos e painéis.
+
+Observações
+- Não houve alteração funcional no comportamento das ações; a atualização foca na aparência e consistência visual.
+- Caso deseje ajustes de contraste, fatores de clareamento/escurecimento podem ser afinados em versões futuras.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.9.0
+Data: 9 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Melhoria focada em tornar o arrastar&soltar mais confiável, manter a ordem das tarefas consistente e apresentar informações completas nas dicas (tooltips). Também melhora a experiência ao arrastar arquivos para criar tarefas.
+
+Principais mudanças
+- Arrastar e soltar sobre abas
+  - Soltar uma tarefa sobre o título da aba agora move a tarefa corretamente para a coluna de destino.
+  - Evita que tarefas desapareçam da tela após o movimento.
+
+- Ordenação automática
+  - Após mover tarefas, as listas são reordenadas automaticamente por prioridade, depois por data, horário e título.
+  - Itens sem prazo ficam no final.
+
+- Troca de aba enquanto arrasta
+  - Ao passar o cursor por outra aba durante o arraste, a aba é aberta automaticamente para facilitar o drop.
+
+- Arrastar arquivos ao criar tarefa
+  - Ao arrastar um arquivo para o campo de adicionar tarefa, é oferecida confirmação para vincular o arquivo à nova tarefa.
+  - Se confirmado, o anexo é guardado na tarefa.
+
+- Tooltips completos no painel do timer
+  - Itens em "Em Progresso" mostram tooltip com: arquivo (se houver), data, horário, descrição e prioridade.
+
+- Abertura de arquivos multiplataforma e mensagens traduzidas
+  - Abertura de anexos usa método compatível com cada sistema operacional.
+  - Mensagens e diálogos aparecem no idioma atual.
+
+Correções de bugs
+- Tarefas não se perdem ao soltar sobre o cabeçalho da aba.
+- Ordenação aplicada corretamente nas colunas do timer.
+- Tooltips agora aparecem com todas as informações relevantes.
+- Diálogos e avisos respeitam a tradução em tempo de execução.
+
+O que fazer para verificar
+- Arraste tarefas entre colunas e solte sobre o título da aba; confira que a tarefa saiu da origem e entrou no destino.
+- Mova tarefas com prioridades e prazos diferentes e verifique a nova ordem.
+- Arraste um arquivo ao criar tarefa e confirme o vínculo; passe o mouse sobre itens em "Em Progresso" para ver o tooltip.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.8.0
+Data: 8 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Melhoria focada em oferecer mais flexibilidade na interface principal: agora o usuário pode reorganizar as abas principais (📖 Leitor Acessível, ⏱️ Gestão de Tempo, 🧠 Mapas Mentais, 🎓 Método Feynman, 🗂️ Matriz Eisenhower), salvar a ordem escolhida entre execuções e restaurar facilmente a ordem padrão quando desejar. Também foram feitas correções de compatibilidade e maior robustez na navegação e execução das ações da interface.
+
+Principais novidades
+- Reordenação de abas
+  - Arraste e solte as abas para posicioná‑las na ordem que preferir.
+  - A nova ordem é salva automaticamente, mantendo sua configuração ao reabrir o aplicativo.
+
+- Persistência da ordem personalizada
+  - A ordem definida pelo usuário é restaurada em execuções seguintes.
+  - Entradas desconhecidas são ignoradas e novas abas sempre aparecem sem perder a ordem estabelecida.
+
+- Restaurar ordem padrão
+  - Nova opção no menu de Configurações para restaurar a ordem original das abas (↩️ Restaurar ordem das abas).
+
+- Navegação consistente
+  - Atalhos e ações do menu abrem o módulo correto independentemente da posição visual das abas.
+  - Ajuda e atalhos (F1) mostram os nomes das abas conforme a ordem atual do usuário.
+
+- Experiência preservada
+  - Conteúdos temporários e componentes carregados sob demanda continuam funcionando; a reposição visual mantém o estado já carregado sempre que possível.
+
+- Compatibilidade e robustez
+  - Ajustes que melhoram a compatibilidade em diferentes ambientes e reduzem falhas ao ler/gravar configurações.
+  - Logs e tratamentos de erro ampliados para facilitar diagnóstico sem interromper o uso.
+
+O que muda para você
+- Personalize a ordem das abas para adaptar o aplicativo ao seu fluxo de trabalho.
+- Feche e reabra o app sem perder a ordem escolhida.
+- Use a opção de restauração para voltar rapidamente à configuração padrão.
+- Menos frustração com atalhos ou menus que abrem a aba errada após reorganizar.
+
+Recomendações rápidas
+- Reorganize as abas arrastando‑as e confirme o comportamento desejado.
+- Use "↩️ Restaurar ordem das abas" se quiser retornar à ordem original.
+- Caso encontre problemas ao salvar/restaurar a ordem, verifique mensagens ou logs e tente restaurar a ordem padrão.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.7.0
+Data: 7 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Atualização focada em tornar a gestão de tarefas e o calendário mais confiáveis, visuais e fáceis de usar. Melhorias na interação, abertura de anexos, exibição por datas e sincronização de tema, além de ajustes que reduzem erros e perda de dados.
+
+Principais novidades
+- Calendário mais útil
+  - Dias com tarefas exibem contadores visuais (badges) e destaques por dia/semana/mês.
+  - Tooltips do calendário mostram prioridade, arquivo vinculado e resumo da descrição.
+  - Menu de contexto no calendário permite editar ou remover tarefas diretamente.
+
+- Ações em lote e seleção
+  - Suporte a seleção múltipla (Ctrl+clique e arrastar) para mover, remover e compartilhar várias tarefas de uma vez.
+  - Mensagens de confirmação e feedback após operações em lote.
+
+- Abertura de anexos mais robusta
+  - Tentativas de abrir anexos usam métodos compatíveis com cada sistema operacional, com mensagens claras em caso de falha.
+
+- Preservação de informações e ordenação
+  - Metadados importantes (prioridade, arquivo, descrição, pomodoros) são preservados ao editar.
+  - Listas ordenadas de forma determinística por prioridade → data → horário → título; itens sem prazo aparecem ao final.
+
+- Aparência e temas
+  - Melhor sincronização de paleta entre componentes compostos para evitar inconsistências visuais em temas claro/escuro.
+
+Correções de bugs
+- Evita exclusões indevidas: tarefas com mesmo texto e prioridades diferentes não são removidas por engano.
+- Sincronização calendário ↔ listas: editar/remover via calendário afeta corretamente a tarefa de origem.
+- Falhas ao abrir anexos tratadas com fallbacks e logs, reduzindo erros silenciosos.
+- Ajustes visuais para evitar fundos incorretos em áreas compostas após troca de tema.
+- Tratamento de exceções ampliado para maior estabilidade nas operações (arrastar/soltar, edição, menus).
+
+O que muda para você
+- Gerenciar tarefas pelo calendário e pelas listas ficou mais direto e seguro.
+- Menos risco de perder tarefas por exclusões acidentais.
+- Visual mais consistente ao alternar temas e melhor visibilidade de dias ocupados.
+- Abrir anexos deve funcionar de forma mais confiável em diferentes sistemas.
+
+Recomendações rápidas
+- Use Ctrl+clique ou arraste para selecionar várias tarefas antes de aplicar ações em lote.
+- Verifique a confirmação mostrada ao remover tarefas em massa.
+- Ao abrir anexos, confirme o caminho do arquivo se aparecer mensagem de erro.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.6.0
+Data: 6 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Melhoria voltada para tornar a Gestão de Tempo e a Matriz de Eisenhower mais confiáveis e fáceis de usar. Inclui seleção múltipla de tarefas (Ctrl+clique e arrasto), ações em lote (mover, remover, compartilhar), edição de prioridade nas tarefas, ordenação consistente das listas por prioridade→data→horário e correções que evitam exclusões indevidas.
+
+Principais novidades
+- Seleção múltipla intuitiva
+  - Selecione várias tarefas com Ctrl+clique ou clicando e arrastando sobre a lista.
+  - A seleção possibilita aplicar ações a todas as tarefas escolhidas de uma só vez.
+
+- Ações em lote
+  - Mover várias tarefas ao mesmo tempo.
+  - Remover várias tarefas com confirmação antes da exclusão.
+  - Compartilhar várias tarefas juntas com a Matriz de Eisenhower em um único envio.
+
+- Edição de prioridade
+  - Ao editar uma tarefa, agora é possível alterar a prioridade entre:
+    - 🔴 Importante e Urgente
+    - 🟠 Importante, mas Não Urgente
+    - 🟡 Não Importante, mas Urgente
+    - 🟢 Não Importante e Não Urgente
+  - Mudanças de prioridade são aplicadas imediatamente e refletem no visual.
+
+- Confirmação e feedback claros
+  - Sempre há uma confirmação antes de excluir (uma ou várias).
+  - Após a operação, você recebe uma mensagem informando quantas tarefas foram removidas ou se houve falha.
+
+- Proteção contra exclusões erradas
+  - Quando existem tarefas com o mesmo nome mas prioridades diferentes, a remoção agora diferencia corretamente para não apagar itens indevidos.
+
+- Ordenação consistente das listas
+  - Dentro de cada coluna (A Fazer / Em Progresso / Concluído), as tarefas são exibidas por:
+    1) prioridade (🔴→🟢),
+    2) data,
+    3) horário,
+    4) título.
+  - Tarefas sem data/hora aparecem ao final por padrão.
+
+Correções de bugs
+- Compartilhamento: agora envia todas as tarefas selecionadas, não apenas a clicada.
+- Remoção duplicada: excluir uma tarefa idêntica não apaga outras com prioridade diferente.
+- Ordenação: listas agora seguem a hierarquia prioridade→data→horário de forma consistente.
+- Estabilidade: diversos ajustes foram feitos para evitar erros visíveis na interface.
+
+O que muda para você
+- Gerenciar várias tarefas ficou mais rápido e seguro.
+- Edição de prioridade facilita priorizar seu dia.
+- Menos risco de perder tarefas por exclusão acidental.
+- Visualização das listas mais organizada por importância e prazos.
+
+Recomendações rápidas
+- Use Ctrl+clique ou arraste para selecionar várias tarefas antes de aplicar mover/remover/compartilhar.
+- Revise a confirmação antes de remover várias tarefas.
+- Confira prioridades ao editar para impactar corretamente a ordenação.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.5.0
+Data: 5 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Aprimoramentos e correções focados na edição de tarefas via menu de contexto, estabilidade do calendário, experiência com anexos e no comportamento de arrastar e soltar. A interface está mais resistente a erros e consistente entre listas e painel de calendário.
+
+Principais novidades
+- Edição via menu de contexto
+  - Janela de edição reaproveitada e mais segura, com campos para título, anexo, descrição, data e horário.
+  - Validações básicas (ex.: título obrigatório) e aplicação imediata das alterações na lista original.
+
+- Data e horário
+  - Edição de data/hora mais clara e confiável, com opção de vincular/desvincular e conversão correta dos formatos.
+
+- Sincronização com o calendário
+  - Itens originados do calendário agora são reconhecidos corretamente pelo sistema antes de editar ou excluir, evitando inconsistências.
+
+- Remoção individual e em lote
+  - Remoção segura de tarefas, incluindo a opção "Remover Todas" por data, sempre com confirmação e atualização correta das contagens e agrupamentos.
+
+- Abertura de anexos mais robusta
+  - Tentar abrir anexos com mecanismos compatíveis com cada plataforma; usuário recebe aviso em caso de falha.
+
+- Arrastar & soltar e ordenação
+  - Movimentação e reordenação de tarefas mais previsíveis; itens com horário são inseridos na ordem certa e metadados são preservados.
+
+- Anexos e experiência do usuário
+  - Suporte a arrastar arquivos para o campo de anexo, visualização do nome/caminho e controles para escolher/limpar/abrir anexos.
+
+- Locale e aparência
+  - Melhor consistência ao aplicar formatos de data/hora e ao sincronizar cores/tema em áreas compostas da interface.
+
+- Tooltips e feedback visual
+  - Tooltips mais informativos (data, horário, anexo, descrição curta e prioridade) e exibição consistente de emojis de prioridade quando habilitados.
+
+- Robustez e logs
+  - Diversas proteções contra exceções e registros melhores para facilitar diagnóstico sem impactar a experiência do usuário.
+
+Correções de bugs
+- Correção na edição/remoção de itens originados do calendário (agora afeta o item correto).
+- Preservação de informações importantes ao editar data/hora ou alterar uma tarefa.
+- Arrastar & soltar entre listas corrigido para evitar perdas e inconsistências.
+- Falhas ao abrir anexos em diferentes sistemas tratadas com fallbacks e avisos.
+- Problemas visuais em widgets compostos minimizados ao reaplicar a paleta corretamente.
+
+O que muda para você
+- Editar, mover e remover tarefas pelo calendário ou pelas listas ficou mais seguro e direto.
+- Abrir anexos deve funcionar melhor em Windows/macOS/Linux.
+- Menos erros visíveis e comportamento mais previsível ao alterar datas, horários e prioridades.
+
+Recomendações rápidas
+- Teste a edição a partir do menu de contexto do calendário para ver as melhorias.
+- Use "Remover Todas" com atenção — há confirmação antes da exclusão.
+- Verifique anexos por dupla-clique ou pelo botão de abrir; em caso de falha, confirme o caminho do arquivo.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.4.0
+Data: 4 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Melhorias focadas na usabilidade do Calendário: agora é possível clicar com o botão direito sobre qualquer dia para acessar um menu com opções de editar e remover tarefas (inclui "Remover Todas"). Também ajustamos a exibição das prioridades com emojis (🔴 🟠 🟡 🟢) para ficarem antes do horário. Várias proteções e registros foram adicionados para aumentar a robustez da aplicação.
+
+Principais novidades
+- Menu de contexto por dia
+  - Ao clicar com o botão direito em um dia, aparece um menu com submenus para editar e remover as tarefas daquele dia.
+  - Cada submenu lista as tarefas do dia; se houver, você escolhe diretamente a tarefa para editar ou remover.
+  - A ação "Remover Todas" permite apagar todas as tarefas do dia com confirmação.
+
+- Edição e remoção integradas
+  - Editar uma tarefa abre a mesma janela de edição conhecida, preservando os campos e validações.
+  - Remover tarefas respeita a lógica de limpeza e mantém a lista sempre consistente.
+  - Remoções em lote pedem confirmação e atualizam a visualização imediatamente.
+
+- Emojis de prioridade
+  - Prioridades visíveis com emojis: 🔴, 🟠, 🟡, 🟢.
+  - Emojis aparecem antes do horário nas listas e tooltips do calendário.
+  - É possível ocultar os emojis usando o checkbox "Mostrar prioridade" no painel do calendário.
+
+- Ordenação e apresentação
+  - Tarefas nos menus e tooltips são ordenadas por horário e depois por texto para facilitar a leitura.
+  - As tooltips mostram informações úteis (horário, título, status e prioridade) de forma organizada.
+
+Correções de bugs e robustez
+- Corrigido posicionamento dos emojis (agora aparecem antes do horário).
+- Ajustado comportamento do menu para garantir que ações de editar/remover atuem sobre a tarefa correta.
+- Remoção em lote limpa corretamente itens auxiliares e atualiza os contadores visuais.
+- Evitados tooltips vazios e melhor tratamento de casos sem tarefas.
+
+O que muda para você
+- Navegar e gerenciar tarefas pelo calendário ficou mais rápido: menos cliques para editar ou excluir.
+- Visualização de prioridades mais clara e configurável.
+- Mais segurança contra erros em operações de edição, remoção e abertura de itens.
+
+Recomendações rápidas
+- Experimente clicar com o botão direito sobre dias que tenham tarefas para ver as novas opções.
+- Use o checkbox "Mostrar prioridade" para alternar a exibição dos emojis.
+- Ao usar "Remover Todas", confirme atentamente pois a ação apaga todas as tarefas daquele dia.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.3.0
+Data: 3 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Pequena release focada em polimentos e robustez das telas públicas e do calendário: melhor visualização de contadores/badges, tooltips mais informativos, abertura de arquivos mais resiliente, sincronização de tema/paleta mais consistente em áreas internas da interface e maior estabilidade nas janelas "Sobre" e "Manual". Foram adicionadas proteções e logs para reduzir falhas em cenários extremos.
+
+Principais novidades
+- Calendário
+  - Badges visuais por dia/semana/mês com limite legível e cores do tema.
+  - Tooltips de dia com linhas organizadas (horário, descrição e prioridade) para facilitar leitura.
+  - Filtros de exibição (dia/semana/mês) com listagem ordenada e placeholders quando não houver tarefas.
+  - Abertura de arquivos vinculados com mecanismos de fallback e aviso ao usuário em caso de falha.
+
+- Sincronização de tema
+  - Melhoria na aplicação de cores internas para manter contraste em widgets compostos (listas, tabelas e dropdowns).
+  - Ajustes para evitar áreas com contraste ruim após troca de tema.
+
+- Sobre e Manual
+  - Conteúdo atualizável em tempo real sem recriar janelas; rótulos e textos retranslate em runtime.
+  - Ajuste automático da altura do texto descritivo para melhor leitura ao redimensionar.
+  - Navegação do manual por índice/âncoras preservando posição ao trocar idioma.
+
+- Hardening e logs
+  - Proteções adicionais contra exceções e logs ampliados para facilitar diagnóstico.
+
+Correções de bugs
+- Evita crash ao passar o mouse sobre dias sem dados (tooltips).
+- Corrige pintura de badges em temas escuro/claro preservando contraste.
+- Resolve falhas ao abrir arquivos sem fallback; agora há notificações claras.
+- Mantém sincronização de paleta em viewports de listas/combo.
+- Preserva posição e índice ao atualizar textos do Sobre/Manual em runtime.
+
+O que muda para você
+- Calendário mais informativo e visualmente consistente.
+- Menos falhas ao abrir links e ao trocar tema/idioma.
+- Sobre e Manual atualizam textos sem perder posição nem exigir reabertura.
+
+Recomendações rápidas
+- Teste hover e abertura de arquivo no calendário; troque tema/idioma em Sobre/Manual para verificar comportamento.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.2.0
+Data: 2 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Atualização voltada para maior estabilidade e polimento do Leitor Acessível. Inclui limpeza segura de conteúdo, centralização das traduções, melhor alinhamento de cores entre temas, proteções contra falhas quando componentes opcionais não estão disponíveis e melhorias na experiência com PDFs (barra de ferramentas, busca e seleção). Logs foram ampliados para facilitar diagnóstico.
+
+Principais novidades
+- Limpar conteúdo: ação de limpeza pede confirmação, para a leitura em andamento, esvazia a área de texto e reseta o visualizador de PDF e controles de página/zoom, evitando estados residuais.
+- Traduções centralizadas: todos os rótulos, tooltips e nomes de abas atualizam em tempo real preservando seleções do usuário.
+- Melhor adaptação a temas: cores de áreas de edição, listas e controles foram ajustadas para manter contraste em modos claro/escuro.
+- Fallbacks visuais e fontes: quando componentes extras não estiverem presentes, a interface usa alternativas que mantêm a usabilidade sem travar.
+- Experiência com PDF: busca integrada com comportamento inteligente ao alternar abas, cópia de seleção em PDF mais confiável e botões/controles de zoom e navegação restaurados corretamente.
+- Logs e proteções: mensagens de erro e debug mais detalhadas; várias operações protegidas para evitar quedas em pontos de integração externa.
+
+Correções de bugs
+- Evita travamentos quando componentes opcionais não existem; a interface continua utilizável.
+- Corrige estados inconsistentes após limpar conteúdo, garantindo que página, total de páginas, zoom e modos retornem a valores padrão.
+- Mantém seleções de zoom e modos ao trocar idioma, evitando perda de escolha do usuário.
+- Melhora aplicação de cores em áreas internas (viewports) para preservar contraste consistente.
+
+O que muda no uso diário
+- Usar "Limpar" interrompe leituras e deixa o painel pronto para novo carregamento sem comportamentos estranhos.
+- Ao trocar o idioma, os textos mudam na hora sem perder suas seleções.
+- Alternar o tema mantém legibilidade das áreas de edição e listas.
+- Buscar em texto/PDF e copiar trechos em PDFs está mais estável e menos propenso a erros.
+
+Recomendações rápidas
+- Teste o botão Limpar após carregar texto/PDF e iniciar leitura para verificar parada e reset.
+- Troque idioma e tema para confirmar atualização imediata de textos e cores.
+- Se algo não funcionar por falta de um recurso opcional, verifique os logs antes de reportar.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.2.1.0
+Data: 1 de fevereiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+- Atualização voltada para maior consistência de textos, melhor adaptação entre temas claro/escuro, aumento da robustez das interfaces do Leitor Acessível e do Método Feynman, e centralização das traduções do menu. Foram adicionados mecanismos de proteção para evitar falhas em pontos críticos e aprimorados os logs para diagnóstico.
+
+Principais novidades
+- Idiomas e textos: textos da interface foram centralizados e agora atualizam em tempo de execução preservando seleções e estados do usuário.
+- Tema e cores: elementos de edição e listas ajustam automaticamente suas cores para manter contraste adequado ao alternar entre temas.
+- Fallbacks visuais: quando controles personalizados não estiverem disponíveis, o aplicativo usa controles padrão para manter funcionalidade e aparência coerente.
+- Gerenciamento de fontes: seleção de fonte/teamanho mais resistente a configurações inválidas; leitura mais estável das preferências do usuário.
+- Leitor Acessível: barra de ferramentas refinada com controles de carregar, reprodução (play/pause/stop), ajuste de velocidade e volume com feedback visual, busca integrada e comportamento de copiar seleção em PDF mais confiável.
+- Método Feynman: interface reorganizada em abas que orientam o fluxo (Conceito → Explique → Lacunas → Revisão), botões mais consistentes (Novo/Salvar/Excluir/Limpar) e melhor adaptação aos temas.
+- Menu principal: textos e atalhos padronizados em todo o menu, com combinações de teclas comuns para tarefas frequentes.
+- Logs e estabilidade: mensagens de erro e debug padronizadas para facilitar investigação de problemas.
+
+Correções de bugs
+- Atualização de textos nas abas passou a ser segura, evitando travamentos ao trocar idioma.
+- Problemas de contraste e corte de elementos em temas diferentes foram corrigidos.
+- Botões e seletores funcionam corretamente mesmo sem módulos opcionais instalados.
+- Atalhos e contexto de teclas foram ajustados para evitar comportamento inconsistente em plataformas diferentes.
+- A cópia de seleção em PDFs recebeu proteções para não falhar silenciosamente.
+
+O que muda no uso diário
+- Trocar o idioma atualiza os textos na hora sem perder suas seleções.
+- Alternar o tema (claro/escuro) mantém legibilidade das áreas de edição e listas.
+- Leitor apresenta controles mais claros para reprodução, busca e cópia de trechos em PDF.
+- Método Feynman ficou mais fácil de usar com abas guiadas e um botão Limpar sempre disponível.
+- Menos erros inesperados em ambientes com componentes opcionais ausentes.
+
+Recomendações rápidas
+- Experimente alternar idioma e tema para conferir atualização imediata de textos e cores.
+- No Leitor, teste velocidade/volume e a busca para validar a nova experiência.
+- No Método Feynman, crie/edite um conceito e use o botão Limpar para conferir o fluxo.
+- Caso encontre comportamentos estranhos, consulte os logs para pistas antes de reportar.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.31.0
+Data: 31 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+- Atualização focada em melhorar a experiência da janela "Sobre": organização das informações, confiabilidade ao abrir/fechar, suporte a troca de idioma em tempo de execução e correções na exibição de conteúdo e links.
+
+Principais novidades para você
+- Abas consolidadas para acessar facilmente: Histórico, Detalhes, Licenças, Avisos, Política de Privacidade e Notas de Versão.
+- Conteúdo das abas com links externos clicáveis e mais confiáveis.
+- Textos e rótulos atualizam imediatamente ao mudar o idioma, sem precisar reiniciar a janela.
+- Ajuste automático do tamanho do texto descritivo para melhorar leitura ao redimensionar a janela.
+- Evita múltiplas janelas "Sobre" abertas ao mesmo tempo; abertura e foco da janela estão mais previsíveis.
+- Mensagens de erro e comportamento em situações inesperadas foram melhorados para reduzir travamentos.
+
+Correções importantes
+- Rótulos das abas corrigidos para não ficarem inconsistentes ao alternar entre elas.
+- Exibição do texto descritivo ajustada para não cortar conteúdo quando a janela muda de tamanho.
+- Links das licenças mantêm funcionalidade ao serem exibidos.
+- Limpeza adequada ao fechar a janela para evitar comportamentos residuais.
+
+O que muda no uso diário
+- Informações do "Sobre" ficam mais acessíveis e legíveis.
+- Ao trocar o idioma, os textos e botões se atualizam na hora.
+- Links de licença e site oficial abrem corretamente.
+- Menos janelas duplicadas e menos problemas ao reabrir a tela de informação.
+
+Recomendações rápidas
+- Abra a janela "Sobre" para conferir os textos e links.
+- Troque o idioma da interface e verifique se os rótulos e conteúdos são atualizados.
+- Redimensione a janela para validar o ajuste do texto descritivo.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.29.0
+Data: 29 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+- Melhorias no recurso de Mapas Mentais: importação mais rápida e estável, organização automática de nós, preservação do layout e interações mais confiáveis. Também foram aplicadas correções na normalização de textos.
+- Módulo: reforço na robustez do pipeline de importação (worker em thread, sinais de progresso e cancelamento cooperativo), integração com ProcessadorIA para extração/NLP e fallbacks seguros quando recursos IA não estiverem disponíveis.
+
+Principais novidades para você
+- Barra de ferramentas reorganizada com botões claros: adicionar, conectar, cor, salvar, carregar, exportar, limpar, importar documento (IA) e reorganizar/restaurar.
+- Importação de documentos com progresso visível e opção de cancelar sem travar o app; feedback de UI durante carregamento de modelos IA.
+- Geração automática de mapas hierárquicos com melhor posicionamento visual (inclui opção radial) e organização por níveis.
+- Possibilidade de salvar o “snapshot” do layout atual e restaurar a visualização original quando desejar.
+- Nós auxiliares para destacar ideias principais, com vínculos visuais e indicação de importância.
+- Interações mais estáveis: arrastar, clicar e conectar nós funcionam melhor e preservam posições quando movidos.
+- Textos detectados em documentos passam por normalização e correção automática de termos comuns em PT/EN.
+- Módulo: melhorias no Método Feynman — traduções dinâmicas, preservação de seleção do combo de domínio, geração robusta de tooltips e uso consistente do gerenciador de botões com fallbacks.
+
+O que melhora no uso diário
+- Reorganizar mapas com IA fica mais previsível; você pode voltar ao estado anterior facilmente (snapshot/restore).
+- Importações grandes ficam menos propensas a travar e mostram progresso; cancelamento limpa threads corretamente.
+- Visualização do mapa mais limpa e legível, mesmo com muitos nós; posicionamento radial com detecção de sobreposição reduz colisões.
+- Menos perda de dados de posição ao rearrastar itens; comportamento de cliques e drags é mais consistente.
+- Módulo: textos e labels adaptam-se ao idioma em runtime sem perder estado; logs mais detalhados facilitam diagnóstico.
+
+Recomendações rápidas
+- Ao usar importação com IA, acompanhe o progresso e cancele se necessário.
+- Teste reações de tema/idioma para confirmar textos e placeholders.
+- Em caso de comportamentos inesperados, verifique se atualizou para a versão mais recente.
+- Módulo: valide cancelamento do worker em diferentes estágios e cheque logs em source/utils/LogManager para evidências úteis ao reportar bugs.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.28.0
+Data: 28 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- A tela do Método Feynman foi reformulada para ficar mais clara e fácil de usar.
+- Agora há um painel para ver a lista de conceitos e outro para editar cada conceito, com abas que guiam as etapas (Conceito → Explique → Lacunas → Revisão).
+- Campos de texto têm instruções e comportamento mais acessível; botões de ação estão mais evidentes.
+- Trocar o idioma atualiza todos os textos sem perder a seleção do nível de domínio.
+- A aparência dos campos e listas se adapta melhor aos temas (claro/escuro), mantendo tudo legível.
+
+O que muda para você
+- Criar, editar, salvar e apagar conceitos ficou mais simples e confiável.
+- Interface mais intuitiva e orientada por etapas, com placeholders que indicam o que escrever.
+- Menos confusão visual ao alternar temas; textos e áreas de edição permanecem fáceis de ler.
+- Ao mudar o idioma, você não perde a opção escolhida no seletor — menos frustração.
+- Em situações em que recursos extras não existam, o app usa controles padrão para continuar funcionando sem travar.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.27.0
+Data: 27 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Edição e gestão de tarefas mais estáveis e fáceis de usar.
+- Calendário com contadores visíveis (badges) por dia e filtros úteis.
+- Salvamento em segundo plano para evitar lentidão ao salvar suas mudanças.
+- Melhor compatibilidade ao abrir arquivos e ao alternar idioma/tema.
+
+O que muda para você
+- Editar, mover e excluir tarefas está mais confiável e rápido.
+- Calendário mostra onde há tarefas, facilitando a organização do seu dia.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.23.0
+Data: 23 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Reestruturamos internamente o aplicativo para torná‑lo mais robusto e facilitar futuras melhorias.
+
+O que muda para você
+- Mais estabilidade geral e menor risco de erros ao usar recursos como leitura e mapas mentais.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.21.0
+Data: 21 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Aperfeiçoamento da edição de tarefas e do painel de calendário, com agrupamento por horário.
+
+O que muda para você
+- Menu de contexto com opções diretas para ajustar data, hora e descrição.
+- Tarefas agrupadas por horário facilitam a visualização do seu dia.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.18.0
+Data: 18 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Inicialização do aplicativo e abertura de documentos (PDF/DOCX/TXT) mais rápidas.
+
+O que muda para você
+- Menor espera ao abrir documentos grandes e menos probabilidade de travamento durante a importação.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.17.0
+Data: 17 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Nova tela de carregamento que mostra progresso e torna a inicialização mais informativa.
+
+O que muda para você
+- Você verá feedback visual durante o início do aplicativo; inicialização mais confiável em diferentes ambientes.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.16.0
+Data: 16 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Melhor integração entre tarefas, calendário e temporizador; importação/exportação de tarefas mais segura.
+
+O que muda para você
+- Movimentar tarefas, sincronizar com o temporizador e importar/exportar listas ficou mais confiável.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.14.0
+Data: 14 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Melhorias no Método Feynman, no Kanban e no Leitor Acessível; aparência mais consistente entre temas.
+
+O que muda para você
+- Ferramentas de estudo e leitura estão mais usáveis e com menos falhas visuais.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.12.0
+Data: 12 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Integração entre Pomodoro e tarefas; persistência mais rápida e confiável.
+
+O que muda para você
+- Ciclos de foco (Pomodoro) afetam tarefas corretamente e salvamentos acontecem sem travar a interface.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.11.0
+Data: 11 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Leitura Assistida com realce sincronizado — modos por palavra, frase e parágrafo.
+
+O que muda para você
+- Ative a Leitura Assistida para acompanhar a fala com destaque no texto; o comportamento é mais estável.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.10.0
+Data: 10 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Seleção de texto em PDF melhorada; renderização e navegação mais suaves.
+
+O que muda para você
+- Selecionar, copiar e navegar em PDFs está mais preciso e rápido.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.8.0
+Data: 8 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Busca integrada no leitor (Texto e PDF) com destaque das ocorrências e navegação por resultados.
+
+O que muda para você
+- Use Ctrl+F para localizar termos no texto ou no PDF; resultados são destacados e fáceis de percorrer.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2026.1.3.0
+Data: 3 de janeiro de 2026
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Barra de menus e diálogos de Ajuda/Manual mais robustos; melhor comportamento quando recursos não estão disponíveis.
+
+O que muda para você
+- Menu e Ajuda funcionam de maneira mais previsível, mesmo em ambientes com limitações.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.12.30.0
+Data: 30 de dezembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Encerramento e limpeza de recursos mais seguros; exportação de textos mais confiável.
+
+O que muda para você
+- Menos problemas ao fechar o app e melhor experiência ao salvar/exportar documentos.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.12.28.0
+Data: 28 de dezembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Mapa Mental: layout e reorganização assistida por IA mais estáveis; melhor visualização de hierarquias.
+
+O que muda para você
+- Reorganizar mapas com IA mantém a estrutura e melhora a leitura visual do mapa.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.12.23.0
+Data: 23 de dezembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Visão Geral
+Atualização focada em tornar o calendário e o painel da Matriz de Eisenhower mais informativos, visuais e resilientes, além de reforçar o gerenciamento de sons do aplicativo (seleção, pré‑audição e repetição de alarmes). Foram feitos ajustes de aparência para evitar artefatos ao trocar tema e melhorias de robustez para reduzir falhas em cenários adversos.
+
+Principais mudanças
+- Calendário mais útil
+  - Dias com tarefas exibem contadores visuais (badges) por dia/semana/mês.
+  - Datas com tarefas são destacadas visualmente; filtros permitem ver itens por Dia, Semana ou Mês.
+  - Lista de tarefas do calendário é filtrada e ordenada conforme o período selecionado; mostra placeholder quando vazia.
+  - Ferramentas de navegação e redimensionamento do painel foram aprimoradas para comportamento mais previsível.
+
+- Sincronização de aparência
+  - Componentes internos (listas, campos e viewports) se adaptam melhor à paleta do app, reduzindo artefatos visuais ao alternar temas claro/escuro.
+  - Texto e formatos de data/hora reaplicam ao mudar o idioma sem exigir reinício.
+
+- Controles e detalhes visuais
+  - Botão lateral (aba rotacionada) e contornos de campos receberam ajustes para pintura e dimensionamento mais estáveis, evitando recortes e artefatos.
+  - Pequenas melhorias de estilo garantem aparência consistente entre módulos.
+
+- Gerenciamento de som reforçado
+  - Lista de sons disponível para escolha com pré‑audição rápida (preview).
+  - Preferência de som e intervalo de repetição são salvos entre sessões.
+  - Alarmes repetitivos funcionam de forma previsível: áudio toca, aguarda (duração do som + intervalo configurado) e repete até ser parado.
+  - Ação de parar interrompe imediatamente reprodução e repetição; pré‑audição não altera a seleção persistida.
+  - Fallbacks e tratamento de arquivos inválidos garantem comportamento seguro mesmo quando um som estiver ausente ou corrompido.
+
+Robustez e logs
+- Diversas proteções foram adicionadas para evitar que erros de pintura, locale, paleta ou áudio travem a interface.
+- Logs foram ampliados para facilitar diagnóstico em caso de problemas, sem impactar a experiência do usuário.
+
+Como verificar rapidamente
+1. Abrir a Matriz de Eisenhower e criar tarefas com datas/horários.
+2. Abrir o painel/diálogo do calendário:
+   - Conferir badges nas datas e destaque nas datas com tarefas.
+   - Alternar entre Dia/Semana/Mês e verificar lista filtrada/ordenada.
+3. Trocar idioma e confirmar atualização de textos e formatos de data/hora.
+4. Trocar tema (claro/escuro) e verificar que listas e dropdowns não apresentam artefatos.
+5. Testar som:
+   - Abrir configurações de som, pré‑ouvir um som, salvar a seleção e iniciar um alarme repetitivo; confirmar que repete no intervalo esperado e que parar interrompe o ciclo.
+   - Testar comportamento com som ausente ou inválido para confirmar fallback seguro.
+
+O que muda para você
+- Calendário mais informativo e visualmente consistente com o tema do app.
+- Melhor experiência ao trocar idioma e tema.
+- Alarmes sonoros mais previsíveis, com pré‑audição, persistência de preferência e repetição controlada até confirmação.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.12.22.0
+Data: 22 de dezembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Correções no arrastar e soltar de tarefas e melhorias na edição de horários.
+
+O que muda para você
+- Arrastar tarefas não causa remoções indesejadas; edição de horário é mais simples.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.12.21.0
+Data: 21 de dezembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Melhorias gerais na interface, Pomodoro e Kanban; mais estabilidade e usabilidade.
+
+O que muda para você
+- Fluxos comuns (foco, mover tarefas, buscar) estão mais previsíveis e com menos erros.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.12.20.0
+Data: 20 de dezembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Preservação de mapas importados e paleta de cores melhor para mapas mentais.
+
+O que muda para você
+- Importações ficam mais seguras e as cores dos mapas são mais consistentes em profundidades grandes.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.12.13.0
+Data: 13 de dezembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Integração entre Mapa Mental e Método Feynman: envie conceitos do mapa para revisão com um botão.
+
+O que muda para você
+- Facilita transformar ideias do mapa em itens de estudo no Método Feynman.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.12.2.0
+Data: 2 de dezembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Pomodoro com alarme configurável: escolha da campainha, pré‑audição e intervalo de repetição.
+- O alarme toca assim que o ciclo termina e repete até você fechar a janela de aviso.
+
+O que muda para você
+- Configure a campainha e o intervalo em ⚙️ Configurações → Som; use ▶️ para ouvir antes de salvar.
+- Ao terminar um ciclo, o alerta aparece e o som toca imediatamente; ao fechar o alerta o som para.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.11.29.0
+Data: 29 de novembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Correção da pausa na Leitura Assistida: quando você pausa a narração, ela permanece pausada até que você retome.
+
+O que muda para você
+- Ao clicar em "⏸️ Pausar" a reprodução interrompe e novos trechos gerados ficam na fila; pressione ▶️ para continuar a partir dali.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO — Lúmen
+Versão: 2025.11.26.0
+Data: 26 de novembro de 2025
+Autor: Fernando Nillsson Cidade
+
+Resumo para usuários
+- Primeira versão alfa do Lúmen: leitor acessível, ferramentas de organização (Matriz de Eisenhower, Kanban), Pomodoro, mapas mentais e Método Feynman.
+
+O que muda para você
+- Recursos para estudar e organizar tarefas: leitura assistida com controle de voz, régua de foco, criação de mapas mentais e um temporizador de estudo integrado.
+- Suporte inicial a pt‑BR e en‑US; opções de exportação/importação para formatos comuns.
+
+_________________________________________________
+
+Observações finais
+- As versões listadas trouxeram melhorias focadas em estabilidade, performance e usabilidade para usuários leigos.
+- Caso encontre problemas, relate com passos para reproduzir e, se possível, o arquivo ou texto usado.
+
+Suporte e contato
+- Relate bugs e contribuições pelo repositório do projeto; para questões de licença/privacidade, entre em contato por e‑mail.
+
+Notas legais e licenças
+- Documentos de licença e avisos estão incluídos no pacote de distribuição (EULA, Política de Privacidade e Notices).
+
+Obrigado,
+Fernando Nillsson Cidade

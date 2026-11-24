@@ -1,0 +1,40 @@
+COMMERCIAL LICENSE AGREEMENT - AUDIOBOOK MODULE
+Product: integrated module for Eisenhower Organizer
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+This Agreement supplements the Eisenhower Organizer EULA and governs commercial use of the Audiobook module when licensed separately or acquired as an in-app purchase through Microsoft Store.
+
+1. Module nature
+Audiobook is an module for Eisenhower Organizer. It is not a standalone application. The license unlocks reading of text and PDFs, playback controls, voice/font preferences, search, assisted reading, and temporary audio generation.
+
+2. License
+Licensor grants a limited, non-exclusive, non-transferable, revocable license to use the module with a licensed copy of Eisenhower Organizer, according to the purchased tier.
+
+3. Microsoft Store
+When acquired through Microsoft Store, the module operates as a durable digital product, unless configured differently in Partner Center. Microsoft Store may process payment, refund, installation, update, and license verification associated with the user's Microsoft account.
+
+4. Voice services
+Features based on Edge TTS or an equivalent service may depend on network connectivity, availability, policies, and provider terms. Text selected for reading may be sent to the voice service only when the user starts that feature.
+
+5. User content
+The user is responsible for rights in texts, PDFs, and materials converted to audio. The module does not grant permission to infringe copyright or distribute audio generated from protected material.
+
+6. Technical lock
+The module may be shipped inside the parent application package. Access to its features must remain locked until an active license is confirmed. Bypassing, modifying, or removing this control is prohibited.
+
+7. Support
+Commercial support covers only the documented operation of the module on supported versions of Eisenhower Organizer and Windows, with no guarantee regarding continuous availability of external voice services.
+
+8. Restrictions and liability
+The same restrictions, warranty limitations, liability limitations, intellectual property rules, and termination terms stated in the EULA and Commercial Agreement for the parent application apply.
+Open-source license reservation: Nothing in this Agreement restricts rights granted by third-party open-source licenses included with the Software. For LGPL-covered components, including Qt and FFmpeg where shipped, the recipient may replace or relink compatible shared libraries and may reverse engineer only to the extent necessary to debug modifications to those LGPL components, as permitted by the applicable LGPL. The license texts, third-party notices, source offer, and FFmpeg build configuration are included in LICENSES and NOTICES.
+
+9. Legal note
+This model should be reviewed by legal counsel before publication or contractual use.
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA) & OFFICIAL COMMERCIAL SCOPE
+1. Dual-Licensing Boundary: Public source code of EISENHOWER ORGANIZER is open source under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp), granting full freedom to inspect, compile, modify, and fork. This Commercial Licensing Agreement (CLC) applies exclusively to the author's official digitally signed binary editions (Microsoft Store ID 9P289X0185C3 — with a 7-day trial via TrialManager — and Individual, Small Business, or Enterprise commercial tiers).
+2. Freedom on source/assets/ for Open-Source Forks: Developers maintaining independent GNU AGPLv3 forks are expressly authorized to modify, remove, or adapt all compliance texts in source/assets/, provided they remove the author's exclusive trademarks ("EISENHOWER ORGANIZER" and "LÚMEN") and never resell the author's official signed binaries.
+3. Support & "AS IS" Disclaimer: Commercial support covers solely the official package published by the Licensor (contact: linceu_lighthouse@outlook.com); Microsoft provides no customer support. All outputs (including Qwen/Ollama local AI and 4D BIM Gantt CPM calculations — never replacing licensed ART/RRT engineering sign-off) are auxiliary tools supplied "AS IS", preserving all LGPLv3/LGPLv2.1+ rights over Qt 6.12.0 and FFmpeg n9.0.1.

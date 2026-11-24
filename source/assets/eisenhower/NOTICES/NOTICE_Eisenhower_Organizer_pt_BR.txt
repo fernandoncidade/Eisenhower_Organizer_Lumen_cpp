@@ -1,0 +1,34 @@
+AVISO DE LICENÇAS E ATRIBUIÇÕES DE TERCEIROS - EISENHOWER ORGANIZER
+Produto: Matriz de Eisenhower
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Este arquivo resume componentes de terceiros e referências de plataforma usados ou potencialmente incluídos na distribuição do Eisenhower Organizer. Os textos completos das licenças devem acompanhar o pacote, o instalador ou a pasta LICENSES.
+
+1. Qt 6
+Uso: interface gráfica, internacionalização, recursos visuais, arquivos de tempo de execução, plugins de plataforma e funcionalidades auxiliares.
+Licença: conforme a edição e os módulos Qt usados na compilação, incluindo obrigações da LGPL quando aplicáveis.
+Referências: https://www.qt.io/ e https://doc.qt.io/
+
+2. Windows e Microsoft Store
+Uso: sistema operacional, distribuição, instalação, compra no aplicativo, atualização e validação de licença quando o produto for adquirido pela Store.
+Observação: Microsoft, Windows e Microsoft Store são marcas da Microsoft. A referência é descritiva e não concede direito sobre marcas, logotipos ou serviços Microsoft.
+
+3. Módulos
+Os módulos integrados Pomodoro, Feynman, Mapa Mental, Audiolivro, Gantt & BIM 4D, Agenda de Avaliações e Modelo Qwen de IA Local podem ser entregues no mesmo pacote do aplicativo pai. Cada módulo integrado possui aviso próprio nesta documentação.
+
+4. Dados e privacidade
+Este aviso não substitui a Política de Privacidade. Consulte a política correspondente para informações sobre dados locais, compras no aplicativo e eventuais serviços externos.
+
+5. Licenças completas e oferta de código-fonte
+Consulte a pasta source/assets/LICENSES ou o local equivalente na distribuição final para Apache 2.0, BSD, ISC, LGPL 2.1, LGPL 3, GPL 3, MIT, PSF, FFmpeg, LLVM OpenMP, MinGW/GCC runtime, llama.cpp, SQLite, Zlib, DirectX/DXC, avisos redistribuíveis Microsoft e demais textos aplicáveis ao pacote efetivamente entregue. Consulte também OPEN_SOURCE_SOURCE_OFFER_pt_BR.txt e THIRD_PARTY_COMPONENT_NOTICES.txt.
+
+6. Atualização
+Este aviso deve ser revisado sempre que novas bibliotecas, modelos, componentes de tempo de execução, codecs, ferramentas ou serviços forem adicionados ao produto.
+
+--------------------------------------------------------------------------------
+REGIME DE DUPLO LICENCIAMENTO (GNU AGPLv3 / EULA OFICIAL) E ATUALIZAÇÃO DE TOOLCHAIN (C++23 / Qt 6.12.0)
+- Código-Fonte do Projeto EISENHOWER ORGANIZER: Licenciado sob GNU Affero General Public License v3 (GNU AGPLv3). O texto integral acompanha este pacote em LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt e https://www.gnu.org/licenses/agpl-3.0.html.
+- Edições Oficiais Microsoft Store: Regidas por EULA Oficial e CLC do autor sem restringir direitos LGPLv3/LGPLv2.1+ (Qt 6.12.0 e FFmpeg-n9.0.1: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll).
+- Runtime MSVC & MinGW: Compilações Pure MSVC (MSVC 14.52) utilizam apenas DLLs app-local do VC++ Runtime (sem vc_redist.x64.exe); compilações MinGW-w64 15.1.0 incluem libgcc, libstdc++ e libwinpthread sob GPLv3 + GCC Runtime Library Exception 3.1.
+- IA Local Sob Demanda: Motor llama.cpp b8987 (CPU/Vulkan) sob Licença MIT e pesos opcionais Qwen2.5-3B-Instruct sob Licença Apache 2.0 (baixados apenas sob demanda pelo usuário), além de integração local com servidor Ollama (localhost:11434).

@@ -1,0 +1,34 @@
+Privacy Policy - Local Qwen AI Model Module
+Product: LÚMEN
+Module ID: modulo_modelo
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy outlines the privacy practices of the integrated Local Qwen AI Model module in LÚMEN. The module was developed around the Privacy by Design philosophy, executing 100% on the user's hardware.
+
+1. Core Principle: Local Sovereignty and Privacy
+- All AI processing executes directly on the local CPU and GPU of the user's machine.
+- The application NEVER transmits your texts, prompts, notes, or documents to any cloud server or remote AI service.
+- An internet connection is not required to use this module.
+
+2. Processed Data
+- Texts and notes voluntarily provided by the user for summarization or mind map generation.
+- Hierarchical topic structures generated temporarily during inference.
+- Local model configuration files and context parameters.
+
+3. Retention and Security
+- Text submitted to the model exists in system RAM only during inference and is discarded immediately after, unless saved by the user as part of a mind map or note.
+- No logs containing the private content of AI prompts are retained.
+
+4. No Analytics or Tracking
+- The module contains no tracking identifiers, behavioral profiling, or analytical telemetry.
+
+--------------------------------------------------------------------------------
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT AND SUPPORT AND ON-DEMAND NETWORK TRANSPARENCY
+1. Independence from Microsoft (Microsoft Store Policy 10.5): Microsoft does NOT provide a default privacy policy for LÚMEN, and this application is NOT covered by Microsoft's Privacy Statement. Microsoft does not provide customer support (developer contact: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Local Storage Paths: User files live under %LOCALAPPDATA%\Lumen (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db in Agenda, gantt_database.db in Gantt, and logs/file_*.log) with zero telemetry and zero mandatory accounts.
+3. Optional User-Initiated Network Operations:
+   - Local AI Model (Qwen 2.5 GGUF): optional HTTPS download from Hugging Face (with HTTP Range pause/resume and disk deletion); subsequent llama.cpp inference sends zero data externally.
+   - Local Ollama: strictly loopback HTTP queries to http://127.0.0.1:11434 when triggered by the user.
+   - Edge TTS (Audiobook): selected reading text is sent to the speech service only when the user explicitly selects an online voice; local Windows SAPI voices stay 100% offline.
+   - Gantt REST API / Webhooks: disabled by default; listens or dispatches events only when explicitly enabled by the user with SecurityService.

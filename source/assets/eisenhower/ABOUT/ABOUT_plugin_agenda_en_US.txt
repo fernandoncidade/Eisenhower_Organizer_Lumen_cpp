@@ -1,0 +1,31 @@
+Project: EISENHOWER ORGANIZER
+Module: Assessment Agenda & Activity Tracker
+Product ID: modulo_agenda
+Version: 2026.11.22.0
+Author: Fernando Nillsson Cidade
+
+Description:
+The integrated Assessment Agenda & Activity Tracker module brings comprehensive chronological planning, logging, and tracking of assessments, exams, deadlines, and academic/professional commitments to EISENHOWER ORGANIZER. It runs as a native built-in component of the main application.
+
+Key features:
+- Registration, editing, prioritization, and deletion of activities and assessments.
+- Organization by dates, times, categories, weights, grades, and completion status.
+- Chronological list view and integration with calendar view.
+- Structured local persistence in a local SQLite database within the user's profile.
+- Local bidirectional synchronization with the main Eisenhower Matrix tasks and priorities.
+- Activity export and import for local archiving and reporting.
+
+Data and connectivity:
+- The module operates 100% locally on the device.
+- All database tables, records, and preferences remain strictly under user control in the local database file.
+- No agenda details, commitments, or grades are transmitted to external servers.
+- See this module's specific Privacy Policy and License terms.
+
+Support:
+- Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA), C++23 / Qt 6.12.0 ARCHITECTURE & AUXILIARY SCOPE ("AS IS")
+- Technology & Clean Builds: Natively compiled in strict C++23 with Qt 6.12.0 across Pure MSVC x64 (Visual Studio 18 2026 / MSVC 14.52, app-local CRT without vc_redist.x64.exe) and MinGW-w64 15.1.0, continuously verified across 11 automated CTest suites (Qt6: Compilar e Executar SUITE (MSVC) / Qt6: Compilar e Executar SUITE (MinGW)).
+- Dual Licensing: Open-source code under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp) with express fork freedom on source/assets/ once exclusive trademarks are removed; official digitally signed Microsoft Store edition (ID 9P289X0185C3) under the author's Official EULA and CLC (Fernando Nillsson Cidade). Best-effort voluntary developer support strictly at linceu_lighthouse@outlook.com (Microsoft provides no customer support).
+- Auxiliary Scope ("AS IS"): Auxiliary productivity, cognitive-accessibility, and scheduling tool provided "AS IS" without warranties; Local AI outputs (Qwen/Ollama) are probabilistic aids and 4D BIM Gantt CPM schedules never replace independent verification or licensed ART/RRT engineering sign-off.

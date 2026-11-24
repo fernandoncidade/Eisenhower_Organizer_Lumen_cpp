@@ -1,0 +1,1605 @@
+NOTAS DE LANÇAMENTO: Versão 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Resumo Geral
+Esta versão consolida melhorias importantes de desempenho, estabilidade, clareza informativa e organização geral em todo o aplicativo. O programa agora opera sobre uma base modernizada, oferecendo inicialização ágil, instalação mais leve e limpa, verificação completa da qualidade de todas as ferramentas integradas e documentação totalmente renovada dentro da janela "Sobre" e nos guias de uso, mantendo intacta a alternância imediata entre Português e Inglês.
+
+Novidades, Ajustes e Melhorias
+
+1. Desempenho, Estabilidade e Compatibilidade Aprimorados
+- Base Modernizada em Todos os Recursos: O aplicativo principal e todas as áreas integradas (Matriz de Eisenhower, Pomodoro, Método Feynman, Mapa Mental, Audiolivro, Agenda, Cronograma de Projetos e Inteligência Artificial Local) receberam atualização estrutural completa para garantir resposta mais rápida, maior estabilidade durante o uso contínuo e melhor compatibilidade com versões atuais do Windows.
+- Inicialização Mais Fluida: Otimizações internas tornam a abertura do programa, a troca entre abas e a gravação das suas tarefas ainda mais suaves no dia a dia.
+
+2. Instalação Mais Enxuta, Rápida e Limpa
+- Pacote de Instalação Otimizado: Os arquivos de instalação foram cuidadosamente enxugados para incluir apenas os recursos realmente necessários para o funcionamento completo do aplicativo, reduzindo o tamanho do instalador sem exigir downloads adicionais separados para funcionar.
+- Instalação e Remoção Limpas: Instalação mais ágil no computador e desinstalação organizada pelo sistema operacional, sem deixar componentes desnecessários no equipamento.
+
+3. Qualidade e Confiabilidade Verificadas de Ponta a Ponta
+- Validação Abrangente das Funcionalidades: Todos os recursos do programa — organização em quadrantes, edição de tarefas, calendário, ciclos de foco, estudos ativos, mapas mentais, leitura assistida com voz, agendas personalizadas, cronogramas com simulação e inteligência artificial local — passaram por verificações rigorosas para prevenir falhas e assegurar resultados consistentes.
+
+4. Transparência de Licenciamento e Documentação Renovada na Janela "Sobre"
+- Esclarecimento Claro de Licenças: A janela "Sobre" e os documentos informativos internos foram revisados em Português e Inglês com linguagem transparente sobre o duplo licenciamento (uso livre da versão aberta e condições comerciais da edição oficial de loja), além da inclusão do texto integral da licença aberta para leitura direta no aplicativo.
+- Privacidade Independente e Uso Auxiliar: Informações reforçadas destacando que seus dados e anotações permanecem armazenados localmente no seu computador, sem coleta automática, e que as ferramentas oferecem apoio auxiliar sujeito à conferência do usuário.
+
+5. Acabamento Visual, Idiomas e Guias Atualizados
+- Padronização de Ícones e Acabamento: Ajuste na organização visual dos ícones exibidos pelo aplicativo no sistema operacional.
+- Guias e Manual Integrado Atualizados: O manual de uso acessível pelo aplicativo e as orientações de ajuda foram atualizados para refletir com exatidão os menus, atalhos, opções da janela "Sobre" e o comportamento atual das ferramentas, preservando a tradução instantânea entre Português e Inglês sem reiniciar.
+
+Observações Importantes:
+- Preservação Estrita de Dados: Todas as suas tarefas, configurações, mapas mentais, históricos, cronogramas e preferências salvas permanecem intactas e protegidas durante a atualização.
+- Atualização Não Destrutiva: O instalador jamais remove arquivos ou tarefas pessoais.
+- Total Privacidade: Todas as operações principais e a inteligência artificial local acontecem no seu próprio computador, preservando seus dados sem coleta externa.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.10.8.0
+Data: 8 de outubro de 2026
+
+Resumo Geral
+Esta versão consolida e unifica um grande salto evolutivo no aplicativo, reunindo aprimoramentos fundamentais de desempenho, usabilidade, organização visual, controle de projetos e privacidade. O pacote de instalação tornou-se extremamente leve e ágil, pois o modelo de inteligência artificial agora é gerenciado sob demanda pelo usuário. Uma nova central interativa de download permite baixar, pausar, retomar ou excluir o modelo local com total transparência e controle de espaço em disco. O aplicativo passa a contar com um assistente integrado para conexão com o Ollama, acompanhamento em tempo real do status de instalação nos menus, síntese inteligente de mapas mentais com método alternativo automático caso o modelo não esteja instalado, nova experiência de edição responsiva de tarefas, sincronização imediata de ciclos de foco no Pomodoro com prevenção de divergências, visualização de tarefas em andamento no calendário, layouts aprimorados na Matriz de Eisenhower (modos 2x2, vertical e horizontal com recolhimento inteligente), integração profunda com cronogramas de projetos (simulação visual 4D, intercâmbio com Microsoft Project e planilhas, calendários de dias úteis e diário de obra), personalização independente de fontes e cores por módulo e suporte completo à troca instantânea de idiomas em todas as telas e diálogos.
+
+Novidades, Ajustes e Melhorias
+
+1. Gerenciamento Inteligente de Inteligência Artificial e Download sob Demanda
+- Instalador Muito Mais Leve: O pacote de instalação do aplicativo foi reduzido em mais de 2 gigabytes, tornando o download e a instalação muito mais rápidos e práticos.
+- Gerenciador do Modelo Local (Qwen 2.5): Uma nova janela interativa e intuitiva permite baixar o modelo de inteligência artificial diretamente do provedor quando você desejar. A tela informa a barra de progresso, velocidade de transferência, volume baixado e tempo estimado, além de oferecer botões para pausar, retomar, cancelar o download, abrir a pasta no computador ou excluir o arquivo para liberar espaço em disco (~2,17 GB) a qualquer momento.
+- Indicador Dinâmico nos Menus: O menu de configurações agora mostra instantaneamente se o modelo está "[Instalado]" ou "[Não instalado]", atualizando-se no mesmo segundo em que o download é concluído ou o arquivo é removido.
+- Acesso Rápido para Download e Gestão: Um novo item de menu ("Como baixar ou gerenciar modelo Qwen (GGUF)...") permite abrir a janela de download com apenas um clique.
+- Guia de Integração com Ollama: Uma janela de instruções passo a passo explica de forma simples como usar o modelo através do Ollama, com botões para copiar comandos com um clique e botão de teste de conexão.
+- Síntese Inteligente com Contingência Automática: O gerador de mapas mentais analisa documentos e constrói resumos conceituais claros. Caso o modelo de inteligência artificial não esteja instalado no computador, o sistema utiliza automaticamente o método heurístico inteligente, garantindo que o seu mapa mental seja criado sem falhas ou interrupções.
+
+2. Matriz de Eisenhower e Organização de Tarefas Aprimorada
+- Layouts Flexíveis (2x2, Vertical e Horizontal): Novos modos de visualização em abas permitem exibir os quatro quadrantes simultaneamente (modo 2x2) ou organizar as seções verticalmente ou horizontalmente. No modo horizontal, as seções podem ser recolhidas de forma compacta com títulos rotacionados e molduras elegantes para aproveitar melhor monitores largos.
+- Gestão Dedicada de Tarefas "Em Progresso": Cada quadrante conta com sua própria lista de tarefas em andamento, permitindo arrastar e soltar tarefas livremente entre as listas "Pendentes", "Em Progresso" e "Concluídas".
+- Resposta Instantânea ao Salvar: Ao confirmar a edição de qualquer tarefa, a janela responde e fecha imediatamente, salvando as informações suavemente em segundo plano e sem congelamentos na tela.
+- Exibição de Tarefas em Andamento no Calendário: O quadro de tarefas do calendário e as notificações de datas agora exibem o selo destacado "[Em Progresso]" com tradução dinâmica e interação rápida por clique duplo.
+- Remoção Segura de Tarefas: Diálogos preventivos de confirmação para exclusão de tarefas individuais, exclusão em lote e limpeza geral, com a opção negativa selecionada por padrão para evitar perdas acidentais.
+
+3. Nova Janela Inteligente de Edição de Tarefas e Controle de Foco
+- Interface Responsiva: A janela de edição de tarefas se adapta dinamicamente ao tamanho da tela (coluna única em telas menores e duas colunas organizadas em telas amplas), oferecendo espaço confortável para anotações e controles de prazos.
+- Cálculo Automático de Conclusão: Cartões informativos ao passar o mouse sobre as tarefas mostram o progresso de 0% a 100% calculado a partir dos ciclos de foco realizados ou do avanço físico do cronograma.
+- Prevenção de Divergência de Metas no Pomodoro: Ao iniciar o foco com tarefas em andamento, o temporizador verifica se as metas de cada atividade coincidem com o ciclo atual e apresenta uma tabela comparativa com opções práticas de alinhamento.
+- Modo Automático no Pomodoro: Opção de avançar automaticamente entre os períodos de foco e descanso com número configurável de toques do alarme.
+
+4. Cronograma de Projetos, Engenharia e Intercâmbio de Dados
+- Integração Direta pelo Menu de Contexto: Transforme tarefas do dia a dia em atividades do cronograma, vincule etapas e lance porcentagens de avanço físico com anotações de campo diretamente pelo botão direito do mouse.
+- Simulação Visual Construtiva (4D): Reprodução visual da evolução das etapas do projeto ao longo do tempo, com linha do tempo ajustável e controles de reprodução.
+- Compatibilidade com Microsoft Project e Planilhas: Importação e exportação de arquivos de cronograma no formato do Microsoft Project e assistente visual para tabelas em planilhas eletrônicas.
+- Calendários de Dias Úteis e Feriados: Configuração de dias úteis da semana e cadastro de feriados, permitindo calcular datas finais de projetos com exatidão descontando dias não trabalháveis.
+- Diário de Obra e Auditoria: Registro de ocorrências de campo e acompanhamento transparente de alterações no planejamento.
+
+5. Personalização Visual, Cores e Tipografia Independente
+- Configuração de Cores por Módulo e Geral: Controle independente dos modos visuais "Preto" (adaptável ao tema claro ou escuro) e "Coloridas" (destaque por disciplina) para Eisenhower, Pomodoro e Feynman, ou modo geral unificado.
+- Configurações de Fontes Específicas: Ajuste individual de fontes, estilos, tamanhos e formatações para tarefas gerais e tarefas com arquivos vinculados, além de configurações próprias para Pomodoro, Feynman e nós do Mapa Mental.
+- Sublinhado e Formatação com Precisão Visual: Correção do alinhamento vertical dos sublinhados em títulos com múltiplas linhas e calibração precisa do espaço de emojis e insígnias.
+- Centralização de Botões e Acabamento: Textos, ícones e botões perfeitamente alinhados e centralizados em todas as telas.
+
+6. Tradução Dinâmica Instantânea e Experiência Fluida
+- Alternância Imediata de Idiomas: Troca em tempo real entre Português e Inglês em todos os menus, botões, diálogos, telas de ajuda, janelas sobre e mensagens do sistema, sem necessidade de reiniciar o programa.
+- Síntese de Voz Estabilizada no Audiolivro: Catálogo de vozes protegido contra interrupções momentâneas, com suporte a mais de 300 vozes e exibição amigável dos idiomas.
+
+
+7. Modernização C++23 / Qt 6.12.0, Suíte de Testes (11 Alvos CTest) e Duplo Licenciamento
+- C++23 e Qt 6.12.0: Base de código e os 7 módulos integrados migrados para C++23 estrito e Qt 6.12.0 (FFmpeg-n9.0.1, Pure MSVC 14.52 e MinGW-w64 15.1.0).
+- Distribuições Limpas e Instaladores Compactos: Pacotes MSVC utilizam CRT app-local sem embutir vc_redist.x64.exe, reduzindo drasticamente o tamanho do instalador final de EISENHOWER ORGANIZER.
+- Suíte de Engenharia de Software (11 Executáveis CTest): Suíte unificada em tests/ compilada exclusivamente em build_suite_testes_msvc e build_suite_testes_mingw (11/11 aprovados em ambos os compiladores, sem distribuição externa).
+- Duplo Licenciamento e Conformidade: Código-fonte público sob GNU AGPLv3 (LICENSE e LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt) com liberdade expressa em source/assets/ para forks (removidas as marcas exclusivas), coexistindo com a edição oficial Microsoft Store (ID 9P289X0185C3) sob EULA e CLC e avisos claros de uso auxiliar "AS IS".
+
+Observações Importantes:
+- Preservação Estrita de Dados: Todas as tarefas, configurações, mapas mentais, históricos, cronogramas e preferências salvas permanecem intactas e protegidas durante o processo de atualização.
+- Atualização Não Destrutiva: O atualizador jamais remove arquivos ou tarefas pessoais.
+- Total Privacidade: Todas as funcionalidades e modelos de inteligência artificial operam diretamente no seu computador, mantendo seus documentos e anotações sob sigilo absoluto e sem depender da internet.
+- Disponibilidade de Módulos: Os recursos estendidos funcionam harmoniosamente de acordo com os módulos disponíveis na sua instalação.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.6.18.0
+Data: 18 de junho de 2026
+
+Resumo geral
+Esta atualização melhora a organização da Matriz de Eisenhower e torna a alternância entre tarefas pendentes e concluídas mais clara. A versão adiciona um novo layout em matriz 2x2, padroniza molduras e alinhamentos dos quadros de tarefas, melhora a apresentação da Lista Global de Tarefas do calendário, refina a experiência no Método Feynman e no Pomodoro, corrige o uso da caixa de seleção em tarefas já selecionadas e amplia o arraste de tarefas entre abas e quadros.
+
+Novidades na Matriz de Eisenhower:
+- Adicionado o novo layout "Layout Matriz 2x2", disponível em "Configurações > Layout de Tarefas > Interface do Usuário > Matriz de Eisenhower".
+- O novo layout mostra os quatro quadrantes ao mesmo tempo, organizados em duas linhas e duas colunas: Importante e Urgente; Importante, mas Não Urgente; Não Importante, mas Urgente; Não Importante e Não Urgente.
+- Cada quadrante agora possui as abas "Pendente" e "Concluídas", separando tarefas em andamento ou abertas das tarefas já finalizadas.
+- As abas do novo layout acompanham a troca de idioma em tempo de execução.
+
+Melhorias visuais e de organização:
+- As abas "Pendente" e "Concluídas" foram alinhadas à esquerda e aproximadas do quadro de tarefas para deixar a leitura mais direta.
+- Cada quadrante da matriz 2x2 recebeu uma moldura própria em torno das tarefas, deixando os quadros mais definidos.
+- A Lista Global de Tarefas do calendário recebeu uma moldura em linha, com o título integrado à própria linha, deixando o painel mais consistente com os demais layouts.
+- O "Layout em Quadrantes" passou a usar o mesmo padrão de molduras em linha usado nos outros modos de visualização.
+- As molduras dos layouts "Layout em Abas", "Layout em Quadrantes" e "Layout Matriz 2x2" foram alinhadas para manter a mesma altura visual em relação à borda da janela.
+- Os rótulos dos quadrantes foram ajustados para manter um visual mais padronizado com os demais métodos.
+- As abas receberam cores coerentes com os quadrantes: pendentes usam as cores de prioridade e concluídas usam azul.
+
+Melhorias no Método Feynman:
+- A caixa "Minhas Tarefas:" recebeu uma moldura em linha, com o título integrado à moldura.
+- No modo "Abas", as áreas "Conceito", "Explique com Simplicidade", "Lacunas Identificadas", "Revisão e Simplificação Final" e "Descrição" passaram a usar o mesmo visual de moldura dos modos "Horizontal" e "Vertical".
+- A troca entre os layouts "Abas", "Vertical" e "Horizontal" ficou mais estável, mantendo a largura da área "Minhas Tarefas:" sem encolher de forma inesperada.
+- A área "Minhas Tarefas:" passa a iniciar com largura mínima adequada, deixando mais espaço para a área de estudo.
+
+Melhorias no Pomodoro:
+- A área vertical onde fica o "Timer" passa a iniciar com largura mínima adequada, deixando a divisão da tela mais previsível.
+
+Melhorias no uso das tarefas:
+- Agora é possível arrastar uma ou várias tarefas e soltar diretamente sobre qualquer aba disponível, incluindo "Pendente" e "Concluídas" da matriz 2x2.
+- Ao soltar uma tarefa em "Concluídas", ela passa para o quadro de concluídas; ao soltar em "Pendente", ela volta para o quadro de pendentes.
+- O arraste entre quadrantes e entre estados ficou mais previsível nos layouts da Matriz de Eisenhower.
+
+Correções e ajustes:
+- Corrigido o comportamento da caixa de seleção quando a tarefa já estava selecionada.
+- Agora, ao clicar na caixa de seleção de uma tarefa selecionada, a tarefa é marcada ou desmarcada imediatamente.
+- Ao selecionar uma tarefa em outra prioridade ou em outra lista de concluídas, a seleção anterior é removida corretamente.
+- Marcar uma tarefa move corretamente para "Concluídas"; desmarcar uma tarefa concluída move corretamente de volta para "Pendente".
+- O comportamento foi ajustado para funcionar nos três modos de layout da Matriz de Eisenhower.
+- As novas opções e rótulos foram preparados para tradução dinâmica.
+
+Manual e documentação:
+- O manual foi atualizado com instruções sobre como ativar e usar o Layout Matriz 2x2.
+- A documentação explica como concluir tarefas, devolver tarefas para pendentes e arrastar uma ou várias tarefas entre abas.
+- README, observações do projeto e notas de lançamento foram alinhados à versão 2026.6.18.0.
+
+Observações:
+- Esta atualização preserva as tarefas e preferências existentes.
+- O novo layout pode ser ativado ou desativado pelas configurações de layout de tarefas.
+- A organização das tarefas existentes é reaproveitada no novo layout sem exigir migração manual.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.6.15.0
+Data: 15 de junho de 2026
+
+Resumo geral
+Esta atualização amplia a integração entre o Eisenhower Organizer e seus recursos opcionais. A versão deixa as janelas auxiliares mais previsíveis, reforça a tradução em tempo de execução e ajusta a preparação da versão final para reconhecer melhor os módulos disponíveis.
+Também melhora o uso da lista global do calendário e amplia as instruções do manual para refletir os fluxos atuais.
+
+Melhorias gerais do aplicativo:
+- A janela principal e as janelas auxiliares passam a se comportar de forma mais natural: quando uma delas é ativada, ela vem para frente, e a outra pode ficar atrás sem bloquear o uso.
+- Ao fechar o aplicativo principal, janelas auxiliares abertas também são encerradas corretamente.
+- A troca de idioma em tempo de execução ficou mais consistente em menus, botões e janelas relacionadas aos recursos opcionais.
+- A geração da versão final foi ajustada para reconhecer melhor os módulos opcionais incluídos no pacote.
+- A exibição do progresso durante a geração do aplicativo ficou mais clara, mostrando percentuais de andamento quando disponível.
+- A Lista Global de Tarefas ficou mais estável ao remover uma ou várias tarefas diretamente pelo menu de contexto.
+- O manual e os documentos de apoio foram complementados com orientações mais claras sobre lista global, recursos opcionais e persistência local.
+
+Novo Registro de Atividades:
+- Foi adicionada a funcionalidade "Registro de Atividades" como recurso opcional, disponível nos menus "Configurações > Módulos > Registro de Atividades" e "Ferramentas > Registro de Atividades" somente quando o módulo estiver presente.
+- A nova janela "Cadastro de Atividades" permite registrar atividades a partir de curso, ementa, semestre, disciplina, turma, tipo de atividade, sequência, data, horário, prioridade e nível de domínio.
+- A interface da Agenda foi reorganizada em duas áreas para deixar o preenchimento mais claro: as listas de seleção ficam de um lado, enquanto calendário, data, horário e botões ficam do outro.
+- O botão "Limpar" foi adicionado para desfazer as seleções feitas, mantendo as opções padrão de prioridade e nível de domínio disponíveis.
+- O botão "Fechar" foi adicionado para encerrar a janela de forma direta.
+- A prioridade padrão da atividade agora é "Importante e Urgente".
+- A opção "Vincular horário" fica habilitada por padrão para facilitar o cadastro de atividades com hora definida.
+- A janela da Agenda não pode mais ser maximizada, mantendo um tamanho mais compacto e adequado ao cadastro.
+- As atividades registradas pela Agenda passam a entrar como tarefas no Eisenhower Organizer e também podem acompanhar Pomodoro e Método Feynman quando a sincronização estiver ativa.
+- As informações de prioridade, nível de domínio, data e horário deixam de ser repetidas na descrição da tarefa, pois já aparecem nos campos próprios da interface.
+- As cores configuradas para tipos de atividade voltam a ser aplicadas às tarefas criadas pela Agenda. Quando uma tarefa possui arquivo vinculado, o destaque azul padronizado é preservado.
+- As opções "Excluir item" e "Cores" foram integradas ao menu "Configurações > Módulos > Registro de Atividades".
+- A Agenda agora salva listas e tarefas junto aos dados do produto em uso, evitando registros separados em uma pasta exclusiva da Agenda.
+- Os textos da Agenda, incluindo menus, botões, rótulos e listas, passam a acompanhar a troca de idioma sem exigir reinício.
+- A janela da Agenda agora respeita melhor a janela principal: pode ficar atrás ou à frente conforme a janela ativa, e é fechada junto com o aplicativo principal.
+- A Agenda passa a permitir alternar entre o exemplo "Engenharia Civil" e agendas personalizadas criadas pelo usuário.
+- Novas agendas podem ser criadas pelo menu interno da janela, com títulos próprios e múltiplas listas suspensas personalizadas.
+- A abertura de uma agenda personalizada agora acontece pela opção "Abrir agenda", evitando trocas acidentais apenas ao passar o mouse sobre o menu.
+- A última agenda aberta é lembrada e carregada novamente na próxima abertura da janela da Agenda.
+- O usuário pode editar ou remover agendas personalizadas e também editar ou remover títulos de listas sem apagar as demais listas da agenda.
+- O menu "Excluir item" acompanha a agenda ativa, mostrando as listas corretas do exemplo ou da agenda personalizada aberta.
+- No modo "Coloridas", agendas personalizadas recebem cores alternadas, evitando repetir imediatamente a última cor aplicada.
+- As preferências da Agenda passam a ficar em um arquivo próprio de configurações da Agenda.
+- Corrigido o salvamento de listas e atividades da Agenda para usar o local correto de dados do produto.
+- Corrigida a tradução dinâmica de textos da Agenda que não acompanhavam a troca de idioma.
+- Corrigido o comportamento em que a janela da Agenda podia continuar aberta depois do fechamento do aplicativo principal.
+- Ajustada a sobreposição entre a janela principal e a Agenda para evitar que uma delas fique presa permanentemente acima da outra.
+- Corrigido o comportamento de edição e remoção de títulos em agendas personalizadas para preservar as demais listas já cadastradas.
+- Removidos recursos desnecessários da Agenda para deixar o módulo mais leve e direto.
+- As informações específicas do Registro de Atividades nestas notas aparecem somente quando o módulo correspondente está incluído na instalação.
+
+Melhorias nos recursos sincronizados:
+- O envio de tarefas entre Eisenhower, Pomodoro e Método Feynman ficou mais consistente.
+- Tarefas recebidas por sincronização preservam melhor informações importantes na apresentação visual.
+- A apresentação das tarefas ficou mais limpa e evita repetição de informações já exibidas pela interface.
+
+Correções e ajustes:
+- Ajustado o encerramento de janelas auxiliares abertas junto com o fechamento do aplicativo principal.
+- Ajustada a sobreposição entre a janela principal e janelas auxiliares para evitar bloqueio visual entre elas.
+- Reforçada a tradução dinâmica de menus, botões, rótulos e listas em tempo de execução.
+- Revisada a organização de recursos opcionais para deixar a versão final mais consistente.
+- Corrigido o encerramento inesperado ao excluir uma ou múltiplas tarefas pela Lista Global de Tarefas.
+
+Observações:
+- Esta atualização não altera manualmente tarefas já existentes.
+- Recursos opcionais continuam aparecendo somente quando estão incluídos na instalação.
+- As notas específicas de recursos opcionais são exibidas apenas quando o respectivo recurso está disponível.
+- Preferências existentes continuam sendo reaproveitadas quando possível.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.6.7.0
+Data: 7 de junho de 2026
+
+Resumo geral
+Esta atualização melhora a organização geral do aplicativo, reforça a segurança ao abrir arquivos vinculados e deixa os módulos adicionais mais consistentes na versão final. O foco principal foi corrigir pontos encontrados na análise de estabilidade e segurança, reduzir comportamentos inesperados e preparar melhor o aplicativo para manutenção e novas melhorias.
+
+Melhorias no calendário e nas tarefas:
+- O calendário ficou mais consistente ao listar, destacar, editar e remover tarefas com datas.
+- A atualização dos destaques de datas ficou mais confiável depois de mudanças nas tarefas.
+- A contagem visual de tarefas no calendário foi ajustada para acompanhar melhor as alterações feitas pelo usuário.
+- O menu de ações do calendário ficou mais previsível ao localizar a tarefa correta.
+- A abertura de arquivos vinculados a tarefas ficou mais segura e passa a conferir melhor se o arquivo realmente existe antes de tentar abri-lo.
+
+Melhorias na abertura de arquivos vinculados:
+- A abertura de arquivos anexados ou vinculados ficou mais segura no Windows.
+- O aplicativo reduz o risco de falhas ao abrir caminhos de arquivos com espaços, nomes longos ou caracteres especiais.
+- Quando um arquivo vinculado não está disponível, o aplicativo evita tentativas desnecessárias e trata melhor a situação.
+- A experiência ficou mais confiável tanto nas tarefas principais quanto nos recursos de estudo que usam arquivos vinculados.
+
+Melhorias no Audiolivro:
+- A régua de foco ficou mais estável ao ativar, desativar e alternar seu estado durante a leitura.
+- O comportamento da régua de foco ficou mais previsível ao mover, redimensionar e usar atalhos.
+- A integração com vozes online ficou melhor preparada para mudanças externas do serviço de narração.
+- O acesso às vozes online ficou mais flexível, permitindo ajustes futuros sem alterar o uso normal do aplicativo.
+- A experiência de leitura ficou mais consistente para quem usa recursos de acessibilidade visual.
+
+Melhorias no Método Feynman:
+- A abertura de arquivos vinculados ao estudo ficou mais segura e confiável.
+- O recebimento de conceitos vindos de outros métodos ficou mais estável.
+- O módulo ficou melhor preparado para ferramentas mais recentes usadas na geração do aplicativo.
+- A integração com mapas mentais e tarefas compartilhadas ficou mais consistente.
+
+Melhorias no Mapa Mental:
+- A organização dos recursos do Mapa Mental foi refinada para manter o módulo mais consistente na versão final.
+- A estrutura de conceitos, desenho do mapa e apoio ao processamento de ideias ficou mais preparada para manutenção.
+- A integração do Mapa Mental com os demais métodos ficou mais alinhada à versão atual.
+
+Melhorias no Pomodoro:
+- A organização dos recursos do Pomodoro foi revisada para acompanhar a nova versão.
+- O módulo ficou mais bem alinhado com a entrega final do aplicativo.
+- As informações de identificação do Pomodoro foram atualizadas para manter consistência com os demais módulos.
+
+Melhorias gerais do aplicativo:
+- A organização dos módulos internos foi simplificada, removendo partes auxiliares que não eram necessárias para o funcionamento final.
+- Os módulos opcionais ficaram mais bem identificados e alinhados à versão 2026.6.7.0.
+- O processo de geração da versão final ficou mais consistente ao reunir o aplicativo principal e os módulos adicionais.
+- Documentos, informações de versão e arquivos de apoio foram atualizados para acompanhar esta versão.
+- A base do aplicativo ficou mais limpa e preparada para futuras correções e melhorias.
+
+Correções e ajustes:
+- Corrigido um ponto de abertura de arquivos que podia depender de um caminho menos seguro no Windows.
+- Ajustado o tratamento de arquivos vinculados para reduzir falhas quando o caminho não existe.
+- Corrigido um detalhe de compatibilidade no Método Feynman que podia gerar avisos em ferramentas mais recentes.
+- Ajustada a integração com vozes online do Audiolivro para deixar o comportamento mais claro e flexível.
+- Revisados pontos sensíveis apontados pela análise de segurança e estabilidade.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- A análise realizada não encontrou falhas críticas de vazamento de memória nos pontos verificados.
+- As principais mudanças visíveis estão na abertura mais segura de arquivos vinculados, na estabilidade da régua de foco do Audiolivro e na consistência dos módulos na versão final.
+- As demais melhorias reforçam organização, segurança, estabilidade e preparação para futuras evoluções.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.6.6.0
+Data: 6 de junho de 2026
+
+Resumo geral
+Esta atualização melhora a experiência visual do Pomodoro, principalmente ao redimensionar a janela do aplicativo. O foco principal foi impedir que os controles do quadro "Configurações" fossem comprimidos e evitar que o "Quadro de Tarefas" invadisse visualmente a área de configurações. A versão também reforça a organização da entrega final do aplicativo e atualiza as informações de versão dos módulos incluídos.
+
+Melhorias no Pomodoro:
+- O quadro "Configurações" ficou mais estável ao aumentar ou diminuir a altura da janela.
+- Os botões "Iniciar", "Resetar Relógio", "Resetar Ciclo" e "Pular" mantêm sua aparência e continuam legíveis durante o redimensionamento.
+- As listas suspensas de "Foco (min):", "Descanso (min):" e "Ciclo 1/4:" deixam de ser esmagadas quando a janela fica menor.
+- Os rótulos das configurações permanecem alinhados e com leitura mais confortável.
+- O "Quadro de Tarefas" ganhou separação mais clara em relação ao quadro "Configurações".
+- A área de tarefas não deve mais avançar por cima das configurações durante ajustes de tamanho da interface.
+- A organização visual do Pomodoro ficou mais previsível nos modos de uso disponíveis.
+
+Melhorias ao redimensionar a interface:
+- A janela lida melhor com alturas menores sem comprometer os controles principais do Pomodoro.
+- Os quadros do Pomodoro passam a respeitar melhor o espaço necessário de cada área.
+- A interface ficou mais consistente ao alternar entre tamanhos de janela maiores e menores.
+- O uso em telas com pouco espaço vertical ficou mais confortável.
+
+Melhorias na versão final do aplicativo:
+- As informações de versão foram atualizadas para a versão 2026.6.6.0.
+- Os módulos opcionais do aplicativo receberam atualização de identificação para acompanhar esta versão.
+- Os instaladores e arquivos de apoio foram alinhados à nova versão.
+- Textos informativos, avisos, políticas e documentos de suporte foram revisados para manter consistência com a entrega atual.
+
+Correções e ajustes:
+- Corrigido o comportamento visual em que controles do Pomodoro podiam perder altura durante o redimensionamento.
+- Corrigido o problema em que o "Quadro de Tarefas" podia aparecer sobre a área de "Configurações".
+- Ajustada a separação visual entre as principais áreas do Pomodoro.
+- Reforçada a estabilidade visual da interface em diferentes tamanhos de janela.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As mudanças desta versão são voltadas principalmente à estabilidade visual do Pomodoro e à consistência da versão final entregue ao usuário.
+- Caso a janela esteja muito pequena, o aplicativo passa a preservar melhor a leitura e a separação entre os quadros principais.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.30.0
+Data: 30 de maio de 2026
+
+Resumo geral
+Esta atualização melhora a integração entre Eisenhower, Pomodoro e Feynman, deixa as mensagens do aplicativo mais claras e reforça a entrega dos recursos na versão final. O foco principal foi facilitar o uso dos métodos em conjunto, reduzir inconsistências entre tarefas e entregar um pacote final mais limpo e completo.
+
+Novidades na sincronização de tarefas:
+- As tarefas podem ser adicionadas nos métodos Eisenhower, Pomodoro e Feynman de forma integrada quando a sincronização estiver ativa.
+- A exclusão de tarefas também passa a acompanhar os métodos sincronizados, mantendo as janelas mais consistentes entre si.
+- As opções de sincronização continuam disponíveis em "Configurações > Sincronizar > Eisenhower/Pomodoro/Feynman".
+- Ao adicionar ou excluir uma tarefa com a sincronização ativa, o aplicativo mostra uma mensagem informando que a ação será aplicada aos métodos selecionados.
+- As novas mensagens acompanham o idioma escolhido no aplicativo, em português ou inglês.
+
+Melhorias no uso com Pomodoro e Feynman:
+- A integração entre os métodos ficou mais previsível durante a criação e remoção de tarefas.
+- O Pomodoro ficou mais consistente ao receber tarefas vindas da organização principal.
+- O Feynman ficou melhor preparado para acompanhar tarefas relacionadas aos estudos e conceitos.
+- As ações entre os métodos foram ajustadas para reduzir diferenças inesperadas entre as janelas.
+
+Melhorias na versão final do aplicativo:
+- A versão final agora inclui melhor os módulos adicionais usados pelo aplicativo.
+- A entrega do aplicativo ficou mais limpa, sem arquivos auxiliares desnecessários para o usuário final.
+- A abertura dos recursos adicionais ficou mais confiável após a geração da versão final.
+- O pacote final ficou mais organizado para instalação, teste e distribuição.
+
+Correções e ajustes:
+- Corrigidos casos em que módulos adicionais podiam não ser incluídos corretamente na versão final.
+- Removidos arquivos extras que não eram necessários para usar o aplicativo.
+- Melhorada a consistência da versão final em relação à organização dos recursos.
+- Ajustes gerais reforçam a estabilidade e reduzem comportamentos inesperados durante o uso integrado dos métodos.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- Para usar a sincronização, ative os métodos desejados no menu de configurações.
+- As melhorias desta versão são voltadas à integração entre métodos, clareza das mensagens e qualidade da versão final entregue ao usuário.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.28.0
+Data: 28 de maio de 2026
+
+Resumo geral
+Esta atualização melhora a leitura de PDFs no Audiolivro, reforça a estabilidade dos recursos de estudo e produtividade e prepara a base interna do aplicativo para evoluções futuras. O foco principal foi tornar a narração mais confiável, o realce da leitura mais preciso e a navegação em documentos PDF mais confortável.
+
+Novidades e melhorias no Audiolivro:
+- A leitura de arquivos PDF ficou mais estável durante a narração com vozes online.
+- O narrador mantém melhor o idioma da voz escolhida, mesmo quando o texto contém hífens, travessões, sublinhados, pontos, parênteses, aspas e nomes de arquivo.
+- O realce do texto agora acompanha melhor a fala em trechos com nomes de documentos, extensões de arquivo e pontuação complexa.
+- A leitura de termos como nomes de arquivos em PDF ficou mais previsível, reduzindo saltos inesperados no realce.
+- As opções de voz foram ajustadas para priorizar vozes mais estáveis e reduzir trocas indevidas de idioma durante a leitura.
+- O tratamento de texto extraído de PDFs foi aprimorado para melhorar a continuidade da narração.
+- Os botões "Mão" e "Seleção" no visualizador de PDF agora podem ser desativados com um segundo clique.
+- Ao desativar o modo "Seleção", o realce de seleção atual é limpo automaticamente.
+- Ao desativar o modo "Mão", o cursor volta ao comportamento normal.
+
+Correções no Audiolivro:
+- Corrigido um problema em que a voz podia mudar temporariamente para espanhol ou outro idioma durante a leitura de certos trechos.
+- Corrigido um aviso de "Erro desconhecido" ao iniciar a narração de PDFs em algumas situações.
+- Corrigido um problema em que o realce pulava parte da narração e avançava diretamente para trechos como "(1).pdf".
+- Corrigido o comportamento dos botões "Mão" e "Seleção", que antes permaneciam ativos após um único clique.
+- Melhorada a sincronização entre áudio e realce em PDFs com caracteres especiais e nomes de arquivo longos.
+
+Melhorias no Pomodoro:
+- A organização interna do Pomodoro foi revisada para aumentar a estabilidade do temporizador, das tarefas e do gerenciamento de tempo.
+- As ações de adicionar, mover, remover e atualizar tarefas ficaram mais consistentes.
+- O painel de tarefas recebeu ajustes para reduzir comportamentos inesperados em listas, menus e campos de edição.
+- A integração entre Pomodoro e Eisenhower foi preparada para manter melhor o estado das tarefas durante o uso contínuo.
+- A experiência geral do Pomodoro ficou mais estável para sessões longas de foco e organização.
+
+Melhorias no Método Feynman:
+- O gerenciamento de conceitos ficou mais organizado e confiável.
+- As ações de criar, salvar, selecionar, excluir e atualizar conceitos receberam melhorias de estabilidade.
+- A integração com mapas mentais e arquivos vinculados ficou mais consistente.
+- A limpeza de abas, campos e conteúdos temporários foi aprimorada para reduzir estados inesperados.
+- A experiência geral do Método Feynman ficou mais preparada para manutenção e evolução futura.
+
+Melhorias gerais do aplicativo:
+- A estrutura interna dos principais recursos foi reorganizada para facilitar manutenção, correções e novas melhorias.
+- O processo de geração do aplicativo foi ajustado para reconhecer melhor os componentes reorganizados.
+- Informações de versão, instaladores e textos auxiliares do produto foram atualizados para esta versão.
+- Documentos de suporte, avisos e informações legais receberam ajustes de versão e consistência.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As principais mudanças visíveis estão concentradas no Audiolivro, especialmente na leitura de PDFs com narração e realce.
+- As demais melhorias reforçam estabilidade, organização interna e preparação para novas evoluções do aplicativo.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.27.0
+Data: 27 de maio de 2026
+
+Resumo geral
+Esta atualização corrige o comportamento do Pomodoro após reiniciar o aplicativo e melhora a integração com o Eisenhower para refletir mudanças de conclusão de tarefas.
+
+Correções no Pomodoro:
+- Tarefas deixadas no painel “Em Progresso” agora permanecem lá ao reabrir o aplicativo.
+- O painel “A Fazer” não recebe mais tarefas que estavam em andamento por engano.
+
+Melhorias na integração com o Eisenhower:
+- Ao marcar uma tarefa ou grupo de tarefas como “não concluída” no Eisenhower, elas voltam automaticamente para “A Fazer” no Pomodoro.
+- As alterações feitas no Eisenhower passam a aparecer no Pomodoro de forma mais consistente, sem perder o andamento atual.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.26.0
+Data: 26 de maio de 2026
+
+Resumo geral
+Esta atualização traz uma grande evolução para a personalização visual do Pomodoro e do Gerenciador de Tarefas, além de melhorias importantes de organização, navegação, estabilidade e adaptação automática da interface. O foco principal desta versão foi tornar o uso mais confortável, flexível e intuitivo para diferentes tamanhos de tela e estilos de trabalho.
+
+Novidades nos layouts do Pomodoro:
+- O Pomodoro agora oferece novos modos de organização visual para facilitar o uso em diferentes tipos de monitor e fluxo de trabalho.
+- Foram adicionados os modos:
+  - "Abas"
+  - "Vertical"
+  - "Horizontal"
+
+- Agora é possível combinar:
+  - Layout "Ao lado"
+  - Layout "Embaixo"
+    - com diferentes formas de exibição do conteúdo.
+
+- A configuração pode ser alterada em:
+  - "Configurações > Layout de Tarefas > Interface do Usuário > Pomodoro"
+
+- O aplicativo salva automaticamente o layout escolhido para os próximos usos.
+- A troca entre os layouts ficou mais rápida e previsível.
+
+Melhorias na organização visual do Pomodoro:
+- O modo "Ao lado" foi refinado para aproveitar melhor monitores largos.
+- O modo "Embaixo" recebeu melhorias para telas menores e notebooks.
+- Os controles do temporizador ficaram mais organizados e fáceis de acessar.
+- O espaço entre botões, listas e áreas de configuração foi ajustado para melhorar a leitura.
+- O comportamento visual ficou mais consistente entre os diferentes layouts.
+
+Melhorias no Gerenciador de Tarefas:
+- O painel de tarefas recebeu melhorias de organização visual e navegação.
+- O sistema de movimentação de tarefas entre listas e abas ficou mais estável.
+- A navegação entre categorias e áreas de tarefas ficou mais fluida.
+- O comportamento das abas foi refinado para melhorar o uso contínuo durante sessões longas.
+- O aplicativo agora responde melhor ao mover tarefas entre diferentes áreas da interface.
+
+Melhorias nas abas e navegação lateral:
+- As abas laterais receberam melhorias visuais e de estabilidade.
+- A leitura dos títulos das abas ficou mais confortável.
+- A navegação entre seções ficou mais previsível.
+- Foram realizados ajustes para melhorar a adaptação automática em resoluções menores.
+- O comportamento visual das abas ficou mais consistente durante redimensionamentos da janela.
+
+Melhorias na adaptação automática da interface:
+- A interface agora reorganiza melhor os elementos conforme o tamanho da janela.
+- O aplicativo distribui melhor os espaços internos em layouts horizontais, verticais e em abas.
+- Áreas de tarefas, listas e painéis laterais ficaram mais protegidos contra cortes visuais.
+- O redimensionamento da janela ficou mais estável.
+- O uso em monitores menores recebeu melhorias importantes de aproveitamento de espaço.
+
+Melhorias no painel “Em Progresso”:
+- O painel lateral “Em Progresso” recebeu melhorias de estabilidade visual.
+- A expansão e recolhimento do painel ficaram mais suaves.
+- O comportamento do painel ficou mais consistente ao alternar layouts.
+- O espaço interno passou a ser melhor aproveitado em tarefas longas e múltiplos itens.
+
+Melhorias de usabilidade:
+- Foram realizados ajustes para reduzir comportamentos inesperados durante alterações rápidas da interface.
+- O aplicativo ficou mais estável ao alternar entre diferentes modos visuais.
+- Componentes internos agora mantêm melhor alinhamento visual.
+- Campos de edição, listas e controles passaram a responder de forma mais previsível.
+- A experiência geral de uso ficou mais fluida durante sessões prolongadas.
+
+Melhorias de tradução e organização dos menus:
+- Os menus de configuração receberam reorganização para facilitar a localização das opções de layout.
+- Os nomes dos layouts ficaram mais claros e intuitivos para o usuário final.
+- Mensagens de confirmação foram refinadas para melhor entendimento.
+- A estrutura dos menus ficou mais consistente entre português e inglês.
+
+Melhorias internas de estabilidade:
+- Foram realizados diversos ajustes internos para melhorar a estabilidade geral da interface.
+- O gerenciamento de layouts ficou mais confiável.
+- O comportamento visual das áreas dinâmicas foi refinado para reduzir inconsistências.
+- Melhorias internas ajudam a manter a navegação mais fluida mesmo com múltiplas tarefas abertas.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As melhorias desta versão são focadas principalmente em organização visual, flexibilidade de layouts, navegação e estabilidade da interface.
+- Recomenda-se revisar os novos layouts do Pomodoro para escolher a organização mais confortável para seu fluxo de trabalho.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.25.0
+Data: 25 de maio de 2026
+
+Resumo geral
+Esta atualização aprimora principalmente a experiência de uso do método Feynman, com melhorias de organização visual, adaptação automática da interface, estabilidade ao redimensionar a janela e melhor aproveitamento do espaço disponível. O objetivo foi tornar a área de estudo mais confortável, previsível e fácil de utilizar tanto em telas grandes quanto em telas menores.
+
+Melhorias na interface do Método Feynman:
+- A organização visual do Método Feynman foi revisada para deixar os controles mais agrupados e fáceis de localizar.
+- Os botões principais e opções de prioridade e domínio agora aparecem organizados em uma barra inferior mais limpa e previsível.
+- O espaço interno da interface foi otimizado para reduzir excesso de áreas vazias e melhorar a leitura do conteúdo.
+- O painel de tarefas passou a utilizar melhor o espaço disponível ao lado das áreas de explicação e revisão.
+- A navegação entre as áreas do método ficou mais confortável visualmente.
+
+Melhorias nos layouts "Abas", "Horizontal" e "Vertical":
+- O Método Feynman agora se adapta melhor a diferentes tamanhos de janela.
+- O redimensionamento da interface ficou mais estável em layouts horizontais, verticais e em abas.
+- As áreas laterais passaram a respeitar limites mínimos mais inteligentes, evitando cortes excessivos de conteúdo.
+- O aplicativo agora distribui melhor o espaço entre o painel de tarefas e a área principal de estudo.
+- Em telas menores, o painel lateral pode ocupar menos espaço automaticamente para preservar a área principal de leitura e escrita.
+- A interface ficou mais previsível ao maximizar, restaurar ou redimensionar a janela.
+
+Melhorias no painel de tarefas:
+- O painel de tarefas ficou mais compacto e organizado quando utilizado em espaços reduzidos.
+- O comportamento de expandir e recolher o painel lateral foi refinado para tornar a transição mais suave.
+- A largura mínima do painel agora é ajustada automaticamente conforme o espaço disponível.
+- O painel principal evita melhor cortes visuais em listas, campos de texto e áreas de edição.
+
+Melhorias nas abas e áreas de conteúdo:
+- O tamanho das abas foi ajustado para melhorar a leitura dos títulos.
+- O espaçamento interno das abas foi ampliado para facilitar a navegação.
+- A área "Descrição" recebeu melhorias de organização e integração com as demais áreas do Método Feynman.
+- A visualização das informações ficou mais consistente entre diferentes idiomas e tamanhos de tela.
+
+Melhorias de estabilidade e usabilidade:
+- Foram realizados ajustes para reduzir problemas visuais durante alterações de tamanho da janela.
+- A interface passou a reagir de forma mais estável ao alternar entre diferentes layouts.
+- Campos de texto, listas e áreas de edição ficaram mais protegidos contra sobreposição visual.
+- O comportamento geral da interface ficou mais consistente ao trabalhar com múltiplos conceitos e tarefas.
+- Melhorias internas ajudam a manter uma experiência mais fluida durante o uso contínuo da ferramenta.
+
+Observações:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As melhorias desta versão são voltadas principalmente à organização visual, estabilidade da interface e adaptação automática dos layouts do Método Feynman.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.22.0
+Data: 22 de maio de 2026
+
+Resumo geral
+Esta atualização melhora principalmente o uso do Pomodoro, a documentação de ajuda, a troca de idioma em janelas de licença e a clareza das informações apresentadas ao usuário. O objetivo foi deixar mais fácil escolher como o Pomodoro aparece na tela, entender o que mudou e consultar documentos sem perder o idioma escolhido no aplicativo.
+
+Novidades no Pomodoro:
+- O Pomodoro agora permite escolher entre dois modos de interface: "Simples" e "Robusta".
+- A escolha fica em "Configurações > Layout de Tarefas > Interface do Usuário > Pomodoro".
+- O Pomodoro agora permite escolher entre três modos de interface: "Abas", "Horizontal" e "Vertical".
+- A escolha fica em "Configurações > Layout de Tarefas > Interface do Usuário > Feynman".
+- O modo "Simples" mantém uma tela mais compacta e direta para quem quer usar o temporizador com menos elementos visíveis.
+- O modo "Robusta" apresenta uma organização mais completa, com temporizador, quadro de tarefas, abas de status e painel lateral "Em Progresso".
+- Ao escolher um dos modos, o aplicativo abre o Pomodoro e mostra uma mensagem confirmando qual layout foi aplicado.
+- A escolha do layout é salva para os próximos usos.
+
+Melhorias no layout "Robusta" do Pomodoro:
+- O "Quadro de Tarefas" foi reorganizado para facilitar o preenchimento e a execução das ações.
+- Abaixo do campo de texto da tarefa, prioridade, nível de domínio e fluxo de tarefas concluídas agora aparecem em uma única linha.
+- Os botões "Adicionar", "Mover Tarefa(s)", "Remover Tarefa(s)" e "Resetar Contagem" agora aparecem juntos em uma segunda linha.
+- O painel "Em Progresso" continua podendo ser recolhido ou expandido para liberar espaço durante a sessão de foco.
+- A organização ficou mais previsível para quem usa várias tarefas ao mesmo tempo.
+
+Melhorias no layout "Abas", "Horizontal" e "Vertical" do Feynman:
+- O layout "Abas" mantém a organização tradicional, com o painel lateral "Minhas Tarefas:" e as abas de conteúdo à direita.
+- O layout "Horizontal" organiza os elementos de forma horizontal, ideal para telas com espaço adequado.
+- O layout "Vertical" organiza os elementos de forma vertical, otimizando o uso de espaço em telas menores.
+
+Tradução e troca de idioma:
+- As opções "Interface do Usuário", "Simples" e "Robusta" do menu do Pomodoro passaram a ter tradução em português e inglês.
+- A mensagem que confirma o layout aplicado também acompanha o idioma escolhido.
+- As janelas abertas pelo botão "Abrir" dentro de "Sobre > Licenças > Geral" agora atualizam o título quando o idioma do aplicativo muda.
+- Os títulos dessas janelas usam o mesmo padrão de tradução da interface principal.
+
+Manual e instruções de uso:
+- O manual foi atualizado com instruções sobre como abrir o Pomodoro e o Feynman.
+- Foram adicionadas orientações sobre como alternar entre os layouts "Simples" e "Robusta", "Abas", "Horizontal" e "Vertical".
+- A documentação explica quando usar cada layout e como o quadro de tarefas fica organizado no modo "Robusta", "Abas", "Horizontal" e "Vertical".
+- As instruções do alarme do Pomodoro foram ampliadas com passos mais claros.
+
+Notas:
+- Esta atualização não altera os dados já salvos pelo usuário.
+- As mudanças do Pomodoro e do Feynman são voltadas à organização visual, escolha de layout e facilidade de uso.
+- As melhorias de tradução ajudam a manter a interface coerente ao alternar entre português e inglês.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.20.0
+Data: 20 de maio de 2026
+
+Resumo geral
+Esta atualização reúne correções importantes de estabilidade, leitura assistida, uso em múltiplas telas e consulta de informações legais. O foco foi tornar o Eisenhower Organizer mais confiável ao trabalhar com livros em PDF, melhorar o acompanhamento da leitura em voz alta, deixar a janela "Sobre" mais clara e facilitar o acesso às licenças de terceiros incluídas com o aplicativo.
+
+Melhorias no Audiolivro e na leitura assistida:
+- A limpeza de um PDF carregado no Audiolivro ficou mais segura. Depois de clicar em "Limpar", o arquivo deixa de ficar preso pelo aplicativo, permitindo mover, renomear ou excluir o PDF no Windows.
+- A marcação visual da leitura assistida foi revisada para acompanhar melhor a palavra que está sendo pronunciada naquele momento.
+- A leitura de livros grandes, monografias e documentos longos em PDF ficou mais estável.
+- O acompanhamento visual ficou mais protegido contra saltos indevidos quando a mesma palavra aparece várias vezes na mesma página ou em outras partes do livro.
+- Sequências numéricas, códigos, símbolos e trechos que não formam palavras comuns passaram a ser tratados com mais cuidado, reduzindo perdas de sincronização durante a narração.
+- O comportamento em PDFs com capa, contracapa, páginas comuns e páginas com reconhecimento de texto foi melhorado para reduzir marcações fora do local esperado.
+- A narração ficou mais coerente com a voz escolhida pelo usuário, evitando mudanças indevidas de idioma durante a leitura quando uma voz em português estiver selecionada.
+- Foram corrigidos cenários em que a leitura podia exibir uma janela de erro e não iniciar corretamente.
+- A retomada do destaque visual após trechos difíceis do documento ficou mais previsível, evitando que a leitura assistida abandone o ponto atual do texto.
+
+Melhorias na janela principal e em múltiplas telas:
+- A janela do aplicativo ficou mais estável ao ser usada em computadores com mais de um monitor.
+- Foi corrigida a oscilação brusca que podia ocorrer ao arrastar a janela entre uma tela em modo paisagem e outra em modo retrato.
+- A janela deixou de ficar presa em uma nova dimensão mínima depois de ser movida de uma tela para outra.
+- O aplicativo passou a respeitar melhor o tamanho mínimo esperado desde a inicialização, mesmo após maximizar, restaurar e arrastar a janela entre monitores diferentes.
+
+Melhorias na janela "Sobre" e nas licenças:
+- A aba "Licenças" da janela "Sobre" agora apresenta as licenças de terceiros de forma mais clara.
+- Os endereços longos dos sites oficiais foram substituídos pelos nomes completos das licenças.
+- Cada licença passou a ter dois botões: "Abrir", para consultar o texto incluído no próprio aplicativo, e "Site", para abrir a página oficial no navegador.
+- A consulta local das licenças agora abre uma janela própria, facilitando a leitura sem sair do aplicativo.
+- Os links deixaram de aparecer como texto destacado dentro da área de leitura, deixando a apresentação mais limpa.
+- A aparência da aba "Geral" dentro de "Licenças" foi ajustada para seguir o mesmo padrão visual das demais abas.
+- O espaçamento entre o texto da licença principal e a lista de licenças de terceiros foi aumentado para melhorar a leitura.
+- A cor de fundo da área de licenças foi corrigida para manter a mesma tonalidade visual das demais áreas informativas.
+- Os novos botões e mensagens da janela "Sobre" acompanham a troca de idioma do aplicativo.
+- Recurso de busca textual foi adicionado à janela "Sobre", facilitando encontrar termos específicos dentro dos textos legais.
+
+Melhorias na janela "Manual":
+- Recurso de busca textual foi adicionado à janela "Manual", facilitando encontrar termos específicos dentro das instruções de uso.
+
+Melhorias em documentos, avisos e transparência:
+- Os avisos de licenças de terceiros foram ampliados e organizados com mais clareza.
+- Foram incluídas informações sobre componentes usados pelo aplicativo para interface, multimídia, PDF, leitura, banco de dados local, execução e suporte.
+- A documentação de licenças agora explica melhor quais materiais acompanham o aplicativo e onde consultar cada um deles.
+- Os avisos, contratos e termos foram ajustados para deixar claro que componentes de terceiros continuam sujeitos às respectivas licenças.
+- A oferta de acesso aos materiais exigidos por licenças de terceiros foi adicionada em português e inglês.
+- A documentação do pacote ficou mais completa para distribuição, suporte e consulta pelo usuário final.
+
+Correções e ajustes gerais:
+- A organização dos arquivos de referência de licença foi melhorada para evitar confusão com a licença própria do projeto.
+- A preparação dos materiais legais ficou mais consistente entre o aplicativo principal e os recursos opcionais Pomodoro, Feynman, Mapa Mental e Audiolivro.
+- A lista de sites oficiais das licenças foi revisada para refletir melhor os materiais incluídos no pacote.
+- A apresentação das informações legais ficou mais amigável para quem deseja apenas consultar os termos sem procurar arquivos manualmente.
+
+Observações:
+- Esta atualização não altera o formato dos arquivos de tarefas nem modifica dados já salvos pelo usuário.
+- As melhorias do Audiolivro buscam aumentar a precisão da leitura assistida, mas a qualidade do PDF ainda pode influenciar o resultado, especialmente em documentos digitalizados, com texto mal reconhecido ou com páginas muito irregulares.
+- As mudanças em licenças e avisos são voltadas à transparência, organização e facilidade de consulta pelo usuário.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.18.0
+Data: 18 de maio de 2026
+
+Resumo geral
+Esta atualização complementa as melhorias recentes de interface, documentação, textos informativos, identidade visual, recorrências e lembretes locais do Eisenhower Organizer. O foco foi deixar as telas de informação mais organizadas, ampliar os documentos disponíveis em português e inglês, tornar a descrição do produto mais clara e corrigir a exibição de recursos nas janelas de produtividade conforme o que estiver disponível no aplicativo.
+
+Novidades e melhorias principais:
+- A janela "Sobre" ficou mais organizada, com agrupamento por categorias como Sobre, CLC, Direitos Autorais, EULA, Notices, Política de Privacidade e Miscelânea.
+- As áreas informativas passaram a exibir melhor os documentos relacionados a cada categoria, reduzindo a sobrecarga visual e facilitando a consulta.
+- A aba de Política de Privacidade foi ampliada para apresentar documentos específicos do aplicativo principal e de recursos complementares quando estiverem disponíveis.
+- As abas de Detalhes, Licenças e Avisos receberam o mesmo padrão de organização por documentos relacionados, deixando a navegação mais previsível.
+- Foram adicionadas áreas exclusivas para Contrato e Direitos Autorais, separando melhor os conteúdos jurídicos, contratuais e informativos.
+- Os rótulos das abas informativas passaram a acompanhar melhor o idioma escolhido durante o uso do aplicativo.
+- Os textos de Política de Privacidade, EULA, Avisos, Direitos Autorais, CLC e Sobre foram expandidos e padronizados em português brasileiro e inglês dos Estados Unidos.
+- A documentação informativa foi ajustada para usar linguagem mais clara, objetiva e consistente, com revisão de gramática, acentuação, pontuação e terminologia.
+- A descrição do produto foi ampliada nos dois idiomas, explicando melhor a proposta do Eisenhower Organizer, suas ferramentas de produtividade, organização, recorrência, lembretes, estudo, revisão, leitura e exportação.
+- O conjunto de ícones e imagens de identidade visual do Eisenhower Organizer foi atualizado para refletir melhor os arquivos atuais do pacote.
+- Os arquivos auxiliares de manutenção e versionamento passaram a contemplar melhor os documentos informativos, notas legais e textos de apoio incluídos no projeto.
+- A preparação das versões finais ficou mais consistente para ambientes MSVC e MinGW, com melhor alinhamento dos recursos copiados para os diretórios de distribuição.
+
+Correções e ajustes:
+- A janela "Gerar próximas recorrências" agora mostra somente as origens realmente disponíveis no aplicativo.
+- A janela "Ativar lembretes locais" agora também mostra somente as origens realmente disponíveis no aplicativo.
+- Preferências antigas dessas janelas são tratadas com mais segurança, evitando que uma seleção salva anteriormente deixe a tela sem uma origem válida marcada.
+- A listagem de itens em recorrências e lembretes ficou mais coerente com os recursos disponíveis no momento de uso.
+- A organização da janela "Sobre" foi ajustada para evitar excesso de abas soltas e facilitar a localização de documentos específicos.
+- Textos informativos duplicados, genéricos ou herdados de versões anteriores foram revisados para refletir melhor o produto atual.
+- A leitura de documentos em português e inglês ficou mais uniforme entre as diferentes áreas informativas.
+
+Observações:
+- Esta atualização não altera o formato dos arquivos de tarefas nem modifica os dados já salvos pelo usuário.
+- As melhorias são voltadas à apresentação das informações, organização documental, estabilidade visual e coerência das janelas de produtividade.
+- As notas desta versão complementam as versões anteriores e consolidam ajustes realizados após as melhorias de recorrências e lembretes locais.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.11.0
+Data: 11 de maio de 2026
+
+Resumo geral
+Esta atualização aperfeiçoa a janela "Gerar próximas recorrências" no Eisenhower Organizer, com foco em estabilidade visual, previsibilidade ao redimensionar e maior segurança ao usar a área "Quando aplicar". A janela agora preserva melhor o tamanho adequado para seus controles, evita sobreposição entre campos e calendário e mantém uma experiência mais consistente ao abrir, maximizar, restaurar e ajustar manualmente o tamanho.
+
+Correções em "Gerar próximas recorrências":
+- Corrigido um problema em que a janela podia não voltar corretamente ao tamanho inicial depois de ser maximizada e restaurada.
+- Corrigido um comportamento em que o grupo "Quando aplicar" podia ficar comprimido demais, fazendo o calendário ultrapassar os limites visuais do grupo.
+- Corrigida a sobreposição visual entre listas suspensas, campos de data, campos de horário e demais opções dentro da área "Quando aplicar".
+- Corrigido o redimensionamento manual da janela para impedir que as colunas internas fiquem menores do que o necessário para exibir os controles com segurança.
+- Corrigida a restauração visual da janela após alternar entre modo maximizado e modo normal, mantendo as proporções esperadas da tela inicial.
+- Corrigido o comportamento do calendário da área "Quando aplicar" para continuar aproveitando espaço adicional quando a janela cresce, sem prejudicar o layout ao retornar para um tamanho menor.
+
+Melhorias de uso:
+- A área "Quando aplicar" ficou mais protegida contra cortes, vazamentos e colisões visuais.
+- A janela agora respeita melhor um tamanho mínimo seguro, reduzindo o risco de controles ficarem escondidos ou sobrepostos.
+- As colunas principais da janela ficaram mais estáveis, preservando espaço suficiente para os blocos de itens, configurações, período de aplicação e prévia.
+- Ao aumentar a janela, o calendário continua podendo mostrar mais meses quando houver espaço disponível.
+- Ao reduzir a janela, maximizar ou restaurar, o conteúdo volta a se acomodar de forma mais previsível.
+- A revisão das próximas recorrências fica mais confortável, especialmente em telas menores ou quando o usuário alterna frequentemente entre janela normal e maximizada.
+
+Observações:
+- Esta atualização não altera os dados salvos nem muda o modo como as recorrências são criadas.
+- As melhorias são voltadas à estabilidade visual e à usabilidade da janela de geração de recorrências.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.9.0
+Data: 9 de maio de 2026
+
+Resumo geral
+Esta atualização melhora o uso de tarefas recorrentes e lembretes locais no Eisenhower Organizer. A criação de próximas ocorrências ficou mais fácil de conferir antes de aplicar, e os lembretes ficaram mais claros para escolher itens, horários e formas de aviso. A atualização foi pensada para quem quer organizar compromissos repetidos, prazos, rotinas e atividades com horário sem precisar entender detalhes técnicos.
+
+Novidades em recorrências:
+- A janela Gerar próximas recorrências agora permite escolher com mais precisão quais tarefas entram na geração.
+- É possível usar todos os itens filtrados ou gerar recorrências apenas para itens selecionados.
+- A pesquisa dentro da janela ajuda a encontrar rapidamente uma tarefa específica.
+- O botão Selecionar visíveis permite marcar de uma vez todos os itens que aparecem após o filtro.
+- O botão Limpar remove a seleção atual e facilita recomeçar a escolha.
+- A prévia ficou mais detalhada e mostra o nome do item, onde ele foi encontrado, onde a nova ocorrência será criada, a frequência usada e as próximas datas previstas.
+- Quando houver muitos detalhes em uma mesma coluna, a visualização mostra um resumo e permite consultar a lista completa.
+- O período de geração agora pode ser controlado por data e horário inicial e final.
+- Tarefas sem data ou sem horário podem usar uma data e um horário de referência quando a opção correspondente estiver ativada.
+- A frequência padrão continua disponível para incluir tarefas que ainda não tenham uma recorrência própria.
+- A opção para evitar duplicadas ajuda a reduzir cópias repetidas na mesma data.
+- O botão Restaurar padrões volta as opções da janela para uma configuração inicial.
+- O botão OK salva as preferências sem criar ocorrências; o botão Aplicar salva e cria as ocorrências.
+- A opção Restaurar original continua permitindo desfazer a última geração de recorrências quando houver estado anterior disponível.
+
+Novidades em lembretes locais:
+- A janela Ativar lembretes locais agora também permite escolher entre todos os itens filtrados ou somente itens selecionados.
+- A pesquisa ajuda a localizar rapidamente a tarefa que deve receber aviso.
+- Os lembretes podem usar a data e o horário da própria tarefa ou uma data e horário escolhidos manualmente.
+- O período de busca por tarefas pode ser ajustado por início, fim, calendário e atalhos rápidos em dias, semanas ou meses.
+- Quando uma tarefa tem data, mas não tem horário, o aplicativo pode usar um horário padrão definido pelo usuário.
+- Os avisos podem aparecer dentro do aplicativo, pela bandeja do sistema ou pelos dois caminhos quando disponíveis.
+- Se a bandeja do sistema não estiver disponível, o aplicativo informa que os avisos serão mostrados dentro do próprio app.
+- A área de lembretes ativos mostra os avisos já agendados na sessão atual.
+- O botão Testar ajuda a confirmar se o aviso será exibido corretamente.
+- O botão Remover ativos cancela os avisos que ainda não tocaram.
+- Quando várias tarefas têm o mesmo horário de lembrete, elas aparecem juntas em um único aviso com a lista de tarefas.
+- O campo Máximo agora representa quantas vezes cada aviso será repetido no mesmo horário. Por exemplo, com valor 3, o aviso toca três vezes em sequência.
+
+Melhorias de uso:
+- As escolhas feitas nas janelas de recorrências e lembretes são lembradas para facilitar usos repetidos.
+- O resumo no topo das janelas mostra quantos itens serão considerados e quantas ações podem ser feitas.
+- O aplicativo avisa quando falta escolher uma origem, quando nenhum item foi selecionado ou quando não há uma forma de aviso ativa.
+- Datas e horários já vencidos são tratados com mais cuidado para evitar lembretes impossíveis de tocar.
+- A visualização das janelas ficou mais organizada para revisar tarefas, datas e horários antes de confirmar.
+- O manual e os documentos de apoio foram atualizados com orientações mais claras sobre esses recursos.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.8.0
+Data: 8 de maio de 2026
+
+Resumo geral
+Esta atualização amplia o Eisenhower Organizer com novas ferramentas de produtividade, revisão, recorrência, lembretes, exportação e diagnóstico. A experiência de uso ficou mais completa para quem planeja tarefas, acompanha prazos, revisa estudos e precisa transformar informações em ações práticas. Também foram reforçadas a estabilidade visual, a persistência das preferências, a consistência dos textos exibidos e a confiabilidade do salvamento.
+
+Novos recursos e funcionalidades:
+- Nova busca global para localizar tarefas, estudos, leituras e conteúdos relacionados a partir de uma única janela.
+- Novo painel de curto prazo para revisar rapidamente itens de hoje e dos próximos sete dias.
+- Nova configuração de recorrência por item, com opções diária, semanal, mensal e data final opcional.
+- Nova geração em lote de próximas recorrências, com prévia do que será criado antes da confirmação.
+- Nova opção para evitar duplicações ao criar ocorrências futuras.
+- Nova opção de aplicar uma frequência padrão a itens ainda sem recorrência configurada.
+- Nova possibilidade de desfazer a última geração de recorrências, quando houver estado anterior disponível.
+- Novos lembretes locais com escolha de origem, período, quantidade máxima, aviso dentro do aplicativo e aviso pela bandeja do sistema quando disponível.
+- Novo teste de lembrete para confirmar se o aviso será exibido corretamente antes de agendar itens reais.
+- Nova lista de lembretes ativos, com opção para cancelar os avisos agendados na sessão atual.
+- Nova exportação de calendário para uso em agendas compatíveis.
+- Novo histórico de produtividade com visão resumida de tarefas concluídas, ciclos de foco, revisões, ideias registradas e tempo estimado de leitura.
+- Novo fluxo integrado de estudo para transformar um trecho de leitura em conceito, tarefa de revisão e registro visual de apoio.
+- Novos modelos prontos para criar rapidamente planos de estudo, trabalho, revisão, leitura e planejamento semanal.
+- Nova criação de revisões espaçadas com intervalos ajustáveis por nível de domínio.
+- Nova janela para revisar, editar, remover e transferir revisões antes de confirmar a criação.
+- Novo painel de diagnóstico para conferir recursos instalados, status de carregamento, localização e mensagens de erro quando algo não estiver disponível.
+- O manual foi expandido com instruções práticas sobre busca, recorrências, lembretes, revisões espaçadas, exportação, histórico, modelos, diagnóstico e fluxo integrado de estudo.
+
+Melhorias de uso:
+- A navegação por tarefas datadas ficou mais clara para execução diária e semanal.
+- A criação de ocorrências recorrentes ficou mais segura por exibir prévia antes de aplicar alterações.
+- As preferências dos diálogos de recorrência e lembretes são lembradas para facilitar usos repetidos.
+- Os lembretes agora oferecem mais controle sobre itens selecionados, itens filtrados, horários ausentes e formas de aviso.
+- A exportação e o salvamento preservam melhor informações como prioridade, domínio, data, horário, descrição, vínculo externo, recorrência, revisão e integração entre áreas de trabalho.
+- A visualização mensal e anual do calendário ficou mais útil para consultar tarefas distribuídas em períodos maiores.
+- A lista global ganhou melhor suporte a agrupamento, destaque visual, seleção múltipla e abertura de vínculos externos.
+- O comportamento em telas menores ficou mais estável, com melhor aproveitamento do espaço ao abrir, maximizar, restaurar e redimensionar janelas.
+- Os botões comuns de confirmação, cancelamento, aplicação e restauração ficaram mais consistentes com o idioma escolhido.
+- As instruções de ajuda agora descrevem melhor como usar os recursos recentes no dia a dia.
+
+Erros e bugs corrigidos:
+- Corrigidos casos em que uma aba principal podia reaparecer depois de reiniciar, mesmo após ter sido ocultada pelo usuário.
+- Corrigida a proteção contra ocultar todas as abas ao mesmo tempo, evitando uma tela sem área de trabalho visível.
+- Corrigidos comportamentos de seleção múltipla que podiam manter itens indevidos selecionados após um clique simples.
+- Corrigidos problemas de atualização do contador superior ao alternar, selecionar ou reorganizar itens.
+- Corrigidas inconsistências na atualização do calendário depois de criar, editar, mover, remover ou limpar tarefas.
+- Corrigidos casos em que preferências visuais e escolhas de exibição não eram restauradas de forma previsível.
+- Corrigidos avisos e caminhos de recuperação quando um vínculo externo não era mais encontrado.
+- Corrigida a geração de recorrências para reduzir duplicações e respeitar melhor filtros, datas, horários e limites definidos pelo usuário.
+- Corrigidos cenários em que lembretes podiam ser agendados sem uma forma válida de aviso ou com data/hora já vencida.
+- Corrigida a restauração de estado após operações em lote quando a opção de desfazer está disponível.
+- Corrigidas falhas de leitura e recuperação de dados quando informações salvas estavam incompletas ou inconsistentes.
+- Corrigidos textos, rótulos e mensagens que não acompanhavam corretamente a troca de idioma.
+- Corrigidos ajustes de tamanho que podiam causar cortes, saltos visuais ou perda de espaço útil em janelas menores.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.5.5.0
+Data: 5 de maio de 2026
+
+Resumo geral
+Esta versão reforça o processo de compilação, empacotamento, manutenção e geração de traduções do Eisenhower Organizer. O aplicativo principal, os módulos Pomodoro e Feynman, os utilitários auxiliares e os instaladores agora contam com fluxos mais claros para Qt 6.12.0, com separação entre MinGW e MSVC, saídas previsíveis e menos dependência de comandos manuais soltos. Também reúne em uma única atualização as melhorias recentes de organização visual, estabilidade, leitura das tarefas, adaptação a telas menores e controle dos painéis laterais. O uso diário ficou mais claro, mais previsível e com mais liberdade para você decidir o que deseja manter visível na tela. Amplia o Eisenhower Organizer com suporte aos novos módulos opcionais Mapa Mental e Audiolivro. Também melhora o controle das abas da interface, facilita o acesso aos módulos, atualiza as informações de versão do aplicativo e corrige problemas de idioma e carregamento de recursos que podiam afetar cópias instaladas ou preparadas para distribuição. Melhora o desempenho das versões finais do aplicativo, amplia a personalização das abas principais, corrige a persistência da visibilidade da aba Eisenhower, ajusta a aparência do Audiolivro, torna o painel Em Progresso do Pomodoro mais estável e atualiza os textos informativos exibidos ao usuário.
+
+Eisenhower Organizer:
+- O Eisenhower Organizer foi migrado de uma base em Python para uma base nativa em C++, mantendo a proposta de uso do aplicativo e trazendo execução mais direta no Windows.
+- Essa modernização abrange a janela principal, o gerenciamento das tarefas, o calendário, a lista global, os menus, os diálogos de edição, o Manual, a janela "Sobre", os idiomas, os ícones, os registros de atividade e os componentes de suporte.
+- O aplicativo principal e os utilitários auxiliares agora funcionam melhor como executáveis do Windows, com menos dependência de configurações externas e maior previsibilidade ao abrir em diferentes máquinas.
+- A abertura direta do programa ficou mais confiável, com bibliotecas e componentes visuais incluídos automaticamente quando necessário.
+- O ícone do aplicativo passou a aparecer de forma mais consistente no executável principal e nas janelas do programa.
+- Novo modo de organização da interface para tarefas, com alternância entre visualização em Abas e em Quadrantes diretamente nas configurações.
+- A preferência de layout agora fica salva automaticamente e é restaurada ao abrir o aplicativo novamente.
+- A troca de layout passou a exibir confirmação clara de sucesso e também aviso quando a alteração não puder ser aplicada.
+- Os novos textos da interface relacionados a layout e confirmações foram adicionados aos dois idiomas suportados.
+- Ao tentar abrir um arquivo vinculado que não existe mais, o aplicativo agora mostra um aviso com opções para remover o vínculo, procurar o arquivo novamente ou apenas fechar a janela.
+- A nova busca manual permite religar rapidamente um arquivo à tarefa sem precisar editar o item por outro caminho.
+- A visualização de tarefas ficou mais flexível, com alternância entre Abas e Quadrantes e com a preferência salva para as próximas aberturas.
+- Na visualização em Abas, cada quadrante agora pode recolher ou expandir separadamente a área de tarefas e a área de concluídas.
+- As listas podem ser organizadas por data, ordem alfabética e horário, com uso combinado e em ordem crescente ou decrescente.
+- A edição de tarefas ficou mais previsível, e o texto mostrado em cada item representa melhor as informações reais.
+- Data, horário, prioridade e domínio ficaram mais claros na leitura das tarefas.
+- O calendário está mais estável ao criar, editar, mover, remover e limpar tarefas.
+- A sincronização entre calendário, listas e demais visões do aplicativo ficou mais confiável.
+- O salvamento, o backup principal e a importação de arquivos externos ficaram mais consistentes.
+- As exportações em JSON, CSV, XLSX e PDF passaram a preservar melhor os dados das tarefas.
+- A ação Limpar agora deixa o aplicativo em um estado mais limpo e previsível.
+- Quando um arquivo vinculado não é mais encontrado, o aviso ficou mais claro e oferece opções simples para continuar.
+- Textos, rótulos, manual e telas de apoio ficaram mais consistentes em português e inglês.
+- O comportamento de inicialização, salvamento, nova sessão e mensagens de retorno ficou mais previsível.
+- As preferências de sincronização entre módulos agora são lembradas após fechar e abrir o aplicativo.
+- O topo do aplicativo agora exibe, ao lado da barra de menus, a quantidade de tarefas selecionadas e o total de tarefas do módulo que estiver aberto naquele momento.
+- No modo Eisenhower, essa contagem também leva em conta a seleção feita na Lista Global de Tarefas, fazendo com que o número mostrado combine melhor com o que realmente está selecionado na tela.
+- Essa contagem é atualizada conforme você seleciona, desseleciona, move ou reorganiza tarefas, ajudando a revisar várias tarefas com mais segurança.
+- Os novos textos de contagem acompanham corretamente o idioma escolhido no aplicativo.
+- As abas principais do aplicativo ficaram mais fáceis de reconhecer visualmente, facilitando identificar de imediato quando você está no Eisenhower, no Feynman ou no Pomodoro.
+- A navegação entre os quadrantes também ficou mais agradável, com destaque visual mais claro ao passar o mouse e ao abrir cada aba.
+- As áreas de tarefas pendentes e concluídas dentro de cada quadrante ficaram mais organizadas e mais simples de expandir ou recolher.
+- Os títulos dessas áreas ficaram mais visíveis e consistentes, melhorando a leitura tanto para tarefas em andamento quanto para tarefas já concluídas.
+- Foi corrigido o comportamento da seleção múltipla nas listas do Eisenhower: depois de selecionar várias tarefas com Ctrl ou Shift, agora um clique simples em apenas uma delas volta a deixar somente aquela tarefa selecionada.
+- Esse ajuste reduz enganos ao revisar listas maiores e mantém o uso de arrastar várias tarefas funcionando de forma mais estável.
+- Os quadrantes ficaram com melhor aproveitamento horizontal, reduzindo espaços laterais desnecessários e deixando a área de tarefas mais próxima dos limites úteis da tela.
+- O painel de calendário pode começar recolhido por padrão, liberando espaço logo na abertura do aplicativo.
+- A opção do calendário foi reorganizada dentro de `Configurações > Layout de Tarefas > Mostrar Painel` ou `Mostrar Painéis`, conforme os módulos disponíveis na instalação.
+- A preferência de mostrar ou ocultar o calendário agora é lembrada automaticamente nas próximas aberturas.
+- A janela principal passou a respeitar melhor os limites da tela em resoluções menores, evitando que partes importantes da interface fiquem fora da área visível.
+- O comportamento ao maximizar ficou mais estável e mais bem ajustado ao tamanho real disponível no monitor.
+- As áreas internas foram ajustadas para distribuir melhor o espaço vertical, reduzindo cortes de caixas de texto, listas e controles em telas mais baixas.
+- O ambiente de compilação foi reorganizado para trabalhar de forma mais clara com Qt 6.12.0 em MinGW e MSVC.
+- Os presets do CMake agora separam melhor o aplicativo principal, o módulo Pomodoro e o módulo Feynman, permitindo gerar cada parte pelo toolchain correto.
+- As distribuições externas do aplicativo passaram a ser geradas em diretórios separados para MinGW e MSVC, reduzindo risco de misturar DLLs, módulos ou executáveis de toolchains diferentes.
+- As tarefas do VS Code foram reorganizadas para compilar e executar o aplicativo principal em MinGW e MSVC com os caminhos de Qt, compilador e módulos configurados automaticamente.
+- Antes de recompilar, as tarefas encerram instâncias abertas do aplicativo quando necessário, evitando falhas causadas por arquivos bloqueados.
+- O deploy do runtime Qt ficou mais consistente, copiando automaticamente bibliotecas, módulos, traduções e assets necessários para as pastas de build e distribuição.
+- O utilitário de edição de versão passou a usar a tarefa dedicada `Qt6: find_VersionEditor`, com compilação e deploy em `mocks\build`.
+- A compilação direta antiga pela extensão C/C++ foi substituída por um fluxo específico de Qt, evitando erros de link com classes do Qt e DLLs ausentes.
+- Os artefatos regeneráveis do editor de versão e dos utilitários auxiliares ficaram fora do versionamento.
+- O script de limpeza agora remove diretamente os diretórios regeneráveis de build, distribuição auxiliar e utilitários, mantendo uma verificação de segurança para não sair da raiz do projeto.
+- A documentação técnica de ambiente foi alinhada ao fluxo atual de CMake, Qt 6.12.0, MinGW, MSVC, `windeployqt` e tarefas do VS Code.
+- Os módulos opcionais Mapa Mental e Audiolivro agora podem aparecer como abas principais quando seus módulos estiverem disponíveis.
+- O menu Configurações agora conta com uma área de Módulos que agrupa as ações de cada módulo disponível.
+- As abas da interface agora podem ser desbloqueadas, reorganizadas, bloqueadas novamente ou restauradas para a ordem padrão.
+- A ordem escolhida para as abas dos módulos e a opção de bloqueio são lembradas na próxima abertura do aplicativo.
+- O contador de itens selecionados e itens totais agora também funciona quando o Mapa Mental ou o Audiolivro estiver aberto.
+- Módulos opcionais, traduções e sons de alarme do Pomodoro são encontrados com mais confiabilidade em cópias instaladas ou preparadas do aplicativo.
+- Botões comuns de janelas, como Sim, Não, Cancelar, Aplicar e Restaurar, agora seguem o idioma escolhido com mais consistência.
+- As informações do aplicativo, detalhes dos instaladores, textos de privacidade e licença e referências visíveis de versão foram atualizados para 2026.5.3.0.
+- O menu Configurações > Layout de Tarefas agora inclui a opção Mostrar Abas de Interface.
+- Agora é possível escolher quais abas principais ficam visíveis: Eisenhower, Pomodoro, Feynman, Mapa Mental e Audiolivro.
+- O aplicativo reconhece automaticamente quais módulos opcionais estão disponíveis e só permite alterar abas de módulos presentes na instalação.
+- A aba Eisenhower continua pertencendo ao aplicativo principal, mas agora pode ficar oculta quando houver pelo menos outra aba disponível.
+- Foi corrigido o problema em que a aba Eisenhower voltava a aparecer após reiniciar o aplicativo, mesmo depois de ter sido ocultada pelo usuário.
+- A escolha das abas visíveis é lembrada automaticamente nas próximas aberturas.
+- O aplicativo impede ocultar todas as abas, evitando uma janela sem área de trabalho visível.
+- Ao abrir um módulo pelo menu, a aba correspondente volta a ficar visível automaticamente, caso estivesse oculta.
+- O texto Mostrar Abas de Interface agora acompanha corretamente a troca de idioma em tempo de execução.
+- A janela Sobre, os documentos informativos, os instaladores e as informações visíveis de versão foram atualizados para 2026.5.5.0.
+- As versões finais do aplicativo podem ser preparadas com otimizações mais fortes de desempenho, permitindo gerar pacotes mais rápidos e melhor ajustados ao computador usado na preparação.
+
+Documentação e orientações:
+- O manual do aplicativo agora explica como mostrar ou ocultar as abas principais da interface.
+- O arquivo MANUAL.md foi complementado com as mesmas orientações de uso.
+- Os documentos README.md, MANUAL.md e OBSERVACAO.md receberam revisão de português, acentuação, pontuação e padronização textual.
+
+Módulo Pomodoro:
+- O Pomodoro continua integrado diretamente ao aplicativo principal, com acesso mais natural no uso diário.
+- Ficou mais fácil enviar tarefas do fluxo principal para o Pomodoro.
+- A configuração do alarme ficou mais completa, com escolha de som, teste rápido e ajuste de repetição.
+- Novos sons ajudam a personalizar melhor os avisos de término de ciclo.
+- A abertura do Pomodoro ficou mais amigável quando ele ainda não estiver disponível.
+- A limpeza geral do aplicativo também remove as tarefas mostradas no Pomodoro quando o módulo estiver ativo.
+- Quando um arquivo vinculado não for encontrado, agora também é possível remover o vínculo ou procurar o arquivo novamente dentro do Pomodoro.
+- Quando o Pomodoro estiver aberto, o aplicativo também passa a mostrar com mais clareza quantas tarefas estão selecionadas e quantas existem dentro desse módulo.
+- As abas internas do Pomodoro ficaram mais fáceis de distinguir visualmente, ajudando a localizar com mais rapidez o que está a fazer, em progresso ou concluído.
+- A leitura geral do Pomodoro ficou mais alinhada com o restante do aplicativo, deixando a experiência mais consistente.
+- O painel `Em Progresso` agora também pode ser recolhido e expandido de forma prática, seguindo o mesmo padrão visual adotado nos outros módulos.
+- Esse painel pode iniciar fechado por padrão para dar mais espaço à lista principal e ao temporizador.
+- A preferência de mostrar ou ocultar `Em Progresso` agora pode ser controlada pelo menu de layout e fica salva automaticamente.
+- Foi adicionado um atalho de teclado para alternar rapidamente esse painel: `Ctrl+Shift+E`.
+- O módulo ficou mais adaptável em telas menores, com melhor distribuição vertical entre temporizador, listas e painel lateral.
+- O módulo Pomodoro ganhou presets e tarefas próprias para compilação com MinGW e MSVC.
+- O deploy do módulo passou a ser feito em diretórios separados para cada toolchain, mantendo o runtime Qt compatível com a compilação usada.
+- Os compiladores de tradução do Pomodoro foram renomeados para `Pomodoro_CompileTranslationsGUI` e `Pomodoro_CompileTranslationsTerminal`.
+- O script de tradução do Pomodoro agora localiza a raiz do projeto com mais segurança, compila o utilitário selecionado, executa o deploy do Qt e grava os binários em `módulo\pomodoro\Pomodoro\language\output`.
+- As tarefas do VS Code permitem compilar e executar as versões gráfica e de terminal do compilador de traduções do Pomodoro sem depender do comando genérico de compilar arquivo atual.
+- A pasta de saída dos utilitários de tradução do Pomodoro foi marcada como regenerável e não deve ser versionada.
+- Os sons de alarme do Pomodoro são encontrados com mais confiabilidade após a instalação ou empacotamento.
+- As traduções do Pomodoro carregam com mais consistência a partir das pastas do módulo incluídas no aplicativo.
+- O painel Em Progresso ficou mais estável ao ser aberto, fechado ou redimensionado.
+- A largura do painel Em Progresso passa a ser preservada com mais consistência durante o uso.
+- Foram reduzidos saltos visuais e mudanças inesperadas de tamanho ao alternar o painel.
+
+Módulo Feynman:
+- As tarefas chegam ao Feynman com mais consistência, preservando melhor as informações importantes.
+- O painel principal do Feynman ficou com um nome mais intuitivo.
+- Quando a área de descrição estiver vazia, ela pode ser preenchida automaticamente com base nas demais anotações.
+- Quando a descrição já tiver sido escrita manualmente, o texto do usuário é preservado.
+- A limpeza geral do aplicativo também remove as tarefas mostradas no Feynman quando o módulo estiver ativo.
+- Quando um arquivo vinculado não for encontrado, agora também é possível remover o vínculo ou procurar o arquivo novamente dentro do Feynman.
+- Quando o Feynman estiver aberto, o aplicativo também mostra com clareza quantos itens estão selecionados e quantos existem no módulo.
+- As etapas do método ficaram visualmente mais fáceis de reconhecer, tornando a navegação entre as abas mais direta e mais confortável.
+- A leitura visual do Feynman ficou mais clara, ajudando a acompanhar melhor cada etapa do processo.
+- O painel `Minhas Tarefas:` agora pode ser recolhido e expandido com o mesmo estilo prático já usado no calendário do Eisenhower.
+- Esse painel também pode iniciar fechado por padrão, deixando mais espaço para a área principal de estudo.
+- A descrição fixa que ficava no topo foi removida para liberar mais espaço útil na tela.
+- O contorno visual extra ao redor da área principal foi removido, deixando o módulo com aparência mais limpa.
+- Os elementos principais do Feynman foram reposicionados para aproveitar melhor a área superior da janela.
+- A preferência de mostrar ou ocultar `Minhas Tarefas:` agora pode ser controlada pelo menu de layout e fica salva automaticamente.
+- Foi adicionado um atalho de teclado para alternar rapidamente esse painel: `Ctrl+Shift+T`.
+- O módulo Feynman ganhou presets e tarefas próprias para compilação com MinGW e MSVC.
+- O deploy do módulo passou a ser feito em diretórios separados para cada toolchain, reduzindo risco de conflito entre runtimes.
+- Os compiladores de tradução do Feynman foram renomeados para `Feynman_CompileTranslationsGUI` e `Feynman_CompileTranslationsTerminal`.
+- O script de tradução do Feynman agora localiza a raiz do projeto com mais segurança, compila o utilitário selecionado, executa o deploy do Qt e grava os binários em `módulo\feynman\Feynman\language\output`.
+- As tarefas do VS Code permitem compilar e executar as versões gráfica e de terminal do compilador de traduções do Feynman sem depender do comando genérico de compilar arquivo atual.
+- A pasta de saída dos utilitários de tradução do Feynman foi marcada como regenerável e não deve ser versionada.
+- A abertura do Feynman ficou mais confiável em cópias instaladas ou preparadas do aplicativo.
+- As informações do Feynman ficam agrupadas com os demais módulos opcionais nas telas informativas do aplicativo.
+
+Módulo Mapa Mental:
+- Novo módulo opcional Mapa Mental para criar mapas visuais de ideias, tópicos e materiais de estudo.
+- É possível adicionar conceitos, movê-los livremente, conectar conceitos relacionados, alterar cores e remover conceitos individuais ou selecionados.
+- Os conceitos podem guardar notas e arquivos vinculados; Ctrl + duplo clique abre um arquivo vinculado diretamente pelo mapa.
+- Os mapas podem ser salvos, carregados, restaurados automaticamente, limpos com confirmação e exportados como imagens PNG.
+- Documentos podem ser importados para gerar um mapa mental automaticamente quando os recursos de IA estiverem disponíveis.
+- Os formatos de importação aceitos incluem PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite e XML.
+- O processamento de documentos mostra o progresso enquanto o texto é extraído, analisado e transformado em conceitos.
+- Ao arrastar um documento para a janela de novo conceito, é possível criar um mapa a partir desse arquivo.
+- O mapa pode ser organizado nos modos vertical, horizontal, radial ou árvore, com a preferência lembrada automaticamente.
+- Uma visualização focada pode percorrer os conceitos para ajudar na apresentação ou revisão do mapa passo a passo.
+- O total de conceitos e o total de conceitos selecionados aparecem no contador do aplicativo.
+
+Módulo Audiolivro:
+- Novo módulo opcional Audiolivro para ler textos e PDFs em voz alta.
+- É possível abrir PDFs, escrever ou colar textos, arrastar arquivos compatíveis para o leitor e alternar entre as visões Texto e PDF.
+- Os controles de reprodução incluem ler, pausar, continuar, parar, velocidade, volume e escolha de voz.
+- As opções de voz ficam disponíveis no menu Módulos e são organizadas por idioma quando houver informações disponíveis.
+- Tamanho e estilo da fonte podem ser ajustados, pré-visualizados, salvos e restaurados.
+- O editor de texto inclui novo texto, salvar como TXT, desfazer, refazer, busca, marcadores, espaçamento entre linhas, recuo e margem.
+- A leitura de PDF inclui navegação por páginas, zoom, ajuste à largura, ajuste à página, modo mão, modo seleção, cópia de texto e informações do arquivo/página.
+- A busca funciona em texto e PDF, com navegação para próximo/anterior, diferenciação de maiúsculas e minúsculas, busca por palavra inteira e destaque de todos os resultados.
+- A leitura assistida pode destacar a palavra, frase ou parágrafo atual enquanto o áudio é reproduzido.
+- Uma régua de foco pode ser ativada para facilitar o acompanhamento linha por linha.
+- Arquivos temporários de áudio são limpos com mais confiabilidade após a leitura.
+- As abas internas Texto e PDF agora usam a mesma estética de cores das abas principais do aplicativo.
+- A aba Texto recebeu destaque azul.
+- A aba PDF recebeu destaque vermelho.
+- As áreas de texto e PDF foram realinhadas para combinar melhor com os botões e controles da interface.
+- A coloração das abas Texto e PDF é mantida corretamente após atualização dos textos da interface.
+
+Instaladores e distribuição:
+- O script principal do Inno Setup agora reconhece explicitamente as variantes MinGW e MSVC.
+- Ao compilar o instalador diretamente pela IDE do Inno Setup, o script gera automaticamente os instaladores das duas variantes.
+- Também continua possível compilar apenas uma variante pela linha de comando usando `BuildFlavor=mingw` ou `BuildFlavor=msvc`.
+- Os instaladores agora são gravados em saídas separadas: `InnoSetupOutput_mingw` e `InnoSetupOutput_msvc`.
+- Os nomes dos instaladores passaram a incluir o toolchain e a versão, facilitando identificar rapidamente qual pacote será distribuído.
+- O instalador passou a empacotar a árvore completa de distribuição correspondente, preservando DLLs, módulos, traduções, assets e arquivos auxiliares gerados para cada toolchain.
+- As informações de instalação, nome exibido, diretório padrão e atalho agora diferenciam melhor as variantes MinGW e MSVC.
+
+Melhorias de uso e estabilidade:
+- A inicialização do aplicativo ficou mais estável, inclusive com correção de falha relacionada ao calendário em determinadas aberturas.
+- O executável principal não abre mais uma janela de terminal desnecessária ao ser iniciado no Windows.
+- Os controles de data, horário e prioridade na área de criação de tarefas ficaram mais bem alinhados visualmente.
+- A Lista Global de Tarefas voltou a mostrar corretamente o indicador visual de prioridade antes de cada tarefa.
+- Os rótulos dos quadrantes foram restaurados, incluindo seus emojis correspondentes.
+- Corrigido o problema que exibia dois tooltips ao passar o mouse sobre tarefas; agora apenas a pré-visualização correta é mostrada.
+- Corrigido o erro que duplicava o ano em datas exibidas, como "20262026", em Português e Inglês.
+
+Correções e ajustes:
+- Corrigido o problema que movia a tarefa entre pendente e concluída ao apenas atualizar um arquivo vinculado.
+- A tarefa agora preserva seu estado original ao remover ou redefinir um vínculo de arquivo.
+- O tratamento para arquivos vinculados ausentes ficou mais consistente nos pontos de abertura por duplo clique.
+
+Idioma, conteúdo e suporte:
+- O Manual de Utilização agora acompanha a troca de idioma em tempo real mesmo quando já está aberto.
+- A janela "Sobre" ficou mais confiável ao carregar textos, histórico e recursos, inclusive em cópias publicadas do aplicativo.
+- Os arquivos de idioma foram reorganizados com nomes mais claros, e o aplicativo agora reconhece essa nova organização automaticamente.
+- O carregamento das traduções ficou mais robusto, com melhor compatibilidade para os arquivos do aplicativo e do próprio Qt.
+- O compilador de traduções foi modernizado e agora existe em duas versões nativas para Windows: uma com interface gráfica e outra para uso direto no terminal.
+- O compilador gráfico de traduções passou a iniciar em modo de espera e não mantém mais o cursor preso em estado de carregamento após concluir o processo.
+- O editor de versões do projeto também foi convertido para uma aplicação nativa, eliminando a necessidade de Python nessa etapa.
+- Os compiladores de tradução do aplicativo principal foram renomeados para nomes mais claros: `Eisenhower_CompileTranslationsGUI` e `Eisenhower_CompileTranslationsTerminal`.
+- O fluxo de compilação das traduções agora usa um script PowerShell dedicado, com validação das ferramentas esperadas, geração em `source\language\output` e deploy automático com `windeployqt`.
+- As versões gráfica e de terminal do compilador de traduções podem ser compiladas e executadas diretamente pelo VS Code por tarefas próprias.
+- Os arquivos de gerenciamento de tradução do aplicativo deixaram de ser tratados como executáveis isolados, ficando restritos ao papel de componente interno do aplicativo.
+- O processo de tradução ficou mais previsível para manutenção, porque cada utilitário tem nome, pasta de saída e tarefa de execução próprios.
+
+Impacto para o usuário:
+- Menos atrito ao organizar tarefas e alternar entre Eisenhower, Pomodoro e Feynman.
+- Mais confiança ao salvar, importar, limpar e recuperar tarefas.
+- Interface mais consistente e fácil de entender no uso cotidiano.
+- Mais previsibilidade ao reabrir o aplicativo e continuar de onde você parou.
+- Mais clareza para entender rapidamente quantas tarefas você realmente está manipulando em cada área.
+- Menos confusão ao selecionar várias tarefas e depois voltar para apenas uma.
+- Navegação mais simples entre módulos, quadrantes e etapas do fluxo de trabalho.
+- Leitura visual mais organizada e consistente em toda a interface principal.
+- Mais espaço útil na tela, especialmente em notebooks e monitores com resolução menor.
+- Menor chance de listas, campos e botões ficarem parcialmente escondidos.
+- Mais liberdade para deixar visíveis apenas os painéis que realmente fazem sentido no seu uso diário.
+- Retorno automático da sua preferência de visualização sempre que o aplicativo for aberto novamente.
+- Navegação mais rápida com atalhos de teclado para os principais painéis laterais.
+- A instalação distribuída passa a ser mais previsível, com pacotes separados para MinGW e MSVC.
+- A chance de misturar arquivos de runtime de toolchains diferentes foi reduzida.
+- A abertura do aplicativo publicado fica mais confiável porque o empacotamento usa a árvore completa gerada pelo deploy.
+- Quem usa apenas o aplicativo final não precisa alterar dados, preferências ou arquivos existentes.
+- Mais fluxos de estudo e aprendizado podem ser feitos dentro do mesmo aplicativo.
+- Módulos opcionais aparecem apenas quando estiverem presentes, mantendo instalações menores mais limpas.
+- A navegação entre módulos ficou mais flexível e mais fácil de personalizar.
+- Textos, botões e recursos dos módulos ficam mais consistentes ao trocar idioma ou abrir uma cópia empacotada.
+- Os dados existentes do usuário continuam compatíveis.
+- A navegação entre módulos ficou mais personalizável.
+- As preferências de visibilidade das abas ficam mais previsíveis depois de fechar e abrir o aplicativo.
+- A interface do Audiolivro ficou mais alinhada visualmente ao restante do aplicativo.
+- O painel Em Progresso do Pomodoro ficou mais confortável em telas redimensionadas.
+- Textos e informações do aplicativo ficaram mais consistentes em português e inglês.
+- Os dados existentes do usuário continuam compatíveis.
+
+Impacto para manutenção e distribuição:
+- A compilação do aplicativo, dos módulos e dos utilitários ficou mais padronizada no VS Code.
+- A geração de traduções ficou mais simples de repetir e mais fácil de diagnosticar quando houver falha.
+- Os caminhos de saída ficaram mais explícitos, evitando dúvidas sobre onde procurar executáveis, DLLs e instaladores.
+- A limpeza do repositório ficou mais rápida e direta, removendo pastas regeneráveis inteiras em vez de limpar apenas o conteúdo interno.
+- O fluxo de distribuição ficou mais adequado para validar separadamente MinGW e MSVC antes de publicar instaladores.
+
+Observações:
+- Seus dados e arquivos existentes continuam compatíveis.
+- Nenhuma ação manual é necessária para continuar usando o aplicativo principal.
+- Para manutenção e distribuição, a nova base nativa reduz a dependência de Python e simplifica o uso das ferramentas auxiliares.
+- Nenhuma ação manual é necessária para usar as novas opções de layout e de recuperação de vínculos.
+- As melhorias desta versão passam a valer normalmente após atualizar o aplicativo.
+- As preferências de exibição dos painéis passam a ser lembradas automaticamente.
+- Nenhuma ação manual é necessária para usar as melhorias desta versão.
+- As pastas de build, output e deploy continuam sendo regeneráveis.
+- Para manutenção, recomenda-se usar as tarefas `Qt6:` do VS Code e os presets CMake correspondentes.
+- Nenhuma ação manual é necessária para dados existentes do usuário.
+- Nenhuma ação manual é necessária para dados existentes do usuário.
+- Os recursos de Mapa Mental e Audiolivro aparecem apenas em instalações que incluírem esses módulos.
+- Alguns recursos de voz do Audiolivro podem depender de serviços de voz disponíveis no computador ou na rede do usuário.
+- Nenhuma ação manual é necessária para dados existentes do usuário.
+- As abas de Pomodoro, Feynman, Mapa Mental e Audiolivro aparecem apenas quando os respectivos módulos estiverem disponíveis na instalação.
+- Caso uma aba seja ocultada, ela pode ser reativada pelo mesmo menu de layout.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.2.0.0
+Data: 22 de fevereiro de 2026
+
+Principais novidades:
+- Novo calendário anual integrado, com visão dos 12 meses e contagem de tarefas por mês.
+- Novo filtro por Ano na lista global, além dos filtros por Dia, Semana e Mês.
+- No filtro de Mês, agora é possível alternar entre visão mensal detalhada e visão anual resumida.
+- Em telas mais largas, a interface passa a mostrar múltiplos calendários lado a lado para facilitar planejamento contínuo.
+- A lista global passou a agrupar resultados por mês quando você usa filtros amplos (Mês/Ano), melhorando a leitura.
+- O painel de calendário inicia aberto e com redimensionamento mais fluido.
+- Novo atalho `F1` para abrir a lista completa de atalhos disponíveis no aplicativo.
+- O atalho da tela “Sobre” foi ajustado para `Ctrl+Shift+A`.
+- A movimentação de tarefas ficou mais flexível, permitindo enviar itens também para listas concluídas com retorno claro de sucesso ou falha.
+- As listas de tarefas concluídas agora seguem a cor visual de cada quadrante, facilitando identificação rápida.
+- Ao trocar o idioma, o aplicativo agora confirma claramente quando a alteração foi aplicada.
+
+Correções e ajustes:
+- Sincronização reforçada entre calendário, contadores e lista global, inclusive nas visões múltiplas.
+- Atualização visual de destaques e contagens mais consistente ao navegar entre meses e anos.
+- Melhor estabilidade ao abrir, recolher e redimensionar o painel de calendário.
+- Salvamento de tarefas mais robusto, com identificação única para reduzir risco de inconsistências.
+- Compatibilidade automática com dados antigos, sem necessidade de ajuste manual.
+- Preservação mais confiável de prioridade, descrição e vínculo de tarefa durante carregamento e salvamento.
+
+Observações:
+- Seus dados existentes continuam compatíveis e são mantidos automaticamente.
+- Nenhuma ação manual é necessária para usar as melhorias desta versão.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.9.0
+Data: 9 de fevereiro de 2026
+
+Principais novidades:
+- Reactividade ao tema do sistema aprimorada: o aplicativo reaplica cores e contrastes automaticamente ao detectar mudança de tema (claro/escuro) do Windows, garantindo melhor legibilidade.
+- Abertura automática de abas ao arrastar: ao posicionar o cursor sobre o título de uma aba durante um arraste, a aba é aberta automaticamente para facilitar mover tarefas entre quadrantes.
+- Melhoria no arrastar e soltar de arquivos: arrastar arquivos para o campo de entrada agora preenche o nome, mostra o caminho como dica e preserva a seleção durante movimentos em lote.
+- Entrada de horário mais confortável: o seletor de horário permite navegação contínua por minutos, tornando mais rápido ajustar horários.
+- Localidade e idioma dinâmicos: formatos de data/hora e textos da interface atualizam imediatamente ao trocar o idioma, inclusive nos popups de calendário e seletores.
+- Calendar pane refinado: lista global do calendário, filtros e cabeçalho seguem o esquema visual atualizado e mantêm boa visibilidade em temas claros e escuros.
+
+Correções e ajustes:
+- Redução significativa de flicker ao atualizar badges, contadores e ao mover/editar tarefas.
+- Operações de arrastar/soltar reforçadas para evitar duplicação ou perda de tarefas e preservar seleção em ações em lote.
+- Ordenação e agrupamento por faixa horária corrigidos; cabeçalhos de horário vazios são removidos automaticamente.
+- Context menus e atalhos localizados para oferecer rótulos em Português quando aplicável.
+- Melhoria na abertura de arquivos vinculados com fallback mais robusto e mensagens de erro amigáveis quando o arquivo não é encontrado.
+- Ajustes na aplicação do formato de data para usar ano com quatro dígitos quando apropriado.
+
+Observações:
+- Dados existentes permanecem compatíveis e preservados; nenhuma ação é necessária do usuário.
+- Caso queira mais contraste, as opções de ajuste de clareamento/escurecimento continuam disponíveis para personalização visual.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.8.0
+Data: 8 de fevereiro de 2026
+
+Principais novidades:
+- Atualização dinâmica do tema: o aplicativo reaplica automaticamente as cores nativas quando o tema do Windows (claro/escuro) é alterado, mantendo contraste e legibilidade.
+- Harmonização visual nativa: o fundo principal do layout ficou um tom levemente mais claro, enquanto as áreas de listas e campos de entrada receberam um tom nativo mais escuro para melhor contraste.
+- Destaque de aba ativa ajustado: a aba selecionada agora recebe um preenchimento ligeiramente mais claro por padrão e, no modo claro do sistema, a aba ativa fica propositalmente mais escura para maior visibilidade.
+- Arrastar e soltar aprimorado: ao posicionar o cursor sobre o título de uma aba durante um arraste, a aba é aberta automaticamente; soltar sobre a aba encaminha a(s) tarefa(s) para o quadrante correspondente.
+- Inputs integrados ao tema: campos como texto da tarefa, data, horário, seletor de prioridade e filtros agora usam o mesmo tom mais escuro das listas, garantindo consistência visual.
+- Calendar pane: lista global do calendário e seu cabeçalho seguem o novo esquema de cores nativas, com badges e destaques mantendo boa visibilidade em temas claros e escuros.
+
+Correções e ajustes:
+- Melhor compatibilidade com diferentes configurações do Qt/ambiente para evitar falhas na inicialização em alguns sistemas.
+- Redução de flicker e melhorias de estabilidade ao atualizar badges, contadores e ao mover/editar tarefas.
+- Operações de arrastar/soltar reforçadas para preservar seleção e evitar duplicação ou perda de tarefas durante movimentos entre quadrantes.
+- Ajustes na aplicação de locale para data/horário e atualização imediata de textos ao trocar o idioma em tempo de execução.
+- Pequenos refinamentos de usabilidade: placeholders mais robustos, ícones em botões principais e tooltips enriquecidos para pré-visualização rápida de tarefas.
+
+Observações:
+- Os dados existentes permanecem compatíveis e preservados; nenhuma ação é necessária por parte do usuário.
+- Caso deseje ajuste fino do contraste (mais claro/mais escuro), é possível selecionar valores de clareamento/escurecimento para personalizar a aparência.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.7.0
+Data: 7 de fevereiro de 2026
+
+Principais novidades:
+- Redimensionamento mais confiável: a janela agora se ajusta ao espaço disponível do monitor.
+- Painel de calendário mais estável: abrir e fechar o painel ajusta o tamanho da janela de forma previsível, sem causar comportamento inesperado.
+- Melhor compatibilidade com múltiplos monitores e diferentes escalas, mantendo a interface utilizável em telas estreitas.
+
+Correções e ajustes:
+- Redução de flicker e aprimoramento na atualização de contadores e destaques do calendário.
+- Correções de estabilidade em operações de calendário e ações em lote (mover/remover).
+- Mensagens e diálogos de confirmação refinados para maior clareza.
+
+Observações:
+- Nenhuma ação é necessária por parte do usuário; os dados existentes continuam compatíveis e preservados.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.6.0
+Data: 6 de fevereiro de 2026
+
+Principais novidades:
+- Interface mais consistente: diálogos de aviso e confirmação foram aprimorados para guiar o usuário em ações importantes.
+- Exclusão precisa: agora a remoção de tarefas idênticas respeita a prioridade, evitando apagar o item errado.
+- Melhorias de modularidade visíveis ao uso: ações como mover, editar e remover ficaram mais rápidas e previsíveis.
+- Operações em lote mais seguras: mover e remover múltiplas tarefas mantém a seleção e evita inconsistências.
+
+Correções e ajustes:
+- Corrigido comportamento que ocasionalmente duplicava ou perdia tarefas ao alterar prioridade ou data.
+- Mensagens de confirmação e informações exibidas de forma mais clara e amigável.
+- Atualizações do calendário consolidam mudanças ao final das operações, reduzindo flicker e melhorando a resposta visual.
+
+Observações:
+- Experiência mais estável ao editar, mover ou remover tarefas; fluxos em lote e ações individuais seguem mais previsíveis.
+- Nenhuma mudança é necessária nas suas tarefas existentes — os dados permanecem locais e compatíveis.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.5.0
+Data: 5 de fevereiro de 2026
+
+Principais novidades:
+- Seleção múltipla aprimorada: agora é possível selecionar várias tarefas com CTRL + clique ou clicando, segurando e arrastando sobre a lista de tarefas do calendário.
+- Ações em lote no menu de contexto: as opções "Mover para outro quadrante" e "Remover Tarefa" aplicam-se às tarefas múltiplas selecionadas.
+- Remoção e movimentação seguras: operações em lote foram reforçadas para evitar erros e manter a seleção durante e após a ação.
+- Atualização do calendário otimizada: contadores e destaques do calendário são atualizados de forma consolidada ao final das operações em lote, reduzindo flicker e melhorando desempenho.
+
+Correções e ajustes:
+- Corrigido problema que impedia a remoção de múltiplas tarefas quando alguns itens já haviam sido removidos ou estavam inconsistentes.
+- O retângulo de seleção aparece apenas durante o arraste e a seleção atual não é perdida ao clicar em itens selecionados.
+- Confirmações e mensagens de remoção em lote mais claras e consistentes.
+
+Observações:
+- Melhor experiência ao selecionar, mover e remover várias tarefas ao mesmo tempo; fluxo mais robusto e previsível para o usuário final.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.4.0
+Data: 4 de fevereiro de 2026
+
+Principais novidades:
+- Seleção por arraste aprimorada: é possível selecionar várias tarefas arrastando o mouse sobre elas; a seleção atual não é perdida e o retângulo de seleção aparece apenas durante o arraste.
+- Seleção persistente corrigida: ao selecionar múltiplas tarefas e clicar em qualquer uma delas, a seleção permanece e não gera caixas de seleção residuais.
+- Arrastar várias tarefas: agora é possível arrastar e mover várias tarefas selecionadas entre quaisquer quadrantes, repetidas vezes, sem perder a seleção.
+- Ações em lote no menu de contexto: as opções de mover e remover aplicam-se a várias tarefas simultaneamente, com confirmação quando necessário.
+- Diálogo de edição consolidado: edição de texto, descrição, data/hora e arquivo vinculado reunidos em um diálogo único mais simples e acessível.
+- Calendário e sincronização: contadores e destaques do calendário atualizam imediatamente após alterações nas tarefas; visualização rápida das tarefas por dia/semana/mês melhorada.
+- Robustez e salvamento: operações de movimentação, edição e remoção foram reforçadas para evitar perda ou duplicação de tarefas; salvamento automático consistente.
+
+Correções e ajustes:
+- Eliminação de retângulos de seleção persistentes após operações de clique/arraste.
+- Melhoria na atualização de visualizações e tooltips para refletir mudanças em tempo real.
+- Confirmações mais claras para remoção em lote e mensagens de erro amigáveis em falhas.
+
+Observações:
+- As mudanças visam melhorar a experiência de seleção múltipla, drag-and-drop e gestão em lote de tarefas, mantendo o fluxo simples e confiável para o usuário final.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.3.0
+Data: 3 de fevereiro de 2026
+
+Principais novidades:
+- Consolidação da edição: as opções de adicionar/editar descrição, abrir arquivo vinculado e editar data/horário foram movidas do menu de contexto para dentro da janela "Editar Tarefa". Agora é possível gerenciar texto, arquivo vinculado, descrição, data e horário em um único diálogo mais completo e acessível.
+- Diálogo "Editar Tarefa" enriquecido: o diálogo permite escolher, abrir ou remover arquivo vinculado, editar descrição com pré-visualização, e vincular/desvincular data e horário de forma independente, mantendo formatos locais.
+- Menu de contexto simplificado: o menu ficou mais enxuto e direto, com foco nas ações rápidas (mover, remover, editar), enquanto as edições detalhadas seguem pelo diálogo unificado.
+- Tooltips aprimorados: pré-visualizações exibem, de forma ordenada, data, horário, arquivo vinculado, descrição resumida e prioridade, facilitando leitura sem abrir diálogos.
+- Abertura de arquivos mais robusta: tentativas de abrir arquivos vinculados usam mecanismos nativos como fallback, com mensagens e logging mais claros em falhas.
+- Sincronização e consistência: melhorias na atualização entre listas e calendário garantem que alterações feitas no diálogo reflitam imediatamente no painel de calendário e nos contadores (badges).
+- Localidade consistente: seletores de data/hora e popups aplicam corretamente o idioma ativo, mantendo formatos e rótulos coerentes após troca de idioma.
+- Correções importantes:
+  - Evita duplicação ou perda de tarefas ao editar/alterar data ou mover entre quadrantes.
+  - Limpeza reforçada de cabeçalhos de horário órfãos após edições ou remoções.
+  - Salvamento e atualização imediata das listas e do calendário após alterações no diálogo de edição.
+
+Observações:
+- Fluxo de edição mais integrado e intuitivo para usuários leigos: tudo relacionado a uma tarefa (texto, arquivo, descrição, data/hora, prioridade) está acessível a partir do mesmo lugar.
+- Nenhum formato de arquivo ou mecanismo de persistência foi alterado; os dados continuam sendo armazenados localmente.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.2.0
+Data: 2 de fevereiro de 2026
+
+Principais novidades:
+- Melhorias na integração entre calendário e listas: sincronização mais confiável ao adicionar/editar/remover tarefas, evitando itens órfãos e atualizando badges imediatamente.
+- Tooltips enriquecidos e ordenados: pré-visualizações mostram arquivo vinculado, data, horário, descrição resumida e prioridade de forma mais legível.
+- Abertura de arquivos vinculados mais robusta: tentativas via mecanismo nativo da plataforma como fallback e mensagens de erro mais claras ao usuário.
+- Menu de contexto do calendário e das listas aprimorado: edição, movimentação entre quadrantes e remoção (individual ou em lote para um dia) com confirmações e reaproveitamento seguro de diálogos.
+- Melhor comportamento do painel de calendário: alternância mais suave e redimensionamento previsível da janela principal ao expandir/recolher o painel.
+- Localidade aplicada de forma mais consistente: calendar popups e seletores de data/hora respeitam o idioma ativo e atualizam formatos dinamicamente.
+- Destaques visuais aprimorados: dias com tarefas recebem fundo semitransparente e itens com arquivo vinculado são destacados em negrito/azul para facilitar identificação.
+- Robustez e diagnósticos: maior tolerância a erros em operações sensíveis e logging ampliado para facilitar investigação sem interromper o uso.
+
+Correções e ajustes importantes:
+- Corrige inconsistências ao localizar tarefas originais a partir do calendário (edição/removal via menu).
+- Evita duplicação ou perda de itens durante movimentos entre listas e operações de edição de data/horário.
+- Ajustes na detecção da data pelo cursor para tooltips mais precisos em diferentes versões do Qt.
+- Limpeza reforçada de cabeçalhos de horário vazios após remoções ou edições.
+
+Observações:
+- Nenhum formato de arquivo ou mecanismo de salvamento foi alterado; os dados permanecem armazenados localmente.
+- O aplicativo mantém operação totalmente offline — nenhum dado é enviado a servidores externos.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.1.0
+Data: 1 de fevereiro de 2026
+
+Principais novidades:
+- Atualização de versão do diálogo "Sobre" e refinamentos na exibição do histórico e notas de versão.
+- Melhoria no comportamento do painel de calendário: abertura/recolhimento mais suave e redimensionamento da janela principal mais previsível ao alternar o painel.
+- Aprimoramento no fallback de abertura de arquivos vinculados, aumentando a confiabilidade ao ativar arquivos externos.
+
+Melhorias de usabilidade e internacionalização:
+- Traduções e formatos de data/hora mais consistentes ao trocar o idioma em tempo de execução.
+- Atualização imediata dos textos e títulos em diálogos não modais (Sobre, Manual) após mudança de idioma.
+- Tooltips das tarefas mais informativos e legíveis, com ordenação e formatação melhoradas para pré-visualização rápida.
+
+Robustez, sincronização e comportamento esperado:
+- Correções na sincronização entre listas e calendário, garantindo atualização consistente de badges e destaques após adicionar/editar/mover tarefas.
+- Limpeza de cabeçalhos de horário órfãos reforçada para evitar agrupamentos vazios após remoções ou movimentos.
+- Maior tolerância a erros em operações sensíveis, com logging ampliado para facilitar diagnóstico sem interromper o uso.
+
+Acessibilidade, aparência e comportamentos auxiliares:
+- Ajustes visuais e de contraste para badges e destaques, mantendo legibilidade em temas claros e escuros.
+- Melhor compatibilidade de abertura de links e arquivos em diferentes plataformas através de fallbacks nativos mais confiáveis.
+
+Correções e ajustes importantes:
+- Evita duplicação ou perda de tarefas ao mover/editar itens entre listas.
+- Corrige casos em que o calendário não atualizava contadores (badges) imediatamente após mudanças nas tarefas.
+- Garante que diálogos abertos anteriormente sejam reaproveitados corretamente ou fechados sem deixar referências remanescentes no encerramento do aplicativo.
+
+Observações:
+- Nenhum formato de arquivo ou mecanismo de salvamento foi alterado; os dados permanecem armazenados localmente.
+- O aplicativo mantém operação totalmente offline — nenhum dado é enviado a servidores externos.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.1.0.0
+Data: 21 de janeiro de 2026
+
+Principais novidades:
+- Painel de calendário recolhível integrado à janela principal, com botão lateral rotacionado para alternar exibição e ajuste automático do tamanho da janela ao expandir/recolher.
+- Indicadores visuais (badges) nos dias do calendário mostrando contadores de tarefas; contagem disponível por dia, por semana e por mês.
+- Lista global de tarefas ligada ao calendário: exibição filtrável por dia/semana/mês, pré-visualização rica das tarefas e abertura de arquivos vinculados por duplo clique.
+- Diálogo de edição de data e horário aprimorado: possibilidade de vincular/desvincular data e horário separadamente, sincronização entre as opções e aplicação do formato local ao seletor de datas.
+- Agrupamento de tarefas por faixa horária dentro das listas (ex.: 09:00–09:59) com cabeçalhos por hora e inserção ordenada das tarefas por horário e texto.
+- Visual nativo ao redor do calendário (moldura que acompanha tema do sistema) para melhor integração com aparência do sistema operacional.
+
+Melhorias de usabilidade e internacionalização:
+- Aplicação dinâmica de locale: calendário, seletores de data/horário e formatos de exibição usam o locale ativo; mudanças de idioma em tempo de execução atualizam textos e formatos.
+- Primeiro dia da semana configurado para domingo no calendário; formatos de data obtidos do controle de data principal para consistência visual.
+- Tooltips das tarefas enriquecidos com informações (arquivo vinculado, data, horário, descrição resumida e prioridade) para pré-visualização rápida sem abrir diálogos.
+- Itens com arquivo vinculado recebem destaque visual (fonte em negrito e cor) para facilitar identificação.
+- Placeholders robustos para listas vazias, com garantia de não deixar itens "órfãos" ou não selecionáveis após operações de remoção/movimentação.
+
+Robustez, sincronização e comportamento esperado:
+- Sincronização automática do painel/calendário após alterações nas tarefas (adição, edição, remoção, movimento entre quadrantes).
+- Movimentação de tarefas entre quadrantes preserva/atualiza prioridade e ajusta corretamente o estado de conclusão.
+- Limpeza automática de cabeçalhos de hora quando não há tarefas naquela faixa, evitando cabeçalhos vazios.
+- Bloqueio de sinais durante operações sensíveis (drag-and-drop, movimentos entre listas) para prevenir eventos duplicados e perda/duplicação de tarefas.
+- Persistência consistente: salvamento das tarefas após operações relevantes para reduzir risco de perda de dados.
+
+Acessibilidade, aparência e comportamentos auxiliares:
+- Badges e destaques usam cores da paleta do sistema com transparência apropriada para legibilidade em temas claros e escuros.
+- Controles de data/horário recebem ajustes de tamanho mínimo e paletas para melhor legibilidade e conforto de uso.
+- Fallbacks de abertura de arquivo implementados por plataforma (mecanismos nativos quando a abertura direta falha) para maior confiabilidade.
+
+Correções e ajustes importantes:
+- Evita perda ou duplicação de tarefas ao mover/editar itens entre listas.
+- Remove cabeçalhos de horário órfãos e corrige ordenação instável ao inserir/editar tarefas com horário.
+- Garante que menus de contexto e textos de diálogos sejam atualizados corretamente ao trocar o idioma em tempo de execução.
+- Tratamento ampliado de exceções e logging em pontos críticos para reduzir falhas visíveis ao usuário e facilitar diagnóstico.
+
+Observações:
+- Nenhum formato de arquivo ou mecanismo de salvamento foi alterado; os dados permanecem armazenados localmente.
+- O aplicativo mantém operação totalmente offline — nenhum dado é enviado a servidores externos.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.9.0
+Data: 16 de janeiro de 2026
+
+Principais novidades:
+- Melhorias na localização: datas e horários seguem o idioma selecionado.
+- Diálogo de edição de data/horário mais confiável e compatível com o calendário.
+- Arrastar e soltar aprimorado; agora é mais fácil vincular arquivos às tarefas.
+- Edição de descrição e pré-visualização rápida ao passar o mouse.
+- Importação/exportação mais robusta (JSON completo, XLSX, PDF), preservando arquivo, descrição e prioridade.
+- Sincronização automática com o calendário após mudanças nas tarefas.
+- Placeholders e listas tratados para evitar itens órfãos e manter a interface limpa.
+- Mais tolerância a erros e registros de log para reduzir falhas visíveis ao usuário.
+
+Correções e ajustes:
+- Evita perda ou duplicação de tarefas ao mover/editar itens.
+- Ajustes na exibição de datas/horários e no comportamento dos controles de tempo.
+- Mensagens de erro informativas quando bibliotecas externas não estão disponíveis.
+
+Observações:
+- Nenhum formato de arquivo ou mecanismo de salvamento foi alterado; os dados continuam sendo armazenados localmente.
+- O aplicativo opera totalmente offline — nenhum dado é enviado a servidores externos.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.8.0
+Data: 15 de janeiro de 2026
+
+Novidades e melhorias principais:
+- Aprimoramento da internacionalização e formato de data/horário:
+  - Gerenciador de tradução com instalação e remoção segura de tradutores (inclui tentativa de carregamento de traduções do Qt).
+  - Aplicação dinâmica de QLocale conforme idioma selecionado; formatos de data ajustados automaticamente (inclui tratamento para anos com 'yyyy').
+  - Sinais de alteração de idioma propagados para componentes que exibem data/horário (calendário popup, diálogo de edição de data/horário, inputs).
+
+- Diálogo "Sobre" e Notas de Versão integradas:
+  - Janela "Sobre" atualizada para exibir notas de versão incorporadas e múltiplas abas (Histórico, Detalhes, Licenças, Avisos, Política de Privacidade e Notas de Versão).
+  - Cabeçalho com versão atualizada para 0.0.8.0 e melhor retradução em tempo de execução.
+
+- Visualizador de Manual refeito e navegável:
+  - Manual exibido em diálogo não modal com lista de seções e visualização com links âncora.
+  - Navegação por seção, preservação da posição atual ao trocar idioma, mapeamento de posições para saltos rápidos.
+  - Melhorias visuais: tamanhos de fonte relativos, títulos em destaque e suporte a ícone do aplicativo.
+
+- Edição de data/horário de tarefas e renderização:
+  - Diálogo de edição de data/horário aplica locale ao calendário popup e ao time edit; sincronização correta entre "Vincular data" e "Vincular horário".
+  - Exibição das tarefas atualiza tooltip com data/horário formatados, preserva texto base e evita cabeçalhos de horário órfãos.
+  - Operações de inserção/remoção de itens usam bloqueio de sinais e limpeza de grupos de horário para evitar estados inconsistentes.
+
+- Interface e atalhos:
+  - Menu de configurações recriado: entradas de idioma marcáveis, atalhos de teclado (Ctrl+M para calendário, Ctrl+Shift+M para manual, F1/Help para Sobre, Alt+A/I/O para abrir menus) com contexto adequado.
+  - Remoção segura de atalhos antigos antes de criar novos, reduzindo conflitos.
+
+- Controles de horário:
+  - CustomTimeEdit com comportamento de wrapping contínuo por minutos (navegação por minutos mais confortável).
+  - TimeEdit recebe display format consistente e atualização ao trocar idioma.
+
+- Robustez, logs e tratamento de exceções:
+  - Ampliação de logging e tratamento de exceções em pontos críticos (tradução, carregamento de arquivos, atualização de UI), facilitando diagnóstico sem travamentos.
+
+Correções importantes:
+- Correção do número da versão exibido no diálogo "Sobre" (agora 0.0.8.0).
+- Correções na aplicação dinâmica de tradução do Qt e na busca por arquivos .qm do sistema, evitando falha silenciosa quando traduções não estão presentes.
+- Evita placeholders incorretos e listas com itens não selecionáveis ao inserir/editar tarefas.
+- Evita perda ou duplicação de tarefas ao mover entre listas: operações bloqueiam sinais e atualizam calendário e persistência de forma consistente.
+- Correções de atualização de interface ao trocar idioma em runtime (diálogos, botões padrão, labels e menus).
+- Correções no comportamento do calendário popup e nos formatos exibidos de data/horário.
+- Correções de falhas ao abrir o Manual repetidamente (reutilização e foco do diálogo) e ao navegar por âncoras.
+
+Observações:
+- Mudanças focadas em usabilidade, localização e robustez; nenhum formato de arquivo ou mecanismo de salvamento foi alterado.
+- Aplicativo continua operando offline — nenhum dado é enviado a servidores externos.
+- Para diagnóstico, verifique os logs no diretório de persistência do usuário.
+
+- Melhorias no módulo de interface (incore_01_initUI.py):
+  - Campos de data e horário mais amigáveis: formatos são ajustados automaticamente ao idioma e o controle de horário permite rolagem contínua por minutos, tornando mais fácil escolher horários.
+  - Sincronização entre "Vincular data" e "Vincular horário": ao desmarcar a data, o horário é desativado automaticamente para evitar entradas incoerentes.
+  - Menus de contexto traduzidos: menus de copiar/colar/recortar e opções similares aparecem em Português quando o idioma está configurado, oferecendo uma experiência mais consistente.
+  - Melhor feedback visual e acessível: botões principais (Adicionar Tarefa, Calendário) recebem ícones quando disponíveis e placeholders claros são exibidos nas listas e nas listas de concluídas.
+  - Estabilidade ao mover e editar tarefas: eventos entre listas são tratados para evitar duplicação ou perda de itens e para manter o calendário sincronizado.
+  - Robustez e logging ampliados: operações sensíveis (aplicação de locale, mudanças de idioma, conexões de sinais) têm tratamento de erros e logs para facilitar diagnóstico sem travar o app.
+  - Contexto e organização das listas: quadrantes e listas concluídas foram reforçados com comportamentos previsíveis e menus de contexto personalizados para ações sobre tarefas.
+
+Correções específicas no módulo:
+- Ajuste automático do formato de data para usar ano com quatro dígitos quando aplicável.
+- Evita erros silenciosos ao aplicar traduções e ao atualizar componentes de data/horário em tempo de execução.
+- Garantia de que os controles de horário só fiquem ativos quando apropriado (data vinculada) para evitar entradas inválidas.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.7.0
+Data: 12 de janeiro de 2026
+
+Novidades e melhorias principais:
+- Melhorias de localização e formato de data/horário: o componente de data/hora respeita o locale ativo (via gerenciador de tradução) e ajusta automaticamente os formatos mostrados.
+- Atualização no texto e exibição do diálogo "Sobre": versão 0.0.7.0 e notas de lançamento integradas ao diálogo para acesso direto.
+- Aprimoramento da renderização das tarefas: tooltips com data e horário, texto base preservado e formatação mais consistente ao atualizar listas.
+- Integração mais confiável com o painel de calendário: listas e badges são atualizados automaticamente ao adicionar/editar/remover tarefas.
+- Agrupamento por horário e gerenciamento de grupos de tempo refinados: evita cabeçalhos órfãos/dobrados e mantém ordenação estável das tarefas com horário.
+
+Correções importantes:
+- Correção de problemas de atualização visual em listas e calendário (badges, destaques e placeholders).
+- Robustez: tratamento de exceções e logs ampliados para reduzir falhas visíveis ao usuário.
+- Ajustes em placeholders e comportamento de itens não selecionáveis para evitar placeholders incorretos.
+
+Observações:
+- Mudanças focadas em usabilidade e robustez; nenhum formato de arquivo ou mecanismo de salvamento foi alterado.
+- Aplicativo continua operando offline — nenhum dado é enviado a servidores externos.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.6.0
+Data: 22 de dezembro de 2025
+
+Novidades e melhorias principais:
+- Badges de contagem no calendário: o calendário agora exibe pequenos balões (badges) no canto superior direito dos dias que possuem tarefas, mostrando quantas tarefas estão vinculadas àquela data.
+- Contadores por dia, semana e mês: além do contador por dia, o calendário mantém contagens agregadas por semana e por mês, acessíveis via API do widget (métodos públicos para obter contagens).
+- Borda "nativa" ao redor do calendário: o QCalendarWidget passou a ser envolvido por um container que desenha a moldura nativa do Qt (QStyle::PE_FrameLineEdit). A borda acompanha automaticamente o tema do sistema (claro/escuro) via paleta do Qt.
+- Integração automática com tarefas: ao atualizar a lista de tarefas (adições, remoções ou edições), os badges e os destaques do calendário são atualizados automaticamente.
+- Cores adaptativas: os badges usam cores da paleta nativa (QPalette.highlight / highlightedText), garantindo boa visibilidade tanto em temas claros quanto escuros.
+- Destaque visual de datas com tarefas: datas que têm tarefas continuam sendo destacadas (background semitransparente) e agora convivem com os badges.
+- Reaproveitamento entre diálogo e painel: tanto o diálogo de calendário quanto o painel lateral usam o widget de badges e compartilham a mesma lógica de coleta/filtragem de tarefas e atualização visual.
+- Robustez e logs: operações de inicialização, pintura e atualizações estão protegidas por tratamento de exceções com logging, reduzindo falhas visíveis ao usuário e facilitando diagnóstico.
+
+Correções importantes:
+- Atualização consistente do visual: corrige casos em que o calendário não mostrava imediatamente alterações na lista de tarefas (badges e destaques agora são atualizados sempre que a lista muda).
+- Borda responsiva a mudanças de tema: a moldura agora redesenha corretamente ao trocar entre modo claro e escuro do sistema.
+- Evita desenho incorreto de badges: o tamanho e a posição dos badges foram ajustados para caberem corretamente nas células, evitando sobreposição de texto.
+
+Observações:
+- A nova borda é desenhada pelo Qt (QStyle::PE_FrameLineEdit) para manter aparência consistente com outros controles (ex.: QLineEdit).
+- Caso queira exibir contadores de semana/mês na interface, os métodos já expostos no widget permitem recuperá-los para uso adicional.
+- Nenhum comportamento de salvamento ou formato de arquivo foi alterado; esta versão foca em melhorias visuais e de sincronização entre listas e calendário.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.5.0
+Data: 21 de dezembro de 2025
+
+Novidades e melhorias principais:
+- Confiabilidade do arrastar e soltar: melhorias para evitar movimentos inválidos (não permite soltar na mesma lista; ignora itens não selecionáveis).
+- Processamento mais seguro: sinais são bloqueados durante operações de drag-and-drop para evitar eventos duplicados.
+- Salvamento automático e sincronização: lista de tarefas é salva automaticamente após arrastar/soltar e o painel de calendário é atualizado imediatamente.
+- Ações e indicadores consistentes: ação padrão de drop definida como cópia e indicador de drop aprimorado para comportamento mais previsível.
+- Registro e tratamento de erros melhorados: logs mais informativos e tratamento de exceções para reduzir falhas visíveis ao usuário.
+
+Correções importantes:
+- Evita perda de tarefas ao mover itens entre listas.
+- Ignora operações de drag-and-drop sem itens válidos, evitando estados inconsistentes.
+- Melhora na atualização visual das listas e do calendário após movimentos.
+
+Observações:
+- O aplicativo continua operando offline — nenhum dado é enviado para servidores externos.
+- O salvamento automático permanece ativo; atualize para aplicar as melhorias de arrastar/soltar e estabilidade.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.4.0
+Data: 21 de dezembro de 2025
+
+Novidades e melhorias principais:
+- Agrupamento por horário: tarefas com horário agora aparecem agrupadas por faixa de hora (ex.: 09:00–09:59) dentro de cada quadrante, facilitando a visualização do dia.
+- Ordenação aprimorada: tarefas são ordenadas por horário e, em seguida, por texto, para facilitar a localização rápida.
+- Suporte a arrastar e soltar: movimente tarefas entre quadrantes e entre listas de concluídas de forma intuitiva com drag-and-drop.
+- Diálogo de edição de data/horário melhorado: agora é mais fácil redefinir ou remover a data e o horário de uma tarefa; opções respeitam o formato de data/hora do idioma.
+- Entradas de tempo mais confortáveis: controle de horário com comportamento contínuo (wrapping) para navegação por minutos.
+- Integração do painel de calendário: painel lateral de calendário permanece integrado e atualiza automaticamente a lista de tarefas ao alterar itens.
+- Localização e formatos: melhor suporte a idiomas e ajuste automático dos formatos de data/hora conforme o idioma selecionado.
+- Usabilidade: aprimoramentos em textos, placeholders e menus de contexto (mover tarefa, redefinir data, remover) para fluxo de trabalho mais claro.
+
+Correções importantes:
+- Remoção automática de cabeçalhos de horário vazios para evitar itens órfãos na lista.
+- Correções que evitam perda de tarefas ao mover/editar itens e melhor tratamento de erros em operações comuns.
+- Pequenos ajustes para manter a consistência dos placeholders quando listas ficam vazias.
+
+Observações:
+- O aplicativo continua operando offline — nenhum dado é enviado para servidores externos.
+- Salvamento automático permanece ativo; atualize para garantir que a nova ordenação e agrupamento sejam aplicados às suas tarefas.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.3.0
+Data: 4 de novembro de 2025
+
+Novidades e melhorias principais:
+- Agora é possível vincular um horário a cada tarefa.
+- Ao vincular um horário, a tarefa aparece no quadrante de diálogo e no diálogo do calendário com data e hora associadas corretamente.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.2.0
+Data: 14 de outubro de 2025
+
+Resumo para usuários
+- Nova versão com recursos úteis e correções que tornam o aplicativo mais fácil de usar e mais confiável.
+
+Novidades e melhorias principais
+- Painel de Calendário lateral: agora há um painel de calendário recolhível ao lado da janela para visualizar datas rapidamente.
+- Diálogo de Calendário atualizado: você pode filtrar por Dia, Semana ou Mês e ver as tarefas vinculadas à data selecionada.
+- Idiomas e formato de data: a interface e os formatos de data se adaptam ao idioma selecionado (por exemplo, português ou inglês).
+- Exibição de datas: as datas são mostradas no formato local; quando disponível, o tooltip da tarefa mostra a data formatada de forma clara.
+- Salvamento automático melhorado: as tarefas continuam sendo salvas em tasks.json (texto e data são armazenados).
+- Importar/Exportar simplificado: é possível importar e exportar tarefas em Excel (.xlsx) e PDF. Se algum recurso precisar de software adicional no seu computador, o app informa claramente.
+- Melhorias de usabilidade: textos, placeholders e menus foram reorganizados para facilitar o uso.
+- Tratamento de erros mais robusto: situações inesperadas geram mensagens amigáveis em vez de travamentos.
+
+Correções importantes
+- Pequenos ajustes para evitar perda de dados e melhorar a estabilidade.
+
+Observaçõesa
+- O aplicativo funciona offline — nenhum dado é enviado para servidores externos.
+
+______________________________
+
+NOTAS DE LANÇAMENTO: Versão 0.0.1.0
+Data: 23 de setembro de 2025
+
+Nesta nova versão:
+
+- Aplicativo EISENHOWER ORGANIZER distribuído como executável para Windows, sem necessidade de instalar Python ou dependências manualmente.
+- Organização de tarefas em quatro quadrantes da Matriz de Eisenhower, com listas separadas para tarefas pendentes e concluídas.
+- Adição rápida de tarefas com seletor de quadrante e movimentação automática entre listas ao marcar como concluída.
+- Remoção de tarefas por menu de contexto com confirmação.
+- Persistência automática das tarefas em arquivo local tasks.json no diretório do usuário.
+- Exportação de tarefas para XLSX (Excel) e PDF, e importação de tarefas desses formatos.
+- Interface multilíngue com seleção de idioma e atualização imediata dos textos.
+- Janela "Sobre" com histórico, detalhes, avisos, licenças e política de privacidade carregados dos arquivos de recursos.
+- Operação totalmente offline: nenhum dado é enviado a servidores externos.
+- Instalação simples via instalador, com recursos e configurações prontos para uso imediato.
+- Soluções para problemas comuns e orientações de uso incluídas na documentação e na janela "Sobre".
+
+Para dúvidas, suporte ou sugestões, consulte os canais informados no instalador ou na documentação do aplicativo.

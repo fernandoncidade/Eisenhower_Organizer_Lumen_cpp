@@ -1,0 +1,46 @@
+Plugin opcional Modelo Qwen
+===========================
+
+Modelo incluído:
+
+- Qwen2.5-3B-Instruct Q4_K_M
+- Arquivo: qwen2.5-3b-instruct-q4_k_m.gguf
+- Origem: Qwen/Qwen2.5-3B-Instruct-GGUF
+- Revisão: 7dabda4d13d513e3e842b20f0d435c732f172cbe
+- SHA-256: 626b4a6678b86442240e33df819e00132d3ba7dddfE1cdc4fbb18e0a9615c62d
+- Licença do modelo: Apache License 2.0 (consulte LICENSE_QWEN2.5.txt)
+
+Este modelo é textual, multilíngue e foi escolhido para extração de conceitos,
+relações, resumos e hierarquias em JSON. Não há projetor multimodal associado;
+PDF, DOCX, EPUB e outros formatos são convertidos para texto pelo plugin
+Mapa Mental antes da inferência.
+
+Quando o documento oferece marcadores estruturais, o processamento preserva até
+seis níveis (obra, partes/capítulos e subdivisões sucessivas). Os níveis mais
+profundos são resumidos primeiro; as sínteses resultantes alimentam os nós-pai e
+o resumo integral. Cada saída é validada quanto a extensão mínima, duplicação e
+alinhamento com a seção. Respostas inválidas recebem um resumo local ancorado no
+título e nos filhos, sem descartar a árvore inteira.
+
+É possível substituir ou acrescentar outro modelo de linguagem no formato GGUF.
+Modelos com "instruct" ou "chat" no nome são priorizados;
+quantizações Q4_K_M e Q5_K_M são preferidas quando houver mais de uma opção.
+
+Também é possível configurar sem copiar o modelo para o plugin:
+
+- MAPAMENTAL_LLAMA_MODEL: caminho de um arquivo GGUF ou diretório de modelos.
+- MODELO_QWEN_MODEL: nome preferencial da variável para indicar o GGUF do plugin.
+- MAPAMENTAL_LLAMA_BACKEND: auto (padrão), vulkan ou cpu.
+- MAPAMENTAL_LLAMA_CONTEXT: contexto entre 4096 e 32768 tokens.
+- MAPAMENTAL_LLAMA_PREDICT: saída entre 512 e 4096 tokens.
+- MAPAMENTAL_LLAMA_SEED: semente de geração reproduzível (padrão: 7).
+- MAPAMENTAL_LLAMA_HIERARCHICAL_BATCH: quantidade de seções por lote, entre 4 e
+  24 (padrão: 14). Lotes maiores tendem a ser mais rápidos; lotes menores podem
+  melhorar a precisão em obras muito densas.
+- MAPAMENTAL_LLAMA_TIMEOUT_MS: limite entre 30000 e 900000 milissegundos.
+- MAPAMENTAL_LLAMA_DISABLE=1: desativa a inferência local e usa apenas o motor
+  heurístico.
+
+Sem o plugin Modelo, sem um GGUF válido ou sem um runtime funcional, o Mapa
+Mental ignora esta capacidade e continua automaticamente com sua análise
+heurística aprimorada.

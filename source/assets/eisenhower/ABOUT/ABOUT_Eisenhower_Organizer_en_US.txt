@@ -1,0 +1,41 @@
+Project: EISENHOWER ORGANIZER
+Product: Eisenhower Matrix
+Version: 2026.11.22.0
+Author: Fernando Nillsson Cidade
+
+Short description:
+EISENHOWER ORGANIZER is a native Windows application that helps users organize tasks with the Eisenhower Matrix, separating activities by importance, urgency, dates, times, status, and priorities. This document describes only the parent application. Integrated modules, such as Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model, have their own documents.
+
+Main features:
+- Task creation, editing, completion, and removal.
+- Organization into four quadrants: Important and Urgent; Important but Not Urgent; Not Important but Urgent; Not Important and Not Urgent.
+- Separate lists for pending and completed tasks.
+- Calendar, date-based views, and upcoming task panel.
+- Local data persistence in the user profile.
+- Import and export in supported formats, depending on the resources available in the package.
+- Brazilian Portuguese and U.S. English interface.
+- About window with policies, licenses, notices, and support information.
+
+Installation and distribution:
+- Distributed as a native Windows application built in C++23 with Qt 6.12.0.
+- When distributed through the Microsoft Store, installation, updates, purchase, and licensing are processed by Microsoft Store mechanisms.
+- The parent application includes native integrated modules providing comprehensive productivity functionality.
+
+Privacy and data:
+- The parent app is designed to operate locally, without automatic telemetry sent to the developer.
+- Tasks, preferences, and exported files remain on the device or in the location chosen by the user.
+- See the parent app Privacy Policy for details.
+
+Modules:
+- Native modules integrated into the product provide expanded productivity features.
+- Each module has its own description, privacy policy, EULA, copyright notice, and third-party notices.
+
+Support:
+- Author: Fernando Nillsson Cidade
+- Email: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+DUAL-LICENSING REGIME (GNU AGPLv3 / OFFICIAL EULA), C++23 / Qt 6.12.0 ARCHITECTURE & AUXILIARY SCOPE ("AS IS")
+- Technology & Clean Builds: Natively compiled in strict C++23 with Qt 6.12.0 across Pure MSVC x64 (Visual Studio 18 2026 / MSVC 14.52, app-local CRT without vc_redist.x64.exe) and MinGW-w64 15.1.0, continuously verified across 11 automated CTest suites (Qt6: Compilar e Executar SUITE (MSVC) / Qt6: Compilar e Executar SUITE (MinGW)).
+- Dual Licensing: Open-source code under GNU AGPLv3 (https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp) with express fork freedom on source/assets/ once exclusive trademarks are removed; official digitally signed Microsoft Store edition (ID 9P289X0185C3) under the author's Official EULA and CLC (Fernando Nillsson Cidade). Best-effort voluntary developer support strictly at linceu_lighthouse@outlook.com (Microsoft provides no customer support).
+- Auxiliary Scope ("AS IS"): Auxiliary productivity, cognitive-accessibility, and scheduling tool provided "AS IS" without warranties; Local AI outputs (Qwen/Ollama) are probabilistic aids and 4D BIM Gantt CPM schedules never replace independent verification or licensed ART/RRT engineering sign-off.

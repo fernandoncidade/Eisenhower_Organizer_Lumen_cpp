@@ -1,0 +1,2536 @@
+RELEASE NOTES — Lúmen
+Version: 2026.11.22.0
+Date: November 22, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This release delivers meaningful improvements in overall performance, stability, informational clarity, and organization across the entire application. The program now runs on a modernized foundation, offering brisk startup, a lighter and cleaner installation, end-to-end quality verification across every integrated tool, and fully renewed documentation inside the "About" window and user guides, while preserving instant switching between Portuguese and English.
+
+New Features, Adjustments, and Improvements
+
+1. Enhanced Performance, Stability, and Compatibility
+- Modernized Foundation Across All Features: The main application and all integrated workspaces (Eisenhower Matrix, Pomodoro, Feynman Technique, Mind Map, Audiobook, Agenda, Project Schedule, and Local Artificial Intelligence) received a full foundational refresh to deliver faster responsiveness, steadier continuous operation, and improved compatibility with modern Windows releases.
+- Smoother Daily Operation: Internal refinements make application launch, workspace tab switching, and saving your tasks feel noticeably smoother during everyday use.
+
+2. Lighter, Faster, and Cleaner Installation
+- Streamlined Installation Package: Installation packages were carefully trimmed to include strictly the essential items needed for full operation, reducing download size without requiring separate extra component installers to run.
+- Clean Install and Removal: Brisk installation and tidy system uninstallation without leaving unnecessary files behind on your computer.
+
+3. Verified End-to-End Quality and Reliability
+- Comprehensive Feature Verification: Every capability — quadrant task management, task editing, calendar views, focus timers, active study cards, mind maps, voice-assisted reading, custom agendas, project schedules with simulation, and local artificial intelligence — underwent thorough checks to prevent regressions and ensure consistent daily behavior.
+
+4. Licensing Transparency and Renewed "About" Documentation
+- Clear Licensing Information: The "About" dialog and built-in informational texts were updated in both English and Portuguese with clear explanations of the dual-licensing model (open usage terms alongside the official store commercial edition), plus the full open-source license text available to read directly inside the application.
+- Independent Privacy and Auxiliary Scope: Clear notices highlighting that your data and notes stay stored locally on your computer with zero automatic tracking, and that the software serves as an auxiliary tool requiring independent human review.
+
+5. Visual Polish, Languages, and Updated Guides
+- Consistent Application Icons: Standardized visual handling of the application icons shown across the operating system.
+- Updated In-App Manual and Guides: The built-in manual and help topics were updated to accurately reflect current menus, shortcuts, "About" options, and behavior across every tool, keeping instant runtime switching between English and Portuguese without restarting.
+
+Important Notes:
+- Strict Data Preservation: All of your tasks, settings, mind maps, histories, schedules, and saved preferences remain intact and protected during updates.
+- Non-Destructive Update: Updating never deletes personal files or tasks.
+- Complete Privacy: All core capabilities and local artificial intelligence run directly on your computer, keeping your data private without automatic external uploads.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.10.8.0
+Date: October 8, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This release consolidates and unifies a major evolutionary milestone across the application, bringing essential enhancements in performance, usability, visual organization, project tracking, and privacy. The installation package is now remarkably lightweight and fast to install, as the local artificial intelligence model is managed on demand by the user. A brand-new interactive download manager allows users to download, pause, resume, or delete the local model with complete transparency and disk space control. The application also introduces a built-in step-by-step assistant for connecting with Ollama, real-time installation status indicators in menus, intelligent mind map synthesis with automatic fallback when the model is not installed, a new responsive task editing experience, instant focus cycle synchronization in Pomodoro with goal discrepancy prevention, in-progress task tracking in the calendar, enhanced Eisenhower Matrix layouts (2x2, vertical, and horizontal with smart folding), deep project schedule integration (4D visual simulation, Microsoft Project and spreadsheet exchange, working day calendars, and daily site logs), independent module font and color customization, and full instant runtime language switching across all screens and dialogs.
+
+New Features, Adjustments, and Improvements
+
+1. Intelligent AI Management and On-Demand Downloads
+- Significantly Lighter Installer: The application installation package has been reduced by more than 2 gigabytes, making downloads and installations much faster and more practical.
+- Local Model Manager (Qwen 2.5): A new interactive and intuitive dialog allows users to download the artificial intelligence model directly from the provider whenever they wish. The screen displays a real-time progress bar, transfer speed, downloaded volume, and estimated time remaining, while offering buttons to pause, resume, cancel downloads, open the local destination folder, or delete the file to free up disk space (~2.17 GB) at any time.
+- Dynamic Menu Status Indicator: The settings menu now instantly shows whether the model is "[Installed]" or "[Not installed]", updating the very moment a download completes or the file is deleted.
+- Quick Access Action: A new menu item ("How to download or manage Qwen model (GGUF)...") opens the download manager with a single click.
+- Ollama Integration Guide: A clear step-by-step instruction dialog explains how to use the model via Ollama, featuring one-click terminal command copy buttons and a connection test button.
+- Smart Synthesis with Automatic Contingency: The mind map generator analyzes documents and builds clear conceptual summaries. If the AI model is not installed locally, the system automatically falls back to the intelligent heuristic method, ensuring mind maps are always created smoothly without errors or interruption.
+
+2. Eisenhower Matrix and Enhanced Task Organization
+- Flexible Layouts (2x2, Vertical and Horizontal): New tabbed viewing modes allow displaying all four quadrants simultaneously (2x2 mode) or organizing sections vertically or horizontally. In horizontal mode, sections can be compactly folded with rotated headers and elegant continuous frames to make optimal use of widescreen displays.
+- Dedicated "In Progress" Task Tracking: Each quadrant now includes its own dedicated in-progress task list, allowing users to freely drag and drop tasks between "Pending", "In Progress", and "Completed".
+- Instant Response Upon Saving: When confirming task edits, the dialog responds and closes immediately, saving data smoothly in the background without screen stutter or delays.
+- Visible In-Progress Tasks in Calendar: The calendar task board and date notifications now prominently feature the "[In Progress]" badge, complete with dynamic translation and quick double-click interaction.
+- Safe Task Removal: Protective confirmation dialogs for single deletions, batch deletions, and global data cleanups, with the negative option selected by default to prevent accidental data loss.
+
+3. Smart Responsive Task Editing and Focus Tracking
+- Responsive Dialog Interface: The task editing dialog dynamically adapts to screen size (single column on compact screens and two organized columns on wide displays), providing comfortable space for extensive notes and schedule controls.
+- Automatic Completion Calculation: Detailed tooltip cards when hovering over tasks display real-time completion progress from 0% to 100%, calculated from completed focus cycles or physical progress recorded in the schedule.
+- Pomodoro Goal Discrepancy Prevention: When starting focus sessions with active tasks, the timer checks whether individual task targets match current timer settings and presents a clear comparison table with intuitive alignment options.
+- Automatic Pomodoro Mode: An optional feature to automatically transition between focus cycles and rest periods with a customizable alarm ring count.
+
+4. Project Schedules, Engineering, and Data Exchange
+- Direct Context Menu Integration: Convert daily tasks into schedule activities, link project stages, and record physical progress percentages with field notes directly via right-click menus.
+- 4D BIM Construction Simulation: Visually replay project execution progress over time, with an interactive timeline slider and adjustable playback speed.
+- Microsoft Project and Spreadsheet Compatibility: Import and export schedule files in standard Microsoft Project XML format, along with a visual assistant for CSV spreadsheet tables.
+- Working Day Calendars and Holidays: Configure working days of the week and register project holidays, accurately computing completion dates by excluding non-working days.
+- Daily Site Log and Audit Trail: Record field measurements and inspect an end-to-end transparent history of planning changes.
+
+5. Visual Customization, Independent Colors, and Typography
+- Color Configuration Per Module and Global: Independent control of "Black" (adapts to light or dark system themes) and "Colored" (highlights by subject) visual modes for Eisenhower, Pomodoro, and Feynman, or a unified global mode.
+- Specific Font Settings: Individually customize fonts, styles, sizes, and decorations for general tasks and tasks with linked files, plus dedicated settings for Pomodoro, Feynman, and Mind Map nodes.
+- Precise Underlines and Typography: Accurate vertical positioning of underlines on multi-line task titles, with properly calibrated spacing for priority emojis and domain badges.
+- Centered Buttons and Clean Finish: Perfectly vertically aligned text, icons, and buttons across all application screens.
+
+6. Instant Runtime Dynamic Localization and Smooth Experience
+- Real-Time Language Switching: Seamlessly switch between Portuguese and English across all menus, buttons, dialogs, help screens, about windows, and system notifications without restarting the application.
+- Stabilized Audiobook Voice Catalog: Resilient speech synthesis engine that protects the voice catalog from transient interruptions, supporting over 300 voices with friendly localized language titles.
+
+
+7. C++23 / Qt 6.12.0 Modernization, Unified 11-Target Test Suite & Dual Licensing
+- Strict C++23 & Qt 6.12.0: Host and all 7 integrated modules upgraded to C++23 and Qt 6.12.0 (FFmpeg-n9.0.1, Pure MSVC 14.52, MinGW-w64 15.1.0).
+- Clean External Distributions & Compact Installers: MSVC installers use app-local CRT DLLs without embedding vc_redist.x64.exe, cutting ~18 MB of redundant installer weight for LÚMEN.
+- Unified Software Engineering Suite (11 CTest Executables): Built strictly inside build_suite_testes_msvc and build_suite_testes_mingw (11/11 passing on both toolchains with zero external distribution).
+- Transparent Dual Licensing & Store Compliance: Open-source repository under GNU AGPLv3 (LICENSE & LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt) with express fork freedom on source/assets/ (once exclusive trademarks are removed), paired with the official Microsoft Store release (ID 9N70CLLMVRPN) under Official EULA + CLC and explicit "AS IS" auxiliary scope disclaimers.
+
+Important Notes:
+- Strict Data Preservation: All your tasks, settings, mind maps, historical logs, project schedules, and saved preferences are completely preserved and protected throughout the update process.
+- Non-Destructive Update: The updater never automatically deletes personal files or records.
+- Total Privacy: All features and artificial intelligence models operate locally on your computer, keeping your documents and notes strictly confidential without requiring an internet connection.
+- Module Availability: Extended features function harmoniously according to the modules installed in your environment.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.6.18.0
+Date: June 18, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update improves the organization of the Eisenhower Matrix and makes switching between pending and completed tasks clearer. It adds a new 2x2 matrix layout, standardizes task-board frames and alignment, improves the calendar Global Task List presentation, refines the Feynman Method and Pomodoro experience, fixes checkbox use on already selected tasks, and expands task dragging between tabs and boards.
+
+New in the Eisenhower Matrix:
+- Added the new "2x2 Matrix Layout", available under "Settings > Task Layout > User Interface > Eisenhower Matrix".
+- The new layout shows all four quadrants at the same time, arranged in two rows and two columns: Important and Urgent; Important but Not Urgent; Not Important but Urgent; Not Important and Not Urgent.
+- Each quadrant now has "Pending" and "Completed" tabs, separating open or in-progress tasks from finished tasks.
+- The new layout tabs follow runtime language changes.
+
+Visual and Organization Improvements:
+- The "Pending" and "Completed" tabs were aligned to the left and placed closer to the task board for clearer reading.
+- Each quadrant in the 2x2 matrix now has its own frame around the tasks, making each board easier to identify.
+- The calendar Global Task List now has a line frame with its title integrated into the line, making the panel more consistent with the other layouts.
+- The "Quadrants Layout" now uses the same line-frame style used by the other viewing modes.
+- The frames in "Tabbed Layout", "Quadrants Layout", and "2x2 Matrix Layout" were aligned to keep the same visual height in relation to the window edge.
+- Quadrant labels were adjusted to keep the visual style more consistent with the other methods.
+- Tabs now use colors that match their purpose: pending tabs use the priority colors, and completed tabs use blue.
+
+Feynman Method Improvements:
+- The "My Tasks:" box now has a line frame with its title integrated into the frame.
+- In "Tabs" mode, the "Concept", "Explain Simply", "Identified Gaps", "Final Review and Simplification", and "Description" areas now use the same frame style as the "Horizontal" and "Vertical" modes.
+- Switching between "Tabs", "Vertical", and "Horizontal" layouts is more stable, keeping the "My Tasks:" area from becoming unexpectedly narrow.
+- The "My Tasks:" area now starts at a suitable minimum width, leaving more space for the study area.
+
+Pomodoro Improvements:
+- The vertical area where the "Timer" is displayed now starts at a suitable minimum width, making the screen division more predictable.
+
+Task Use Improvements:
+- Users can now drag one or multiple tasks and drop them directly onto any available tab, including "Pending" and "Completed" in the 2x2 matrix.
+- Dropping a task on "Completed" moves it to the completed board; dropping it on "Pending" returns it to the pending board.
+- Dragging between quadrants and between task states is more predictable across the Eisenhower Matrix layouts.
+
+Fixes and Adjustments:
+- Fixed checkbox behavior when a task was already selected.
+- Clicking the checkbox of a selected task now checks or unchecks it immediately.
+- When selecting a task in another priority or completed list, the previous selection is now cleared correctly.
+- Checking a task correctly moves it to "Completed"; unchecking a completed task correctly moves it back to "Pending".
+- The behavior was adjusted to work across all three Eisenhower Matrix layout modes.
+- New options and labels were prepared for dynamic translation.
+
+Manual and Documentation:
+- The manual was updated with instructions on how to enable and use the 2x2 Matrix Layout.
+- The documentation explains how to complete tasks, return tasks to pending, and drag one or multiple tasks between tabs.
+- README, project notes, and release notes were aligned with version 2026.6.18.0.
+
+Notes:
+- This update preserves existing tasks and preferences.
+- The new layout can be enabled or disabled from the task layout settings.
+- Existing task organization is reused in the new layout without requiring manual migration.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.6.15.0
+Date: June 15, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update expands the integration between Lúmen and its optional features. The version makes auxiliary windows more predictable, strengthens runtime translation, and adjusts the final package preparation so available modules are recognized more consistently.
+It also improves use of the calendar global list and expands the manual instructions to reflect the current workflows.
+
+General Application Improvements:
+- The main window and auxiliary windows now behave more naturally: when one of them is activated, it comes to the front, while the other can move behind without blocking use.
+- When the main application is closed, open auxiliary windows are also closed correctly.
+- Runtime language switching is more consistent across menus, buttons, and windows related to optional features.
+- Final package generation was adjusted to better recognize optional modules included in the package.
+- Progress display during application generation is clearer, showing completion percentages when available.
+- The Global Task List is more stable when removing one or more tasks directly through the context menu.
+- The manual and support documents were complemented with clearer guidance for the global list, optional features, and local persistence.
+
+New Activity Registration:
+- The "Activity Registration" feature was added as an optional resource, available under "Settings > Modules > Activity Registration" and "Tools > Activity Registration" only when the module is present.
+- The new "Activity Registration" window lets users register activities using course, syllabus, semester, subject, class group, activity type, sequence, date, time, priority, and mastery level.
+- The Activity Registration interface was reorganized into two areas for clearer use: selection lists stay on one side, while the calendar, date, time, and action buttons stay on the other.
+- A "Clear" button was added to reset selected options while keeping the default priority and mastery-level choices available.
+- A "Close" button was added to close the window directly.
+- The default priority for a new activity is now "Important and Urgent".
+- "Link time" is enabled by default to make it easier to register activities with a defined time.
+- The Activity Registration window can no longer be maximized, keeping it compact and appropriate for registration.
+- Activities registered through Activity Registration are now added as tasks in Lúmen and can also follow Pomodoro and the Feynman Method when synchronization is enabled.
+- Priority, mastery level, date, and time are no longer repeated in the task description, because they already appear in their own fields in the interface.
+- Colors configured for activity types are applied again to tasks created by Activity Registration. When a task has a linked file, the standard blue highlight is preserved.
+- The "Delete item" and "Colors" options were integrated into "Settings > Modules > Activity Registration".
+- The Activity Registration now saves lists and tasks together with the active product data, avoiding separate records in an exclusive Activity Registration folder.
+- Activity Registration texts, including menus, buttons, labels, and lists, now follow language changes without requiring a restart.
+- The Activity Registration window now respects the main window better: it can move behind or in front depending on the active window, and it is closed together with the main application.
+- The Activity Registration can now switch between the "Civil Engineering" example and custom agendas created by the user.
+- New agendas can be created from the window's internal menu, with their own titles and multiple custom drop-down lists.
+- Opening a custom agenda now happens through the "Open agenda" option, avoiding accidental switches just by hovering over the menu.
+- The last opened agenda is remembered and loaded again the next time the Activity Registration window opens.
+- Users can edit or remove custom agendas and also edit or remove list titles without deleting the other lists in the agenda.
+- The "Delete item" menu follows the active agenda, showing the correct lists from the example or from the open custom agenda.
+- In "Colored" mode, custom agendas receive alternating colors, avoiding immediate repetition of the last applied color.
+- Activity Registration preferences are now kept in the Schedule's own settings file.
+- Fixed Activity Registration list and activity saving so product data is stored in the correct location.
+- Fixed runtime translation for Activity Registration texts that did not follow language changes.
+- Fixed behavior where the Activity Registration window could remain open after the main application was closed.
+- Adjusted window ordering between the main window and the Activity Registration so neither one remains permanently locked above the other.
+- Fixed title editing and removal in custom agendas so the other registered lists are preserved.
+- Removed unnecessary Activity Registration resources to keep the module lighter and more direct.
+- Activity Registration-specific information in these notes appears only when the corresponding module is included in the installation.
+
+Synchronized Feature Improvements:
+- Sending tasks between Eisenhower, Pomodoro, and the Feynman Method is more consistent.
+- Tasks received through synchronization better preserve important information in the visual presentation.
+- Task presentation is cleaner and avoids repeating information already shown by the interface.
+
+Fixes and Adjustments:
+- Adjusted shutdown behavior so open auxiliary windows close together with the main application.
+- Adjusted window ordering between the main window and auxiliary windows to avoid visual blocking.
+- Strengthened runtime translation for menus, buttons, labels, and lists.
+- Reviewed optional feature organization to make the final release more consistent.
+- Fixed an unexpected shutdown when deleting one or multiple tasks from the Global Task List.
+
+Notes:
+- This update does not manually change existing tasks.
+- Optional features continue to appear only when they are included in the installation.
+- Notes specific to optional features are displayed only when the corresponding feature is available.
+- Existing preferences continue to be reused whenever possible.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.6.7.0
+Date: June 7, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update improves the overall organization of the application, strengthens safety when opening linked files, and makes optional modules more consistent in the final release. The main focus was to address findings from the stability and safety review, reduce unexpected behavior, and prepare the application for easier maintenance and future improvements.
+
+Calendar and Task Improvements:
+- The calendar is now more consistent when listing, highlighting, editing, and removing dated tasks.
+- Date highlights are updated more reliably after task changes.
+- Visual task counts in the calendar were adjusted to better follow user changes.
+- The calendar action menu is more predictable when locating the correct task.
+- Opening files linked to tasks is safer and now checks more carefully whether the file exists before trying to open it.
+
+Linked File Improvements:
+- Opening attached or linked files is safer on Windows.
+- The application reduces the risk of failures when opening file paths with spaces, long names, or special characters.
+- When a linked file is not available, the application avoids unnecessary attempts and handles the situation more carefully.
+- The experience is more reliable in both main tasks and study features that use linked files.
+
+Audiobook Improvements:
+- The focus ruler is more stable when turning it on, turning it off, and switching its state during reading.
+- Focus ruler behavior is more predictable when moving, resizing, and using shortcuts.
+- Online voice integration is better prepared for external changes in the narration service.
+- Online voice access is more flexible, allowing future adjustments without changing normal application use.
+- The reading experience is more consistent for users who rely on visual accessibility features.
+
+Feynman Method Improvements:
+- Opening study-linked files is safer and more reliable.
+- Receiving concepts from other methods is more stable.
+- The module is better prepared for newer tools used to create the application.
+- Integration with mind maps and shared tasks is more consistent.
+
+Mind Map Improvements:
+- Mind Map resources were refined to keep the module more consistent in the final release.
+- Concept organization, map drawing, and idea-processing support are better prepared for maintenance.
+- Mind Map integration with the other methods is better aligned with the current version.
+
+Pomodoro Improvements:
+- Pomodoro resources were reviewed to follow the new version.
+- The module is better aligned with the final application release.
+- Pomodoro identification information was updated to remain consistent with the other modules.
+
+General Application Improvements:
+- Internal module organization was simplified by removing auxiliary parts that were not required for the final application behavior.
+- Optional modules are better identified and aligned with version 2026.6.7.0.
+- The final release process is more consistent when bringing together the main application and additional modules.
+- Documents, version information, and supporting files were updated for this version.
+- The application foundation is cleaner and better prepared for future fixes and improvements.
+
+Fixes and Adjustments:
+- Fixed a linked-file opening path that could rely on a less safe Windows behavior.
+- Adjusted linked-file handling to reduce failures when the file path no longer exists.
+- Fixed a Feynman Method compatibility detail that could produce warnings with newer tools.
+- Adjusted Audiobook online voice integration to make behavior clearer and more flexible.
+- Reviewed sensitive points identified by the safety and stability analysis.
+
+Notes:
+- This update does not modify any user-saved data.
+- The completed analysis did not find critical memory leak issues in the checked areas.
+- The most visible changes are safer linked-file opening, improved Audiobook focus ruler stability, and better module consistency in the final release.
+- The other improvements strengthen organization, safety, stability, and preparation for future evolution.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.6.6.0
+Date: June 6, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update improves the visual experience of Pomodoro, especially when resizing the application window. The main focus was to prevent the controls in the "Settings" panel from being compressed and to prevent the "Task Board" from visually overlapping the settings area. This version also strengthens the final application package and updates version information for the included modules.
+
+Pomodoro Improvements:
+- The "Settings" panel is now more stable when increasing or decreasing the window height.
+- The "Start", "Reset Clock", "Reset Cycle", and "Skip" buttons keep their appearance and remain readable while resizing.
+- The "Focus (min):", "Break (min):", and "Cycle 1/4:" dropdowns are no longer squeezed when the window becomes smaller.
+- Settings labels remain better aligned and easier to read.
+- The "Task Board" now has clearer separation from the "Settings" panel.
+- The task area should no longer move over the settings area while adjusting the interface size.
+- Pomodoro's visual organization is more predictable across the available usage modes.
+
+Interface Resizing Improvements:
+- The window handles smaller heights more comfortably without compromising the main Pomodoro controls.
+- Pomodoro panels now better preserve the space needed by each area.
+- The interface is more consistent when switching between larger and smaller window sizes.
+- The experience is more comfortable on screens with limited vertical space.
+
+Final Application Package Improvements:
+- Version information was updated to version 2026.6.6.0.
+- Optional application modules received updated identification to match this version.
+- Installers and supporting files were aligned with the new version.
+- Informational texts, notices, policies, and support documents were reviewed to stay consistent with the current release.
+
+Fixes and Adjustments:
+- Fixed visual behavior where Pomodoro controls could lose height while resizing.
+- Fixed an issue where the "Task Board" could appear over the "Settings" area.
+- Adjusted the visual separation between the main Pomodoro areas.
+- Strengthened the visual stability of the interface across different window sizes.
+
+Notes:
+- This update does not modify any user-saved data.
+- The changes in this version mainly focus on Pomodoro visual stability and final release consistency.
+- If the window is very small, the application now better preserves readability and separation between the main panels.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.30.0
+Date: May 30, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update improves the integration between Eisenhower, Pomodoro, and Feynman, makes application messages clearer, and strengthens the final release package. The main focus was to make the methods easier to use together, reduce task inconsistencies, and deliver a cleaner and more complete final version.
+
+Task Synchronization Improvements:
+- Tasks can now be added across Eisenhower, Pomodoro, and Feynman when synchronization is enabled.
+- Task deletion can also follow the synchronized methods, keeping the windows more consistent with each other.
+- Synchronization options remain available under "Settings > Synchronize > Eisenhower/Pomodoro/Feynman".
+- When adding or deleting a task with synchronization enabled, the application displays a message explaining that the action will be applied to the selected methods.
+- The new messages follow the selected application language, in Portuguese or English.
+
+Pomodoro and Feynman Improvements:
+- Integration between the methods is now more predictable when creating and removing tasks.
+- Pomodoro is more consistent when receiving tasks from the main organization area.
+- Feynman is better prepared to follow tasks related to studies and concepts.
+- Actions between methods were adjusted to reduce unexpected differences between windows.
+
+Final Application Package Improvements:
+- The final version now includes the additional modules used by the application more reliably.
+- The application package is cleaner, without auxiliary files that are unnecessary for end users.
+- Additional features are more reliable after generating the final version.
+- The final package is better organized for installation, testing, and distribution.
+
+Fixes and Adjustments:
+- Fixed cases where additional modules could be missing from the final version.
+- Removed extra files that were not required to use the application.
+- Improved final version consistency in how resources are organized.
+- General adjustments strengthen stability and reduce unexpected behavior when using the methods together.
+
+Notes:
+- This update does not modify any user-saved data.
+- To use synchronization, enable the desired methods in the settings menu.
+- The improvements in this version focus on method integration, clearer messages, and the quality of the final version delivered to users.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.28.0
+Date: May 28, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update improves PDF reading in Audiobook, strengthens the stability of study and productivity features, and prepares the internal foundation of the application for future improvements. The main focus was to make narration more reliable, reading highlights more accurate, and PDF navigation more comfortable.
+
+Audiobook Improvements and New Enhancements:
+- PDF reading is now more stable during narration with online voices.
+- The narrator now keeps the selected voice language more reliably, even when the text contains hyphens, dashes, underscores, periods, parentheses, quotation marks, and file names.
+- Text highlighting now follows speech more accurately in passages with document names, file extensions, and complex punctuation.
+- Reading file names inside PDFs is now more predictable, reducing unexpected highlight jumps.
+- Voice options were adjusted to prioritize more stable voices and reduce unwanted language changes during reading.
+- Text extracted from PDFs is handled more carefully to improve narration continuity.
+- The "Hand" and "Selection" buttons in the PDF viewer can now be turned off with a second click.
+- When "Selection" mode is turned off, the current selection highlight is cleared automatically.
+- When "Hand" mode is turned off, the cursor returns to normal behavior.
+
+Audiobook Fixes:
+- Fixed an issue where the voice could temporarily switch to Spanish or another language while reading certain passages.
+- Fixed an "Unknown error" warning when starting PDF narration in some situations.
+- Fixed an issue where highlighting skipped part of the narration and jumped directly to passages such as "(1).pdf".
+- Fixed the behavior of the "Hand" and "Selection" buttons, which previously stayed active after a single click.
+- Improved synchronization between audio and highlighting in PDFs with special characters and long file names.
+
+Pomodoro Improvements:
+- Pomodoro's internal organization was revised to improve the stability of the timer, tasks, and time management.
+- Adding, moving, removing, and updating tasks is now more consistent.
+- The task panel received adjustments to reduce unexpected behavior in lists, menus, and editing fields.
+- The integration between Pomodoro and Eisenhower was prepared to better preserve task states during continuous use.
+- The overall Pomodoro experience is now more stable for long focus and planning sessions.
+
+Feynman Method Improvements:
+- Concept management is now more organized and reliable.
+- Creating, saving, selecting, deleting, and updating concepts received stability improvements.
+- Integration with mind maps and linked files is now more consistent.
+- Clearing tabs, fields, and temporary content was improved to reduce unexpected states.
+- The overall Feynman Method experience is better prepared for maintenance and future evolution.
+
+General Application Improvements:
+- The internal structure of the main features was reorganized to make maintenance, fixes, and future improvements easier.
+- The application generation process was adjusted to better recognize the reorganized components.
+- Version information, installers, and auxiliary product texts were updated for this release.
+- Support documents, notices, and legal information received version and consistency updates.
+
+Notes:
+- This update does not modify any user-saved data.
+- The main visible changes are focused on Audiobook, especially PDF reading with narration and highlighting.
+- The other improvements strengthen stability, internal organization, and preparation for future application updates.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.27.0
+Date: May 27, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update fixes Pomodoro behavior after restarting the app and improves the Eisenhower integration to reflect task completion changes.
+
+Pomodoro Fixes:
+- Tasks left in the “In Progress” panel now stay there when reopening the app.
+- The “To Do” panel no longer receives in-progress tasks by mistake.
+
+Eisenhower Integration Improvements:
+- When a task or group of tasks is marked as “not completed” in Eisenhower, they automatically return to “To Do” in Pomodoro.
+- Changes made in Eisenhower now appear in Pomodoro more consistently, without losing the current progress state.
+
+Notes:
+- This update does not modify any user-saved data.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.26.0
+Date: May 26, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update brings a major evolution to the visual customization of the Pomodoro and Task Manager, along with important improvements in organization, navigation, stability, and automatic interface adaptation. The main focus of this version was to make the experience more comfortable, flexible, and intuitive across different screen sizes and work styles.
+
+New Pomodoro Layout Options:
+- Pomodoro now offers new visual organization modes to improve usability across different monitor types and workflows.
+- The following modes were added:
+  - "Tabs"
+  - "Vertical"
+  - "Horizontal"
+
+- It is now possible to combine:
+  - "Side by Side" layout
+  - "Bottom" layout
+    - with different content display styles.
+
+- The configuration can be changed in:
+  - "Settings > Task Layout > User Interface > Pomodoro"
+
+- The application now automatically saves the selected layout for future sessions.
+- Switching between layouts is now faster and more predictable.
+
+Improvements to Pomodoro Visual Organization:
+- The "Side by Side" mode was refined to better take advantage of widescreen monitors.
+- The "Bottom" mode received improvements for smaller screens and laptops.
+- Timer controls are now more organized and easier to access.
+- Spacing between buttons, lists, and configuration areas was adjusted to improve readability.
+- The visual behavior is now more consistent across different layouts.
+
+Task Manager Improvements:
+- The task panel received improvements in visual organization and navigation.
+- The system for moving tasks between lists and tabs is now more stable.
+- Navigation between categories and task areas became smoother.
+- Tab behavior was refined to improve continuous use during long sessions.
+- The application now responds better when moving tasks between different interface areas.
+
+Improvements to Tabs and Side Navigation:
+- Side tabs received visual and stability improvements.
+- Reading tab titles became more comfortable.
+- Navigation between sections became more predictable.
+- Adjustments were made to improve automatic adaptation on smaller resolutions.
+- The visual behavior of tabs became more consistent during window resizing.
+
+Automatic Interface Adaptation Improvements:
+- The interface now reorganizes elements more efficiently according to window size.
+- The application distributes internal space more effectively in horizontal, vertical, and tabbed layouts.
+- Task areas, lists, and side panels are now better protected against visual clipping.
+- Window resizing became more stable.
+- Usage on smaller monitors received important space optimization improvements.
+
+“In Progress” Panel Improvements:
+- The “In Progress” side panel received visual stability improvements.
+- Expanding and collapsing the panel became smoother.
+- Panel behavior became more consistent when switching layouts.
+- Internal space is now better utilized for long tasks and multiple items.
+
+Usability Improvements:
+- Adjustments were made to reduce unexpected behavior during rapid interface changes.
+- The application became more stable when switching between different visual modes.
+- Internal components now maintain better visual alignment.
+- Editing fields, lists, and controls now respond more predictably.
+- The overall user experience became smoother during prolonged sessions.
+
+Translation and Menu Organization Improvements:
+- Configuration menus were reorganized to make layout options easier to locate.
+- Layout names became clearer and more intuitive for end users.
+- Confirmation messages were refined for better understanding.
+- The menu structure became more consistent between Portuguese and English.
+
+Internal Stability Improvements:
+- Several internal adjustments were made to improve overall interface stability.
+- Layout management became more reliable.
+- The visual behavior of dynamic areas was refined to reduce inconsistencies.
+- Internal improvements help maintain smoother navigation even with multiple tasks open.
+
+Notes:
+- This update does not modify any user-saved data.
+- Improvements in this version are mainly focused on visual organization, layout flexibility, navigation, and interface stability.
+- It is recommended to review the new Pomodoro layouts to choose the most comfortable organization for your workflow.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.25.0
+Date: May 25, 2026
+Author: Fernando Nillsson Cidade
+
+General summary
+This update mainly improves the experience of using the Feynman method, with enhancements to visual organization, automatic interface adaptation, window resizing stability, and better use of available space. The goal was to make the study area more comfortable, predictable, and easier to use on both large and small screens.
+
+Improvements to the Feynman Method interface:
+- The visual organization of the Feynman Method has been revised to make controls more grouped and easier to locate.
+- The main buttons and priority and mastery options are now organized in a cleaner and more predictable bottom bar.
+- The internal interface spacing has been optimized to reduce excessive empty areas and improve content readability.
+- The task panel now makes better use of the available space next to the explanation and review areas.
+- Navigation between the method sections has become visually more comfortable.
+
+Improvements to the "Tabs", "Horizontal", and "Vertical" layouts:
+- The Feynman Method now adapts better to different window sizes.
+- Interface resizing has become more stable in horizontal, vertical, and tabbed layouts.
+- Side areas now respect smarter minimum limits, avoiding excessive content clipping.
+- The application now distributes space better between the task panel and the main study area.
+- On smaller screens, the side panel can automatically occupy less space to preserve the main reading and writing area.
+- The interface has become more predictable when maximizing, restoring, or resizing the window.
+
+Task panel improvements:
+- The task panel has become more compact and organized when used in reduced spaces.
+- The behavior for expanding and collapsing the side panel has been refined to make transitions smoother.
+- The panel minimum width is now automatically adjusted according to the available space.
+- The main panel now better prevents visual clipping in lists, text fields, and editing areas.
+
+Improvements to tabs and content areas:
+- The tab size has been adjusted to improve title readability.
+- The internal spacing of tabs has been increased to facilitate navigation.
+- The "Description" area received organization and integration improvements with the other areas of the Feynman Method.
+- Information display has become more consistent across different languages and screen sizes.
+
+Stability and usability improvements:
+- Adjustments were made to reduce visual issues during window size changes.
+- The interface now reacts more stably when switching between different layouts.
+- Text fields, lists, and editing areas are now better protected against visual overlapping.
+- The overall interface behavior has become more consistent when working with multiple concepts and tasks.
+- Internal improvements help maintain a smoother experience during continuous use of the tool.
+
+Notes:
+- This update does not modify data already saved by the user.
+- The improvements in this version are mainly focused on visual organization, interface stability, and automatic adaptation of the Feynman Method layouts.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.22.0
+Date: May 22, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update mainly improves Pomodoro use, help documentation, language switching in license windows, and the clarity of information shown to the user. The goal was to make it easier to choose how Pomodoro appears on screen, understand what changed, and consult documents without losing the selected application language.
+
+What's new in Pomodoro:
+- Pomodoro now lets you choose between two interface modes: "Simple" and "Robust".
+- The option is available under "Settings > Task Layout > User Interface > Pomodoro".
+- Pomodoro now allows you to choose between three interface modes: "Tabs", "Horizontal", and "Vertical".
+- The option is available under "Settings > Task Layout > User Interface > Feynman".
+- "Simple" keeps a more compact and direct screen for users who want to use the timer with fewer visible elements.
+- "Robust" shows a more complete organization, with timer, task board, status tabs, and the side "In Progress" panel.
+- After choosing one of the modes, the application opens Pomodoro and shows a message confirming which layout was applied.
+- The selected layout is saved for future use.
+
+Improvements in the Pomodoro "Robust" layout:
+- The "Task Board" was reorganized to make task entry and actions easier to use.
+- Below the task text field, priority, mastery level, and completed-task flow now appear in one row.
+- The "Add", "Move Task(s)", "Remove Task(s)", and "Reset Count" buttons now appear together in a second row.
+- The "In Progress" panel can still be collapsed or expanded to free space during a focus session.
+- The organization is more predictable for users working with several tasks at the same time.
+
+Improvements in the "Tabs", "Horizontal", and "Vertical" layouts of Feynman:
+- The "Tabs" layout maintains the traditional organization, with the side panel "My Tasks:" and content tabs to the right.
+- The "Horizontal" layout organizes the elements horizontally, ideal for screens with adequate space.
+- The "Vertical" layout organizes the elements vertically, optimizing space usage on smaller screens.
+
+Translation and language switching:
+- The Pomodoro menu options "User Interface", "Simple", and "Robust" now have Portuguese and English translations.
+- The message confirming the applied layout also follows the selected language.
+- Windows opened through the "Open" button under "About > Licenses > General" now update their title when the application language changes.
+- These window titles use the same translation pattern as the main interface.
+
+Manual and usage instructions:
+- The manual was updated with instructions on how to open Pomodoro and Feynman.
+- Guidance was added for switching between the "Simple" and "Robust" layouts, "Tabs", "Horizontal" and "Vertical".
+- The documentation explains when to use each layout and how the task board is organized in "Robust" mode, "Tabs", "Horizontal" and "Vertical".
+- Pomodoro alarm instructions were expanded with clearer steps.
+
+Notes:
+- This update does not change data already saved by the user.
+- The changes to the Pomodoro and Feynman techniques focus on visual organization, layout choice, and ease of use.
+- Translation improvements help keep the interface consistent when switching between Portuguese and English.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.20.0
+Date: May 20, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update brings together important improvements for stability, assisted reading, multi-monitor use, and legal information access. The focus was to make Lúmen more reliable when working with PDF books, improve word tracking during read-aloud sessions, make the "About" window clearer, and make third-party license information easier to consult.
+
+Audiobook and assisted reading improvements:
+- Clearing a PDF loaded in the Audiobook module is now safer. After clicking "Clear", the file is released by the application, allowing it to be moved, renamed, or deleted in Windows.
+- The visual reading marker was reviewed so it follows more closely the word being spoken at that moment.
+- Reading large books, monographs, and long PDF documents is more stable.
+- Visual tracking is better protected against unwanted jumps when the same word appears several times on the same page or elsewhere in the book.
+- Number sequences, codes, symbols, and unusual text fragments are handled more carefully, reducing loss of synchronization during narration.
+- Behavior with PDFs containing covers, back covers, regular pages, and text-recognized pages was improved to reduce markers appearing away from the expected location.
+- Narration is more consistent with the voice selected by the user, avoiding unwanted language changes during reading when a Portuguese voice is selected.
+- Scenarios where reading could show an error window and fail to start were corrected.
+- The visual marker now resumes more predictably after difficult parts of a document, reducing the chance of assisted reading leaving the current text position.
+
+Main window and multi-monitor improvements:
+- The application window is more stable when used on computers with more than one monitor.
+- A strong flicker that could occur when dragging the window between a landscape screen and a portrait screen was corrected.
+- The window no longer gets stuck at a new minimum size after being moved from one screen to another.
+- The application now better respects the expected minimum size from startup, even after maximizing, restoring, and dragging the window between different monitors.
+
+"About" window and license improvements:
+- The "Licenses" tab in the "About" window now presents third-party licenses more clearly.
+- Long official website addresses were replaced with the full names of the licenses.
+- Each license now has two buttons: "Open", to view the text included with the application, and "Site", to open the official page in the browser.
+- Local license viewing now opens its own window, making it easier to read without leaving the application.
+- Links no longer appear as highlighted text inside the reading area, making the presentation cleaner.
+- The appearance of the "General" tab inside "Licenses" was adjusted to follow the same visual pattern as the other tabs.
+- Spacing between the main license text and the third-party license list was increased to improve readability.
+- The background color of the license area was corrected so it keeps the same visual tone as the other information areas.
+- The new buttons and messages in the "About" window follow the language selected in the application.
+- Textual search functionality was added to the "About" window, making it easier to find specific terms within the legal texts.
+
+Improvements in the "Manual" window:
+- Textual search functionality was added to the "Manual" window, making it easier to find specific terms within the usage instructions.
+
+Document, notice, and transparency improvements:
+- Third-party license notices were expanded and organized more clearly.
+- Information was added about components used by the application for interface, multimedia, PDF, reading, local database, execution, and support.
+- License documentation now better explains which materials are included with the application and where each one can be consulted.
+- Notices, agreements, and terms were adjusted to make clear that third-party components remain subject to their own licenses.
+- The offer to access materials required by third-party licenses was added in Portuguese and English.
+- The package documentation is now more complete for distribution, support, and end-user consultation.
+
+General fixes and adjustments:
+- Reference license files were organized more clearly to avoid confusion with the project's own license.
+- Legal materials are now more consistent across the main application and the optional Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model resources.
+- The list of official license sites was reviewed to better reflect the materials included in the package.
+- Legal information is now friendlier for users who simply want to consult the terms without searching for files manually.
+
+Notes:
+- This update does not change task file formats or modify data already saved by the user.
+- Audiobook improvements aim to increase assisted reading accuracy, but PDF quality may still affect results, especially in scanned documents, poorly recognized text, or highly irregular pages.
+- License and notice changes focus on transparency, organization, and easier consultation by the user.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.18.0
+Date: May 18, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update complements recent improvements to the Eisenhower Organizer interface, documentation, informational texts, visual identity, recurrences, and local reminders. The focus was to make information screens better organized, expand the documents available in Brazilian Portuguese and U.S. English, make the product description clearer, and correct how productivity windows display available resources.
+
+Main new features and improvements:
+- The "About" window is now better organized, with grouped categories such as About, CLC, Copyright, EULA, Notices, Privacy Policy, and Miscellany.
+- Informational areas now display documents related to each category more clearly, reducing visual overload and making consultation easier.
+- The Privacy Policy tab was expanded to present documents specific to the main application and additional resources when available.
+- The Details, Licenses, and Notices tabs received the same document-oriented organization pattern, making navigation more predictable.
+- Dedicated Contract and Copyright areas were added, separating legal, contractual, and informational content more clearly.
+- Informational tab labels now better follow the language selected while the application is running.
+- Privacy Policy, EULA, Notices, Copyright, CLC, and About texts were expanded and standardized in Brazilian Portuguese and U.S. English.
+- Informational documentation was adjusted to use clearer, more objective, and more consistent language, with review of grammar, punctuation, accentuation, and terminology.
+- The product description was expanded in both languages, better explaining the purpose of Eisenhower Organizer and its productivity, organization, recurrence, reminder, study, review, reading, and export tools.
+- The Eisenhower Organizer icon and visual identity image set was updated to reflect the current package files.
+- Auxiliary maintenance and versioning files now better cover the informational documents, legal notes, and support texts included in the project.
+- Final version preparation is more consistent for MSVC and MinGW environments, with better alignment of resources copied to distribution directories.
+
+Fixes and adjustments:
+- The "Generate Next Recurrences" window now shows only origins that are actually available in the application.
+- The "Enable Local Reminders" window now also shows only origins that are actually available in the application.
+- Older preferences in these windows are handled more safely, preventing a previously saved selection from leaving the screen without a valid origin selected.
+- Item listing in recurrences and reminders is now more consistent with the resources available at the time of use.
+- The "About" window organization was adjusted to avoid too many loose tabs and make specific documents easier to find.
+- Duplicated, generic, or legacy informational texts were reviewed to better reflect the current product.
+- Reading documents in Portuguese and English is now more uniform across the different informational areas.
+
+Notes:
+- This update does not change task file formats or modify data already saved by the user.
+- The improvements focus on information presentation, document organization, visual stability, and consistency in productivity windows.
+- These release notes complement previous versions and consolidate adjustments made after the recurrence and local reminder improvements.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.11.0
+Date: May 11, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update improves the recurrence generation window in Lúmen, focusing on visual stability, more predictable resizing, and safer configuration of when upcoming occurrences will be applied. The window now better preserves the space needed for fields, calendars, and lists, preventing clipping, visual overflow, and overlap when the user maximizes, restores, or manually resizes it.
+
+Fixes in recurrence generation:
+- Fixed an issue where the recurrence generation window could fail to correctly recover its initial size after being maximized and restored.
+- Fixed behavior where the "When to apply" area could lose its internal proportions and allow the calendar to extend beyond the visible limits of the group.
+- Fixed overlap between date fields, time fields, drop-down lists, and reference options for items without a date or time.
+- Fixed manual resizing so the window can no longer be reduced to a point where internal controls move over one another.
+- Fixed the distribution of the main columns to preserve proper space between item selection, settings, application period, and preview.
+- Fixed the behavior when switching between normal and maximized window states, keeping the return to safe and predictable dimensions.
+
+Calendar improvements in the "When to apply" area:
+- The calendar can still use extra space when the window grows, showing more months when enough area is available.
+- When the window is restored or reduced, the calendar fits back into place without invading other controls.
+- The calendar area is more stable when checking start and end dates for generation.
+- The start and end buttons remain better organized even after window size changes.
+
+Usage improvements:
+- The window is more comfortable for reviewing recurrences on smaller screens, large screens, and in maximized use.
+- Users can resize the window with a lower risk of losing field readability or causing visual collisions.
+- Configuring the application period is more predictable when switching between dates, times, and the calendar.
+- The occurrence preview and main options remain in more stable areas, making review easier before applying changes.
+
+Notes:
+- This update does not change saved data or recurrence generation rules.
+- The improvements focus on visual stability, resizing behavior, and clarity in the recurrence window.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.9.0
+Date: May 9, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update improves recurring tasks and local reminders in Lúmen. The goal is to make it easier to choose which items are used, review what will happen before confirming, and receive alerts in a more predictable way. These changes are especially useful for organizing study routines, reviews, recurring commitments, and activities with dates or times.
+
+What's new in recurrences:
+- The recurrence generation window now gives more control over exactly which items are included.
+- You can use all filtered items or work only with manually selected items.
+- The search field helps find a specific task, review, concept, or item before creating new occurrences.
+- The select-visible action makes it easier to quickly choose everything currently shown after a search.
+- The clear-selection action lets you restart the choice without closing the window.
+- The preview is clearer and shows the item, where it was found, where the new occurrence will be created, which recurrence will be used, and the next dates.
+- When a column has many details, the window shows a short summary and lets you inspect the complete list without losing the overview.
+- The creation period can be adjusted with start and end dates and times, giving more control over the range being considered.
+- Items without a date or time can receive a reference date and time when the matching option is enabled.
+- The default frequency remains available for items that do not yet have their own recurrence rule.
+- Duplicate prevention helps avoid new copies when an equivalent occurrence already exists.
+- The Restore defaults button returns the window to a safe initial setup.
+- OK saves preferences without creating new occurrences, while Apply saves and creates the occurrences.
+- Restoring the previous state remains available to undo the latest generation when enough information is available to recover it.
+
+What's new in local reminders:
+- The local reminders window also lets you choose between all filtered items and selected items only.
+- Search helps quickly locate what should receive a reminder.
+- Reminders can use the item's own date and time or a manually chosen date and time.
+- The period can be set with start, end, a calendar, and quick shortcuts in days, weeks, or months.
+- When a task has a date but no time, you can use a default time.
+- Alerts can appear inside the application, through the system tray, or through both paths when available.
+- If the system tray is not available, the application guides you to use the in-app alert.
+- The active reminders list shows what has already been scheduled in the current session.
+- The Test button lets you check the alert before scheduling real reminders.
+- The Remove active button cancels reminders that have not fired yet in the current session.
+- When several items share the same time, they are grouped into one alert with the item list.
+- The Maximum field now works as the number of repeats for each scheduled time. For example, if it is set to 2, the same alert fires twice in sequence.
+
+Usage improvements:
+- Preferences chosen in the recurrence and reminder windows are remembered for future use.
+- Summaries at the top of the windows help explain how many items will be considered and how many alerts or occurrences can be created.
+- The windows warn when a method is missing, when no item was selected, or when no valid alert type is active.
+- Past dates and times are handled more carefully to avoid schedules that cannot happen.
+- The window layout is more comfortable for reviewing lists, dates, and options before confirming.
+- The manual and support documents were expanded to explain these behaviors more directly.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.8.0
+Date: May 8, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update expands Lúmen with new productivity, review, recurrence, reminder, export, and diagnostic tools. The daily experience is now more complete for organizing tasks, tracking deadlines, reviewing study material, and turning reading content into practical actions. Visual stability, preference persistence, displayed text consistency, and save reliability were also improved.
+
+New features and functionality:
+- New global search to find tasks, study notes, reading content, and related information from a single window.
+- New short-term panel to quickly review items due today and over the next seven days.
+- New per-item recurrence setup with daily, weekly, monthly, and optional end-date choices.
+- New batch generation of upcoming recurrences, with a preview before confirmation.
+- New option to avoid duplicates when creating future occurrences.
+- New option to apply a default frequency to items that do not yet have recurrence configured.
+- New ability to undo the latest recurrence generation when a previous state is available.
+- New local reminders with source selection, time range, maximum quantity, in-app alert, and system-tray alert when available.
+- New reminder test to confirm that alerts are shown correctly before scheduling real items.
+- New active-reminders list, with an option to cancel alerts scheduled in the current session.
+- New calendar export for compatible scheduling applications.
+- New productivity history with a summary of completed tasks, focus cycles, reviews, recorded ideas, and estimated reading time.
+- New integrated study flow to turn a reading passage into a concept, review task, and visual support entry.
+- New ready-made templates to quickly create study, work, review, reading, and weekly planning task sets.
+- New spaced-review creation with adjustable intervals by mastery level.
+- New review window to inspect, edit, remove, and transfer reviews before confirming creation.
+- New diagnostic panel to check installed resources, loading status, location, and error messages when something is unavailable.
+- The manual was expanded with practical guidance for search, recurrences, reminders, spaced reviews, export, history, templates, diagnostics, and integrated study flow.
+
+Usage improvements:
+- Navigation through dated tasks is clearer for daily and weekly execution.
+- Creating recurring occurrences is safer because changes are previewed before being applied.
+- Recurrence and reminder dialog preferences are remembered to make repeated use faster.
+- Reminders now offer more control over selected items, filtered items, missing times, and alert types.
+- Saving and export preserve information such as priority, mastery level, date, time, description, external link, recurrence, review, and cross-area integration more reliably.
+- Monthly and yearly calendar views are more useful for checking tasks distributed across longer periods.
+- The global list has better support for grouping, visual emphasis, multiple selection, and opening external links.
+- Behavior on smaller screens is more stable, with better use of space when opening, maximizing, restoring, and resizing windows.
+- Common confirmation, cancellation, apply, and restore buttons are more consistent with the selected language.
+- Help instructions now better explain how to use the recent features in daily work.
+
+Fixes:
+- Fixed cases where a main tab could reappear after restart even after being hidden by the user.
+- Fixed protection against hiding all tabs at once, preventing an empty workspace.
+- Fixed multiple-selection behavior that could keep unintended items selected after a simple click.
+- Fixed top counter updates when switching, selecting, or reorganizing items.
+- Fixed calendar refresh inconsistencies after creating, editing, moving, removing, or clearing tasks.
+- Fixed cases where visual preferences and display choices were not restored predictably.
+- Fixed warnings and recovery choices when an external link could no longer be found.
+- Fixed recurrence generation to reduce duplication and better respect filters, dates, times, and user-defined limits.
+- Fixed reminder scenarios that could schedule alerts without a valid notification type or with an expired date/time.
+- Fixed state restoration after batch operations when undo is available.
+- Fixed data reading and recovery failures when saved information was incomplete or inconsistent.
+- Fixed texts, labels, and messages that did not correctly follow language switching.
+- Fixed sizing issues that could cause clipping, visual jumps, or loss of usable space in smaller windows.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.5.5.0
+Date: May 5, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This version strengthens the compilation, packaging, maintenance, and translation generation process of the Lúmen. The main application, the Pomodoro and Feynman modules, auxiliary utilities, and installers now feature clearer workflows for Qt 6.12.0, with separation between MinGW and MSVC, predictable outputs, and less reliance on loose manual commands. It also brings together in a single update recent improvements in visual organization, stability, task reading, adaptation to smaller screens, and side panel control. Daily use has become clearer, more predictable, and with more freedom for you to decide what you want to keep visible on the screen. It extends the Lúmen with support for the new optional Mind Map and Audiobook modules. It also improves interface tab control, facilitates access to modules, updates application version information, and fixes language and resource loading issues that could affect installed copies or those prepared for distribution. It improves the performance of the final versions of the application, expands the customization of the main tabs, fixes the persistence of the Eisenhower tab visibility, adjusts the appearance of the Audiobook, makes the Pomodoro In Progress panel more stable, and updates the informative texts displayed to the user.
+
+Lúmen:
+- The Lúmen has been migrated from a Python base to a native C++ base, maintaining the application's purpose and bringing more direct execution on Windows.
+- This modernization covers the main window, task management, calendar, global list, menus, editing dialogs, Manual, "About" window, languages, icons, activity logs, and support components.
+- The main application and auxiliary utilities now work better as Windows executables, with less dependence on external configurations and greater predictability when opening on different machines.
+- Direct program opening has become more reliable, with libraries and visual components automatically included when necessary.
+- The application icon now appears more consistently in the main executable and in the program windows.
+- New interface organization mode for tasks, with switching between Tab and Quadrant views directly in the settings.
+- Layout preference is now automatically saved and restored when opening the application again.
+- Layout switching now displays clear confirmation of success and also a warning when the change cannot be applied.
+- New interface texts related to layout and confirmations have been added to the two supported languages.
+- When trying to open a linked file that no longer exists, the application now shows a warning with options to remove the link, search for the file again, or just close the window.
+- The new manual search allows for quickly relinking a file to a task without needing to edit the item through another path.
+- Task visualization has become more flexible, with switching between Tabs and Quadrants and the preference saved for future openings.
+- In Tab view, each quadrant can now separately collapse or expand the tasks area and the completed area.
+- Lists can be organized by date, alphabetical order, and time, with combined use and in ascending or descending order.
+- Task editing has become more predictable, and the text shown in each item better represents actual information.
+- Date, time, priority, and domain have become clearer in task reading.
+- The calendar is more stable when creating, editing, moving, removing, and clearing tasks.
+- Synchronization between calendar, lists, and other application views has become more reliable.
+- Saving, primary backup, and importing external files have become more consistent.
+- JSON, CSV, XLSX, and PDF exports now better preserve task data.
+- The Clear action now leaves the application in a cleaner and more predictable state.
+- When a linked file is no longer found, the warning has become clearer and offers simple options to continue.
+- Texts, labels, manual, and support screens have become more consistent in Portuguese and English.
+- Startup behavior, saving, new sessions, and feedback messages have become more predictable.
+- Synchronization preferences between modules are now remembered after closing and opening the application.
+- The top of the application now displays, next to the menu bar, the number of selected tasks and the total tasks of the module that is open at that moment.
+- In Eisenhower mode, this count also takes into account the selection made in the Global Task List, making the number shown better match what is actually selected on the screen.
+- This count is updated as you select, deselect, move, or reorganize tasks, helping to review multiple tasks more securely.
+- New count texts correctly follow the chosen language in the application.
+- The main application tabs have become easier to recognize visually, making it easier to immediately identify when you are in Eisenhower, Feynman, or Pomodoro.
+- Navigation between quadrants has also become more pleasant, with clearer visual highlighting when hovering and opening each tab.
+- The pending and completed task areas within each quadrant have become more organized and simpler to expand or collapse.
+- The titles of these areas have become more visible and consistent, improving reading for both tasks in progress and tasks already completed.
+- The behavior of multiple selection in Eisenhower lists has been fixed: after selecting several tasks with Ctrl or Shift, a simple click on just one of them now returns to having only that task selected.
+- This adjustment reduces mistakes when reviewing larger lists and keeps the use of dragging multiple tasks functioning more stably.
+- The quadrants now have better horizontal use, reducing unnecessary side spaces and leaving the task area closer to the useful limits of the screen.
+- The calendar panel can start collapsed by default, freeing up space right at the application opening.
+- The calendar option has been reorganized within Settings > Task Layout > Show Panel or Show Panels, depending on the modules available in the installation.
+- The preference to show or hide the calendar is now automatically remembered in future openings.
+- The main window now better respects screen limits in lower resolutions, preventing important parts of the interface from being outside the visible area.
+- Maximizing behavior has become more stable and better adjusted to the actual size available on the monitor.
+- Internal areas have been adjusted to better distribute vertical space, reducing clipping of text boxes, lists, and controls on shorter screens.
+- The compilation environment was reorganized to work more clearly with Qt 6.12.0 in MinGW and MSVC.
+- CMake presets now better separate the main application, the Pomodoro module, and the Feynman module, allowing each part to be generated by the correct toolchain.
+- External application distributions are now generated in separate directories for MinGW and MSVC, reducing the risk of mixing DLLs, modules, or executables from different toolchains.
+- VS Code tasks were reorganized to compile and run the main application in MinGW and MSVC with Qt, compiler, and module paths configured automatically.
+- Before recompiling, tasks close open instances of the application when necessary, avoiding failures caused by locked files.
+- Qt runtime deployment has become more consistent, automatically copying necessary libraries, modules, translations, and assets to the build and distribution folders.
+- The version editing utility now uses the dedicated Qt6: find_VersionEditor task, with compilation and deployment in mocks\build.
+- Old direct compilation by the C/C++ extension was replaced by a specific Qt workflow, avoiding link errors with Qt classes and missing DLLs.
+- Regenerable artifacts of the version editor and auxiliary utilities were kept out of version control.
+- The cleanup script now directly removes the regenerable build, auxiliary distribution, and utility directories, maintaining a security check to not leave the project root.
+- Technical environment documentation was aligned with the current CMake, Qt 6.12.0, MinGW, MSVC, windeployqt, and VS Code task workflow.
+- The optional Mind Map and Audiobook modules can now appear as main tabs when their modules are available.
+- The Settings menu now features a Modules area that groups the actions of each available module.
+- Interface tabs can now be unlocked, reorganized, locked again, or restored to default order.
+- The chosen order for module tabs and the lock option are remembered the next time the application is opened.
+- The counter for selected items and total items now also works when Mind Map or Audiobook is open.
+- Optional modules, translations, and Pomodoro alarm sounds are found more reliably in installed or prepared copies of the application.
+- Common window buttons, such as Yes, No, Cancel, Apply, and Restore, now follow the chosen language more consistently.
+- Application information, installer details, privacy and license texts, and visible version references have been updated to 2026.5.3.0.
+- The Settings > Task Layout menu now includes the Show Interface Tabs option.
+- It is now possible to choose which main tabs are visible: Eisenhower, Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model.
+- The application automatically recognizes which optional modules are available and only allows changing tabs of modules present in the installation.
+- The Eisenhower tab still belongs to the main application, but can now be hidden when there is at least one other tab available.
+- The problem where the Eisenhower tab would reappear after restarting the application, even after being hidden by the user, has been fixed.
+- The choice of visible tabs is automatically remembered in future openings.
+- The application prevents hiding all tabs, avoiding a window with no visible workspace.
+- When opening a module through the menu, the corresponding tab becomes visible again automatically if it was hidden.
+- The Show Interface Tabs text now correctly follows language switching at runtime.
+- The About window, informative documents, installers, and visible version information have been updated to 2026.5.5.0.
+- Final versions of the application can be prepared with stronger performance optimizations, allowing for faster packages better adjusted to the computer used in preparation.
+
+Documentation and guidance:
+- The application manual now explains how to show or hide the main interface tabs.
+- The MANUAL.md file was supplemented with the same usage guidelines.
+- The README.md, MANUAL.md, and OBSERVACAO.md documents received a review of Portuguese, accentuation, punctuation, and textual standardization.
+
+Pomodoro Module:
+- Pomodoro remains directly integrated into the main application, with more natural access in daily use.
+- It has become easier to send tasks from the main flow to Pomodoro.
+- Alarm configuration has become more complete, with choice of sound, quick test, and repetition adjustment.
+- New sounds help to better customize cycle end warnings.
+- Opening Pomodoro has become friendlier when it is not yet available.
+- General application cleanup also removes tasks shown in Pomodoro when the module is active.
+- When a linked file is not found, it is now also possible to remove the link or search for the file again within Pomodoro.
+- When Pomodoro is open, the application also starts to show more clearly how many tasks are selected and how many exist within this module.
+- Internal Pomodoro tabs have become easier to distinguish visually, helping to locate what is to do, in progress, or completed more quickly.
+- General Pomodoro reading has become more aligned with the rest of the application, making the experience more consistent.
+- The In Progress panel can now also be collapsed and expanded in a practical way, following the same visual pattern adopted in the other modules.
+- This panel can start closed by default to give more space to the main list and the timer.
+- The preference to show or hide In Progress can now be controlled via the layout menu and is saved automatically.
+- A keyboard shortcut has been added to quickly toggle this panel: Ctrl+Shift+E.
+- The module has become more adaptable on smaller screens, with better vertical distribution between timer, lists, and side panel.
+- The Pomodoro module gained its own presets and tasks for compilation with MinGW and MSVC.
+- Module deployment is now done in separate directories for each toolchain, keeping the Qt runtime compatible with the compilation used.
+- Pomodoro translation compilers were renamed to Pomodoro_CompileTranslationsGUI and Pomodoro_CompileTranslationsTerminal.
+- The Pomodoro translation script now locates the project root more securely, compiles the selected utility, runs the Qt deployment, and saves the binaries in module\pomodoro\Pomodoro\language\output.
+- VS Code tasks allow compiling and running the graphical and terminal versions of the Pomodoro translation compiler without depending on the generic compile current file command.
+- The output folder for Pomodoro translation utilities has been marked as regenerable and should not be versioned.
+- Pomodoro alarm sounds are found more reliably after installation or packaging.
+- Pomodoro translations load more consistently from the module folders included in the application.
+- The In Progress panel has become more stable when being opened, closed, or resized.
+- The width of the In Progress panel is now preserved more consistently during use.
+- Visual jumps and unexpected size changes when switching the panel have been reduced.
+
+Feynman Module:
+- Tasks arrive in Feynman more consistently, better preserving important information.
+- The main Feynman panel has a more intuitive name.
+- When the description area is empty, it can be automatically filled based on other notes.
+- When the description has already been written manually, the user text is preserved.
+- General application cleanup also removes tasks shown in Feynman when the module is active.
+- When a linked file is not found, it is now also possible to remove the link or search for the file again within Feynman.
+- When Feynman is open, the application also clearly shows how many items are selected and how many exist in the module.
+- The steps of the method have become visually easier to recognize, making navigation between tabs more direct and more comfortable.
+- Feynman visual reading has become clearer, helping to better track each stage of the process.
+- The My Tasks: panel can now be collapsed and expanded with the same practical style already used in the Eisenhower calendar.
+- This panel can also start closed by default, leaving more space for the main study area.
+- The fixed description that was at the top was removed to free up more useful screen space.
+- The extra visual outline around the main area was removed, leaving the module with a cleaner appearance.
+- Main Feynman elements were repositioned to better take advantage of the upper area of the window.
+- The preference to show or hide My Tasks: can now be controlled via the layout menu and is saved automatically.
+- A keyboard shortcut was added to quickly toggle this panel: Ctrl+Shift+T.
+- The Feynman module gained its own presets and tasks for compilation with MinGW and MSVC.
+- Module deployment is now done in separate directories for each toolchain, reducing the risk of conflict between runtimes.
+- Feynman translation compilers were renamed to Feynman_CompileTranslationsGUI and Feynman_CompileTranslationsTerminal.
+- The Feynman translation script now locates the project root more securely, compiles the selected utility, runs the Qt deployment, and saves the binaries in module\feynman\Feynman\language\output.
+- VS Code tasks allow compiling and running the graphical and terminal versions of the Feynman translation compiler without depending on the generic compile current file command.
+- The output folder for Feynman translation utilities has been marked as regenerable and should not be versioned.
+- Feynman opening has become more reliable in installed or prepared copies of the application.
+- Feynman information is grouped with other optional modules on the application's informative screens.
+
+Mind Map Module:
+- New optional Mind Map module to create visual maps of ideas, topics, and study materials.
+- It is possible to add concepts, move them freely, connect related concepts, change colors, and remove individual or selected concepts.
+- Concepts can hold notes and linked files; Ctrl + double-click opens a linked file directly from the map.
+- Maps can be saved, loaded, automatically restored, cleared with confirmation, and exported as PNG images.
+- Documents can be imported to generate a mind map automatically when AI features are available.
+- Supported import formats include PDF, EPUB, DOC, DOCX, TXT, MD, CSV, XLSX, JSON, DB, SQLite, and XML.
+- Document processing shows progress while text is extracted, analyzed, and transformed into concepts.
+- By dragging a document into the new concept window, it is possible to create a map from that file.
+- The map can be organized in vertical, horizontal, radial, or tree modes, with the preference remembered automatically.
+- A focused view can cycle through concepts to help with presentation or step-by-step map review.
+- Total concepts and total selected concepts appear in the application counter.
+
+Audiobook Module:
+- New optional Audiobook module to read texts and PDFs aloud.
+- It is possible to open PDFs, write or paste text, drag compatible files to the reader, and switch between Text and PDF views.
+- Playback controls include read, pause, continue, stop, speed, volume, and voice selection.
+- Voice options are available in the Modules menu and are organized by language when information is available.
+- Font size and style can be adjusted, previewed, saved, and restored.
+- The text editor includes new text, save as TXT, undo, redo, search, bookmarks, line spacing, indentation, and margin.
+- PDF reading includes page navigation, zoom, fit to width, fit to page, hand mode, selection mode, text copy, and file/page information.
+- Search works in text and PDF, with next/previous navigation, case sensitivity, whole word search, and highlighting all results.
+- Assisted reading can highlight the current word, sentence, or paragraph while the audio is playing.
+- A focus ruler can be activated to facilitate line-by-line tracking.
+- Temporary audio files are cleaned up more reliably after reading.
+- The internal Text and PDF tabs now use the same color aesthetics as the main application tabs.
+- The Text tab received blue highlighting.
+- The PDF tab received red highlighting.
+- Text and PDF areas were realigned to better match the interface buttons and controls.
+- The coloring of the Text and PDF tabs is correctly maintained after updating interface texts.
+
+Installers and distribution:
+- The main Inno Setup script now explicitly recognizes MinGW and MSVC variants.
+- When compiling the installer directly via the Inno Setup IDE, the script automatically generates installers for both variants.
+- It remains possible to compile only one variant via command line using BuildFlavor=mingw or BuildFlavor=msvc.
+- Installers are now recorded in separate outputs: InnoSetupOutput_mingw and InnoSetupOutput_msvc.
+- Installer names now include the toolchain and version, making it easier to quickly identify which package will be distributed.
+- The installer now packages the corresponding complete distribution tree, preserving DLLs, modules, translations, assets, and auxiliary files generated for each toolchain.
+- Installation information, display name, default directory, and shortcut now better differentiate between MinGW and MSVC variants.
+
+Usage and stability improvements:
+- Application startup has become more stable, including a fix for a failure related to the calendar in certain openings.
+- The main executable no longer opens an unnecessary terminal window when started on Windows.
+- Date, time, and priority controls in the task creation area are better visually aligned.
+- The Global Task List now correctly shows the visual priority indicator before each task.
+- Quadrant labels have been restored, including their corresponding emojis.
+- Fixed the issue that displayed two tooltips when hovering over tasks; now only the correct preview is shown.
+- Fixed the error that doubled the year in displayed dates, such as "20262026", in Portuguese and English.
+
+Corrections and adjustments:
+- Fixed the issue that moved a task between pending and completed when only updating a linked file.
+- The task now preserves its original state when removing or redefining a file link.
+- Handling for missing linked files has become more consistent at double-click opening points.
+
+Language, content, and support:
+- The User Manual now follows language switching in real time even when it is already open.
+- The "About" window has become more reliable when loading texts, history, and resources, including in published copies of the application.
+- Language files have been reorganized with clearer names, and the application now recognizes this new organization automatically.
+- Translation loading has become more robust, with better compatibility for application and Qt files.
+- The translation compiler has been modernized and now exists in two native Windows versions: one with a graphical interface and another for direct use in the terminal.
+- The graphical translation compiler now starts in standby mode and no longer keeps the cursor stuck in a loading state after completing the process.
+- The project version editor was also converted to a native application, eliminating the need for Python at this stage.
+- Main application translation compilers were renamed to clearer names: Eisenhower_CompileTranslationsGUI and Eisenhower_CompileTranslationsTerminal.
+- The translation compilation workflow now uses a dedicated PowerShell script, with validation of expected tools, generation in source\language\output, and automatic deployment with windeployqt.
+- Graphical and terminal versions of the translation compiler can be compiled and executed directly by VS Code via their own tasks.
+- Application translation management files are no longer treated as isolated executables, being restricted to the role of an internal application component.
+- The translation process has become more predictable for maintenance because each utility has its own name, output folder, and execution task.
+
+Impact for the user:
+- Less friction when organizing tasks and switching between Eisenhower, Pomodoro, and Feynman.
+- More confidence when saving, importing, clearing, and recovering tasks.
+- More consistent and easy-to-understand interface in daily use.
+- More predictability when reopening the application and continuing from where you left off.
+- More clarity to quickly understand how many tasks you are actually manipulating in each area.
+- Less confusion when selecting several tasks and then returning to just one.
+- Simpler navigation between modules, quadrants, and workflow stages.
+- More organized and consistent visual reading throughout the main interface.
+- More useful screen space, especially on laptops and monitors with lower resolution.
+- Less chance of lists, fields, and buttons being partially hidden.
+- More freedom to keep visible only the panels that actually make sense for your daily use.
+- Automatic return of your viewing preference whenever the application is reopened.
+- Faster navigation with keyboard shortcuts for the main side panels.
+- Distributed installation becomes more predictable, with separate packages for MinGW and MSVC.
+- The chance of mixing runtime files from different toolchains has been reduced.
+- Opening the published application is more reliable because packaging uses the full tree generated by deploy.
+- Those who use only the final application do not need to change data, preferences, or existing files.
+- More study and learning flows can be done within the same application.
+- Optional modules only appear when they are present, keeping smaller installations cleaner.
+- Navigation between modules has become more flexible and easier to customize.
+- Module texts, buttons, and resources are more consistent when changing language or opening a packaged copy.
+- Existing user data remains compatible.
+- Navigation between modules has become more customizable.
+- Tab visibility preferences are more predictable after closing and opening the application.
+- The Audiobook interface is more visually aligned with the rest of the application.
+- The Pomodoro In Progress panel is more comfortable on resized screens.
+- Application texts and information are more consistent in Portuguese and English.
+- Existing user data remains compatible.
+
+Impact for maintenance and distribution:
+- Compilation of the application, modules, and utilities has become more standardized in VS Code.
+- Translation generation has become simpler to repeat and easier to diagnose when there is a failure.
+- Output paths have become more explicit, avoiding doubts about where to look for executables, DLLs, and installers.
+- Repository cleanup has become faster and more direct, removing entire regenerable folders instead of cleaning only internal content.
+- The distribution workflow has become more suitable for separately validating MinGW and MSVC before publishing installers.
+
+Observations:
+- Your existing data and files remain compatible.
+- No manual action is required to continue using the main application.
+- For maintenance and distribution, the new native base reduces reliance on Python and simplifies the use of auxiliary tools.
+- No manual action is required to use the new layout and link recovery options.
+- The improvements in this version take effect normally after updating the application.
+- Panel display preferences are now remembered automatically.
+- No manual action is required to use the improvements in this version.
+- Build, output, and deploy folders continue to be regenerable.
+- For maintenance, it is recommended to use the VS Code Qt6: tasks and the corresponding CMake presets.
+- No manual action is required for existing user data.
+- No manual action is required for existing user data.
+- Mind Map and Audiobook features only appear in installations that include these modules.
+- Some Audiobook voice features may depend on voice services available on the user's computer or network.
+- No manual action is required for existing user data.
+- Pomodoro, Feynman, Mind Map, Audiobook, Gantt & BIM 4D, Assessment Agenda, and Local Qwen AI Model tabs only appear when the respective modules are available in the installation.
+- If a tab is hidden, it can be reactivated through the same layout menu.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen  
+Version: 2026.2.23.0  
+Date: February 23, 2026  
+Author: Fernando Nillsson Cidade
+
+General summary  
+This update improved the experience in the Eisenhower Matrix calendar. Day selection became more predictable, and visual controls now behave better when the panel is resized.
+
+Main improvements
+
+1. More intuitive date selection  
+- When selecting a new day, the previous selection is automatically replaced.  
+- To select multiple days at the same time, just keep the `CTRL` key pressed.  
+- Clicking again on a day that is already selected now correctly updates the task list, including when multiple monthly calendars are visible.
+
+2. More useful day filter  
+- The “Day” filter now works with multiple selected dates (when used with `CTRL`).  
+- When only one day is selected, the behavior remains simple and straightforward.
+
+3. More stable layout in the calendar panel  
+- The “Show priority” checkbox now follows panel resizing.  
+- When dragging the vertical bar, controls adjust together with the calendar area, keeping the layout aligned.
+
+Applied fixes
+
+1. Fixed task update when clicking again on a day that was already selected.  
+2. Fixed the selection rule to stay consistent across monthly calendars.  
+3. Fixed visual positioning of controls during panel resizing.
+
+Impact for the user  
+- Less confusion when selecting days in the calendar.  
+- More flexibility to filter tasks by multiple days of interest.  
+- A more organized and consistent interface when adjusting panel size.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.21.0
+Date: February 21, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+This update brought important improvements in usability, visual organization, and the quality of AI results. The focus was to make the experience smoother in the calendar, more practical in task management, and smarter in content generation in the Mind Map.
+
+Main improvements
+
+1. Eisenhower Matrix Calendar
+- The calendar is now more responsive and adapts better to the available screen space.
+- Monthly and yearly views are now more stable and consistent.
+- Navigation between dates is smoother, with better synchronization across different views.
+- Visual performance was optimized to avoid unnecessary updates.
+
+2. Time Management
+- The side column for ongoing tasks is now more interactive.
+- It is now easier to select multiple tasks.
+- Double-clicking to open a linked file is now more practical.
+- The side-column context menu was improved.
+- Tasks with linked files now have visual highlighting for quick identification.
+
+3. Status Bar
+- The selected-item count is now more accurate.
+- The issue of duplicate counting of the same task in mirrored lists was fixed.
+- The selection indicator now updates better in real time.
+
+4. Feynman Method
+- Opening linked files is now simpler: a double-click is enough.
+- Visual instructions were updated to reflect this new behavior.
+- Visual highlighting of items with linked files is now clearer.
+
+5. Mind Map with AI
+- Automatic language detection was improved and is now more reliable.
+- Contextual summary generation became more relevant and less repetitive.
+- Concept and main-idea extraction became more accurate.
+- Relationships between concepts are now identified with higher quality.
+- Overall processing is now more robust, including difficult or incomplete texts.
+
+Bug fixes
+
+1. Duplicate selection count
+- Fixed an issue that could count the same task more than once.
+
+2. Excessive visual updates in the calendar
+- Unnecessary repaints and recalculations were fixed to improve smoothness.
+
+3. Loss of date reference
+- Fixed inconsistency when switching between monthly and yearly modes.
+
+4. AI robustness in limited scenarios
+- Improved behavior when text is short, ambiguous, or has incomplete structure.
+
+Recommended validation (quick)
+1. Test the calendar on screens with different widths and switch between monthly and yearly views.
+2. Select tasks in the side column and verify synchronization with the main area.
+3. Open linked files with double-click in Time Management and Feynman.
+4. Process Portuguese and English texts in Mind Map to validate summaries, concepts, and ideas.
+5. Confirm that the status bar does not duplicate the count of selected tasks.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.20.0
+Date: February 20, 2026
+Author: Fernando Nillsson Cidade
+
+General Summary
+This update improves how the app communicates with you: confirmation, warning, success, and error messages are now clearer, more consistent, and more predictable. We also fixed important deletion and cleanup flows to avoid confusing behavior.
+
+Main Improvements
+
+1. Clearer messages throughout the app
+- Warnings and confirmations now follow the same visual and language pattern.
+- Success and error messages are now more objective, making it easier to understand the result of each action.
+- More consistent experience when switching language during use.
+
+2. Feynman Method
+- When deleting concepts, there is now confirmation and clear success or error feedback.
+- Concept saving now provides more direct feedback.
+- Better handling when dealing with linked files (e.g., file not found).
+
+3. Mind Maps
+- Clearing the map now asks for confirmation and shows the final result.
+- New option to delete node(s) and connection(s) with confirmation before the action.
+- Important deletion fix: nodes and connections are now removed correctly, including in multiple selection.
+
+4. Time Management and Pomodoro
+- Task removal actions (single or batch) are now safer, with clear confirmations.
+- Success, failure, and error feedback has been standardized.
+- “No tasks” messages are now clearer.
+
+5. Accessible Reader
+- Pause alerts, reading errors, and focus ruler activation messages are now more informative.
+- Clear-content and file-save flows are now more consistent and easier to understand.
+
+6. Eisenhower Matrix and Calendar
+- Removing tasks by day and by month now asks for confirmation before executing.
+- After deletion in the calendar, the app reports the result more clearly.
+- Better consistency in messages for creating, clearing, opening, and saving.
+
+7. Overall Stability
+- Improvements in message window behavior across different screens and usage contexts.
+- Lower risk of message windows failing to open in specific actions.
+
+Applied Fixes
+
+1. Confirmation action failure fix
+- Resolved an issue that could prevent some confirmation windows from opening correctly.
+
+2. Mind Map node deletion fix
+- Adjusted behavior to avoid partial deletion (connections only) and visual inconsistencies.
+
+3. Calendar feedback fix
+- After removing tasks by period, the app now shows confirmation that the action was completed.
+
+Recommended Validation (Quick)
+1. Delete 1 concept and multiple concepts in Feynman and confirm the confirmation and result messages.
+2. Clear the Mind Map and delete 1 node and multiple nodes to validate confirmation and correct removal.
+3. In the calendar, remove tasks by day and by month and verify confirmation before and notice after completion.
+4. In Accessible Reader, test clearing content and saving a file to validate the new messages.
+5. In Task Manager, remove single and batch tasks to check return messages.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.19.0
+Date: February 19, 2026
+Author: Fernando Nillsson Cidade
+
+General summary  
+This version brings visual and usability improvements to make the experience more consistent across the entire application. Adjustments were also made so the interface adapts better when the language is changed during use.
+
+Main improvements
+
+1. Feynman Method  
+- Visual adjustments for better organization of the domain area.  
+- Concepts with a linked file are now highlighted in blue and bold, making them easier to identify.  
+- This highlight is updated immediately when linking or removing files.
+
+2. Pomodoro  
+- Configuration fields now have a more uniform visual size.  
+- The appearance remains consistent even after changing the language.
+
+3. Task Manager  
+- Better visual alignment between the task field and priority selection.  
+- A more stable and standardized interface across different languages.
+
+4. Accessible Reader  
+- Toolbar controls now have uniform height in both Text and PDF areas.  
+- Result: a cleaner look and more comfortable navigation.
+
+5. Search bars (Text and PDF)  
+- Better alignment between the search field and navigation buttons.  
+- Reading and use of controls feel more natural.
+
+Applied fixes
+
+1. Fix for visual variations after language switching  
+- Interface elements that could become misaligned now keep a consistent pattern.
+
+2. Width fix in the Feynman Method  
+- Adjustment for better display of long content, reducing clipping and misalignment.
+
+3. Alignment fix in search bars  
+- Search field and buttons now remain visually aligned.
+
+4. Visual feedback fix for concepts with linked files  
+- Immediate visual highlighting for linked concepts, helping with review and organization.
+
+Recommended validation (quick)  
+1. Change the language with the app open and verify that the layout remains aligned.  
+2. In the Feynman Method, check whether controls remain properly adjusted in different languages.  
+3. Link and remove a file from a concept in Feynman and confirm immediate highlighting (blue and bold).  
+4. In Accessible Reader, validate whether Text and PDF controls are visually standardized.  
+5. Verify that Text and PDF search bars have consistent alignment.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.18.0
+Date: February 18, 2026
+Author: Fernando Nillsson Cidade
+
+Quick Summary
+- Better integration between Eisenhower Matrix tasks and the Time Manager.
+- Calendar with annual view and more complete filters.
+- More reliable task import and export (JSON, Excel, and PDF).
+- Safer saving with automatic backup copies.
+- Improvements in app startup, Windows icon behavior, and overall interface stability.
+
+Everyday Improvements
+- Duplicate tasks across different areas of the app were reduced.
+- Synchronization between lists and boards became more stable.
+- When removing multiple tasks, the experience became cleaner, with fewer repeated pop-up windows.
+- Task editing with dates/times became clearer and more consistent with the selected language.
+- Multi-selection in lists became more visible and easier to use.
+
+Enhanced Calendar
+- New annual view to track tasks by month.
+- New year filter.
+- Switching between monthly and annual views.
+- Calendar task list is now better organized for larger periods.
+- Visual highlight for the current day to improve orientation.
+
+Importing, Exporting, and Saving with More Safety
+- The import/export structure was standardized to reduce errors.
+- Exported PDFs now preserve data better for reimporting.
+- Stricter data validation when opening files.
+- Automatic backup creation before saving, reducing the risk of data loss.
+
+Stability and Fixes
+- Fixed issues that could generate “mirrored”/duplicate tasks.
+- Fixed Windows icon consistency issues.
+- More robust application startup.
+- Better handling of internal interface situations to prevent freezes.
+
+Expected Impact
+- More confidence when organizing tasks across different resources.
+- Less rework with duplicated or inconsistent data.
+- More useful calendar usage for monthly and annual planning.
+- More stable and predictable overall experience.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.17.0
+Date: February 17, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Delivery focused on reinforcements and fixes for the Pomodoro flow, greater integration with the task manager, runtime translation updates, and refinements in theme application to avoid invalid states and visual artifacts.
+
+Main improvements
+- Pomodoro: more robust and predictable
+  - Start blocked when the cycle limit has been reached, with an informative alert.
+  - Buttons display text and emoji according to the state (▶️ Start, ⏸️ Pause, ▶️ Continue).
+  - Reset and skip cycle correctly update remaining time, the progress bar, and the display in all states.
+- Preservation of progress when changing settings
+  - When changing durations or the number of cycles, elapsed time is taken into account and remaining time is adjusted to preserve the user's progress.
+  - Minimal validations prevent invalid values.
+- Runtime translations
+  - Button texts, titles, and placeholders update without restarting the interface, preserving selections when possible.
+- Theme and appearance
+  - Safe application of the system palette to labels, lists, and selectors to maintain native appearance and avoid undesired rectangles.
+  - Reactive reapplication when switching themes preserves legibility.
+- Pomodoro ↔ Tasks integration
+  - Completed cycles automatically increment the pomodoro counter for tasks in progress.
+  - Tasks that reach the configured limit can be marked as completed automatically (when enabled).
+  - The sidebar "⚙️ In Progress" column improves visibility of tasks in progress with a dynamically translated title and minimum width adjustment for consistent layout.
+
+Fixes and protections
+- Prevent starting the timer in invalid states when the cycle limit has been reached.
+- Prevent negative remaining time values when updating settings.
+- Safe handling when applying the palette to widgets that do not support certain operations, reducing visual artifacts.
+- Prevent accumulation of duplicate handlers/connections when opening/closing/updating components, reducing exceptions and unexpected behaviors.
+
+Quick validation
+1. Start/pause/continue the Pomodoro and confirm label changes (▶️ / ⏸️).
+2. Change focus/break durations and verify preservation of current progress.
+3. Reach the cycle limit and confirm the alert and blocking of new focus.
+4. Complete a focus cycle and verify increment of pomodoros on tasks in progress.
+5. Switch the system theme and confirm that labels, lists, and selectors remain legible and free of artifacts.
+
+Next suggested steps
+- Add automated tests for progress preservation when updating settings.
+- Cover the Pomodoro → Task Manager flow with integration tests.
+- Expand visual checks of palette application for light/dark themes.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.16.0
+Date: 16 February 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Release focused on improving integration between Mind Maps ↔ the Feynman Method, smoothing the experience with linked files (preview, opening and linking), increasing robustness of Mind Map persistence/backup and ensuring safe cleanup of background resources. Defensive protections were added, usability improvements (richer tooltips, manageable handlers) and adjustments for better compatibility across varied PySide6 environments.
+
+Main improvements
+- Linked files: preview and opening
+  - Enriched preview presenting clear sections (Concept, Explain, Gaps, Review and Linked File) to facilitate quick reading.
+  - Tooltip positioned to remain inside the screen and automatically hidden when the cursor leaves the item.
+  - More reliable file opening with path validation and user warning when the file is not found.
+
+- Mind Maps → Feynman Method integration
+  - Concepts sent from the map are validated and integrated safely, avoiding duplicates and preserving notes history.
+  - Ability to quickly send a node's content to the Feynman Method while keeping the linked file when present.
+  - Open/link file actions in dialogs made predictable to avoid repeated executions by accident.
+
+- Mind Map persistence and backup
+  - Safer saving of map data, including essential layout information.
+  - Automatic backup optimized to avoid rewriting files when nothing changed, reducing unnecessary I/O.
+  - Loading more tolerant of invalid data: out-of-spec entries are ignored, restoring as much as possible without crashing.
+
+- Appearance and theme
+  - Text fields, lists and selectors better follow the system theme, preserving native look without causing visual artifacts.
+  - Reactive synchronization when switching the system theme to preserve readability and consistency.
+
+- Shutdown and cleanup
+  - Safe stopping of background workers/processes when closing the application, avoiding orphaned tasks and potential instabilities.
+
+Bug fixes
+- Tooltip positioned correctly so it does not disappear outside the visible area.
+- File opening now informs the user and attempts alternatives when needed, avoiding silent failures.
+- Prevented accumulation of handlers in the node edit dialog, avoiding multiple executions of the same action.
+- Backups do not rewrite the file when there is no real change in the map.
+- Map loading tolerates invalid indices without aborting the process.
+
+Quick validation checklist
+1. Hover over items to see the preview with clear sections and ensure it does not exceed screen bounds.
+2. Use Ctrl + double-click on a node with a linked file to open it; confirm behavior on your system.
+3. Integrate a concept from the map into the Feynman Method and verify it appears in the list with the link preserved.
+4. Modify the map and observe the creation of the backup; reopen without changes and confirm no unnecessary rewrite occurred.
+5. Switch the system theme (light/dark) and check that fields and lists remain readable without artifacts.
+6. Open/close the node edit dialog repeatedly and confirm actions do not accumulate.
+
+Next suggested steps
+- Add automated tests for file preview and for the map → Feynman integration flow.
+- Expose UX preferences (e.g., enable/disable preview and confirmation when linking files).
+- Create integration tests for background processes related to the Feynman Method.
+- Evaluate visual tests to ensure no regressions across light/dark themes.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.13.0
+Date: February 13, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Update focused on layout and interaction refinements (calendar panel and resizing), improved reliability of drag & drop across task columns, integration between Pomodoro and tasks, and enhancements in theme application and translations. Small logging fixes and exception protections increase overall stability.
+
+Main improvements
+- Calendar panel
+  - More predictable toggle behavior for showing/hiding the calendar, with automatic width adjustment to avoid content overlap.
+  - Improved resizing behavior to maintain proportions and prevent invalid sizes when opening/closing the panel.
+
+- Drag & drop in task tabs/columns
+  - Dragging over a tab header now automatically opens the target tab to facilitate dropping.
+  - Drops on the header correctly move tasks to the chosen column without losing selection or items.
+  - Flow protected against inconsistent intermediate states, reducing item loss during moves.
+
+- Pomodoro ↔ Tasks integration
+  - Pomodoro cycles trigger updates in the task manager to support focused workflows.
+  - "In Progress" column shown next to the timer panel, with a responsive initial layout and reactive list updates.
+
+- Task entry and file support
+  - New task field accepts dragged files and fills the field; pressing Enter adds the task.
+  - Interface translations and texts update at runtime without losing important selections (e.g., priority).
+
+- Appearance and theme synchronization
+  - Fields and lists better follow the system theme, avoiding visual artifacts when switching light/dark modes.
+  - Reapplication of colors and styles has been reinforced to keep a consistent look without fixed stylesheets.
+
+Bug fixes
+- Prevented incorrect resizing behavior when toggling the calendar panel.
+- Fixed issue where items disappeared when dropped onto tab headers.
+- Protected against exceptions when applying theme to various widgets, avoiding unwanted background rectangles.
+- Reduced startup failures in the task manager and timer due to unavailable connections/mechanisms.
+- When updating option lists, the selected index is preserved whenever possible.
+
+Quick checks
+1. Toggle the calendar panel in windows of different sizes and repeat open/close; verify columns and content do not overlap.
+2. Drag a task between columns, including dropping on the tab title; confirm the task appears in the destination column.
+3. Run a Pomodoro cycle and observe updates/triggers for tasks in progress.
+4. Drag a file to the new task field and press Enter to add; confirm the attachment persists.
+5. Switch theme (light/dark) and change language: confirm consistent appearance and preservation of selections in menus.
+
+Notes
+- The update prioritizes user experience and robustness; existing workflows remain unchanged.
+- If unexpected behavior occurs, reproduce the steps and check logs for diagnostics.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.12.0
+Date: February 12, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Update focused on improving integration between Mind Maps and the Feynman Method, making node and concept editing more reliable, and strengthening automatic saving of the Mind Map. Includes visual refinements to respect the system theme and fixes that prevent repeated behavior when attaching/removing files.
+
+Main improvements
+- Mind Maps → Feynman integration
+  - Concepts sent from the map are integrated safely: empty titles or concepts without notes are ignored, duplicate concepts are merged preserving history, and changes appear immediately in the study list.
+  - Improved identification and normalization of fields to avoid invalid entries.
+
+- Node editing and attachments
+  - Centralized node edit dialog to edit text and notes and to attach/remove files in a predictable way.
+  - Support for opening a linked file with Ctrl+double-click.
+  - Fixed behavior that caused actions to execute multiple times when attaching/removing files repeatedly.
+
+- Feynman Method experience and usability
+  - Fields and lists better follow the system palette/theme, reducing visual artifacts when switching between light/dark modes.
+  - Translations and interface texts update without losing the selected domain level.
+  - More informative tooltips and organized editing areas to facilitate reading and navigation between Concept → Explain → Gaps → Review.
+  - More robust concept selection even when the list shows only the summarized text.
+
+- Concept management
+  - Deletion with confirmation for multiple selection and safe removal of selected items.
+  - Context menu to quickly adjust the domain level (Beginner / Intermediate / Advanced) with immediate interface update.
+
+- Mind Map persistence and backup
+  - Serialization more tolerant to missing data and that preserves layout metadata.
+  - Optimized automatic backup: avoids rewriting when there was no effective change, reducing redundant I/O.
+  - Configurable backup timer and safer handling against concurrency.
+
+Bug fixes (main)
+- Prevents duplication of integrations and invalid entries when receiving data from the map.
+- Prevents accumulation of repeated actions when attaching or removing attachments multiple times.
+- Removes visual artifacts caused by improper application of palette on some controls.
+- Automatic backup does not rewrite the file when there was no significant change.
+- Opening linked files via shortcut (Ctrl+double-click) is reliable.
+
+Quick checks
+1. Send a concept from the Mind Map to the Feynman Method: confirm creation or update and immediate visibility in the list.
+2. Open the node edit dialog, attach and remove a file several times, and verify each action occurs only once.
+3. Press Ctrl+double-click on a node with an attachment to open the file.
+4. Switch the system theme (light/dark) and check there are no rectangles or artifacts in fields and lists.
+5. Modify the map, wait for backup, and confirm the backup file is not rewritten if nothing relevant changed.
+
+Notes
+- The update prioritizes reliability and user experience; existing workflows remain unchanged.
+- If unexpected behavior occurs, reproduce the step and check the logs for diagnosis.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.11.0
+Date: February 11, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Update focused on making drag & drop more reliable, improving the experience with linked files and increasing the stability of Mind Map backup and restoration. Includes usability adjustments in the find bars and visual refinements to keep readability in light/dark themes.
+
+Main changes
+- More robust drag & drop
+  - Fields and viewers accept dragged files more safely; invalid drops are handled without crashing the application.
+  - When dragging a file to create a task or into the reader, the file can be quickly linked or loaded subject to user confirmation.
+
+- Simplified opening and linking of files
+  - Files linked to concepts and tasks open in a system‑compatible way, with clear messages to the user.
+  - The file‑linking UI when creating/editing items shows confirmation and information about the attached file.
+
+- Mind Map: safer persistence and restoration
+  - Automatic backups avoid redundant writes, reducing unnecessary I/O risk.
+  - Map loading tolerates partially corrupted data and attempts to restore as much as possible without aborting.
+
+- Search (Text/PDF) and readability across themes
+  - Find bars maintain adequate contrast in light and dark themes to preserve readability.
+  - Highlighting behavior and navigation through results are more consistent.
+
+- Palette synchronization and appearance
+  - Input components and lists follow the system palette better, avoiding visual artifacts and preserving a native look.
+
+Bug fixes
+- Prevents exceptions on drops with unexpected data.
+- Automatic backup no longer rewrites the file when there are no changes.
+- Restoring a map no longer fails due to invalid indices; out‑of‑range entries are ignored.
+- Prevents accumulation of handlers when linking/removing files repeatedly.
+- Find bar preserves contrast in dark themes.
+
+Quick checks
+- Drag a PDF into the reader and confirm it loads and displays its path.
+- Drag a file onto the new task field and confirm the link when prompted.
+- Save the map, make semantically no‑op edits and verify that the backup is not frequently rewritten.
+- Open the find bars in light and dark themes and confirm readability.
+
+Notes
+- This update prioritizes robustness and usability; it does not change primary usage flows.
+- If you encounter unexpected behavior, reproduce the step and check logs to help diagnosis.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.10.0
+Date: February 10, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Update focused on visual consistency: input fields and dropdown menus now follow the system's native appearance and properly respect Light/Dark themes, providing a more integrated interface without visual artifacts.
+
+Main changes
+- Native appearance of fields
+  - Text fields and selectors display the native background without rectangles or visual borders imposed by the application.
+- More coherent popups and menus
+  - Dropdowns (open lists) use a fill color aligned with the Windows theme: lighter in Light theme and slightly darkened in Dark theme.
+- Uniformity across areas
+  - Visual behavior standardized in Eisenhower Matrix, Time Management, Task Manager and Feynman Method.
+- Improved Pomodoro and list experience
+  - Timer fields and priority/time selectors open lists with the same fill style, without creating visual boxes on the main control.
+
+Bug fixes
+- Removed unwanted rectangles on fields and combos that appeared in some themes.
+- Popups that previously used fixed colors now adapt to Light/Dark mode to avoid strong contrast.
+- Protective adjustments to avoid incorrect visual effects in lists and composite areas.
+
+What to check
+- On Windows 10/11 Light theme: open dropdowns (priority, timer, domain, quadrants) — the list background should be light and integrated with the theme.
+- On Dark theme: the same controls should present a slightly darker fill, without rectangles on the main control.
+- Confirm that text fields and selectors maintain the system's native appearance in dialogs and panels.
+
+Notes
+- No functional changes were made to actions; the update focuses on appearance and visual consistency.
+- If you want contrast adjustments, lighten/darken factors can be tuned in future releases.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.9.0
+Date: February 9, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Improvements focused on making drag & drop more reliable, keeping task order consistent and showing complete information in tooltips. Also enhances the experience of dragging files to create tasks.
+
+Key changes
+- Drag & drop onto tabs
+  - Dropping a task onto a tab title now correctly moves the task to the destination column.
+  - Prevents tasks from disappearing from the interface after the move.
+
+- Automatic ordering
+  - After moving tasks, lists are automatically re-sorted by priority, then by date, time and title.
+  - Items without a deadline are placed at the end.
+
+- Auto-open tab while dragging
+  - When the cursor passes over another tab during a drag, that tab opens automatically to facilitate dropping.
+
+- Dragging files when creating a task
+  - When you drag a file onto the add-task field, you are prompted to confirm linking the file to the new task.
+  - If confirmed, the attachment is saved with the task.
+
+- Full tooltips in the timer panel
+  - Items in "In Progress" show a tooltip with: file (if any), date, time, description and priority.
+
+- Cross-platform file opening and translated messages
+  - Opening attachments uses a method compatible with each operating system.
+  - Messages and dialogs appear in the current language.
+
+Bug fixes
+- Tasks no longer disappear when dropped onto a tab header.
+- Ordering is applied correctly in the timer columns.
+- Tooltips now show all relevant information.
+- Dialogs and warnings respect runtime translation.
+
+How to verify
+- Drag tasks between columns and drop onto a tab title; confirm the task leaves the source and appears in the destination.
+- Move tasks with different priorities and deadlines and verify the new order.
+- Drag a file when creating a task and confirm the link; hover over items in "In Progress" to view the tooltip.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.8.0
+Date: February 8, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Release focused on providing more flexibility in the main interface: users can now reorder the main tabs (📖 Accessible Reader, ⏱️ Time Management, 🧠 Mind Maps, 🎓 Feynman Method, 🗂️ Eisenhower Matrix), persist the chosen order between runs, and easily restore the default order when desired. The release also includes compatibility fixes and increased robustness in navigation and action execution.
+
+Main highlights
+- Tab reordering
+  - Drag and drop tabs to position them as you prefer.
+  - The new order is saved automatically and preserved when reopening the application.
+
+- Persistence of custom order
+  - The order set by the user is restored in subsequent runs.
+  - Unknown entries are ignored and new tabs are appended without losing the established order.
+
+- Restore default order
+  - New option in the Settings menu to restore the original tab order (↩️ Restore tab order).
+
+- Consistent navigation
+  - Shortcuts and menu actions open the correct module regardless of the tabs' visual position.
+  - Help and shortcuts (F1) display tab names according to the user's current order.
+
+- Preserved experience
+  - Temporary content and on-demand loaded components continue to work; visual replacement preserves already-loaded state whenever possible.
+
+- Compatibility and robustness
+  - Adjustments that improve compatibility across environments and reduce failures when reading/writing configurations.
+  - Expanded logging and error handling to facilitate diagnosis without interrupting use.
+
+What changes for you
+- Customize the tab order to adapt the app to your workflow.
+- Close and reopen the app without losing your chosen order.
+- Use the restore option to quickly return to the default configuration.
+- Less frustration from shortcuts or menus opening the wrong tab after reordering.
+
+Quick recommendations
+- Reorder tabs by dragging them and verify the behavior you want.
+- Use "↩️ Restore tab order" to return to the original order.
+- If you encounter problems saving/restoring the order, check messages or logs and try restoring the default order.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.7.0
+Date: February 7, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Update focused on making task management and the calendar more reliable, visual, and easy to use. Improvements in interaction, attachment opening, date-based display, and theme synchronization, plus adjustments that reduce errors and data loss.
+
+Main highlights
+- More useful calendar
+  - Days with tasks show visual counters (badges) and highlights by day/week/month.
+  - Calendar tooltips display priority, linked file and a summary of the description.
+  - Calendar context menu allows editing or removing tasks directly.
+
+- Batch actions and selection
+  - Support for multiple selection (Ctrl+click and drag) to move, remove and share multiple tasks at once.
+  - Confirmation messages and feedback after batch operations.
+
+- More robust attachment opening
+  - Attempts to open attachments use methods compatible with each operating system, with clear messages in case of failure.
+
+- Information preservation and sorting
+  - Important metadata (priority, file, description, pomodoros) are preserved when editing.
+  - Lists are deterministically ordered by priority → date → time → title; items without deadlines appear at the end.
+
+- Appearance and themes
+  - Improved palette synchronization between composite components to avoid visual inconsistencies in light/dark themes.
+
+Bug fixes
+- Prevents unintended deletions: tasks with identical text but different priorities are no longer removed by mistake.
+- Calendar ↔ lists synchronization: editing/removing via the calendar correctly affects the original task.
+- Failures when opening attachments are handled with fallbacks and logged, reducing silent errors.
+- Visual adjustments to avoid incorrect backgrounds in composite areas after theme changes.
+- Expanded exception handling for greater stability in operations (drag & drop, editing, menus).
+
+What changes for you
+- Managing tasks via the calendar and lists is more direct and secure.
+- Lower risk of losing tasks due to accidental deletions.
+- More consistent appearance when switching themes and better visibility of busy days.
+- Opening attachments should work more reliably across different systems.
+
+Quick recommendations
+- Use Ctrl+click or drag to select multiple tasks before applying batch actions.
+- Verify the confirmation shown when removing tasks in bulk.
+- When opening attachments, confirm the file path if an error message appears.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.6.0
+Date: February 6, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Improvements focused on making the Time Management subsystem and its integration with the Eisenhower Matrix more reliable and easier to use. Includes multiple task selection (Ctrl+click and drag), batch actions (move, delete, share), editable task priority, consistent list ordering by priority→date→time, and fixes that prevent unintended deletions.
+
+Main highlights
+- Intuitive multiple selection
+  - Select multiple tasks using Ctrl+click or by clicking and dragging over a list.
+  - Selection enables applying actions to all chosen tasks at once.
+
+- Batch actions
+  - Move multiple tasks at once.
+  - Delete multiple tasks with confirmation before removal.
+  - Share several tasks together with the Eisenhower Matrix in a single operation.
+
+- Priority editing
+  - When editing a task, you can now change its priority between:
+    - 🔴 Important and Urgent
+    - 🟠 Important but Not Urgent
+    - 🟡 Not Important but Urgent
+    - 🟢 Not Important and Not Urgent
+  - Priority changes are applied immediately and reflected in the UI.
+
+- Clear confirmation and feedback
+  - A confirmation is always shown before deleting (single or multiple).
+  - After the operation, a message informs how many tasks were removed or if an error occurred.
+
+- Protection against incorrect deletions
+  - When tasks share the same name but have different priorities, deletions now distinguish them correctly to avoid removing the wrong items.
+
+- Consistent list ordering
+  - Within each column (To Do / In Progress / Done), tasks are displayed in the order:
+    1) priority (🔴→🟢),
+    2) date,
+    3) time,
+    4) title.
+  - Tasks without a date/time appear at the end by default.
+
+Bug fixes
+- Sharing: now sends all selected tasks, not just the clicked one.
+- Duplicate deletion: deleting an identical task no longer removes other tasks with different priorities.
+- Ordering: lists now consistently follow the priority→date→time hierarchy.
+- Stability: various adjustments were made to avoid visible interface errors.
+
+What this means for you
+- Managing multiple tasks is faster and safer.
+- Editing priorities helps you better organize your day.
+- Less risk of losing tasks due to accidental deletions.
+- Lists display more clearly by importance and deadlines.
+
+Quick tips
+- Use Ctrl+click or drag to select multiple tasks before moving/deleting/sharing.
+- Review the confirmation dialog before removing multiple tasks.
+- Check priorities when editing to ensure the intended ordering is applied.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.5.0
+Date: February 5, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Improvements and fixes focused on editing tasks via the context menu, calendar stability, attachment experience and drag & drop behavior. The interface is more resilient to errors and consistent between lists and the calendar panel.
+
+Main highlights
+- Editing via context menu
+  - The edit window is reused and more secure, with fields for title, attachment, description, date and time.
+  - Basic validations (e.g., title required) and immediate application of changes to the original list.
+
+- Date and time
+  - Date/time editing is clearer and more reliable, with the option to link/unlink and correct format conversion.
+
+- Synchronization with the calendar
+  - Items originating from the calendar are now correctly recognized by the system before editing or deleting, avoiding inconsistencies.
+
+- Individual and bulk removal
+  - Safe removal of tasks, including a "Remove All" option by date, always with confirmation and correct updating of counts and groupings.
+
+- More robust attachment opening
+  - Attempts to open attachments using mechanisms compatible with each platform; the user is warned in case of failure.
+
+- Drag & drop and ordering
+  - Moving and reordering tasks is more predictable; timed items are inserted in the correct order and metadata is preserved.
+
+- Attachments and user experience
+  - Support for dragging files into the attachment field, display of name/path and controls to choose/clear/open attachments.
+
+- Locale and appearance
+  - Better consistency when applying date/time formats and when synchronizing colors/theme in composite areas of the interface.
+
+- Tooltips and visual feedback
+  - More informative tooltips (date, time, attachment, short description and priority) and consistent display of priority emojis when enabled.
+
+- Robustness and logs
+  - Various protections against exceptions and improved logging to facilitate diagnosis without impacting the user experience.
+
+Bug fixes
+- Fix in editing/removal of items originating from the calendar (now affects the correct item).
+- Preservation of important information when editing date/time or modifying a task.
+- Drag & drop between lists fixed to avoid losses and inconsistencies.
+- Failures opening attachments on different systems handled with fallbacks and warnings.
+- Visual issues in composite widgets minimized by correctly reapplying the palette.
+
+What changes for you
+- Editing, moving and removing tasks via the calendar or lists is now safer and more direct.
+- Opening attachments should work better on Windows/macOS/Linux.
+- Fewer visible errors and more predictable behavior when changing dates, times and priorities.
+
+Quick recommendations
+- Test editing from the calendar's context menu to see the improvements.
+- Use "Remove All" with care — a confirmation appears before deletion.
+- Check attachments by double-clicking or using the open button; if it fails, verify the file path.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.4.0
+Date: 4 February 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Improvements focused on Calendar usability: you can now right-click any day to access a menu with options to edit and remove tasks (includes "Remove All"). We also adjusted priority display with emojis (🔴 🟠 🟡 🟢) so they appear before the time. Several protections and logs were added to increase application robustness.
+
+Main changes
+- Day context menu
+  - Right‑click a day to open a menu with submenus to edit and remove that day's tasks.
+  - Each submenu lists the day's tasks; when present, you can choose a task directly to edit or remove.
+  - The "Remove All" action deletes all tasks for the day after confirmation.
+
+- Integrated edit and remove
+  - Editing a task opens the familiar edit dialog, preserving fields and validations.
+  - Removing tasks respects cleanup logic and keeps lists consistent.
+  - Batch removals request confirmation and immediately refresh the view.
+
+- Priority emojis
+  - Priorities are shown with emojis: 🔴, 🟠, 🟡, 🟢.
+  - Emojis now appear before the time in calendar lists and tooltips.
+  - You can hide emojis using the "Show priority" checkbox in the calendar panel.
+
+- Ordering and presentation
+  - Tasks in menus and tooltips are ordered by time and then by text for easier reading.
+  - Tooltips display useful information (time, title, status and priority) in an organized way.
+
+Bug fixes and robustness
+- Fixed emoji positioning (now appear before the time).
+- Adjusted menu behavior to ensure edit/remove actions target the correct task.
+- Batch removal correctly clears auxiliary items and updates visual counters.
+- Prevented empty tooltips and improved handling of days without tasks.
+
+What changes for you
+- Navigating and managing tasks via the calendar is faster: fewer clicks to edit or delete.
+- Priority visibility is clearer and configurable.
+- More protection against errors when editing, removing or opening items.
+
+Quick tips
+- Try right‑clicking days that have tasks to see the new options.
+- Use the "Show priority" checkbox to toggle emoji display.
+- When using "Remove All", confirm carefully as the action deletes all tasks for that day.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.3.0
+Date: February 3, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Small release focused on polish and robustness of public screens and the calendar: improved visibility of counters/badges, more informative tooltips, more resilient file opening, more consistent theme/palette synchronization in internal areas of the interface, and increased stability for the "About" and "Manual" windows. Additional protections and logs were added to reduce failures in extreme scenarios.
+
+Key improvements
+- Calendar
+  - Visual badges for day/week/month with a readable limit and theme-based colors.
+  - Day tooltips with organized lines (time, description and priority) for easier reading.
+  - Display filters (day/week/month) with ordered listings and placeholders when there are no tasks.
+  - Opening linked files with fallback mechanisms and user warnings in case of failure.
+
+- Theme synchronization
+  - Improved application of internal colors to maintain contrast in composite widgets (lists, tables and dropdowns).
+  - Adjustments to avoid low-contrast areas after theme changes.
+
+- About and Manual
+  - Content updatable at runtime without recreating windows; labels and texts retranslated on the fly.
+  - Automatic adjustment of descriptive text height for better reading when resizing.
+  - Manual navigation by index/anchors preserving position when changing language.
+
+- Hardening and logs
+  - Additional protections against exceptions and expanded logs to aid diagnosis.
+
+Bug fixes
+- Prevents crash when hovering over days without data (tooltips).
+- Fixes badge painting in dark/light themes preserving contrast.
+- Resolves failures when opening files without fallbacks; now shows clear notifications.
+- Maintains palette synchronization in list/combo viewports.
+- Preserves position and index when updating About/Manual texts at runtime.
+
+What changes for you
+- Calendar is more informative and visually consistent.
+- Fewer failures when opening links and when switching theme/language.
+- About and Manual update texts without losing position or needing to be reopened.
+
+Quick recommendations
+- Test hovering and opening files in the calendar; change theme/language in About/Manual to verify behavior.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.2.0
+Date: February 2, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+Update focused on greater stability and polish for the Accessible Reader. Includes safe content clearing, centralized translations, better color alignment across themes, protections against failures when optional components are unavailable, and improvements to the PDF experience (toolbar, search and selection). Logs have been expanded to facilitate diagnosis.
+
+Key highlights
+- Clear content: the clear action asks for confirmation, stops any ongoing reading, empties the text area and resets the PDF viewer and page/zoom controls, preventing residual states.
+- Centralized translations: all labels, tooltips and tab names update in real time while preserving user selections.
+- Better theme adaptation: colors for edit areas, lists and controls have been adjusted to maintain contrast in light/dark modes.
+- Visual and font fallbacks: when extra components are not present, the interface uses alternatives that keep usability without crashing.
+- PDF experience: integrated search with intelligent behavior when switching tabs, more reliable copy of PDF selections, and proper restoration of zoom/navigation buttons and controls.
+- Logs and protections: more detailed error and debug messages; several operations are protected to avoid crashes at external integration points.
+
+Bug fixes
+- Prevents crashes when optional components are missing; the interface remains usable.
+- Fixes inconsistent states after clearing content, ensuring page, total pages, zoom and modes return to default values.
+- Preserves zoom and mode selections when changing language, avoiding loss of user choice.
+- Improves application of colors in internal areas (viewports) to maintain consistent contrast.
+
+What changes in daily use
+- Using "Clear" stops readings and leaves the panel ready for new loading without strange behavior.
+- When changing the language, texts update immediately without losing selections.
+- Switching the theme keeps edit areas and lists readable.
+- Searching in text/PDF and copying excerpts in PDFs is more stable and less error-prone.
+
+Quick recommendations
+- Test the Clear button after loading text/PDF and starting a reading to verify stop and reset.
+- Change language and theme to confirm immediate update of texts and colors.
+- If something does not work due to a missing optional feature, check the logs before reporting.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.2.1.0
+Date: February 1, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+- Update aimed at greater consistency of texts, better adaptation between light/dark themes, increased robustness of the Accessible Reader and Feynman Method interfaces, and centralization of menu translations. Defensive measures were added to avoid failures at critical points and logs were improved for diagnostics.
+
+Main highlights
+- Languages and texts: interface texts were centralized and now update at runtime while preserving user selections and states.
+- Theme and colors: editing elements and lists automatically adjust their colors to maintain adequate contrast when switching themes.
+- Visual fallbacks: when custom controls are not available, the app uses standard controls to keep functionality and a coherent appearance.
+- Font management: font/size selection more resilient to invalid configurations; more stable reading of user preferences.
+- Accessible Reader: refined toolbar with load, playback (play/pause/stop) controls, speed and volume adjustment with visual feedback, integrated search, and more reliable PDF selection copy behavior.
+- Feynman Method: interface reorganized into tabs that guide the flow (Concept → Explain → Gaps → Review), more consistent buttons (New/Save/Delete/Clear) and better theme adaptation.
+- Main menu: texts and shortcuts standardized across the menu, with common key combinations for frequent tasks.
+- Logs and stability: standardized error and debug messages to facilitate problem investigation.
+
+Bug fixes
+- Updating tab texts is now safe, avoiding crashes when changing language.
+- Contrast and element clipping issues across different themes were fixed.
+- Buttons and selectors work correctly even without optional modules installed.
+- Shortcuts and key contexts were adjusted to avoid inconsistent behavior on different platforms.
+- Copying selection in PDFs received protections to avoid silent failures.
+
+What changes in daily use
+- Changing the language updates texts immediately without losing your selections.
+- Switching the theme (light/dark) preserves readability of editing areas and lists.
+- The Reader shows clearer controls for playback, search and copying PDF excerpts.
+- The Feynman Method is easier to use with guided tabs and a Clear button always available.
+- Fewer unexpected errors in environments missing optional components.
+
+Quick recommendations
+- Try switching language and theme to check immediate updates of texts and colors.
+- In the Reader, test speed/volume and search to validate the new experience.
+- In the Feynman Method, create/edit a concept and use the Clear button to check the flow.
+- If you encounter odd behavior, consult the logs for clues before reporting.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.31.0
+Date: January 31, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+- Update focused on improving the "About" window experience: better organization of information, more reliable open/close behavior, runtime language switching support, and fixes to content and link display.
+
+Main highlights for you
+- Consolidated tabs to easily access: History, Details, Licenses, Notices, Privacy Policy and Release Notes.
+- Tab content with clickable external links and improved reliability.
+- Texts and labels update immediately when changing the language, without needing to restart the window.
+- Automatic adjustment of the descriptive text size for better readability when resizing the window.
+- Prevents multiple "About" windows from opening at the same time; opening and focusing behavior is more predictable.
+- Error messages and behavior in unexpected situations improved to reduce crashes.
+
+Important fixes
+- Tab labels fixed to avoid inconsistencies when switching between them.
+- Descriptive text display adjusted to avoid cutting content when the window is resized.
+- License links remain functional when displayed.
+- Proper cleanup when closing the window to avoid residual behavior.
+
+What changes in daily use
+- "About" information is more accessible and readable.
+- When switching the language, texts and buttons update immediately.
+- License and official site links open correctly.
+- Fewer duplicate windows and fewer issues when reopening the info screen.
+
+Quick recommendations
+- Open the "About" window to check texts and links.
+- Change the interface language and verify that labels and contents are updated.
+- Resize the window to validate the descriptive text adjustment.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.29.0
+Date: January 29, 2026
+Author: Fernando Nillsson Cidade
+
+Overview
+- Improvements to the Mind Maps feature: faster and more stable import, automatic node organization, layout preservation and more reliable interactions. Text normalization fixes were also applied.
+- Addendum: increased robustness of the import pipeline (worker in thread, progress signals and cooperative cancellation), integration with ProcessadorIA for extraction/NLP and safe fallbacks when AI resources are unavailable.
+
+What's new for you
+- Toolbar reorganized with clear buttons: add, connect, color, save, load, export, clear, import document (AI) and reorganize/restore.
+- Document import with visible progress and an option to cancel without freezing the app; UI feedback during AI model loading.
+- Automatic generation of hierarchical maps with improved visual placement (including radial option) and level-based organization.
+- Ability to save a layout "snapshot" and restore the original view whenever desired.
+- Auxiliary nodes to highlight main ideas, with visual links and importance indicators.
+- More stable interactions: dragging, clicking and connecting nodes work better and preserve positions when moved.
+- Texts detected in documents undergo normalization and automatic correction of common PT/EN terms.
+- Addendum: Feynman Method improvements — dynamic translations, preservation of the domain combo selection, robust tooltip generation and consistent use of the button manager with fallbacks.
+
+Daily usage improvements
+- Reorganizing maps with AI is more predictable; you can revert to the previous state easily (snapshot/restore).
+- Large imports are less likely to hang and show progress; cancellation properly cleans up threads.
+- Map visualization is cleaner and more readable, even with many nodes; radial placement with overlap detection reduces collisions.
+- Less loss of position data when rearranging items; click and drag behavior is more consistent.
+- Addendum: texts and labels adapt to the runtime language without losing state; more detailed logs ease diagnostics.
+
+Quick recommendations
+- When using AI import, monitor progress and cancel if necessary.
+- Test theme/language reactions to confirm texts and placeholders.
+- If you encounter unexpected behavior, ensure you're on the latest version.
+- Addendum: validate worker cancellation at different stages and check logs in source/utils/LogManager for useful evidence when reporting bugs.
+
+_________________________________________________
+
+RELEASE NOTES — Lumen
+Version: 2026.1.28.0
+Date: January 28, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- The Feynman Method screen has been redesigned to be clearer and easier to use.
+- There is now a panel to view the list of concepts and another to edit each concept, with tabs guiding the steps (Concept → Explain → Gaps → Review).
+- Text fields include clearer instructions and improved behavior; action buttons are more visible.
+- Changing the language updates all visible text without losing the domain-level selection.
+- Fields and lists adapt better to themes (light/dark), keeping everything readable.
+
+What changes for you
+- Creating, editing, saving, and deleting concepts is simpler and more reliable.
+- A more intuitive, step-guided interface with placeholders that show what to write.
+- Less visual confusion when switching themes; text and editing areas remain easy to read.
+- Changing the language preserves the selected option in the domain selector — less frustration.
+- If extra resources are not available, the app uses standard controls so it continues working without crashing.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.27.0
+Date: January 27, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Task editing and management are more stable and easier to use.
+- Calendar shows visible day badges and useful filters.
+- Background saving to avoid slowdowns when saving changes.
+- Better compatibility when opening files and switching language/theme.
+
+What this means for you
+- Editing, moving, and deleting tasks is more reliable and faster.
+- Calendar highlights days with tasks, helping you organize your day.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.23.0
+Date: January 23, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Internal restructuring to make the app more robust and ready for future improvements.
+
+What this means for you
+- Overall stability improvements and fewer errors when using features like reading and mind maps.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.21.0
+Date: January 21, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Improved task editing and calendar panel with time grouping.
+
+What this means for you
+- Context menu offers quick options to adjust date, time, and description.
+- Tasks grouped by time make it easier to see your day at a glance.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.18.0
+Date: January 18, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Faster app startup and faster opening of documents (PDF/DOCX/TXT).
+
+What this means for you
+- Less waiting when opening large documents and fewer freezes during import.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.17.0
+Date: January 17, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- New loading screen that shows progress and makes startup more informative.
+
+What this means for you
+- You get visual feedback during startup; more reliable initialization across environments.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.16.0
+Date: January 16, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Better integration between tasks, calendar, and timer; safer import/export of tasks.
+
+What this means for you
+- Moving tasks, syncing with the timer, and importing/exporting lists are more dependable.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.14.0
+Date: January 14, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Improvements to the Feynman method, Kanban, and Accessible Reader; more consistent appearance across themes.
+
+What this means for you
+- Study and reading tools are easier to use and have fewer visual issues.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.12.0
+Date: January 12, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Integration between Pomodoro and tasks; faster and more reliable saving.
+
+What this means for you
+- Focus cycles (Pomodoro) correctly affect tasks and saves happen without freezing the interface.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.11.0
+Date: January 11, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Assisted Reading with synchronized highlighting — word, sentence, and paragraph modes.
+
+What this means for you
+- Turn on Assisted Reading to follow speech with text highlighting; behavior is more stable.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.10.0
+Date: January 10, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Improved text selection in PDFs; smoother rendering and navigation.
+
+What this means for you
+- Selecting, copying, and navigating PDFs is more precise and faster.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.8.0
+Date: January 8, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- Integrated search in the reader (Text and PDF) with highlighted results and easy navigation.
+
+What this means for you
+- Use Ctrl+F to find terms in text or PDFs; matches are highlighted and easy to move through.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2026.1.3.0
+Date: January 3, 2026
+Author: Fernando Nillsson Cidade
+
+User summary
+- More robust menu bar and Help dialogs; better behavior when features are unavailable.
+
+What this means for you
+- Menu and Help are more predictable, even in limited environments.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.12.30.0
+Date: December 30, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- Safer shutdown and resource cleanup; more reliable text export.
+
+What this means for you
+- Fewer problems when closing the app and a better experience when saving/exporting documents.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.12.28.0
+Date: December 28, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- Mind Map: more stable layout and AI-assisted reorganization; better hierarchy visualization.
+
+What this means for you
+- Reorganizing maps with AI keeps structure and improves visual readability.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.12.23.0
+Date: December 23, 2025
+Author: Fernando Nillsson Cidade
+
+Overview
+Update focused on making the Eisenhower Matrix calendar and panel more informative, visual and resilient, and on strengthening the application's sound management (selection, preview and alarm repetition). Appearance adjustments were made to avoid artifacts when switching themes and robustness improvements reduce failures in adverse scenarios.
+
+Key changes
+- More useful calendar
+  - Days with tasks show visual counters (badges) per day/week/month.
+  - Dates with tasks are visually highlighted; filters allow viewing items by Day, Week or Month.
+  - The calendar task list is filtered and ordered according to the selected period; shows a placeholder when empty.
+  - Navigation and panel resizing tools were improved for more predictable behavior.
+
+- Appearance synchronization
+  - Internal components (lists, fields and viewports) adapt better to the app palette, reducing visual artifacts when switching light/dark themes.
+  - Text and date/time formats are reapplied when changing language without requiring restart.
+
+- Controls and visual details
+  - The side toggle (rotated tab) and field outlines were adjusted for more stable painting and sizing, preventing clipping and artifacts.
+  - Small style improvements ensure a consistent look across modules.
+
+- Enhanced sound management
+  - A list of available sounds can be chosen with quick preview.
+  - Sound preference and repeat interval are saved between sessions.
+  - Repetitive alarms behave predictably: audio plays, waits (sound duration + configured interval) and repeats until stopped.
+  - The stop action interrupts playback and repetition immediately; previewing does not change the persisted selection.
+  - Fallbacks and invalid-file handling ensure safe behavior even when a sound is missing or corrupted.
+
+Robustness and logs
+- Multiple protections were added to prevent painting, locale, palette or audio errors from freezing the UI.
+- Logs were expanded to ease diagnosis of issues without impacting the user experience.
+
+Quick checks
+1. Open the Eisenhower Matrix and create tasks with dates/times.
+2. Open the calendar panel/dialog:
+   - Verify badges on dates and highlights for dates with tasks.
+   - Switch between Day/Week/Month and confirm the list is filtered/ordered.
+3. Change language and confirm texts and date/time formats update.
+4. Switch theme (light/dark) and check lists and dropdowns do not show artifacts.
+5. Test sound:
+   - Open sound settings, preview a sound, save the selection and start a repeating alarm; confirm it repeats at the expected interval and stopping halts the cycle.
+   - Test behavior with a missing or invalid sound to confirm safe fallback.
+
+What changes for you
+- A more informative calendar that visually matches the app theme.
+- Better experience when switching language and theme.
+- More predictable sound alarms, with preview, saved preference and controlled repetition until confirmation.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.12.22.0
+Date: December 22, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- Fixes to drag-and-drop for tasks and improvements to editing times.
+
+What this means for you
+- Dragging tasks no longer causes accidental removals; editing times is easier.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.12.21.0
+Date: December 21, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- General UI improvements, Pomodoro and Kanban fixes; better stability and usability.
+
+What this means for you
+- Common flows (focus, moving tasks, search) are more predictable and have fewer errors.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.12.20.0
+Date: December 20, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- Better preservation of imported maps and improved color palette for mind maps.
+
+What this means for you
+- Imports are safer and map colors stay consistent even in deep hierarchies.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.12.13.0
+Date: December 13, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- Integration between Mind Map and the Feynman method: send map concepts to review with one button.
+
+What this means for you
+- Easier to turn ideas from a map into study items in the Feynman review flow.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.12.2.0
+Date: December 2, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- Pomodoro with configurable alarm: choose a bell sound, preview it, and set repeat interval.
+- The alarm sounds when a cycle ends and repeats until you close the alert.
+
+What this means for you
+- Set the bell and interval in Settings → Sound; use ▶ to preview before saving.
+- At the end of a cycle, an alert appears and the sound plays immediately; closing the alert stops the sound.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.11.29.0
+Date: November 29, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- Fix for Assisted Reader pause: when you pause narration, it stays paused until you resume.
+
+What this means for you
+- Clicking "⏸️ Pause" stops playback; new generated chunks are queued and will play only after you press ▶ to continue.
+
+_________________________________________________
+
+RELEASE NOTES — Lúmen
+Version: 2025.11.26.0
+Date: November 26, 2025
+Author: Fernando Nillsson Cidade
+
+User summary
+- First alpha release of Lúmen: accessible reader, organization tools (Eisenhower Matrix, Kanban), Pomodoro, mind maps, and the Feynman method.
+
+What this means for you
+- Tools to study and organize tasks: assisted reading with voice control, focus ruler, mind map creation, and an integrated study timer.
+- Initial support for pt-BR and en-US; import/export for common formats.
+
+_________________________________________________
+
+Final notes
+- These releases focus on stability, performance, and ease of use for non-technical users.
+- If you find issues, report them with steps to reproduce and, if possible, the file or text used.
+
+Support and contact
+- Report bugs and contributions via the project repository; for license/privacy questions, contact by email.
+
+Legal notes and licenses
+- License and notices are included in the distribution package (EULA, Privacy Policy, Notices).
+
+Thank you,
+Fernando Nillsson Cidade

@@ -1,0 +1,86 @@
+Política de Privacidade - Módulo Feynman
+Produto: EISENHOWER ORGANIZER
+ID do Módulo: modulo_feynman
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política descreve como o módulo Feynman trata informações quando é usado junto ao EISENHOWER ORGANIZER. O módulo foi projetado para organização local de estudos, conceitos, explicações e revisões. Esta Política é específica do módulo e deve ser lida em conjunto com a Política de Privacidade do aplicativo principal.
+
+1. Escopo e princípios
+- Operação local: os dados do Feynman permanecem no dispositivo, salvo quando a Microsoft Store processa aquisição, licença ou pagamento do módulo.
+- Minimização: o módulo trata apenas conteúdo necessário para registrar conceitos, explicações, lacunas de entendimento, revisões e tarefas relacionadas.
+- Transparência e controle: você decide quais conceitos criar, editar, vincular, compartilhar localmente com o aplicativo principal ou excluir.
+
+2. Dados tratados pelo módulo
+2.1 Conteúdo de estudo
+- Títulos de conceitos, explicações com suas próprias palavras, lacunas de entendimento, revisões, descrições, nível de domínio, prioridade e status.
+- Tarefas ou registros derivados de conceitos quando você usa recursos de integração com Eisenhower ou Pomodoro.
+- Identificadores internos usados para atualizar, ordenar e sincronizar registros locais.
+
+2.2 Arquivos vinculados
+- Quando você vincula um arquivo de apoio a um conceito, o módulo armazena o caminho local do arquivo.
+- O módulo abre o arquivo vinculado somente quando você solicita.
+- O conteúdo do arquivo vinculado não é enviado ao desenvolvedor.
+
+2.3 Dados técnicos locais
+- O módulo pode usar o arquivo unificado de tarefas do aplicativo, tarefas.json, e versões legadas como conceitos_feynman.json quando presentes.
+- Registros locais de erro podem ser gerados para diagnóstico no próprio dispositivo.
+
+3. Finalidades do tratamento
+- Permitir estudo pelo método Feynman.
+- Salvar e recuperar conceitos, explicações, lacunas e revisões.
+- Integrar conceitos a tarefas do organizador principal, quando acionado pelo usuário.
+- Manter dados locais consistentes entre módulos instalados no mesmo aplicativo.
+
+4. O que o módulo não faz
+- Não cria conta própria, cadastro ou login.
+- Não coleta telemetria automática.
+- Não envia conceitos, arquivos vinculados, revisões ou tarefas ao desenvolvedor.
+- Não examina pastas do usuário além dos arquivos que você escolhe vincular ou abrir.
+- Não acessa dados de pagamento; pagamentos e licenças são processados pela Microsoft Store.
+
+5. Microsoft Store, compra e licença
+- A aquisição do módulo, a confirmação de licença e eventuais pagamentos são processados pela Microsoft Store, pela conta Microsoft do usuário e pelos sistemas da Microsoft.
+- O aplicativo consulta a Microsoft Store para verificar se a licença do módulo plugin_feynman está ativa.
+- O desenvolvedor não recebe nem armazena dados completos de pagamento, credenciais da conta Microsoft ou informações bancárias.
+- Dados tratados pela Microsoft nesses fluxos ficam sujeitos à política de privacidade e aos termos da Microsoft.
+
+6. Armazenamento e retenção
+- Conceitos e tarefas relacionadas permanecem em arquivos locais até você editar, excluir, limpar dados do aplicativo ou remover manualmente os arquivos.
+- Caminhos de arquivos vinculados permanecem armazenados enquanto o conceito existir ou até você remover o vínculo.
+- Exportações ou cópias feitas por você permanecem no local escolhido por você.
+
+7. Compartilhamento
+- O módulo não compartilha dados com terceiros por iniciativa própria.
+- O envio de conceitos para Eisenhower ou Pomodoro ocorre localmente dentro da mesma instalação.
+- Qualquer compartilhamento externo ocorre somente por ação do usuário, por exemplo ao copiar, exportar ou enviar conteúdo a terceiros.
+
+8. Segurança
+- Como os dados ficam no dispositivo, a proteção depende das salvaguardas do sistema operacional, permissões de usuário, antivírus, criptografia local quando configurada e backups.
+- Recomenda-se manter Windows, Microsoft Store e o aplicativo atualizados.
+
+9. Direitos e controles do usuário
+- Você pode ver, editar, corrigir e excluir conceitos pela interface do módulo.
+- Você pode remover vínculos de arquivos, limpar registros locais e apagar arquivos persistentes manualmente.
+- Você pode desinstalar o módulo ou o aplicativo para remover os arquivos instalados; dados locais persistentes podem exigir limpeza manual conforme o comportamento do sistema.
+
+10. Crianças e adolescentes
+- O módulo não é direcionado a crianças menores de 13 anos e não realiza coleta intencional de dados pessoais.
+
+11. Alterações nesta Política
+- Esta Política pode ser atualizada quando o módulo receber novas funcionalidades, integrações ou mudanças relevantes no tratamento de dados.
+
+12. Contato
+- Dúvidas sobre esta Política:
+  Fernando Nillsson Cidade
+  E-mail: linceu_lighthouse@outlook.com
+
+--------------------------------------------------------------------------------
+INDEPENDÊNCIA FRENTE À POLÍTICA DE PRIVACIDADE E SUPORTE DA MICROSOFT E REDE SOB DEMANDA
+1. Independência da Microsoft (Política 10.5 Microsoft Store): A Microsoft NÃO fornece uma política de privacidade padrão para EISENHOWER ORGANIZER, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft. A Microsoft também não presta suporte ao cliente (contato oficial do desenvolvedor: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp).
+2. Armazenamento Local Efetivo: Os dados locais residem em %LOCALAPPDATA%\EisenhowerOrganizer (tarefas.json, tarefas.json.bak, conceitos_feynman.json, mapa_mental_autosave.json, listas.db na Agenda, gantt_database.db no Gantt e logs/file_*.log), sem telemetria automática nem contas obrigatórias.
+3. Transparência sobre Conexões Opcionais Iniciadas pelo Usuário:
+   - Modelo IA Local (Qwen 2.5 GGUF): download sob demanda via HTTPS do repositório oficial Hugging Face (com pausa/retomada via HTTP Range e exclusão física pelo usuário). Durante a inferência posterior via llama.cpp, nenhum dado deixa o computador.
+   - Ollama Local: requisições HTTP restritas ao endereço local http://127.0.0.1:11434 quando acionado pelo usuário.
+   - Edge TTS (Audiolivro): envio do trecho selecionado exclusivamente ao serviço de síntese de voz apenas quando o usuário escolhe uma voz online; vozes SAPI do Windows permanecem 100% offline.
+   - API HTTP REST / Webhooks (Gantt): desativado por padrão; só escuta localmente ou envia eventos quando habilitado explicitamente pelo usuário com SecurityService.

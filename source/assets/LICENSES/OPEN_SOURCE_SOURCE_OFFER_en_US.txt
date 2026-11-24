@@ -1,0 +1,22 @@
+OPEN-SOURCE CORRESPONDING SOURCE OFFER
+Product package: LÚMEN / EISENHOWER ORGANIZER
+Version series: 2026.10.8.0 (C++23 / Qt 6.12.0)
+
+This repository and its binary packages follow a Dual-Licensing framework:
+1. Public project source code: licensed under the GNU Affero General Public License v3 (GNU AGPLv3), provided in LICENSE (repository root) and LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version 3.txt.
+2. Official digitally signed Microsoft Store binary packages: distributed under the author's Official EULA and Commercial Licensing Agreement (CLC), while fully preserving all open-source and LGPL rights stated below.
+
+This package may include runtime components licensed under the GNU Lesser General Public License (LGPL), including Qt 6.12.0 libraries and FFmpeg n9.0.1 libraries, as well as third-party components under permissive or copyleft licenses.
+
+For LGPL-covered components distributed with this product, the distributor will provide the complete corresponding source code for those LGPL components, including any distributor-applied modifications and available build information, or an equivalent source-access offer permitted by the applicable license.
+
+Request channel:
+Contact support at linceu_lighthouse@outlook.com or via https://github.com/fernandoncidade/Eisenhower_Organizer_Lumen_cpp. Include product name (Eisenhower Organizer or Lúmen), version, build variant (Pure MSVC or MinGW), and the list of files for which corresponding source is requested.
+
+LGPL library replacement and relinking:
+The product ships LGPL runtime components as separate shared DLLs wherever possible. Nothing in the product EULA, commercial license, technical control, or documentation restricts a recipient's rights under the LGPL to replace or relink compatible LGPL libraries, or to reverse engineer the application only to the extent necessary to debug modifications to those LGPL libraries.
+
+Source references:
+- Qt 6.12.0 source packages and SBOM information are available through Qt's official distribution channels (https://www.qt.io/licensing/).
+- FFmpeg source corresponding to shipped FFmpeg binaries matches the FFmpeg-n9.0.1 build recorded in LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt.
+- Complete EISENHOWER ORGANIZER / LÚMEN source code under GNU AGPLv3 is publicly hosted on GitHub.
